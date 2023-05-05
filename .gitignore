@@ -2,7 +2,6 @@ sound/sound.cache
 *.cache
 *.7z
 *.zip
-.gitattributes
 materials/hud/class_spyred_tint.vtf
 materials/hud/class_spyred_cloak.vtf
 materials/hud/class_spyred.vtf
