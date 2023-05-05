@@ -9,3 +9,4 @@ Currently uses assets from [Renhud v2](https://github.com/LunaXCBN/RenHud-V2) an
 
 - Ingame customizations menu
 - More custom assets?
+- Implement some of [Zeeshud X Beta?](https://github.com/Zeesastrous/ZeesHUD/tree/zeeshud-X-beta)
