@@ -1,4 +1,4 @@
-# Costumizations
+# Customizations
 
 Drag customization files to enabled to enable them, to enable a different resolution remove the underscore from the folder name. To enable HUD crosshairs view the instructions in the .res file.
 
