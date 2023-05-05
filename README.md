@@ -7,4 +7,4 @@ Currently uses assets from [Renhud v2](https://github.com/LunaXCBN/RenHud-V2) an
 ## | WIPS
 
 - Ingame customizations menu
-- More custom assets
+- More custom assets?
