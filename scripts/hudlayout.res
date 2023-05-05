@@ -372,12 +372,14 @@
 
 	HudDamageIndicator
 	{
-		"MinimumWidth"		"50"
-		"MaximumWidth"		"50"
+		"visible"			"1"
+		"enabled"			"1"
+		"MinimumWidth"		"10"
+		"MaximumWidth"		"10"
 		"StartRadius"		"100"
 		"EndRadius"			"100"
 		"MinimumHeight"		"20"
-		"MaximumHeight"		"20"
+		"MaximumHeight"		"60"
 		"MinimumTime"		"1"
 		"MaximumTime"		"1"
 		"FadeOutPercentage"	"0"
