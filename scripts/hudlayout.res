@@ -372,7 +372,17 @@
 
 	HudDamageIndicator
 	{
-
+		"MinimumWidth"		"50"
+		"MaximumWidth"		"50"
+		"StartRadius"		"100"
+		"EndRadius"			"100"
+		"MinimumHeight"		"20"
+		"MaximumHeight"		"20"
+		"MinimumTime"		"1"
+		"MaximumTime"		"1"
+		"FadeOutPercentage"	"0"
+		"MaximumDamage"		"0"
+		"Noise"				"0"
 	}
 
 	HudCommentary
@@ -685,7 +695,7 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
