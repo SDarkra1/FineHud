@@ -1,7 +1,7 @@
 @ECHO OFF
 
 echo #######################
-echo # RenHUD Auto-Updater #
+echo # FineHUD Auto-Updater #
 echo #######################
 echo.
 
@@ -27,7 +27,7 @@ echo ############
 echo.
 echo Downloading file from GitHub
 echo.
-for /f "tokens=1,* delims=:" %%A in ('curl -ks https://api.github.com/repos/LunaXCBN/RenHud-V2/releases/latest ^| find "browser_download_url"') do (
+for /f "tokens=1,* delims=:" %%A in ('curl -ks https://api.github.com/repos/ShatteredDarkrai/FineHud/releases/latest ^| find "browser_download_url"') do (
     curl -kOL %%B
 )
 
@@ -43,7 +43,7 @@ IF EXIST "*.7z" (
 echo Extracting file
 echo.
 IF EXIST "dev\7zr.exe" (
-    dev\7zr.exe x RenHUD.7z -aoa -x!customization\ -x!dev\ -x!*.bat
+    dev\7zr.exe x FineHUD.7z -aoa -x!customization\ -x!dev\ -x!*.bat
 ) ELSE (
     echo 7zr.exe not found. Check the dev folder, if it's there, try again or make a github issue.
     pause
