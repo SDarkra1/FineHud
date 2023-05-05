@@ -5,7 +5,7 @@
 //#base "../resource/ui/statsummary.res"
 //#base "../resource/ui/statpanel_base.res"
 //#base "../resource/ui/hudteamgoal.res"
-#base "../customization/crosshair.res"
+#base "../customization/enabled/crosshair.res"
 #base "../customization/enabled/speedometer.res"
 
 "Resource/HudLayout.res"
