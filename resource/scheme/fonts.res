@@ -682,6 +682,188 @@ Scheme
 			}
 		}
 
+		// PIZZA TOWER
+		"pizza6"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza8"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza10"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza12"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza14"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza16"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza18"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza20"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza22"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza24"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza32"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza36"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza40"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza44"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza48"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza49"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"49"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza50"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"50"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"pizza52"
+		{
+			"1"
+			{
+				"name"										"Pizza Tower Regular"
+				"tall"										"52"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+
 		"DefaultFixedOutline"	// Netgraph Font
 		{
 			"1"
@@ -739,6 +921,11 @@ Scheme
 		{
 			"font"		"resource/scheme/fonts/TF2Crosshairs.ttf"
 			"name"		"TF2Crosshairs"
+		}
+		"10"
+		{
+			"font"		"resource/scheme/fonts/pizza_tower.ttf"
+			"name"		"Pizza Tower Regular"
 		}
 	}
 }
