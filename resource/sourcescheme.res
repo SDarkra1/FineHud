@@ -186,10 +186,10 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"12"
-				"weight"	"500"
-				"antialias"	"1"
+				"name"				"Product Sans"
+				"tall"				"12"
+				"weight"			"500"
+				"antialias"			"1"
 			}
 		}
 
@@ -197,10 +197,10 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"10"
+				"weight"			"500"
+				"antialias" 		"1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -208,83 +208,83 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"7"
+				"weight"			"500"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultFixedOutline"
 		{
 			"1"
 			{
-				"name"		 "Code-Bold"
-				"tall"		 "16"
-				"weight"	 "0"
-				"outline"	 "1"
-				"antialias"  "1"
+				"name"				"Code-Bold"
+				"tall"				"16"
+				"weight"	 		"0"
+				"outline"	 		"1"
+				"antialias"  		"1"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"16"
-				"weight"	"500"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"16"
+				"weight"			"500"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"16"
-				"weight"	"1000"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"16"
+				"weight"			"1000"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"16"
-				"weight"	"500"
-				"underline" "1"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"16"
+				"weight"			"500"
+				"underline" 		"1"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"12"
+				"weight"			"0"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"13"
+				"weight"			"0"
+				"dropshadow" 		"1"
+				"antialias" 		"1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"12"
+				"weight"			"0"
+				"antialias" 		"1"
 			}
 		}
 
@@ -292,20 +292,20 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"18"
-				"weight"	"0"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"18"
+				"weight"			"0"
+				"antialias" 		"1"
 			}
 		}
 		"UiBold"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"12"
-				"weight"	"1000"
-				"antialias" "1"
+				"name"				"Product Sans"
+				"tall"				"12"
+				"weight"			"1000"
+				"antialias" 		"1"
 			}
 		}
 
@@ -313,21 +313,21 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans" 
-				"tall"		"16" 
-				"weight"	"600"
-				"antialias" "1"
+				"name"				"Product Sans" 
+				"tall"				"16" 
+				"weight"			"600"
+				"antialias" 		"1"
 			}
 		}
 		"AchievementTitleFont"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				"name"				"Product Sans"
+				"tall"				"20"
+				"weight"			"1200"
+				"antialias" 		"1"
+				"outline" 			"1"
 			}
 		}
 		
@@ -335,11 +335,11 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
-				//"outline" "1"
+				"name"				"Product Sans"
+				"tall"				"18"
+				"weight"			"1200"
+				"antialias" 		"1"
+				//"outline" 		"1"
 			}
 		}
 		
@@ -347,21 +347,58 @@
 		{
 			"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
+				"name"				"Product Sans"
+				"tall"				"15"
+				"weight"			"1200"
+				"antialias" 		"1"
+				"outline" 			"1"
+				"yres"				"0 480"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
+				"name"				"Product Sans"
+				"tall"				"20"
+				"weight"			"1200"
+				"antialias" 		"1"
+				"outline" 			"1"
+				"yres"	 			"481 10000"
+			}
+		}
+		
+		// CUSTOM: Changing these to use TF2 Secondary to improve appearance in player UI (ie. Mannpower pickups, Headless Horsemann 'IT' text, MvM 'Invalid Inspect Target')
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"				"TF2 Secondary"
+				"tall"				"24"
+				"weight"			"900"
+				"antialias" 		"1"
+				"dropshadow" 		"1"
+			}
+		}
+
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"				"TF2 Secondary"
+				"tall"				"20"
+				"weight"			"900"
+				"antialias" 		"1"
+				"dropshadow"	 	"1"
+			}
+		}
+
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"				"TF2 Secondary"
+				"tall"				"18"
+				"weight"			"900"
+				"antialias" 		"1"
+				"dropshadow" 		"1"
 			}
 		}
 	}
