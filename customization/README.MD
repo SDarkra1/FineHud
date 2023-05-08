@@ -5,3 +5,6 @@ Drag customization files to enabled to enable them, to enable a different resolu
 To disable a feature remove their files from the enabled folder.
 
 Particles and the Speedometer are enabled by default
+
+To toggle the mainmenu particles type mainmenuparticles_toggle in the console
+to toggle the scope type scopetoggle in the console
