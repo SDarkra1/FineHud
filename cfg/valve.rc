@@ -19,3 +19,4 @@ startupmenu
 sv_unlockedchapters 99
 
 exec hud.cfg
+exec addconds.cfg

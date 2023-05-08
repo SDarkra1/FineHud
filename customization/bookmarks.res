@@ -6,8 +6,8 @@
 		"fieldName"					"Bookmark1"
 
         // CHANGE THESE
-        "command"                   "engine connect <ip>" // REQUIRED SERVER IP
-        "labelText"                 "Bookmark 1" // OPTIONAL SERVER
+        "command"                   "engine scopetoggle" // REQUIRED SERVER IP
+        "labelText"                 "Toggle Scope" // OPTIONAL SERVER
 
         // DONT TOUCH THESE
 		"xpos"						"235"
@@ -37,8 +37,8 @@
 		"fieldName"					"Bookmark2"
 
         // CHANGE THESE
-        "command"                   "engine connect <ip>" // REQUIRED SERVER IP
-        "labelText"                 "Bookmark 2" // OPTIONAL SERVER
+        "command"                   "engine mainmenuparticles_toggle" // REQUIRED SERVER IP
+        "labelText"                 "Toggle Snow" // OPTIONAL SERVER
 
         // DONT TOUCH THESE
 		"xpos"						"235"
@@ -68,7 +68,7 @@
 		"fieldName"					"Bookmark3"
 
         // CHANGE THESE
-        "command"                   "engine connect <ip>" // REQUIRED SERVER IP
+        "command"                   "engine addconds" // REQUIRED SERVER IP
         "labelText"                 "Bookmark 3" // OPTIONAL SERVER
 
         // DONT TOUCH THESE
@@ -110,8 +110,8 @@
 		"zpos"						"50"
 		"autoResize"				"0"
 		"pinCorner"					"3"
-		"visible"					"1"
-		"enabled"					"1"
+		"visible"					"0"
+		"enabled"					"0"
         "font"                      "Product16"
         "textAlignment"             "center"
         "allcaps"                   "1"
