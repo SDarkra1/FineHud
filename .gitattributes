@@ -1,3 +1,2 @@
 *.res linguist-language=vdf
-valve.rc linguist-language=vdf
 **/*.res linguist-detectable=true
