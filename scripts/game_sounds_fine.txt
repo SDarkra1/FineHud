@@ -1,0 +1,23 @@
+
+"vox/null"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"vo/null.mp3"
+}
+
+"HudChat.Message"
+{
+	"channel"	    "CHAN_STREAM"
+	"volume"	    "1"
+	"soundlevel"    "SNDLVL_NONE"
+	"pitch"	        "PITCH_NORM"
+
+	"rndwave"	
+	{
+		"wave"	    "ui/buttonclick.wav"
+		"wave"	    "ui/buttonclickrelease.wav"
+	}
+}
