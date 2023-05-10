@@ -1,4 +1,3 @@
-
 // Leave these alone
 //#base "../resource/ui/winpanel.res"
 //#base "../resource/ui/freezepanel_basic.res"

@@ -189,10 +189,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"9999"
+		"xpos"										"cs-0.5"
 		"ypos"										"c58"
-		"wide"										"0"
-		"tall"										"80"
+		"wide"										"1"
+		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -201,16 +201,18 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ResistIcon"
-		"xpos"										"9999"
+		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"12"
 		"tall"										"12"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
 
 		"pin_to_sibling"							"ResistIconAnchor"
+	    "pin_corner_to_sibling"  					"PIN_CENTER_TOP"
+	    "pin_to_sibling_corner"  					"PIN_CENTER_TOP"
 	}
 
 	"UberBG"
