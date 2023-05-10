@@ -258,8 +258,8 @@
 		"xpos"			"9999"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"166"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 			
 		"ScreenshotPanelBG"
