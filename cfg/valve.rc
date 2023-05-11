@@ -16,6 +16,8 @@ stuffcmds
 // display the startup level
 startupmenu
 
+// FOR XBOX CERT
 sv_unlockedchapters 99
 
-exec hud.cfg
+// run hud stuff
+exec hud/main.cfg
