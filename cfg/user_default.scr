@@ -34,12 +34,12 @@ VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
 {
-	"acategoryCUSTOMHUD"
+	"none; echo "
 	{
 		"FineHud Settings"
 		{ CATEGORY }
 	}
-	"echo Advanced Options Saved;"
+	"none;none;"
 	{
 		"Speedometer"
 		"Turn on or off the speedometer"
@@ -49,13 +49,23 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{"speedometer_off"}
 	}
+	"none;none;none;none;none;none;"
+	{
+		"Main Menu Particles"
+		"Turn on or off the particles"
+		{ LIST 
+			"On" "mainmenuparticles_on"
+			"Off" "mainmenuparticles_off"
+		}
+		{"mainmenuparticles_off"}
+	}
 	
-	"categoryMastercomfig"
+	"none;none;echo"
 	{
 		"Mastercomfig"
 		{ CATEGORY }
 	}
-	"none; exec"
+	"none;none;none;"
 	{
 		"Mastercomfig Presets"
 		"Which Mastercomfig preset to use"
@@ -70,7 +80,7 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{"None"}
 	}
-	"none;; exec"
+	"none;none;none;"
 	{
 		"Net Settings"
 		"Which base cfg to use"
@@ -504,7 +514,7 @@ DESCRIPTION INFO_OPTIONS
 			"On" "1"
 			"Activate on click" "2"
 		}
-		{ "None" }
+		{ "0" }
 	}
 
 	"tf_scoreboard_ping_as_text"

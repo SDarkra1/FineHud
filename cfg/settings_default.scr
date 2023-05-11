@@ -105,6 +105,16 @@ DESCRIPTION SERVER_OPTIONS
         { NUMBER 0 2 }
         { "0" }
     }
+	"sv_allowpoint_servercommand"
+	{
+		"Allow maps to send commands"
+		{ LIST 
+			"Always" "always"
+			"Official" "official"
+			"Never" "never"
+		}
+		{"official"}
+	}
 	"mp_tournament"
 	{
 		"Tournament mode"

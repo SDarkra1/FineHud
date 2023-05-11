@@ -1,4 +1,4 @@
-"resource/ui/mainmenuparticles.res"
+"resource/ui/mainmenuoverride.res"
 {
 
 }
