@@ -14,7 +14,7 @@ A clear and concise description of what the bug is.
 If applicable, add screenshots to help explain your problem.
 
 **Mods intalled**
-What mods do you have installed other than RenHUD?
+What mods do you have installed other than FineHUD?
 
 **Resolution & Aspect Ratio**
 What resolution and aspect ratio do you use?
