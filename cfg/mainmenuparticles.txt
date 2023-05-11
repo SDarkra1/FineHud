@@ -1,1 +1,1 @@
-#base ../resource/ui/hudplayerhealth_alt.res
+#base ../resource/ui/mainmenuparticles_on.res
