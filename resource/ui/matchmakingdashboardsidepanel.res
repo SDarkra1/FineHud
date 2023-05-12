@@ -13,7 +13,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"Black"
 	}
 
 	"TitleGradient"
@@ -110,10 +110,10 @@
 		"textAlignment"	"east"
 		"font"			"Symbols16"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Extra Shadow"
+		"defaultBgColor_override"	"Extra Shadow"
 
-		"armedFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"White"
 	}
 
 	"ReturnButton"
@@ -135,8 +135,8 @@
 		"textAlignment"	"west"
 		"font"			"Product12"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Extra Shadow"
+		"defaultBgColor_override"	"Extra Shadow"
 
 		"armedFgColor_override"	"230 230 230 255"
 	}

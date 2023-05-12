@@ -36,7 +36,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Extra Shadow"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"AutoResize" "0"
@@ -127,7 +127,7 @@
 		"tall"				"80"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Extra Shadow"
 	
 		"CarriedImage"
 		{
@@ -555,7 +555,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Extra Shadow"
 			"proportionalToParent"	"1"
 
 			"Score"
@@ -610,7 +610,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Extra Shadow"
 			"proportionalToParent"	"1"
 
 			"Score"

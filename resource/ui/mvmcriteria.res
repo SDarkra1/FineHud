@@ -436,7 +436,7 @@
 			"scaleImage"	"1"
 			"mouseinputenabled"	"0"
 			"proportionaltoparent"	"1"
-			"drawcolor"	"255 255 255 255"
+			"drawcolor"	"White"
 		}
 
 		"MissingTicketsLabel"
@@ -617,7 +617,7 @@
 			"zpos"			"0"
 			"wide"			"30"
 			"tall"			"26"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"Black"
 		}
 
 		"ChallengeListGroupBox"

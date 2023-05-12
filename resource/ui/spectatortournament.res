@@ -153,7 +153,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Extra Shadow"
 				"PaintBackgroundType"	"0"
 
 				if_aids
@@ -277,7 +277,7 @@
 				"tall"			"20"
 				
 				"paintbackground"	"1"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"Extra Shadow"
 			}
 
 			
@@ -315,7 +315,7 @@
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
 				"bgcolor_override"		"200 200 200 0"
-				"Fgcolor_override"		"0 0 0 255"
+				"Fgcolor_override"		"Black"
 			}
 			"chargeamountrS2"
 			{
@@ -368,7 +368,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor_override"		"0 0 0 255"
+				"fgcolor_override"		"Black"
 			}
 
 			"specindex"
@@ -567,7 +567,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"border"		"noborder"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Extra Shadow"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"18"
@@ -598,7 +598,7 @@
 			"fieldName"		"ItemLabel"
 			"font"			"product8"
 			"xpos"			"0"
-			"bgcolor_override"			"0 0 0 0"
+			"bgcolor_override"			"Extra Shadow"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"270"

@@ -94,7 +94,7 @@
 		"unicode"		"0"
 		"wrap"			"0"
 		"fgcolor_override"		"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"Black"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}
@@ -112,7 +112,7 @@
 		"pinCorner"	"0"
 		"visible"	"0"
 		"enabled"	"0"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"Black"
 		"scaleImage"	"1"
 	}
 
@@ -160,7 +160,7 @@
 		"command"		"teamready" 
 		"default"		"1"
 		"font"			"Product10"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 		"paintbackground"	"1"
 		"roundedcorners"	"0"
 	}

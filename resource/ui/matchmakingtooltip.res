@@ -34,7 +34,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"font"					"Product10"
-			"fgcolor_override"		"255 255 255 255"
+			"fgcolor_override"		"White"
 			"auto_wide_tocontents" 	"1"
 			"auto_tall_tocontents"	"1"
 			"wrap"					"1"

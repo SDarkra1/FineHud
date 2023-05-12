@@ -47,7 +47,7 @@
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"center"
 		"font"			"Product16"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"White"
         "bgcolor_override"  "11 11 11 255"
 		
 		"mouseinputenabled"	"0"
@@ -67,7 +67,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"White"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -87,13 +87,13 @@
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"Extra Shadow"
 		"fgcolor_override"	"235 226 202 255"
 		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
+		"disabledBgColor_override" "Extra Shadow"
+		"selectionColor_override" "Extra Shadow"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "Extra Shadow"
 	}
 
 	"IgnorePartyInvites"

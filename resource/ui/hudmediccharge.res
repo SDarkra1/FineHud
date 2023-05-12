@@ -92,7 +92,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"0"
 		"textAlignment"								"Center"
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 	}
 
 	"IndividualChargesLabel"

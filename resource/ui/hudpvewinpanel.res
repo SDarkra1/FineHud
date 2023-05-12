@@ -39,7 +39,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"HudFontMediumSmallBold"
-			"fgcolor"		"black"
+			"fgcolor"		"Black"
 			"xpos"			"3"
 			"ypos"			"3"
 			"wide"			"295"
@@ -55,7 +55,7 @@
 			
 			// blue Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"Black"		
 			"bgcolor_override"	"91 122 142 200"
 		}
 		

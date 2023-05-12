@@ -11,6 +11,7 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
+		"ScrollDistance" "0"
 	}
 	
 	"FloatingNumberLabel"

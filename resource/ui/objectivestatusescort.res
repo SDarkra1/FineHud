@@ -364,7 +364,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"Black"
 			"labelText"		"#ControlPointIconCappers"
 			"textAlignment"	"west"
 			"dulltext"		"0"
@@ -445,7 +445,7 @@
 				"enabled"			"1"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_blocked"
-				"iconColor"			"255 255 255 255"	
+				"iconColor"			"White"	
 				
 				"if_multiple_trains"
 				{

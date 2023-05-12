@@ -128,7 +128,7 @@
 
 		"Slider"
 		{
-			"fgcolor_override"	"0 0 0 0"
+			"fgcolor_override"	"Extra Shadow"
 		}
 		
 		"UpButton"

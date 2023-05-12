@@ -346,7 +346,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"Product12"
-				"fgcolor_override"	"255 255 255 255"
+				"fgcolor_override"	"White"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -430,7 +430,7 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 
-				"fgcolor_override"			"255 255 255 255"
+				"fgcolor_override"			"White"
 				"armedfgcolor_override"		"255 50 50 255"	
 			}		
 		}
@@ -573,7 +573,7 @@
 			"armedBgColor_override"		"192 28 0 255"
 			"defaultBgColor_override"	"205 35 5 255"
 
-			"defaultFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "230 230 230 255"
 
 			"image_drawcolor"	"TanLight"
@@ -653,13 +653,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"0 0 0 0"
-			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"Extra Shadow"
+			"defaultBgColor_override"	"Extra Shadow"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"0 0 0 0"
+			"image_drawcolor"	"Extra Shadow"
+			"image_armedcolor"	"Extra Shadow"
 		}
 
 		"FindAGameButton"

@@ -215,7 +215,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"font"						"Muro24"
-			"fgcolor_override"			"255 255 255 255"
+			"fgcolor_override"			"White"
 			"allcaps"					"1"
 			"textAlignment"				"north-west"
 			"labelText"					"%name%"
@@ -260,7 +260,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"Muro16"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -325,7 +325,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"Product8"
-					"fgcolor_override"	"255 255 255 255"
+					"fgcolor_override"	"White"
 					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -395,8 +395,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"0 0 0 0"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"Extra Shadow"
+						"bgcolor_override"	"Extra Shadow"
 					}
 
 					"ContinuousProgressBar"
@@ -439,7 +439,7 @@
 				"tall"			"175"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"Extra Shadow"
 
 				"Frame"
 				{

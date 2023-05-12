@@ -22,7 +22,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 		"image"										"../signs/death_wheel_whammy"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 	}
 
 	"CountText"

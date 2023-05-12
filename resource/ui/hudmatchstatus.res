@@ -127,8 +127,8 @@
 		"delta_item_x"								"9"
 		"delta_item_start_y"						"29"
 		"delta_item_end_y"							"29"
-		"PositiveColor"								"0 255 0 255"
-		"NegativeColor"								"255 0 0 255"
+		"PositiveColor"								"Green"
+		"NegativeColor"								"Red"
 		"delta_lifetime"							"1"
 		"delta_item_font"							"Roboto12"
 		"proportionaltoparent"						"1"
@@ -186,17 +186,19 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"189 59 61 255"
-			"color_portrait_bg_blue"				"90 122 143 255"
+			"color_portrait_bg_red"					"TF2Red"
+			"color_portrait_bg_blue"				"TF2Blue"
 			"color_portrait_bg_red_dead"			"15 15 15 255"
 			"color_portrait_bg_blue_dead"			"15 15 15 255"
+			"color_portrait_bg_red_local_player"	"Purple"
+			"color_portrait_bg_blue_local_player"	"Purple"
 			"color_bar_health_high"					"75 200 25 255"
 			"color_bar_health_med"					"255 200 0 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"255 40 40 255"
 			"percentage_health_low"					"0.3"
-			"color_portrait_blend_dead_red"			"255 255 255 255"
-			"color_portrait_blend_dead_blue" 		"255 255 255 255"
+			"color_portrait_blend_dead_red"			"White"
+			"color_portrait_blend_dead_blue" 		"White"
 
 			"classimage"
 			{
@@ -275,7 +277,7 @@
 				"labelText"									"%respawntime%"
 				"textAlignment"								"center"
 				"proportionaltoparent"						"1"
-				"fgcolor"									"255 255 0 255"
+				"fgcolor"									"Yellow"
 			}
 
 

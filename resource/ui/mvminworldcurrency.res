@@ -33,7 +33,7 @@
 		"labelText"									"%currency%"
 		"textAlignment"								"center"
 		"font"										"Product16"
-		"fgcolor"									"255 0 0 255"
+		"fgcolor"									"Red"
 	}
 
 	"CurrencyShadow"

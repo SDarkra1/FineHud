@@ -80,7 +80,7 @@
 		"visible"									"0"
 		"border"									"none"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 225"
+		"bgcolor_override"							"Black"
 		"PaintBackgroundType"						"0"
 
 		"model_ypos"								"10"

@@ -182,15 +182,15 @@
 				"border_armed"		"NoBorder"
 				"paintbackground" "1"
 	
-				"defaultFgColor_override" "255 255 255 255"
-				"armedFgColor_override"   "0 0 0 255"
-				"depressedFgColor_override" "255 255 255 255"
-				"defaultBgColor_override" "0 0 0 255"
+				"defaultFgColor_override" "White"
+				"armedFgColor_override"   "Black"
+				"depressedFgColor_override" "White"
+				"defaultBgColor_override" "Black"
 				"armedBgColor_override"   "45 45 45 215"
 				"depressedBgColor_override" "45 45 45 215"
 	
-				"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"255 255 255 255"		
+				"image_drawcolor"	"White"
+				"image_armedcolor"	"White"		
 			}
 		}
 		
@@ -235,7 +235,7 @@
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground" 		"0"
-					"fgcolor_override"		"255 255 255 255"
+					"fgcolor_override"		"White"
 					"labelText"				"#TF_OptionCategory_HUD"
 					"allcaps"				"1"
 				}
@@ -268,9 +268,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 	
-				"defaultFgColor_override" 	"255 255 255 255"
+				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"MainPink"
-				"depressedFgColor_override" "255 255 255 255"
+				"depressedFgColor_override" "White"
 			}
 
 			"SliderBG"
@@ -312,7 +312,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -360,7 +360,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -408,7 +408,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -944,13 +944,13 @@
 				"border_armed"		"NoBorder"
 				"paintbackground" "1"
 	
-				"defaultFgColor_override" "255 255 255 255"
+				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "MainPink"
 				"defaultBgColor_override" "0 0 0 175"
 				"armedBgColor_override"   "0 0 0 185"
 	
-				"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"255 255 255 255"		
+				"image_drawcolor"	"White"
+				"image_armedcolor"	"White"		
 			}
 		}
 		
@@ -995,7 +995,7 @@
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground" 		"0"
-					"fgcolor_override"		"255 255 255 255"
+					"fgcolor_override"		"White"
 					"labelText"				"#TF_OptionCategory_HUD"
 					"allcaps"				"1"
 				}
@@ -1028,9 +1028,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 	
-				"defaultFgColor_override" 	"255 255 255 255"
+				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"MainPink"
-				"depressedFgColor_override" "255 255 255 255"
+				"depressedFgColor_override" "White"
 			}
 
 			"SliderBG"
@@ -1072,7 +1072,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -1120,7 +1120,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -1168,7 +1168,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -1860,13 +1860,13 @@
 				"border_armed"		"NoBorder"
 				"paintbackground" "1"
 	
-				"defaultFgColor_override" "255 255 255 255"
+				"defaultFgColor_override" "White"
 				"armedFgColor_override"   "MainPink"
 				"defaultBgColor_override" "0 0 0 175"
 				"armedBgColor_override"   "0 0 0 185"
 	
-				"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"255 255 255 255"		
+				"image_drawcolor"	"White"
+				"image_armedcolor"	"White"		
 			}
 		}
 		
@@ -1911,7 +1911,7 @@
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground" 		"0"
-					"fgcolor_override"		"255 255 255 255"
+					"fgcolor_override"		"White"
 					"labelText"				"#TF_OptionCategory_HUD"
 					"allcaps"				"1"
 				}
@@ -1944,9 +1944,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 	
-				"defaultFgColor_override" 	"255 255 255 255"
+				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"MainPink"
-				"depressedFgColor_override" "255 255 255 255"
+				"depressedFgColor_override" "White"
 			}
 
 			"SliderBG"
@@ -1988,7 +1988,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -2036,7 +2036,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -2084,7 +2084,7 @@
 
 					"paintbackground"	"0"
 					"paintborder"		"0"
-					"defaultfgcolor_override"	"255 255 255 255"
+					"defaultfgcolor_override"	"White"
 				}
 
 				"Slider"
@@ -2819,7 +2819,7 @@
 			
 		"paintbackground"			"1"
 		
-		"image_drawcolor"			"255 255 255 255"
+		"image_drawcolor"			"White"
 		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
@@ -2835,7 +2835,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
-			"fgcolor_override"		"0 0 0 255"
+			"fgcolor_override"		"Black"
 			"image"					"replay/thumbnails/icons/gear"
 		}
 	}
@@ -2870,7 +2870,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"noborder"
 		
-		"defaultfgcolor_override"	"255 255 255 255"
+		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"MainPink"
 
 		"pin_to_sibling" 			"SettingsButtonR"
@@ -2917,7 +2917,7 @@
 			
 		"paintbackground"			"1"
 		
-		"image_drawcolor"			"255 255 255 255"
+		"image_drawcolor"			"White"
 		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
@@ -2933,7 +2933,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
-			"fgcolor_override"		"0 0 0 255"
+			"fgcolor_override"		"Black"
 			"image"					"replay/thumbnails/icons/items"
 		}
 	}
@@ -2977,7 +2977,7 @@
 			
 		"paintbackground"			"1"
 		
-		"image_drawcolor"			"255 255 255 255"
+		"image_drawcolor"			"White"
 		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
@@ -2993,7 +2993,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
-			"fgcolor_override"		"0 0 0 255"
+			"fgcolor_override"		"Black"
 			"image"					"replay/thumbnails/icons/store"
 		}
 	}
@@ -3037,7 +3037,7 @@
 			
 		"paintbackground"			"1"
 		
-		"image_drawcolor"			"255 255 255 255"
+		"image_drawcolor"			"White"
 		"image_armedcolor"			"231 172 207 255" // "MainPink"
 		
 		"SubImage"
@@ -3053,7 +3053,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"scaleImage"			"1"
-			"fgcolor_override"		"0 0 0 255"
+			"fgcolor_override"		"Black"
 			"image"					"replay/thumbnails/icons/console"
 		}	
 	}
@@ -3161,7 +3161,7 @@
 			"defaultBgColor_override"	"10 10 10 160"
 			"armedbgcolor_override"		"15 15 15 185"
 			
-			"image_drawcolor"			"255 255 255 255"
+			"image_drawcolor"			"White"
 			"image_armedcolor"			"245 245 245 175"
 			"proportionaltoparent"		"1"
 			
@@ -3231,7 +3231,7 @@
 			"defaultBgColor_override"	"10 10 10 160"
 			"armedbgcolor_override"		"15 15 15 185"
 			
-			"image_drawcolor"			"255 255 255 255"
+			"image_drawcolor"			"White"
 			"image_armedcolor"			"245 245 245 175"
 			"proportionaltoparent"		"1"
 			
@@ -3273,7 +3273,7 @@
 
 		"PIN_TO_SIBLING"							"ConsoleButton"						
 
-		"fgcolor_override"							"255 255 255 255"
+		"fgcolor_override"							"White"
 		"bgcolor_override"							"0 0 0 175"
 	}
 	"ContrackerButton"
@@ -3387,7 +3387,7 @@
 		"enabled"					"1"
 
 		"paintbackground"			"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"White"
 
 	}
 	"StatsText"
@@ -3404,7 +3404,7 @@
 
 		"labelText"					"YOUR STATS"
 		"font"						"product12"
-		"fgcolor_override"			"255 255 255 255"
+		"fgcolor_override"			"White"
 	}
 	
 	"CycleRankTypeButton"
@@ -3436,11 +3436,11 @@
 		"paintbackground"	"1"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"	
+		"image_armedcolor"	"White"	
 
 		"defaultbgcolor_override"	"0 0 0 175"
 		"armedbgcolor_override"		"0 0 0 185"
-		"defaultfgcolor_override"	"255 255 255 255"
+		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"MainPink"
 	}
 	"NoGCMessage"
@@ -3498,7 +3498,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultfgcolor_override"				"255 255 255 255"
+			"defaultfgcolor_override"				"White"
 			"armedfgcolor_override"					"MainPink"
 			"depressedfgcolor_override"				"170 127 37 255"
 		}
@@ -3679,7 +3679,7 @@
 			"enabled"					"1"
 
 			"paintbackground"			"1"
-			"bgcolor_override"			"255 255 255 255"
+			"bgcolor_override"			"White"
 
 		}
 
@@ -3807,7 +3807,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"bgcolor"								"0 0 0 255"
+			"bgcolor"								"Black"
 			"fgcolor"								"White"
 		}
 

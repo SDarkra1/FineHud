@@ -30,7 +30,7 @@
 			"zpos"				"-2"
 			"wide"				"70"
 			"tall"				"50"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Extra Shadow"
 			"noitem_textcolor"	"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
@@ -81,7 +81,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Extra Shadow"
 
 		"OutterPanelBG"
 		{
@@ -318,7 +318,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Extra Shadow"
 			"PaintBackgroundType"	"0"
 		}
 

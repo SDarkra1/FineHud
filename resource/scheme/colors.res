@@ -47,6 +47,9 @@ Scheme
 		"Red"												"255 0 0 255"
 		"Green"												"0 255 0 255"
 
+		"Purple"											"170 20 220 255"
+		"Yellow"											"255 255 0 255"
+
 		"Crosshair"											"255 255 255 255"
 		"Crosshair Flash"									"255 0 0 255"
 	}

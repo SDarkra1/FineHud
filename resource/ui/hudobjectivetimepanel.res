@@ -103,7 +103,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"font"										"Product10"
-		"fgcolor"									"0 0 0 255"
+		"fgcolor"									"Black"
 		"proportionaltoparent"						"1"
 	}
 

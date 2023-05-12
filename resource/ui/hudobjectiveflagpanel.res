@@ -37,7 +37,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"Product32"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 
 		"if_hybrid"
 		{
@@ -135,7 +135,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"Product32"
-		"fgcolor"									"255 255 255 255"
+		"fgcolor"									"White"
 
 		"if_hybrid"
 		{

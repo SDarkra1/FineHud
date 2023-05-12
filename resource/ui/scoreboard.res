@@ -40,7 +40,7 @@
 		"enabled"					"1"
 		"border"					"NoBorder"
 		"paintbackground"			"1"
-		"bgcolor_override"			"0 0 0 0"
+		"bgcolor_override"			"Extra Shadow"
 		
 		if_mvm
 		{
@@ -514,7 +514,7 @@
 
 		"font"						"Symbols32"
 		"labelText"					"t"
-		"fgcolor_override"			"255 255 255 255"
+		"fgcolor_override"			"White"
 
 		if_mvm
 		{
@@ -535,7 +535,7 @@
 		"tall"						"25"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"White"
 
 		if_mvm
 		{
@@ -733,7 +733,7 @@
 			"autoResize"			"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"255 255 255 255"
+			"fgcolor"				"White"
 
 			if_mvm
 			{

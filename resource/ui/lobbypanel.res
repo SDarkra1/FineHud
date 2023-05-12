@@ -67,7 +67,7 @@
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"Black"
 		"proportionaltoparent"	"1"
 
 		"NoGCTitle"
@@ -132,7 +132,7 @@
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"Black"
 		"proportionaltoparent"	"1"
 
 		"MatchInProgressTitle"
