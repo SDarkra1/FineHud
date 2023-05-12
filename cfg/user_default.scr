@@ -36,66 +36,55 @@ DESCRIPTION INFO_OPTIONS
 {
 	"none; echo "
 	{
-		"FineHud Settings"
+		"#HudSettings"
 		{ CATEGORY }
 	}
 	"none;none;"
 	{
-		"Speedometer"
-		"Turn on or off the speedometer"
+		"#Speedometer"
+		"#SpeedometerDesc"
 		{ LIST
-			"On" "speedometer_on"
-			"Off" "speedometer_off"
+			"#TF_On" "speedometer_on"
+			"#TF_Off" "speedometer_off"
 		}
 		{"speedometer_off"}
 	}
 	"none;none;none;none;none;none;"
 	{
-		"Main Menu Particles"
-		"Turn on or off the particles"
+		"#MainMenuParticles"
+		"#MainMenuParticlesDesc"
 		{ LIST 
-			"On" "mainmenuparticles_on"
-			"Off" "mainmenuparticles_off"
+			"#MainMenuParticlesSnow" "mainmenuparticles_snow"
+			"#MainMenuParticlesRain" "mainmenuparticles_rain"
+			"#TF_Off" "mainmenuparticles_off"
 		}
 		{"mainmenuparticles_off"}
 	}
 	
 	"none;none;echo"
 	{
-		"Mastercomfig"
+		"#MasterComfig"
 		{ CATEGORY }
 	}
 	"none;none;none;"
 	{
-		"Mastercomfig Presets"
-		"Which Mastercomfig preset to use"
+		"#MasterComfigPresets"
+		"#MasterComfigPresetsDesc"
 		{ LIST
-			"None" "preset_none"
-			"Low" "preset_low"
-			"Medium-Low" "preset_medium-low"
-			"Medium" "preset_medium"
-			"Medium-High" "preset_medium-high"
-			"High" "preset_high"
-			"Ultra" "preset_ultra"
+			"#MasterComfigNone" "preset_none"
+			"#MasterComfigLow" "preset_low"
+			"#MasterComfigMedLow" "preset_medium-low"
+			"#MasterComfigMed" "preset_medium"
+			"#MasterComfigMedHigh" "preset_medium-high"
+			"#MasterComfigHigh" "preset_high"
+			"#MasterComfigUltra" "preset_ultra"
 		}
-		{"None"}
-	}
-	"none;none;none;"
-	{
-		"Net Settings"
-		"Which base cfg to use"
-		{ LIST
-			"none" "none"
-			"Hitscan" "net_hitscan"
-			"Projectiles" "net_projectiles"
-			"Spy" "net_spy
-		}
-		{"none"}
+		{"preset_none"}
 	}
 	"jpeg_quality"
 	{
-		"Screenshot Quality"
-		"% quality for screenshots"
+		"#ScreenShotQuality"
+		"#ScreenShotQualityDesc"
 		{ SLIDER 1 100 }
 		{ "90" }
 	}
@@ -510,9 +499,9 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_ScoreBoard_MouseMode"
 		{ LIST 
-			"None" "0"
-			"On" "1"
-			"Activate on click" "2"
+			"#TF_None" "0"
+			"#TF_Off" "1"
+			"#MouseMode2" "2"
 		}
 		{ "0" }
 	}
@@ -735,28 +724,28 @@ DESCRIPTION INFO_OPTIONS
 	
 	"categoryDev"
 	{
-		"Dev / Debug"
+		"#DeveloperSection"
 		{ CATEGORY }
 	}
 	
 	"cl_showfps"
 	{
-		"Show fps"
-		"current fps appears at the top right"
+		"#ShowFPS"
+		"#ShowFPSDesc"
 		{ BOOL }
 		{ "0" }
 	}
 		
 	"cl_showpos"
 	{
-		"Show position"
-		"Shows position, angle, and velocity"
+		"#ShowPos"
+		"#ShowPosDesc"
 		{ BOOL }
 		{ "0" }
 	}
 	"net_graph"
 	{
-		"Netgraph"
+		"#NetGraph"
 		"1-4"
 		{ NUMBER 0 4 }
 		{ "0" }
