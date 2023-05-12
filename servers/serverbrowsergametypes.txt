@@ -75,9 +75,24 @@
 		"prefix"	"achievement_"
 		"name"		"achievement"
 	}
-	"gametype_11"
+	"gametype_16"
 	{
 		"prefix"	"dr_"
 		"name"		"death run"
+	}
+	"gametype_17"
+	{
+		"prefix"	"ph_"
+		"name"		"prophunt"
+	}
+	"gametype_18"
+	{
+		"prefix"	"surf_"
+		"name"		"surf"
+	}
+	"gametype_19"
+	{
+		"prefix"	"trade_"
+		"name"		"trade"
 	}
 }
