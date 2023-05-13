@@ -1540,10 +1540,10 @@
 				"wide"					"147"
 				"tall"					"20"
 
-				"labelText"				"Fix Sound"
+				"labelText"				"Fix Bugs"
 				"textAlignment"			"center"
 				"font"					"Product12"
-				"command"				"engine snd_restart"
+				"command"				"engine fh_fix_all"
 				"roundedcorners"		"0"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -1563,10 +1563,10 @@
 				"wide"					"147"
 				"tall"					"20"
 
-				"labelText"				"Fix Invisible Players"
+				"labelText"				"Restart TF2"
 				"textAlignment"			"center"
 				"font"					"Product12"
-				"command"				"engine record fix;stop"
+				"command"				"gamemenucommand RestartWithNewLanguage"
 				"roundedcorners"		"0"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -1590,7 +1590,7 @@
 				"labelText"				"Reload HUD"
 				"textAlignment"			"center"
 				"font"					"Product12"
-				"command"				"engine hud_reloadscheme"
+				"command"				"engine fh_reload_all"
 				"roundedcorners"		"0"
 
 				"sound_depressed"		"UI/buttonclick.wav"
