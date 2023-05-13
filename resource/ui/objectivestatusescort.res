@@ -21,6 +21,14 @@
 		}
 	}
 	
+	"EscortHilightSwoop"
+	{
+		"ControlName"	 	"CControlPointIconSwoop"
+		"fieldName" 		"EscortHilightSwoop"
+		"xpos" 				"9999"
+		"alpha" 			"0"
+	}
+
 	"LevelBar"
 	{
 		"ControlName"	"ImagePanel"
