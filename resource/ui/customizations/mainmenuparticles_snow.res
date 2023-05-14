@@ -10,6 +10,7 @@
 		"wide"			            "f0"
 		"tall"			            "480"
 		"visible"		            "1"
+		"visible_minmode"			"0"
 		"proportionaltoparent"	    "1"
 
 		"ParticleEffects"

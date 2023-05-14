@@ -3643,6 +3643,7 @@
 		"wide"			"180"
 		"tall"			"183"
 		"visible"		"1"
+		"visible_minmode" "0"
 
 		"border"		"noborder"
 
@@ -3693,6 +3694,8 @@
 			"wide"					"175"
 			"tall"					"f20"
 			"visible"				"1"
+			"visible_minmode"		"0"
+
 			"proportionaltoparent"	"1"
 			
 			"columns_count"			"1"
