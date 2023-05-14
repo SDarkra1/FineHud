@@ -1,6 +1,6 @@
 //===========================================================================================================================
 
-event HudMedicCharged
+event HudMedicChargedLoopyPart
 {
 	Animate ChargeLabel 							FgColor 	"0 0 0  255"  						Linear 	0.0 	0.0
 	Animate ChargeLabelBigShadow 					FgColor 	"0 0 0 255" 						Linear 	0.0 	0.0
@@ -17,9 +17,22 @@ event HudMedicCharged
 	RunEvent HudMedicChargedLoop					0.6
 }
 
+event HudMedicCharged
+{
+	RunEvent HudMedicChargedLoop 0.0
+	RunEventChild CoolBeam StartParticle0 0.0
+	RunEventChild CoolBeam StartParticle1 0.0
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicChargedLoopyPart	0.0
+}
+
 event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 						0.0
+	StopEvent HudMedicChargedLoopyPart	0.0
 	StopEvent HudMedicChargedLoop 					0.0
 
 	Animate	ChargeLabel 							FgColor		"Ubercharge"						Linear	0.0 	0.0001
@@ -28,6 +41,9 @@ event HudMedicChargedStop
 	Animate ChargeLabelBigShadowExtra				Alpha 		"0"									Linear 	0.0 	0.0001
 
 	Animate	ChargeMeter 							FgColor		"Ubercharge"						Linear 	0.0 	0.0001
+
+	RunEventChild CoolBeam StopParticle0 0.0
+	RunEventChild CoolBeam StopParticle1 0.0
 }
 
 //===========================================================================================================================
