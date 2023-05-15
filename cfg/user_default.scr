@@ -1,40 +1,8 @@
-// User options script
-//
-// Format:
-//  Version [float]
-//  Options description followed by 
-//  Options defaults
-//
-// Option description syntax:
-//
-//  "cvar" { "Prompt" { type [ type info ] } { default } }
-//
-//  type = 
-//   BOOL   (a yes/no toggle)
-//   STRING
-//   NUMBER
-//   LIST
-//
-// type info:
-// BOOL                 no type info
-// NUMBER       min max range, use -1 -1 for no limits
-// STRING       no type info
-// LIST          delimited list of options value pairs
-//
-//
-// default depends on type
-// BOOL is "0" or "1"
-// NUMBER is "value"
-// STRING is "value"
-// LIST is "index", where index "0" is the first element of the list
-//
-// Cvar	-	Setting
-
 VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
 {
-	"none; echo "
+	"categoryHud"
 	{
 		"#HudSettings"
 		{ CATEGORY }
@@ -61,7 +29,7 @@ DESCRIPTION INFO_OPTIONS
 		{"mainmenuparticles_off"}
 	}
 	
-	"none;none;echo"
+	"categoryMasterComfig"
 	{
 		"#MasterComfig"
 		{ CATEGORY }
@@ -81,42 +49,56 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{"preset_none"}
 	}
-	"jpeg_quality"
-	{
-		"#ScreenShotQuality"
-		"#ScreenShotQualityDesc"
-		{ SLIDER 1 100 }
-		{ "90" }
-	}
-		
 	"category1"
 	{
 		"#TF_OptionCategory_Combat"
 		{ CATEGORY }
 	}
-	
+
 	"cl_autoreload"
 	{
 		"#TF_autoreload"
 		"#Tooltip_autoreload"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-	
+
 	"hud_fastswitch"
 	{
-		"#GameUI_FastSwitchCheck"
+		"Weapon Switch Method"
 		"#Tooltip_hud_fastswitch"
-		{ BOOL }
-		{ "0" }
+		{ LIST
+			"#Fastswitch0" "0"
+			"#Fastswitch1" "1"
+			"#Fastswitch2" "2"
+			"#Fastswitch3" "3"
+		}
+		{ "1" }
 	}
-	
+
 	"tf_dingalingaling"
 	{
 		"#TF_Hitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"tf_dingalingaling_effect"
+	{
+		"Hit Sound"
+		{ LIST
+			"#tf_dingalingaling_Default"				"0"
+			"#tf_dingalingaling_Electro"				"1"
+			"#tf_dingalingaling_Notes"					"2"
+			"#tf_dingalingaling_Percussion"				"3"
+			"#tf_dingalingaling_Retro"					"4"
+			"#tf_dingalingaling_Space"					"5"
+			"#tf_dingalingaling_Beepo"					"6"
+			"#tf_dingalingaling_Vortex"					"7"
+			"#tf_dingalingaling_Squasher"				"8"
+		}
+		{ "-1" }
 	}
 
 	"tf_dingaling_volume"
@@ -127,23 +109,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0.75" }
 	}
 	
-	"tf_dingalingaling_effect"
-	{
-		"#tf_dingalingaling_effect"
-		{ LIST
-			"#tf_dingalingaling_Default"                "0"
-			"#tf_dingalingaling_Electro"                "1"
-			"#tf_dingalingaling_Notes"	            	"2"
-			"#tf_dingalingaling_Percussion"             "3"
-			"#tf_dingalingaling_Retro"                  "4"
-			"#tf_dingalingaling_Space"					"5"
-			"#tf_dingalingaling_Beepo"					"6"
-			"#tf_dingalingaling_Vortex"					"7"
-			"#tf_dingalingaling_Squasher"				"8"
-		}
-		{ "-1" }
-	}
-
 	"tf_dingaling_pitchmindmg"
 	{
 		"#TF_Dingaling_PitchLowDmg"
@@ -168,29 +133,29 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"tf_dingaling_lasthit_volume"
-	{
-		"#TF_Dingaling_LastHit_Volume"
-		"#Tooltip_Dingaling_Volume"
-		{ SLIDER 0 1 }
-		{ "0.75" }
-	}
-
 	"tf_dingalingaling_last_effect"
 	{
-		"#tf_dingalingaling_last_effect"
+		"Kill Sound"
 		{ LIST
-			"#tf_dingalingaling_Default"                "0"
-			"#tf_dingalingaling_Electro"                "1"
-			"#tf_dingalingaling_Notes"	            	"2"
-			"#tf_dingalingaling_Percussion"             "3"
-			"#tf_dingalingaling_Retro"                  "4"
+			"#tf_dingalingaling_Default"				"0"
+			"#tf_dingalingaling_Electro"				"1"
+			"#tf_dingalingaling_Notes"					"2"
+			"#tf_dingalingaling_Percussion"				"3"
+			"#tf_dingalingaling_Retro"					"4"
 			"#tf_dingalingaling_Space"					"5"
 			"#tf_dingalingaling_Beepo"					"6"
 			"#tf_dingalingaling_Vortex"					"7"
 			"#tf_dingalingaling_Squasher"				"8"
 		}
 		{ "0" }
+	}
+
+	"tf_dingaling_lasthit_volume"
+	{
+		"#TF_Dingaling_LastHit_Volume"
+		"#Tooltip_Dingaling_Volume"
+		{ SLIDER 0 1 }
+		{ "0.75" }
 	}
 
 	"tf_dingaling_lasthit_pitchmindmg"
@@ -208,7 +173,7 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 1 255 }
 		{ "100" }
 	}
-	
+
 	"hud_combattext"
 	{
 		"#TF_CombatText"
@@ -222,7 +187,15 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_CombatTextBatching"
 		"#Tooltip_CombatTextBatching"
 		{ BOOL }
-		{ "0" }
+		{ "0f" }
+	}
+
+	"hud_combattext_batching_window"
+	{
+		"#TF_CombatTextBatching_Window"
+		"#Tooltip_CombatTextBatching"
+		{ SLIDER 0.1 2 }
+		{ "0.2" }
 	}
 
 	"hud_combattext_doesnt_block_overhead_text"
@@ -231,6 +204,30 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextDoesntBlock"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"hud_combattext_red"
+	{
+		"#Tooltip_CombatTextRed"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "255" }
+	}
+
+	"hud_combattext_green"
+	{
+		"#Tooltip_CombatTextGreen"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "0" }
+	}
+
+	"hud_combattext_blue"
+	{
+		"#Tooltip_CombatTextBlue"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "0" }
 	}
 	
 	"tf_remember_activeweapon"
@@ -248,20 +245,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	
-	"tf_sniper_fullcharge_bell"
-	{
-		"#TF_sniperbell"
-		"#Tooltip_sniperbell"
-		{ BOOL }
-		{ "0" }
-	}	
-	 	
-	"category2"
-	{
-		"#TF_OptionCategory_ClassSpecific"
-		{ CATEGORY }
-	}
 
 	"tf_simple_disguise_menu"
 	{
@@ -270,7 +253,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"cl_autorezoom"
 	{
 		"#TF_autozoom"
@@ -279,6 +262,14 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"tf_sniper_fullcharge_bell"
+	{
+		"#TF_sniperbell"
+		"#Tooltip_sniperbell"
+		{ BOOL }
+		{ "1" }
+	}	
+
 	"tf_hud_no_crosshair_on_scope_zoom"
 	{
 		"#TF_nocrosshaironscopezoom"
@@ -286,7 +277,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	
+
 	"tf_medigun_autoheal"
 	{
 		"#TF_medigun_autoheal"
@@ -294,15 +285,15 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"hud_medichealtargetmarker"
 	{
 		"#TF_HealTargetMarker"
 		"#Tooltip_HealTargetMarker"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-	
+
 	"hud_medicautocallers"
 	{
 		"#TF_AutoMedicCallers"
@@ -310,21 +301,23 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"hud_medicautocallersthreshold"
 	{
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
-		{ SLIDER 10 99 }
+		{ NUMBER 10 99 }
 		{ "75" }
 	}
-		
-	"category3"
+
+
+
+	"category2"
 	{
 		"#TF_OptionCategory_HUD"
 		{ CATEGORY }
 	}
-	
+
 	"cl_hud_minmode"
 	{
 		"#GameUI_EnableHUDMinMode"
@@ -332,22 +325,22 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"tf_colorblindassist"
 	{
 		"#TF_colorblindassist"
 		"#Tooltip_colorblindassist"
 		{ BOOL }
 		{ "0" }
-	}	
-	
+	}
+
 	"cl_use_tournament_specgui"
 	{
 		"#TF_UseAdvancedTourneyGUI"
 		"#Tooltip_UseAdvancedTourneyGUI"
 		{ BOOL }
 		{ "0" }
-	}	
+	}
 
 	"cl_spec_carrieditems"
 	{
@@ -355,8 +348,8 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_SpectateCarriedItems"
 		{ BOOL }
 		{ "1" }
-	}	
-	
+	}
+
 	"glow_outline_effect_enable"
 	{
 		"#TF_UseGlowEffect"
@@ -379,15 +372,54 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
+
+	"fov_desired"
+	{
+		"#Fov_Desired_Title"
+		{ NUMBER 20 90 }
+		{ "90" }
+	}
+
+	"r_drawviewmodel"
+	{
+		"#r_drawviewmodel_title"
+		"#r_drawviewmodel_tooltip"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"viewmodel_fov"
 	{
 		"#TF_viewmodelfov_option"
-		"#Tooltip_viewmodelfov_option"
-		{ SLIDER 20 130 }
-		{ "54" }
+		"#viewmodel_fov_tooltip"
+		{ NUMBER 1 179 }
+		{ "70" }
 	}
-	
+
+	"tf_use_min_viewmodels"
+	{
+		"#TF_use_min_viewmodels_option"
+		"#Tooltip_use_min_viewmodels_option"
+		{ BOOL }
+		{ "0" }
+	}	
+
+	"cl_first_person_uses_world_model"
+	{
+		"#Firstperson_worldmodel_title"
+		"#Firstperson_worldmodel_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_flipviewmodels"
+	{
+		"#TF_flipviewmodel_option"
+		"#Tooltip_flipviewmodel_option"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"tf_spectator_target_location"
 	{
 		"#TF_Spectator_TargetID_Location"
@@ -399,7 +431,7 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "0" }
 	}	
-	
+
 	"hud_freezecamhide"
 	{
 		"#TF_FreezeCamHide"
@@ -415,7 +447,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"pyro_vignette"
 	{
 		"#TF_Pyrovision_Vignette"
@@ -453,6 +485,14 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_RomeVisionOptIn"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"cl_mvm_wave_status_visible_during_wave"
+	{
+		"#MvM_wave_status_ui_title"
+		"#MvM_wave_status_ui_tooltip"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"tf_hud_target_id_disable_floating_health"
@@ -498,10 +538,10 @@ DESCRIPTION INFO_OPTIONS
 	"tf_scoreboard_mouse_mode"
 	{
 		"#TF_ScoreBoard_MouseMode"
-		{ LIST 
-			"#TF_None" "0"
-			"#TF_Off" "1"
-			"#MouseMode2" "2"
+		{ LIST
+			"#TF_options_no"	"0"
+			"#TF_options_yes"		"1"
+			"#MouseMode2"	"2"
 		}
 		{ "0" }
 	}
@@ -510,7 +550,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_ScoreBoard_PingAsText"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_scoreboard_alt_class_icons"
@@ -520,74 +560,136 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"category4"
+	"cl_vote_ui_active_after_voting"
 	{
-		"#TF_OptionCategory_Replay"
-		{ CATEGORY }
-	}
-	
-	"youtube_http_proxy"
-	{
-		"#TFOption_httpproxy"
-		"#Tooltip_httpproxy"
-		{ STRING }
-		{ "" }
-	}
-	
-	"replay_postdeathrecordtime"
-	{
-		"#TFOption_postdeathrecordtime"
-		"#Tooltip_postdeathrecordtime"
-		{ SLIDER 0 10 }
-		{ "5" }
-	}
-	
-	"replay_enableeventbasedscreenshots"
-	{
-		"#TFOption_replay_enableeventbasedscreenshots"
-		"#Tooltip_replay_enableeventbasedscreenshots"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"replay_screenshotresolution"
-	{
-		"#TFOption_replay_screenshotresolution"
-		"#Tooltip_replay_screenshotresolution"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"replay_maxscreenshotsperreplay"
-	{
-		"#TFOption_replay_maxscreenshots"
-		"#Tooltip_replay_maxscreenshots"
-		{ NUMBER 1 1000 }
-		{ "200" }
-	}
-	
-	"replay_mintimebetweenscreenshots"
-	{
-		"#TFOption_mintimebetweenscreenshots"
-		"#Tooltip_mintimebetweenscreenshots"
-		{ NUMBER 1 1000 }
-		{ "5" }
-	}
-
-	"tf_replay_pyrovision"
-	{
-		"#TF_ReplayPyroVision"
-		"#Tooltip_ReplayPyroVision"
+		"#Ui_after_voting_title"
 		{ BOOL }
 		{ "0" }
 	}
+
+	"tf_queue_spinner_color"
+	{
+		"#Queue_spinner_color_title"
+		"#Queue_spinner_color_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_use_match_hud"
+	{
+		"#TF_UseMatchHUD"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_saytext_time"
+	{
+		"#hud_saytext_time_title"
+		"#hud_saytext_time_tooltip"
+		{ NUMBER 0 4096 }
+		{ "12" }
+	}
+
+	"hud_deathnotice_time"
+	{
+		"#hud_deathnotice_time_title"
+		"#hud_deathnotice_time_tooltip"
+		{ NUMBER 0 4096 }
+		{ "6" }
+	}
+
+	"cl_hud_killstreak_display_time"
+	{
+		"#hud_killstreak_time_title"
+		"#hud_killstreak_time_tooltip"
+		{ NUMBER 0 100 }
+		{ "3" }
+	}
+
+
+
+	"category8"
+	{
+		"#TF_OptionCategory_Communication"
+		{ CATEGORY }
+	}
+
+	"voice_modenable"
+	{
+		"#TF_EnableVoiceChat"
+		"#Tooltip_EnableVoiceChat"
+		{ BOOL }
+		{ "1" }
+	}
 	
-	"category5"
+	"cl_enable_text_chat"
+	{
+		"#TF_EnableTextChat"
+		"#Tooltip_EnableTextChat"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"chat_filter_settings"
+	{
+		"#TF_ChatFilterSettings"
+		"#Tooltip_ChatFilterSettings"
+		{ BUTTON }
+		{ "open_chat_filter_settings" }
+	}
+
+	"voice_loopback"
+	{
+		"#voice_loopback_title"
+		"#voice_loopback_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+
+
+	"category7"
+	{
+		"#CategoryGraphics"
+		{ CATEGORY }
+	}
+
+	"cl_burninggibs"
+	{
+		"#cl_burninggibs_title"
+		"#cl_burninggibs_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_new_impact_effects"
+	{
+		"#new_impact_effect_title"
+		"#new_impact_effect_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"r_lod"
+	{
+		"#r_lod_title"
+		"#r_lod_tooltip"
+		{ LIST
+			"#r_lod_-1" "-1"
+			"#r_lod_0" "0"
+			"#r_lod_2" "2"
+		}
+		{ "-1" }
+	}
+
+
+
+	"category3"
 	{
 		"#TF_OptionCategory_Performance"
 		{ CATEGORY }
 	}
-	
+
 	"tf_particles_disable_weather"
 	{
 		"#TF_DisableWeatherParticles"
@@ -595,7 +697,15 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	
+
+	"r_3dsky"
+	{
+		"#r_3dsky_title"
+		"#r_3dsky_tooltip"
+		{ BOOL }
+		{ "1" }
+	}	
+
 	"cl_disablehtmlmotd"
 	{
 		"#Valve_DisableHTMLMOTD"
@@ -604,20 +714,144 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}	
 
+	"mat_viewportscale"
+	{
+		"#mat_viewportscale_title"
+		"#mat_viewportscale_tooltip"
+		{ NUMBER 0.001563 1 }
+		{ "1" }
+	}
+
+	"cl_jiggle_bone_framerate_cutoff"
+	{
+		"#cl_jiggle_bone_framerate_title"
+		"#cl_jiggle_bone_framerate_tooltip"
+		{ NUMBER 0.001563 1 }
+		{ "1" }
+	}
+
+	"fps_max"
+	{
+		"#fps_max_title"
+		"#fps_max_tooltip"
+		{ NUMBER 0 999 }
+		{ "0" }
+	}
+
 	"mp_decals"
 	{
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
-		{ NUMBER 0 4096 }
+		{ NUMBER 0 2048 }
 		{ "200" }
 	}
-	
-	"category6"
+
+	"engine_no_focus_sleep"
+	{
+		"#engine_no_focus_title"
+		"#engine_no_focus_tooltip"
+		{ LIST
+			"#engine_no_focus_disabled" "0"
+			"#engine_no_focus_50" "50"
+		}
+		{ "50" }
+	}
+
+
+
+	"category4"
+	{
+		"#TF_OptionCategory_Replay"
+		{ CATEGORY }
+	}
+
+	"cl_interp"
+	{
+		"#cl_interp_title"
+		"#cl_interp_tooltip"
+		{ NUMBER 0.0 0.5 }
+		{ "0.1" }
+	}
+
+	"cl_interp_ratio"
+	{
+		"#cl_interp_ratio_title"
+		"#cl_interp_ratio_tooltip"
+		{ NUMBER 1 33 }
+		{ "2" }
+	}
+
+	"cl_updaterate"
+	{
+		"#cl_updaterate_title"
+		"#cl_updaterate_tooltip"
+		{ NUMBER 20 66 }
+		{ "20" }
+	}
+
+	"cl_cmdrate"
+	{
+		"#cl_cmdrate_title"
+		"#cl_cmdrate_tooltip"
+		{ NUMBER 30 66 }
+		{ "30" }
+	}
+
+	"rate"
+	{
+		"#rate_title"
+		"#rate_tooltip"
+		{ NUMBER 24576 1048576 }
+		{ "80000" }
+	}
+
+	"cl_timeout"
+	{
+		"#cl_timeout_title"
+		"#cl_timeout_tooltip"
+		{ NUMBER 5 60 }
+		{ "30" }
+	}
+
+	"tf_mm_custom_ping_enabled"
+	{
+		"#ping_limit_title"
+		"#ping_limit_tooltip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_mm_custom_ping"
+	{
+		"#Ping_limit_value_title"
+		"#ping_limit_value_tooltip"
+		{ NUMBER 25 350 }
+		{ "100" }
+	}
+
+	"cl_allowupload"
+	{
+		"#cl_allowupload_title"
+		"#cl_allowupload_tooltip"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_allowdownload"
+	{
+		"#cl_allowdownload_title"
+		"#cl_allowdownload_tooltip"
+		{ BOOL }
+		{ "1" }
+	}
+
+
+	"category5"
 	{
 		"#TF_OptionCategory_Misc"
 		{ CATEGORY }
 	}
-	
+
 	"hud_takesshots"
 	{
 		"#game_takesshots"
@@ -642,26 +876,26 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
-	"r_drawviewmodel"
-	{
-		"#TF_drawviewmodel_option"
-		"#Tooltip_drawviewmodel_option"
-		{ BOOL }
-		{ "1" }
-	}	
-	
-	"cl_flipviewmodels"
-	{
-		"#TF_flipviewmodel_option"
-		"#Tooltip_flipviewmodel_option"
-		{ BOOL }
-		{ "0" }
-	}		
-	
-	"cl_playerspraydisable"
+	"cl_spraydisable"
 	{
 		"#GameUI_DisableSprays"
 		"#Tooltip_DisableSprays"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_delete_temp_files"
+	{
+		"#TF_delete_temp_files"
+		"#Tooltip_delete_temp_files"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_taunt_first_person"
+	{
+		"#firstperson_taunt_title"
+		"#firstperson_taunt_tooltip"
 		{ BOOL }
 		{ "0" }
 	}
@@ -720,35 +954,114 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "1" }
 	}
-	
-	
-	"categoryDev"
+
+	"tf_item_inspect_model_auto_spin"
 	{
-		"#DeveloperSection"
+		"#item_model_spin_title"
+		"#item_model_spin_tooltip"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_software_cursor"
+	{
+		"#software_cursor_title"
+		"#software_cursor_tooltip"
+		{ BOOL }
+		{ "1" }
+	}
+
+
+
+	"category6"
+	{
+		"#TF_OptionCategory_DemoSupport"
 		{ CATEGORY }
 	}
-	
-	"cl_showfps"
+
+	"ds_enable"
 	{
-		"#ShowFPS"
-		"#ShowFPSDesc"
-		{ BOOL }
+		"#TF_DemoSupport"
+		"#TF_DemoSupport_ToolTip"
+		{ LIST
+			"#TF_DemoSupport_Manual" "0"
+			"#TF_DemoSupport_Comp" "1"
+			"#TF_DemoSupport_All" "2"
+			"#TF_DemoSupport_Tournament" "3"
+		}
 		{ "0" }
 	}
-		
-	"cl_showpos"
+
+	"ds_dir"
 	{
-		"#ShowPos"
-		"#ShowPosDesc"
+		"#TF_DemoSupport_Dir"
+		"#TF_DemoSupport_Dir_ToolTip"
+		{ STRING }
+		{ "Demos" }
+	}
+
+	"ds_prefix"
+	{
+		"#TF_DemoSupport_Prefix"
+		"#TF_DemoSupport_Prefix_ToolTip"
+		{ STRING }
+		{ "" }
+	}
+
+	"ds_sound"
+	{
+		"#TF_DemoSupport_Sound"
 		{ BOOL }
+		{ "1" }
+	}
+
+	"ds_log"
+	{
+		"#TF_DemoSupport_Log"
+		"#TF_DemoSupport_Log_ToolTip"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"ds_notify"
+	{
+		"#TF_DemoSupport_Notify"
+		{ LIST
+			"#TF_DemoSupport_Notify_ConsoleOnly" "0"
+			"#TF_DemoSupport_Notify_Chat" "1"
+			"#TF_DemoSupport_Notify_HUD" "2"
+		}
 		{ "0" }
 	}
-	"net_graph"
+
+	"ds_screens"
 	{
-		"#NetGraph"
-		"1-4"
-		{ NUMBER 0 4 }
+		"#TF_DemoSupport_Screens"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"ds_min_streak"
+	{
+		"#TF_DemoSupport_MinStreak"
+		"#TF_DemoSupport_MinStreak_ToolTip"
+		{ NUMBER 2 1000 }
+		{ "4" }
+	}
+
+	"ds_kill_delay"
+	{
+		"#TF_DemoSupport_KillDelay"
+		"#TF_DemoSupport_KillDelay_ToolTip"
+		{ NUMBER 5 1000 }
+		{ "15" }
+	}
+
+	"ds_autodelete"
+	{
+		"#TF_DemoSupport_AutoDelete"
+		"#TF_DemoSupport_AutoDelete_ToolTip"
+		{ BOOL }
 		{ "0" }
 	}
 }
-
