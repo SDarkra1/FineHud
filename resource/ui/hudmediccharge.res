@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"CoolBeam"
-		"xpos"			"cs-0.5"
-		"ypos"			"c25"
+		"xpos"			"555"
+		"ypos"			"395"
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"30"
