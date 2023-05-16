@@ -132,6 +132,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+
+	"sv_no_name_changes"
+	{
+		"#createserver_name_change"
+		{ BOOL }
+		{ "1" }
+	}
 	
 	"category2"
 	{

@@ -16,7 +16,7 @@
 			"attribute"	"damage bonus"		// attrib to hook
 			"icon"		"achievements/tf_demoman_kill_x_with_directpipe"
 			"increment"	"0.25"				// percent
-			"cap"		"2.0"				// percent
+			"cap"		"2.00"				// percent
 			"cost"		"400"				// first tier points/credits cost
 		}
 		"1.1"
@@ -93,7 +93,7 @@
 		"3.4"
 		{
 			"attribute"	"maxammo metal increased"	// attrib to hook
-			"icon"		"replay/thumbnails/upgrade_metalcapacity"
+			"icon"		"mvm/upgradeicons/upgrade_metalcapacity"
 			"increment"	"0.5"				// percent
 			"cap"		"3.0"				// percent
 			"cost"		"200"				// first tier points/credits cost
@@ -101,7 +101,7 @@
 		"4"
 		{
 			"attribute"	"bleeding duration"
-			"icon"		"achievements/tf_sniper_kill_invis_spy"
+			"icon"		"replay/thumbnails/mvm/upgradeicons/bleedupgrade"
 			"increment"	"5"				
 			"cap"		"15"				
 			"cost"		"200"
@@ -126,7 +126,7 @@
 		{
 			// For Heavy
 			"attribute"	"projectile penetration heavy"
-			"icon"		"replay/thumbnails/mvm/upgradeicons/upgrade_pene"
+			"icon"		"replay/thumbnails/mvm/upgradeicons/heavypenetrate"
 			"increment"	"1"				// binary on/off
 			"cap"		"3"				// 
 			"cost"		"400"
@@ -209,7 +209,7 @@
 		"17.2"
 		{
 			"attribute" "engy dispenser radius increased"
-			"icon"		"achievements/tf_engineer_dispenser_heal_grind"
+			"icon"		"achievements/tf_engineer_dispenser_heal_group"			
 			"increment"	"1.0"
 			"cap"		"4.0"
 			"cost"		"100"
@@ -250,7 +250,7 @@
 		"21"
 		{
 			"attribute"	"charge recharge rate increased"
-			"icon"		"achievements/tf_demoman_charge_kill"
+			"icon"		"replay/thumbnails/mvm/upgradeicons/shieldrecharge"
 			"increment"	"1.0"
 			"cap"		"5.0"
 			"cost"		"150"
@@ -332,7 +332,7 @@
 		"34"
 		{
 			"attribute"	"robo sapper"
-			"icon"		"achievements/tf_engineer_remove_sapper_long_dist"
+			"icon"		"achievements/tf_mvm_spy_sap_robots"
 			"increment"	"1"
 			"cap"		"3"
 			"cost"		"350"
@@ -356,7 +356,7 @@
 		"37"
 		{
 			"attribute"	"explosive sniper shot"
-			"icon"		"achievements/tf_mvm_sniper_kill_group"
+			"icon"		"replay/thumbnails/mvm/upgradeicons/explosiveheadshot"
 			"increment"	"1"
 			"cap"		"3"
 			"cost"		"350"
@@ -404,7 +404,7 @@
 		"46"
 		{
 			"attribute"	"mad milk syringes"
-			"icon"		"achievements/tf_sniper_jarate_reveal_spy"
+			"icon"		"achievements/tf_medic_assist_scout"
 			"increment"	"1"
 			"cap"		"1"
 			"cost"		"200"
@@ -412,7 +412,7 @@
 		"47"
 		{
 			"attribute"	"rocket specialist"
-			"icon"		"achievements/tf_pyro_reflect_crocket_kill"
+			"icon"		"achievements/tf_soldier_kill_sniper_while_dead"
 			"increment"	"1"
 			"cap"		"4"
 			"cost"		"300"
@@ -452,7 +452,7 @@
 		"55"
 		{
 			"attribute"	"thermal_thruster_air_launch"
-			"icon"		"achievements/tf_maps_doomsday_solo_capture"
+			"icon"		"achievements/tf_scout_doublejump_kill"
 			"increment"	"1"			// 
 			"cap"		"1"			// 
 			"cost"		"400"
