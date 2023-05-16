@@ -126,6 +126,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "always" }
 	}
 
+	"sv_allow_wait_command"
+	{
+		"#createserver_wait_command"
+		{ BOOL }
+		{ "1" }
+	}
+	
 	"category2"
 	{
 		" "

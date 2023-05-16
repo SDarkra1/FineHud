@@ -1,7 +1,10 @@
+// Setup for commands
 sv_pure -1
 sv_cheats 1
+sv_allow_wait_command 1
+
 // load the base configuration
-//exec default.cfg
+// exec default.cfg
 r_decal_cullsize 1
 
 // Setup custom controller
@@ -10,9 +13,7 @@ exec joystick.cfg
 // run a user script file if present
 exec autoexec.cfg
 
-//
 // stuff command line statements
-//
 stuffcmds
 
 // display the startup level
