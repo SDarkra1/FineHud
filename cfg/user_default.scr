@@ -7,7 +7,7 @@ DESCRIPTION INFO_OPTIONS
 		"#HudSettings"
 		{ CATEGORY }
 	}
-	"none;none;"
+	"wait 10;"
 	{
 		"#Speedometer"
 		"#SpeedometerDesc"
@@ -17,7 +17,7 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{"speedometer_off"}
 	}
-	"none;none;none;none;none;none;"
+	"wait 15;"
 	{
 		"#MainMenuParticles"
 		"#MainMenuParticlesDesc"
@@ -34,7 +34,7 @@ DESCRIPTION INFO_OPTIONS
 		"#MasterComfig"
 		{ CATEGORY }
 	}
-	"none;none;none;"
+	"wait 5;"
 	{
 		"#MasterComfigPresets"
 		"#MasterComfigPresetsDesc"

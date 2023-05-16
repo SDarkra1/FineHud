@@ -732,7 +732,8 @@
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
-		"show_voice_icon"	"1"
+		"show_voice_icon"	"0"
+		
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
