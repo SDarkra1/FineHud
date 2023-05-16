@@ -496,7 +496,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 
-		if_aids
+		if_mvm
 		{
 			"visible"		"1"
 		}
