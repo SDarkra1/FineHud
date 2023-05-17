@@ -110,8 +110,8 @@
 		"textAlignment"	"east"
 		"font"			"Symbols16"
 
-		"armedBgColor_override"	"Extra Shadow"
-		"defaultBgColor_override"	"Extra Shadow"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
 
 		"armedFgColor_override"	"White"
 	}
@@ -135,8 +135,8 @@
 		"textAlignment"	"west"
 		"font"			"Product12"
 
-		"armedBgColor_override"	"Extra Shadow"
-		"defaultBgColor_override"	"Extra Shadow"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
 
 		"armedFgColor_override"	"230 230 230 255"
 	}

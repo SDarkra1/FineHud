@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"zpos"			"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"Extra Shadow"
+		"bgcolor_override"	"Blank"
 	}
 	
 	"TotalStatsBg"
@@ -140,7 +140,7 @@
 		"visible"		"1"
 		"zpos"			"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"Extra Shadow"
+		"bgcolor_override"	"Blank"
 	}
 	
 	"PlayerListBg"

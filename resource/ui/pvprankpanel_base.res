@@ -395,8 +395,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"Extra Shadow"
-						"bgcolor_override"	"Extra Shadow"
+						"fgcolor_override"	"Blank"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"
@@ -439,7 +439,7 @@
 				"tall"			"175"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"Extra Shadow"
+				"bgcolor_override"	"Blank"
 
 				"Frame"
 				{

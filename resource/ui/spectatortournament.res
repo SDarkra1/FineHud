@@ -153,7 +153,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"Extra Shadow"
+				"bgcolor_override"		"Blank"
 				"PaintBackgroundType"	"0"
 
 				if_aids
@@ -277,7 +277,7 @@
 				"tall"			"20"
 				
 				"paintbackground"	"1"
-				"bgcolor_override"	"Extra Shadow"
+				"bgcolor_override"	"Blank"
 			}
 
 			
@@ -567,7 +567,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"border"		"noborder"
-		"bgcolor_override"		"Extra Shadow"
+		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"18"
@@ -598,7 +598,7 @@
 			"fieldName"		"ItemLabel"
 			"font"			"product8"
 			"xpos"			"0"
-			"bgcolor_override"			"Extra Shadow"
+			"bgcolor_override"			"Blank"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"270"

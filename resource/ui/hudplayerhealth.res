@@ -96,7 +96,7 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"product48"
-		"fgcolor"	     	         				"Extra Shadow"
+		"fgcolor"	     	         				"Blank"
 		"alpha"	     	         					"0"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"

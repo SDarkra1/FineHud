@@ -40,7 +40,7 @@
 		"enabled"					"1"
 		"border"					"NoBorder"
 		"paintbackground"			"1"
-		"bgcolor_override"			"Extra Shadow"
+		"bgcolor_override"			"Blank"
 		
 		if_mvm
 		{

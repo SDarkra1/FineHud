@@ -222,9 +222,9 @@
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "Extra Shadow"
-		"armedBgColor_override" "Extra Shadow"
-		"depressedBgColor_override" "Extra Shadow"
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override" "Blank"
+		"depressedBgColor_override" "Blank"
 				
 		"image_drawcolor"	"240 240 240 255"
 		"image_armedcolor"	"240 240 240 255"

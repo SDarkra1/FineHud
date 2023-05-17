@@ -115,7 +115,7 @@
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"Extra Shadow"
+			"bgcolor_override"	"Blank"
 		}
 
 		"Checkbutton"

@@ -653,13 +653,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"Extra Shadow"
-			"defaultBgColor_override"	"Extra Shadow"
+			"armedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"Extra Shadow"
-			"image_armedcolor"	"Extra Shadow"
+			"image_drawcolor"	"Blank"
+			"image_armedcolor"	"Blank"
 		}
 
 		"FindAGameButton"

@@ -28,7 +28,7 @@
 		"textAlignment"	"center"
 		"font"			"Product18"
 		"fgcolor_override"	"White"
-		"bgcolor_override"  "Extra Shadow"
+		"bgcolor_override"  "Blank"
 		
 		"mouseinputenabled"	"0"
 	}

@@ -1,6 +1,6 @@
 "v"			"+voicerecord"
 "w"			"+mf"
-"UPARROW"		"+mf"
+"UPARROW"		"+forward"
 "s"			"+mb"
 "DOWNARROW"		"+back"
 "LEFTARROW"		"+left"

@@ -26,6 +26,7 @@ Scheme
 		"Ubercharge Full"									"0 146 255 255"
 		
 		"Extra Shadow"										"0 0 0 0"
+		"Blank"												"0 0 0 0"
 
 		"Heal Numbers"										"0 255 0 255"
 		"Last Damage Done"									"255 255 255 255"

@@ -87,13 +87,13 @@
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
-		"bgcolor_override"	"Extra Shadow"
+		"bgcolor_override"	"Blank"
 		"fgcolor_override"	"235 226 202 255"
 		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "Extra Shadow"
-		"selectionColor_override" "Extra Shadow"
+		"disabledBgColor_override" "Blank"
+		"selectionColor_override" "Blank"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "Extra Shadow"
+		"defaultSelectionBG2Color_override" "Blank"
 	}
 
 	"IgnorePartyInvites"
