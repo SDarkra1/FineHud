@@ -117,7 +117,7 @@
 		"brighttext"		"0"
 		"font"				"HudFontMediumSmall"
 
-		"ItemEffectMeterCount"
+		"ItemEffectMeterCount_minmode"
 		{
 			"ypos"				"5"
 			"xpos"				"0"

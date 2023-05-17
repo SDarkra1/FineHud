@@ -61,7 +61,7 @@
 		"brighttext"		"0"
 		"font"				"TFFontSmall"
 
-		"ItemEffectMeterLabel"
+		"ItemEffectMeterLabel_minmode"
 		{
 			"visible"			"1"
 			"ypos"				"1"
