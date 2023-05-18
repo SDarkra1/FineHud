@@ -1,4 +1,3 @@
 "resource/ui/mainmenuoverride.res"
 {
-
 }

@@ -1,19 +1,19 @@
-#base "scout_red.res"
+"#base"		"scout_red.res"
 
 "Resource/UI/disguise_menu/spy_red.res"
 {
 	"ClassIcon"
 	{
-		"icon"										"hud_menu_spy_red"
+		"icon"		"hud_menu_spy_red"
 	}
 
 	"NewNumberLabel"
 	{
-		"labelText"									"3"
+		"labelText"		"3"
 	}
 
 	"NumberLabel"
 	{
-		"labelText"									"9"
+		"labelText"		"9"
 	}
 }

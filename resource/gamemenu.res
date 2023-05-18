@@ -1,11 +1,12 @@
 "GameMenu"
 {
-    "CallVoteButton"
+	"CallVoteButton"
 	{
 		"label"				"k"
 		"command"			"callvote"
 		"OnlyInGame"		"1"
 	}
+
 	"MutePlayersButton"
 	{
 		"label"				"y"

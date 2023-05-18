@@ -1,19 +1,19 @@
-#base "scout_red.res"
+"#base"		"scout_red.res"
 
 "Resource/UI/disguise_menu/engineer_blue.res"
 {
 	"ClassIcon"
 	{
-		"icon"										"hud_menu_engineer_blu"
+		"icon"		"hud_menu_engineer_blu"
 	}
 
 	"NewNumberLabel"
 	{
-		"labelText"									"3"
+		"labelText"		"3"
 	}
 
 	"NumberLabel"
 	{
-		"labelText"									"6"
+		"labelText"		"6"
 	}
 }

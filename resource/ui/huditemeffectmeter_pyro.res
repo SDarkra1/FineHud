@@ -1,8 +1,8 @@
-#base "HudItemEffectMeter.res"
+"#base"		"HudItemEffectMeter.res"
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"r364"

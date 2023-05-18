@@ -1,4 +1,4 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay/thumbnails/bleedupgrade_bw"
+	"$baseTexture" "vgui\replay/thumbnails\mvm\upgradeicons/bleedupgrade_bw"
 }

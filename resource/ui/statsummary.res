@@ -11,8 +11,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
-	"Beach"				//needed as a cover
+
+	"Beach"	// needed as a cover
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"Beach"
@@ -26,7 +26,7 @@
 		"image"				"replay/thumbnails/menu/beach_night_blur"
 		"scaleimage"		"1"
 	}
-	
+
 	"TopWhiteBar"
 	{
 		"ControlName"		"EditablePanel"
@@ -40,7 +40,7 @@
 		"enabled"			"1"
 		"border"			"BlackTransparent70"
 	}
-	
+
 	"PartyCover"
 	{
 		"ControlName"		"EditablePanel"
@@ -57,48 +57,43 @@
 
 	"MapType"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"MapType"
-		"font"				"Product32"
-		"labelText"			"%maptype%"
-		"textAlignment"		"center"
-		"xpos"				"c-240"
-		"ypos"				"35"
-		"zpos"				"91"
-		"wide"				"480"
-		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"AllCaps"			"1"
-		"fgcolor_override"	"WhiteTransparent"
+		"ControlName"			"CExLabel"
+		"fieldName"				"MapType"
+		"font"					"Product32"
+		"labelText"				"%maptype%"
+		"textAlignment"			"center"
+		"xpos"					"c-240"
+		"ypos"					"35"
+		"zpos"					"91"
+		"wide"					"480"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"AllCaps"				"1"
+		"fgcolor_override"		"WhiteTransparent"
 	}
-	
+
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"MapLabel"
-		"font"				"Product48"
-		"labelText"			"%maplabel%"
-		"textAlignment"		"center"
-		"xpos"				"c-240"
-		"ypos"				"55"
-		"zpos"				"91"
-		"wide"				"480"
-		"tall"				"100"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"AllCaps"			"1"
-		"fgcolor_override"	"WhiteTransparent"
+		"ControlName"			"CExLabel"
+		"fieldName"				"MapLabel"
+		"font"					"Product48"
+		"labelText"				"%maplabel%"
+		"textAlignment"			"center"
+		"xpos"					"c-240"
+		"ypos"					"55"
+		"zpos"					"91"
+		"wide"					"480"
+		"tall"					"100"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"AllCaps"				"1"
+		"fgcolor_override"		"WhiteTransparent"
 	}
-	
-	
-	
-	
-	
 
 	"MainBackground"
 	{
@@ -106,42 +101,49 @@
 		"fieldName"			"MainBackground"
 		"xpos"				"9999"
 	}
+
 	"MapInfo"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"MapInfo"
 		"xpos"				"9999"
 	}
+
 	"StatData"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"StatData"
 		"xpos"				"9999"
 	}
+
 	"TipImage"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TipImage"
 		"xpos"				"9999"
 	}
+
 	"TipText"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TipText"
 		"xpos"				"9999"
 	}
+
 	"NextTipButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"			"NextTipButton"
 		"xpos"				"9999"
 	}
+
 	"ResetStatsButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ResetStatsButton"
 		"xpos"				"9999"
 	}
+
 	"CloseButton"
 	{
 		"ControlName"		"Button"

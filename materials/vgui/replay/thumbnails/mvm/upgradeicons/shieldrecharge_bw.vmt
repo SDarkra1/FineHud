@@ -1,4 +1,4 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay/thumbnails/shieldrecharge_bw"
+	"$baseTexture" "vgui\replay/thumbnails\mvm\upgradeicons/shieldrecharge_bw"
 }

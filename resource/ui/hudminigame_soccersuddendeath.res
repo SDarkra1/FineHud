@@ -1,4 +1,4 @@
-#base "HudMiniGame_Soccer.res"
+"#base"		"HudMiniGame_Soccer.res"
 
 "Resource/UI/HudMiniGame_SuddenDeath.res"
 {
@@ -9,8 +9,8 @@
 
 	"RedScore"
 	{
-		"visible"		"0"	
-	}	
+		"visible"		"0"
+	}
 
 	"RedScoreShadow"
 	{
@@ -19,8 +19,8 @@
 
 	"BlueScore"
 	{
-		"visible"		"0"	
-	}	
+		"visible"		"0"
+	}
 
 	"BlueScoreShadow"
 	{
@@ -29,33 +29,33 @@
 
 	"RedSkullImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedSkullImage"
-		"xpos"			"c70"
-		"ypos"			"r60"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../effects/skull001_hud"
-		"scaleImage"	"1"	
-		"proportionaltoparent" "1"
+		"ControlName"				"ImagePanel"
+		"fieldName"					"RedSkullImage"
+		"xpos"						"c70"
+		"ypos"						"r60"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		"image"						"../effects/skull001_hud"
+		"scaleImage"				"1"
+		"proportionaltoparent"		"1"
 	}
 
 	"BlueSkullImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueSkullImage"
-		"xpos"			"c-120"
-		"ypos"			"r60"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../effects/skull001_hud"
-		"scaleImage"	"1"	
-		"proportionaltoparent" "1"
+		"ControlName"				"ImagePanel"
+		"fieldName"					"BlueSkullImage"
+		"xpos"						"c-120"
+		"ypos"						"r60"
+		"zpos"						"5"
+		"wide"						"50"
+		"tall"						"50"
+		"visible"					"1"
+		"enabled"					"1"
+		"image"						"../effects/skull001_hud"
+		"scaleImage"				"1"
+		"proportionaltoparent"		"1"
 	}
 }

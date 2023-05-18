@@ -1,24 +1,24 @@
-#base "base_active.res"
+"#base"		"base_active.res"
 
 "Resource/UI/destroy_menu/base_inactive.res"
 {
 	"DestroyIcon"
 	{
-		"visible"									"0"
+		"visible"		"0"
 	}
 
 	"BuildingIcon"
 	{
-		"visible"									"0"
+		"visible"		"0"
 	}
 
 	"NotBuiltLabel"
 	{
-		"visible"									"1"
+		"visible"		"1"
 	}
 
 	"NumberLabel"
 	{
-		"visible"									"0"
+		"visible"		"0"
 	}
 }
