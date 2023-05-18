@@ -1,7 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
-    "RankPanel"
+	"RankPanel"
 	{
-		"xpos"			"c-650"
+		"xpos"		"c-650"
 	}
 }

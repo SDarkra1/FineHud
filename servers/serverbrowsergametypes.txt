@@ -2,97 +2,115 @@
 {
 	"gametype_1"
 	{
-		"prefix"	"cp_"
-		"name"		"capture point"
+		"prefix"		"cp_"
+		"name"			"capture point"
 	}
+
 	"gametype_2"
 	{
-		"prefix"	"tc_"
-		"name"		"territorial control"
+		"prefix"		"tc_"
+		"name"			"territorial control"
 	}
+
 	"gametype_3"
 	{
-		"prefix"	"pl_"
-		"name"		"payload"
+		"prefix"		"pl_"
+		"name"			"payload"
 	}
+
 	"gametype_4"
 	{
-		"prefix"	"ctf_"
-		"name"		"capture the flag"
+		"prefix"		"ctf_"
+		"name"			"capture the flag"
 	}
+
 	"gametype_5"
 	{
-		"prefix"	"arena_"
-		"name"		"arena"
+		"prefix"		"arena_"
+		"name"			"arena"
 	}
+
 	"gametype_6"
 	{
-		"prefix"	"plr_"
-		"name"		"payload race"
+		"prefix"		"plr_"
+		"name"			"payload race"
 	}
+
 	"gametype_7"
 	{
-		"prefix"	"koth_"
-		"name"		"king of the hill"
+		"prefix"		"koth_"
+		"name"			"king of the hill"
 	}
+
 	"gametype_8"
 	{
-		"prefix"	"mvm_"
-		"name"		"mann vs. machine"
+		"prefix"		"mvm_"
+		"name"			"mann vs. machine"
 	}
+
 	"gametype_9"
 	{
-		"prefix"	"rd_"
-		"name"		"robot destruction"
+		"prefix"		"rd_"
+		"name"			"robot destruction"
 	}
+
 	"gametype_10"
 	{
-		"prefix"	"pass_"
-		"name"		"pass time"
+		"prefix"		"pass_"
+		"name"			"pass time"
 	}
+
 	"gametype_11"
 	{
-		"prefix"	"pd_"
-		"name"		"player destruction"
+		"prefix"		"pd_"
+		"name"			"player destruction"
 	}
+
 	"gametype_12"
 	{
-		"prefix"	"tr_"
-		"name"		"training"
+		"prefix"		"tr_"
+		"name"			"training"
 	}
+
 	"gametype_13"
 	{
-		"prefix"	"jump_"
-		"name"		"jump"
+		"prefix"		"jump_"
+		"name"			"jump"
 	}
+
 	"gametype_14"
 	{
-		"prefix"	"vsh_"
-		"name"		"versus saxton hale"
+		"prefix"		"vsh_"
+		"name"			"versus saxton hale"
 	}
+
 	"gametype_15"
 	{
-		"prefix"	"achievement_"
-		"name"		"achievement"
+		"prefix"		"achievement_"
+		"name"			"achievement"
 	}
+
 	"gametype_16"
 	{
-		"prefix"	"dr_"
-		"name"		"death run"
+		"prefix"		"dr_"
+		"name"			"death run"
 	}
+
 	"gametype_17"
 	{
-		"prefix"	"ph_"
-		"name"		"prophunt"
+		"prefix"		"ph_"
+		"name"			"prophunt"
 	}
+
 	"gametype_18"
 	{
-		"prefix"	"surf_"
-		"name"		"surf"
+		"prefix"		"surf_"
+		"name"			"surf"
 	}
+
 	"gametype_19"
 	{
-		"prefix"	"trade_"
-		"name"		"trade"
+		"prefix"		"trade_"
+		"name"			"trade"
 	}
 }

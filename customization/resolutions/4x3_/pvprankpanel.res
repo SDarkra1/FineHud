@@ -1,14 +1,15 @@
 "Resource/UI/PvPRankPanel.res"
 {
     "ModelContainer"
-	{
+    {
         "RankModel"
         {
-            "xpos"			"c65"
+            "xpos"      "c65"
         }
+
         "MedalButton"
         {
-            "xpos"			"c95"
+            "xpos"      "c95"
         }
     }
 }

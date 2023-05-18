@@ -4,6 +4,7 @@
     {
         "xpos"      "435"
     }
+
     "ShowRarityComboBox"
     {
         "xpos"      "c-100"

@@ -1,4 +1,4 @@
 "autorp.txt"
 {
-    //Goodbye medieval mode translator.
+    // Goodbye medieval mode translator.
 }

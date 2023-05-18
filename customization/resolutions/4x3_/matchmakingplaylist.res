@@ -1,19 +1,22 @@
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
-    "CasualEntry"
+	"CasualEntry"
 	{
-		"xpos"			"85"
+		"xpos"		"85"
 	}
-    "CompetitiveEntry"
+
+	"CompetitiveEntry"
 	{
-		"xpos"			"245"
+		"xpos"		"245"
 	}
-    "MvMEntry"
+
+	"MvMEntry"
 	{
-		"xpos"			"405"
+		"xpos"		"405"
 	}
-    "TrainingButton"
+
+	"TrainingButton"
 	{
-		"xpos"			"565"
+		"xpos"		"565"
 	}
 }

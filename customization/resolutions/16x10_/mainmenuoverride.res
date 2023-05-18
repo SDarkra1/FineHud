@@ -1,11 +1,12 @@
 "Resource/UI/MainMenuOverride.res"
 {
-    "RankPanel"
+	"RankPanel"
 	{
-		"xpos"			"c-713"
+		"xpos"		"c-713"
 	}
+
 	"MOTD_ShowButtonPanel"
 	{
-		"xpos"			"100"
+		"xpos"		"100"
 	}
 }
