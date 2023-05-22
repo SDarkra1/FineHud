@@ -1,4 +1,3 @@
-
 "vox/null"
 {
 	"channel"		"CHAN_STATIC"
