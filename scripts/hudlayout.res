@@ -444,6 +444,7 @@
 		"enabled"		"1"
 		"wide"			"640"
 		"tall"			"480"
+		"zpos"			"9999999"
 	}
 
 	"HudDeathNotice"
@@ -662,6 +663,7 @@
 		"enabled"		"1"
 		"wide"			"640"
 		"tall"			"480"
+		"zpos"			"-9999999"
 	}
 
 	"HudScopeCharge"
