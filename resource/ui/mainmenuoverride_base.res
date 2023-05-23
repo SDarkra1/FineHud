@@ -1392,7 +1392,7 @@
 				"labelText"						"Restart TF2"
 				"textAlignment"					"center"
 				"font"							"Product12"
-				"command"						"gamemenucommand RestartWithNewLanguage"
+				"command"						"RestartWithNewLanguage"
 				"roundedcorners"				"0"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
