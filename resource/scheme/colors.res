@@ -15,7 +15,7 @@ Scheme
 		"Health Hurt Killer"								"255 255 255 255"
 		
 		"Ammo In Clip"										"255 255 255 255"
-		"Ammo In Reserve"									"255 255 255 255"
+		"Ammo In Reserve"									"0 255 100 255"
 		"Ammo No Clip"										"255 255 255 255"
 
 		"Ammo In Clip Low"									"255 0 0 255"
@@ -50,6 +50,12 @@ Scheme
 
 		"Purple"											"170 20 220 255"
 		"Yellow"											"255 255 0 255"
+
+		"Minthud Green"										"0 255 100 255"
+		"Minthud RedHealth1"								"250 80 80 255"
+		"Minthud RedHealth2"								"160 50 50 255"
+		"Minthud GreenHealth1"								"0 255 100 255"
+		"Minthud GreenHealth2"								"128 255 178 255"
 
 		"Crosshair"											"255 255 255 255"
 		"Crosshair Flash"									"255 0 0 255"
