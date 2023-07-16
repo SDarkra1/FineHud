@@ -216,7 +216,6 @@
 		"image"				"../sprites/hud/bomb_carried"
 	}
 
-
 	"BombCarrierUpgradeMeter"
 	{
 		"ControlName"		"ImagePanel"
@@ -286,7 +285,6 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
 	}
-
 
 	///BACKPACK///
 
