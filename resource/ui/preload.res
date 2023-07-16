@@ -121,6 +121,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
+
 	///CART ICONS///
 
 	"CartBlue"
@@ -203,16 +204,91 @@
 		"image"				"../sprites/hud/cart_point_red_opaque"
 	}
 
-	"CartPointBlueOpaque"
+	///BOMB CARRIER///
+
+	"BombCarried"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"CartPointBlueOpaque"
+		"fieldName"			"BombCarried"
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../sprites/hud/cart_point_blue_opaque"
+		"image"				"../sprites/hud/bomb_carried"
 	}
-	// Backpack
+
+
+	"BombCarrierUpgradeMeter"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BombCarrierUpgradeMeter"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_carrier_upgrade_meter"
+	}
+
+	"BombDropped"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BombDropped"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/bomb_dropped"
+	}
+
+	"MvmBombUpgrade1Disabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvmBombUpgrade1Disabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_1_disabled"
+	}
+
+	"MvmBombUpgrade2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvmBombUpgrade2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2"
+	}
+
+	"MvmBombUpgrade2Disabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvmBombUpgrade2Disabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_2_disabled"
+	}
+
+	"MvmBombUpgrade3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvmBombUpgrade3"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3"
+	}
+
+	"MvmBombUpgrade3Disabled"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MvmBombUpgrade3Disabled"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+
+
+	///BACKPACK///
 
 	"LoadoutRectangle"
 	{
@@ -233,7 +309,8 @@
 		"enabled"			"1"
 		"image"				"../sprites/white"
 	}
-	// Radial Callouts
+
+	///RADIAL CALLOUTS///
 
 	"radialpreload"
 	{
