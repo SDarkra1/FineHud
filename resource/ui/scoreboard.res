@@ -519,6 +519,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor"			"White"
+		"allcaps"			"1"
 
 		"if_mvm"
 		{
