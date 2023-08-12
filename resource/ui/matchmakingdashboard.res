@@ -567,7 +567,7 @@
 			"textAlignment"					"center"
 			"dulltext"						"0"
 			"brighttext"					"0"
-			"Command"						"quit"
+			"Command"						"disconnect"
 			"proportionaltoparent"			"1"
 			"labeltext"						"b"
 			"mouseinputenabled"				"1"
