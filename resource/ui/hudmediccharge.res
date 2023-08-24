@@ -10,7 +10,9 @@
 		"wide"						"80"
 		"tall"						"30"
 		"visible"					"1"
+		"visible_minmode"			"0"
 		"enabled"					"1"
+		"enabled_minmode"			"0"
 		"paintbackground"			"0"
 		"proportionaltoparent"		"1"
 
