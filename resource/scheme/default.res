@@ -260,7 +260,7 @@
 		"BuildingHealthBar.LowHealth"							"LowHealthRed"
 		"PropertySheet.TextColor"								"Orange"
 		"PropertySheet.SelectedTextColor"						"Orange"
-		"PropertySheet.TransitionEffectTime"					"0.25"
+		"PropertySheet.TransitionEffectTime"					"0.0"
 		"RadioButton.TextColor"									"Orange"
 		"RadioButton.SelectedTextColor"							"Orange"
 		"RichText.TextColor"									"Gray"
