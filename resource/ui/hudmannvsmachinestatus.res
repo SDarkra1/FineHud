@@ -185,8 +185,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ServerChangeMessage"
-		"xpos"				"0"
-		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
