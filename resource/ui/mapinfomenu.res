@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"MapInfoText"
 	{
 		"ControlName"				"CExRichText"
@@ -30,7 +29,6 @@
 		"paintbackground"			"0"
 		"proportionaltoparent"		"1"
 	}
-
 	"MapInfoTitle"
 	{
 		"ControlName"				"CExLabel"
@@ -51,7 +49,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"ok"
 	{
 		"ControlName"					"CExButton"
@@ -77,7 +74,6 @@
 		"pin_corner_to_sibling"			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 	}
-
 	"MapInfoWatchIntro"
 	{
 		"ControlName"					"CExButton"
@@ -106,42 +102,36 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"MapInfoBack"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"MapInfoBack"
 		"xpos"				"9999"
 	}
-
 	"MapInfoContinue"
 	{
 		"ControlName"		"CTFButton"
 		"fieldName"			"MapInfoContinue"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"MapImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MapImage"
 		"xpos"				"9999"
 	}
-
 	"MapInfoType"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MapInfoType"
 		"xpos"				"9999"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"

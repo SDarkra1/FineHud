@@ -14,7 +14,6 @@
 		"fgcolor"				"nüWhite"
 		"fgcolor_override"		"nüWhite"
 	}
-
 	"AvatarBGPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -28,7 +27,6 @@
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"nüBlack"
 	}
-
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -44,7 +42,6 @@
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
-
 	"AvatarTextLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -56,8 +53,6 @@
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"38"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
 		"wrap"					"1"
@@ -65,14 +60,12 @@
 		"textAlignment"			"West"
 		"font"					"HudFontSmallest"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TextLabel"
 		"fgcolor"				"nüWhite"
 		"fgcolor_override"		"nüWhite"
-
 		"if_high_priority"
 		{
 			"fgcolor"				"BrightYellow"
@@ -84,8 +77,6 @@
 		"zpos"					"2"
 		"wide"					"138"
 		"tall"					"38"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
 		"wrap"					"1"

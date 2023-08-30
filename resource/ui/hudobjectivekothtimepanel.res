@@ -12,7 +12,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
-
 		"TimePanelValue"
 		{
 			"ControlName"				"CExLabel"
@@ -33,7 +32,6 @@
 			"labelText"					"0:00"
 		}
 	}
-
 	"TimerIndicatorBLU"
 	{
 		"ControlName"			"EditablePanel"
@@ -46,7 +44,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"TF2Blue"
 	}
-
 	"RedTimer"
 	{
 		"ControlName"				"CTFHudTimeStatus"
@@ -59,7 +56,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
-
 		"TimePanelValue"
 		{
 			"ControlName"				"CExLabel"
@@ -80,7 +76,6 @@
 			"labelText"					"0:00"
 		}
 	}
-
 	"TimerIndicatorRED"
 	{
 		"ControlName"			"EditablePanel"
@@ -93,7 +88,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"TF2Red"
 	}
-
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"

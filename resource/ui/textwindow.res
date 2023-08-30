@@ -12,7 +12,6 @@
 		"enabled"					"1"
 		"settitlebarvisible"		"0"
 	}
-
 	"TFTextMessage"
 	{
 		"ControlName"				"CExRichText"
@@ -29,7 +28,6 @@
 		"fgcolor"					"White"
 		"proportionaltoparent"		"1"
 	}
-
 	"HTMLMessage"
 	{
 		"ControlName"				"HTML"
@@ -44,7 +42,6 @@
 		"paintborder"				"0"
 		"proportionaltoparent"		"1"
 	}
-
 	"TFMessageTitle"
 	{
 		"ControlName"				"CExLabel"
@@ -65,7 +62,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"ok"
 	{
 		"ControlName"					"CExButton"
@@ -94,28 +90,24 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"TextMessage"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
 		"xpos"				"9999"
 	}
-
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"ShadedBG"
 	{
 		"ControlName"		"ImagePanel"

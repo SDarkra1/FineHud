@@ -10,7 +10,6 @@
 // PIN_CENTER_BOTTOM,
 // PIN_CENTER_LEFT,
 // };
-
 "Resource/UI/HudPasstime.res"
 {
 	"HudPasstime"

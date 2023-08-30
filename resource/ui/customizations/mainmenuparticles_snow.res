@@ -12,7 +12,6 @@
 		"visible"					"1"
 		"visible_minmode"			"0"
 		"proportionaltoparent"		"1"
-
 		"ParticleEffects"
 		{
 			"0"

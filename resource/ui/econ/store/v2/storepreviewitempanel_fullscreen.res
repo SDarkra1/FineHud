@@ -22,7 +22,6 @@
 		"ui_fadeout_duration"					"2.0"
 	}
 	// This control fades in if the mouse cursor isn't moving around
-
 	"OverlayPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -38,7 +37,6 @@
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"0 0 0 255"
 	}
-
 	"RotateLeftButton"
 	{
 		"ControlName"					"CExButton"
@@ -48,16 +46,11 @@
 		"zpos"							"4"
 		"wide"							"20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"<"
 		"font"							"HudFontBiggerBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		"paintbackground"				"0"
@@ -65,7 +58,6 @@
 		"armedFgColor_override"			"128 117 104 255"
 		"depressedFgColor_override"		"236 227 203 255"
 	}
-
 	"RotateRightButton"
 	{
 		"ControlName"					"CExButton"
@@ -75,16 +67,11 @@
 		"zpos"							"4"
 		"wide"							"20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						">"
 		"font"							"HudFontBiggerBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		"paintbackground"				"0"
@@ -92,28 +79,21 @@
 		"armedFgColor_override"			"128 117 104 255"
 		"depressedFgColor_override"		"236 227 203 255"
 	}
-
 	"NextWeaponButton"
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"NextWeaponButton"
 		"zpos"					"1"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_NextWeapon"
 		"font"					"HudFontSmallest"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"next_weapon"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ZoomButton"
 	{
 		"ControlName"			"CExImageButton"
@@ -123,24 +103,17 @@
 		"zpos"					"4"
 		"wide"					"15"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labeltext"				""
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"Command"				"zoom_toggle"
 		"paintbackground"		"0"
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"246 247 213 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -156,7 +129,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"TeamNavPanel"
 	{
 		"ControlName"						"CNavigationPanel"
@@ -166,8 +138,6 @@
 		"zpos"								"4"
 		"wide"								"38"
 		"tall"								"60"
-		"autoResize"						"0"
-		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
 		"auto_scale"						"1"
@@ -176,16 +146,12 @@
 		"auto_layout_vertical_buffer"		"-4"
 		"display_vertically"				"1"
 		"align"								"west"
-
 		"ButtonSettings"
 		{
 			"wide"							"38"
 			"tall"							"38"
-			"autoResize"					"0"
-			"pinCorner"						"2"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labelText"						""
 			"textAlignment"					"south-west"
 			"scaleImage"					"1"
@@ -205,7 +171,6 @@
 			"image_selectedcolor"			"255 255 255 255"
 			"stayselectedonclick"			"1"
 			"keyboardinputenabled"			"0"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -220,7 +185,6 @@
 				"scaleImage"		"1"
 			}
 		}
-
 		"Buttons"
 		{
 			"all"
@@ -229,20 +193,17 @@
 				"image_default"			"store/store_redteam"
 				"image_armed"			"store/store_redteam"
 				"image_selected"		"store/store_redteam"
-
 				"SubImage"
 				{
 					"image"		"store/store_redteam"
 				}
 			}
-
 			"scout"
 			{
 				"userdata"				"3"
 				"image_default"			"store/store_blueteam"
 				"image_armed"			"store/store_blueteam"
 				"image_selected"		"store/store_blueteam"
-
 				"SubImage"
 				{
 					"image"		"store/store_blueteam"
@@ -250,7 +211,6 @@
 			}
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"			"CExImageButton"
@@ -260,24 +220,17 @@
 		"zpos"					"4"
 		"wide"					"14"
 		"tall"					"14"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labeltext"				""
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"Command"				"close"	// Intentionally using "closex" instead of "close" for stats
 		"paintbackground"		"0"
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"246 247 213 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -293,7 +246,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"TryItOutButton"
 	{
 		"ControlName"			"CExButton"
@@ -303,22 +255,16 @@
 		"zpos"					"4"
 		"wide"					"160"
 		"tall"					"22"
-		"autoResize"			"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_TryItOut"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"1"
 		"Command"				"tryitout"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"fgcolor"				"White"
 	}
-
 	"AddToCartButton"
 	{
 		"ControlName"					"CExButton"
@@ -328,15 +274,11 @@
 		"zpos"							"4"
 		"wide"							"160"
 		"tall"							"27"
-		"autoResize"					"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"#Store_AddToCart"
 		"font"							"HudFontSmallishBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"addtocart"
 		"sound_depressed"				"UI/buttonclick.wav"

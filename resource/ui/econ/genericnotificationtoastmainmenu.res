@@ -14,7 +14,6 @@
 		"fgcolor"				"tanlight120"
 		"fgcolor_override"		"tanlight120"
 	}
-
 	"AvatarBGPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -28,7 +27,6 @@
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"			"117 107 94 255"
 	}
-
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -44,7 +42,6 @@
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
-
 	"AvatarTextLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -56,8 +53,6 @@
 		"zpos"					"2"
 		"wide"					"0"
 		"tall"					"38"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
 		"wrap"					"1"
@@ -65,7 +60,6 @@
 		"textAlignment"			"West"
 		"font"					"HudFontSmallest"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -76,8 +70,6 @@
 		"zpos"					"2"
 		"wide"					"138"
 		"tall"					"45"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
 		"wrap"					"1"

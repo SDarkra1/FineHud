@@ -8,17 +8,13 @@
 		"ypos"						"140"
 		"wide"						"324"
 		"tall"						"200"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"1"
 		"bgcolor_override"			"33 33 33 255"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -31,13 +27,10 @@
 		"zpos"					"1"
 		"wide"					"324"
 		"tall"					"32"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"MainPink"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -50,14 +43,11 @@
 		"zpos"					"1"
 		"wide"					"244"
 		"tall"					"200"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"centerwrap"			"1"
 		"fgcolor_override"		"White"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -67,22 +57,16 @@
 		"zpos"					"20"
 		"wide"					"124"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#GameUI_CancelBold"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"
@@ -93,17 +77,12 @@
 		"wide"					"175"
 		"tall"					"25"
 		"default"				"1"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#ConfirmButtonText"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"confirm"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

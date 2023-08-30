@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Size:10 | Outline:OFF"
 		{
@@ -213,15 +213,13 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+	"CustomFontFiles"
 	{
 		"9"
 		{
-			"font" "../fonts/TF2Crosshairs.ttf"
-			"font" "../fonts/tf2crosshairs_linux.ttf" [$LINUX]
-
-			"name" "TF2Crosshairs"
+			"font"		"../fonts/TF2Crosshairs.ttf"
+			"font"		"../fonts/tf2crosshairs_linux.ttf" [$LINUX]
+			"name"		"TF2Crosshairs"
 		}
 	}
 }

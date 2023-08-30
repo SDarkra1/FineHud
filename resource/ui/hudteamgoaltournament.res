@@ -11,12 +11,10 @@
 		"tall"				"190"
 		"visible"			"0"
 		"enabled"			"1"
-
 		"if_comp"
 		{
 			"ypos"		"120"
 		}
-
 		"HudStopWatchObjectiveBG"
 		{
 			"ControlName"				"ScalableImagePanel"
@@ -26,8 +24,6 @@
 			"zpos"						"-1"
 			"wide"						"275"
 			"tall"						"170"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"image"						"../HUD/color_panel_browner"
@@ -36,7 +32,6 @@
 			"draw_corner_width"			"7"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"7"
 		}
-
 		"HudStopWatchObjectiveBGSmall"
 		{
 			"ControlName"				"ScalableImagePanel"
@@ -46,8 +41,6 @@
 			"zpos"						"-1"
 			"wide"						"275"
 			"tall"						"100"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
 			"image"						"../HUD/color_panel_browner"
@@ -56,7 +49,6 @@
 			"draw_corner_width"			"7"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"7"
 		}
-
 		"HudStopWatchObjectiveLabel"
 		{
 			"ControlName"		"Label"
@@ -67,15 +59,12 @@
 			"zpos"				"1"
 			"wide"				"275"
 			"tall"				"15"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"labelText"			"%objectivelabel%"
 			"textAlignment"		"west"
 		}
-
 		"HudStopWatchObjectiveText1"
 		{
 			"ControlName"		"CExRichText"
@@ -85,8 +74,6 @@
 			"wide"				"225"
 			"tall"				"150"
 			"wrap"				"1"
-			"autoResize"		"1"
-			"pinCorner"			"1"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			""
@@ -94,7 +81,6 @@
 			"font"				"HudFontSmallestShadow"
 			"maxchars"			"-1"
 		}
-
 		"HudStopWatchObjectiveShadedBar"
 		{
 			"ControlName"				"ImagePanel"
@@ -104,26 +90,20 @@
 			"zpos"						"2"
 			"wide"						"225"
 			"tall"						"2"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"125 125 125 125"
 			"PaintBackgroundType"		"0"
 		}
-
 		"HudStopWatchObjectiveText2"
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"			"HudStopWatchObjectiveText2"
-			"xpos"				"25" [$WIN32]
-			"ypos"				"75" [$WIN32]
+			"xpos"				"25"
+			"ypos"				"75"
 			"wide"				"225"
 			"tall"				"165"
 			"wrap"				"1"
-			"autoResize"		"1"
-			"pinCorner"			"1"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			""
@@ -132,7 +112,6 @@
 			"maxchars"			"-1"
 		}
 	}
-
 	"HudStopWatchObjectiveArrow"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -142,12 +121,9 @@
 		"zpos"				"-1"
 		"wide"				"80"
 		"tall"				"80"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../HUD/arrow_big"
-
 		"if_comp"
 		{
 			"ypos"		"45"

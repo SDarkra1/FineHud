@@ -10,14 +10,12 @@
 		"tall"				"10"
 		"visible"			"0"
 		"enabled"			"0"
-
 		"if_comp"
 		{
 			"xpos"		"c-60"
 			"ypos"		"32"
 		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -29,13 +27,11 @@
 		"tall"					"15"
 		"visible"				"0"
 		"enabled"				"1"
-
 		"if_comp"
 		{
 			"xpos"		"5"
 		}
 		"pin_to_sibling"		"StopWatchAnchor"
-
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -50,14 +46,12 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"east"
-
 			"if_comp"
 			{
 				"font"		"m0refont12"
 			}
 		}
 	}
-
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"				"CExLabel"
@@ -76,13 +70,11 @@
 		"pin_to_sibling"			"ObjectiveStatusTimePanel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_comp"
 		{
 			"font"		"m0refont12"
 		}
 	}
-
 	"StopWatchPointsLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -101,13 +93,11 @@
 		"pin_to_sibling"			"StopWatchScoreToBeat"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_comp"
 		{
 			"font"		"m0refont12"
 		}
 	}
-
 	"StopWatchLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -126,13 +116,11 @@
 		"wrap"					"1"
 		"centerwrap"			"1"
 		"pin_to_sibling"		"ObjectiveStatusTimePanel"
-
 		"if_comp"
 		{
 			"font"		"m0refont12"
 		}
 	}
-
 	"HudStopWatchBGWhite"
 	{
 		"ControlName"				"EditablePanel"
@@ -150,7 +138,6 @@
 		"pin_to_sibling"			"StopWatchPointsLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_comp"
 		{
 			"wide"		"0"
@@ -159,28 +146,24 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"HudStopWatchBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HudStopWatchBG"
 		"xpos"				"9999"
 	}
-
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"StopWatchImageCaptureTime"
 		"xpos"				"9999"
 	}
-
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"HudStopWatchDescriptionBG"
 		"xpos"				"9999"
 	}
-
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"		"CExLabel"

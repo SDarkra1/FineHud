@@ -15,7 +15,6 @@
 		"enabled_minmode"			"0"
 		"paintbackground"			"0"
 		"proportionaltoparent"		"1"
-
 		"ParticleEffects"
 		{
 			"0"
@@ -30,7 +29,6 @@
 				"control_point0"		"0 0 0"
 				"control_point1"		"0 -80 0"
 			}
-
 			"1"
 			{
 				"particle_xpos"			"7"
@@ -45,7 +43,6 @@
 			}
 		}
 	}
-
 	"ChargeLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -66,7 +63,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"UberAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -80,7 +76,6 @@
 		"enabled"			"1"
 		"alpha"				"0"
 	}
-
 	"ChargeLabelBig"
 	{
 		"ControlName"				"CExLabel"
@@ -101,7 +96,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"ChargeLabelBigShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -120,7 +114,6 @@
 		"fgcolor"					"Black"
 		"pin_to_sibling"			"ChargeLabelBig"
 	}
-
 	"ChargeMeter"
 	{
 		"ControlName"				"ContinuousProgressBar"
@@ -137,7 +130,6 @@
 		"textAlignment"				"Center"
 		"fgcolor_override"			"White"
 	}
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -156,7 +148,6 @@
 		"font"						"Product18"
 		"pin_to_sibling"			"ChargeLabel"
 	}
-
 	"ChargeMeter1"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -171,7 +162,6 @@
 		"enabled"			"1"
 		"textAlignment"		"Left"
 	}
-
 	"ChargeMeter2"
 	{
 		"ControlName"				"ContinuousProgressBar"
@@ -189,7 +179,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"ChargeMeter3"
 	{
 		"ControlName"				"ContinuousProgressBar"
@@ -207,7 +196,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"ChargeMeter4"
 	{
 		"ControlName"				"ContinuousProgressBar"
@@ -225,7 +213,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"ResistIconAnchor"
 	{
 		"ControlName"				"EditablePanel"
@@ -238,7 +225,6 @@
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"ResistIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -255,7 +241,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"UberBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -270,14 +255,12 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 178"
 	}
-
 	"Background"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"Background"
 		"xpos"				"9999"
 	}
-
 	"HealthClusterIcon"
 	{
 		"ControlName"		"ImagePanel"

@@ -14,13 +14,12 @@
 		"mouseinputenabled"			"0"
 		"bgcolor_override"			"Black"
 	}
-
 	"TitleGradient"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"TitleGradient"
 		"xpos"						"3"
-		"ypos"						"0"
+	1	"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"60"
 		"zpos"						"98"
@@ -33,14 +32,12 @@
 		"alpha"						"180"
 		"image"						"gradient_pure_black"
 	}
-
 	"InnerGradient"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"InnerGradient"
 		"xpos"						"3"
 		"rotation"					"2"
-
 		"if_left"
 		{
 			"xpos"			"rs1-3"
@@ -57,14 +54,12 @@
 		"mouseinputenabled"			"0"
 		"image"						"gradient_pure_black"
 	}
-
 	"OuterGradient"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"OuterGradient"
 		"xpos"						"rs1"
 		"rotation"					"1"
-
 		"if_left"
 		{
 			"xpos"			"0"
@@ -82,7 +77,6 @@
 		"alpha"						"127"
 		"image"						"gradient_pure_black"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"					"CExButton"
@@ -102,7 +96,6 @@
 		"defaultBgColor_override"		"Blank"
 		"armedFgColor_override"			"White"
 	}
-
 	"ReturnButton"
 	{
 		"ControlName"					"CExButton"
@@ -123,7 +116,6 @@
 		"defaultBgColor_override"		"Blank"
 		"armedFgColor_override"			"230 230 230 255"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"				"EditablePanel"

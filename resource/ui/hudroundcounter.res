@@ -15,7 +15,6 @@
 		"width_per_round"				"24"
 		"indicator_start_offset"		"4"
 		"indicator_max_wide"			"30"
-
 		"RoundIndicatorPanel_kv"
 		{
 			"ypos"				"3"
@@ -25,7 +24,6 @@
 			"image"				"../hud/comp_round_counter_dot_bg"
 			"scaleimage"		"1"
 		}
-
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"				"-3"
@@ -35,7 +33,6 @@
 			"image"				"../hud/comp_round_counter_light_red"
 			"scaleimage"		"1"
 		}
-
 		"RoundWinPanelBlue_kv"
 		{
 			"ypos"				"-3"
@@ -46,7 +43,6 @@
 			"scaleimage"		"1"
 		}
 	}
-
 	"Background"
 	{
 		"ControlName"				"ImagePanel"
@@ -61,7 +57,6 @@
 		"backgroundtype"			"2"
 		"proportionaltoparent"		"1"
 	}
-
 	"BlueTeamBackground"
 	{
 		"ControlName"				"ImagePanel"
@@ -75,7 +70,6 @@
 		"fillcolor"					"70 130 180 153"
 		"proportionaltoparent"		"1"
 	}
-
 	"RedTeamBackground"
 	{
 		"ControlName"				"ImagePanel"
@@ -89,7 +83,6 @@
 		"fillcolor"					"205 50 50 153"
 		"proportionaltoparent"		"1"
 	}
-
 	"TimerBG"
 	{
 		"ControlName"				"ImagePanel"

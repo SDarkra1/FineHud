@@ -11,7 +11,6 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"if_hybrid"
 		{
 			"zpos"		"-1"
@@ -20,7 +19,6 @@
 	// ==================================================================================================================================================
 	// BLUE
 	// ==================================================================================================================================================
-
 	"BlueScore"
 	{
 		"ControlName"				"CExLabel"
@@ -37,23 +35,19 @@
 		"labelText"					"%bluescore%"
 		"font"						"Product32"
 		"fgcolor"					"White"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -71,23 +65,19 @@
 		"font"						"Product32"
 		"fgcolor"					"TF2Blue"
 		"pin_to_sibling"			"BlueScore"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"BlueFlag"
 	{
 		"ControlName"		"CTFFlagStatus"
@@ -99,22 +89,18 @@
 		"tall"				"90"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_hybrid_single"
 		{
 			"xpos"		"c-72"
 		}
-
 		"if_no_flags"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"xpos"		"c-82"
@@ -124,7 +110,6 @@
 	// ==================================================================================================================================================
 	// RED
 	// ==================================================================================================================================================
-
 	"RedScore"
 	{
 		"ControlName"				"CExLabel"
@@ -141,23 +126,19 @@
 		"labelText"					"%redscore%"
 		"font"						"Product32"
 		"fgcolor"					"White"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -175,23 +156,19 @@
 		"font"						"Product32"
 		"fgcolor"					"TF2Red"
 		"pin_to_sibling"			"RedScore"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"RedFlag"
 	{
 		"ControlName"		"CTFFlagStatus"
@@ -203,24 +180,20 @@
 		"tall"				"90"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_hybrid_single"
 		{
 			"xpos"		"c-72"
 		}
-
 		"if_no_flags"
 		{
 			"visible"		"0"
 		}
 	}
 	// ==================================================================================================================================================
-
 	"PlayingTo"
 	{
 		"ControlName"				"CExLabel"
@@ -237,23 +210,19 @@
 		"textAlignment"				"center"
 		"font"						"Product8"
 		"fgcolor"					"White"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"CaptureFlag"
 	{
 		"ControlName"				"CTFArrowPanel"
@@ -267,7 +236,6 @@
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"CarriedImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -284,13 +252,11 @@
 		"pin_to_sibling"			"CaptureFlag"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-
 		"if_specialdelivery"
 		{
 			"ypos"		"-11"
 		}
 	}
-
 	"SpecCarriedImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -306,7 +272,6 @@
 		"scaleImage"				"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"PoisonIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -323,7 +288,6 @@
 		"proportionaltoparent"		"1"
 		"alpha"						"100"
 	}
-
 	"PoisonTimeLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -344,35 +308,30 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"LeftSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"LeftSideBG"
 		"xpos"				"9999"
 	}
-
 	"RightSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RightSideBG"
 		"xpos"				"9999"
 	}
-
 	"OutlineBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"OutlineBG"
 		"xpos"				"9999"
 	}
-
 	"OutlineImage"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"OutlineImage"
 		"xpos"				"9999"
 	}
-
 	"PlayingToBG"
 	{
 		"ControlName"		"CTFImagePanel"

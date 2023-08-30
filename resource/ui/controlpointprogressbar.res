@@ -12,7 +12,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"		"CircularProgressBar"
@@ -22,14 +21,11 @@
 		"zpos"				"23"
 		"wide"				"45"
 		"tall"				"45"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"fg_image"			"progress_bar_blu"
 		"bg_image"			"progress_bar_blu"
 	}
-
 	"Teardrop"
 	{
 		"ControlName"		"CIconPanel"
@@ -45,7 +41,6 @@
 		"icon"				"cappoint_progressbar_teardrop"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"TeardropSide"
 	{
 		"ControlName"		"CIconPanel"
@@ -61,7 +56,6 @@
 		"icon"				"cappoint_progressbar_teardrop"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"ProgressText"
 	{
 		"ControlName"		"Label"
@@ -72,16 +66,11 @@
 		"zpos"				"23"
 		"wide"				"75"
 		"tall"				"40"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"progress"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"centerwrap"		"1"
 	}
-
 	"Blocked"
 	{
 		"ControlName"		"CIconPanel"

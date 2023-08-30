@@ -6,7 +6,6 @@
 		"fieldName"			"Background"
 		"xpos"				"9999"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -22,7 +21,6 @@
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"ItemBackground"
 	{
 		"ControlName"			"CIconPanel"
@@ -40,7 +38,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"CantBuildReason"
 	{
 		"ControlName"				"CExLabel"
@@ -59,14 +56,12 @@
 		"centerwrap"				"1"
 		"fgcolor"					"255 0 0 255"
 	}
-
 	"ItemNameLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -78,33 +73,26 @@
 		"zpos"				"25"
 		"wide"				"100"
 		"tall"				"18"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"1"
 		"textAlignment"		"Center"
-		"dulltext"			"1"
-		"brighttext"		"0"
 	}
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"ItemNameLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"xpos"				"9999"
 	}
-
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"xpos"				"9999"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"

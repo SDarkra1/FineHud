@@ -1,5 +1,4 @@
 "#base"		"MatchMakingDashboardSidePanel.res"
-
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
 	"CasualCriteria"
@@ -13,7 +12,6 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"Title"
 	{
 		"ControlName"				"Label"
@@ -30,7 +28,6 @@
 		"fgcolor_override"			"White"
 		"mouseinputenabled"			"0"
 	}
-
 	"criteria"
 	{
 		"ControlName"				"CCasualCriteriaPanel"
@@ -43,7 +40,6 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"ToolTipButtonHack"
 	{
 		"ControlName"						"EditablePanel"
@@ -60,7 +56,6 @@
 		"showtooltipswhenmousedisabled"		"1"
 		"proportionaltoparent"				"1"
 	}
-
 	"QueueButton"
 	{
 		"ControlName"					"CExButton"
@@ -70,15 +65,10 @@
 		"zpos"							"100"
 		"wide"							"f20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"Product16"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"find_game"
 		"proportionaltoparent"			"1"
 		"labeltext"						"#TF_Matchmaking_StartSearch"

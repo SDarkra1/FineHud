@@ -9,15 +9,12 @@
 		"zpos"						"1"
 		"wide"						"100"
 		"tall"						"100"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"useparentbg"				"1"
 		"fov"						"54"
 		"start_framed"				"1"
 		"disable_manipulation"		"1"
-
 		"model"
 		{
 			"angles_x"		"10"
@@ -25,14 +22,12 @@
 			"angles_z"		"0"
 		}
 	}
-
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"DisguiseStatusBG"
 		"xpos"				"9999"
 	}
-
 	"DisguiseBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -45,7 +40,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"DisguiseNameLabel"
 	{
 		"ControlName"		"Label"
@@ -56,16 +50,11 @@
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"24"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%disguisename%"
 		"textAlignment"		"North-West"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"WeaponNameLabel"
 	{
 		"ControlName"		"Label"
@@ -76,16 +65,11 @@
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"24"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%weaponname%"
 		"textAlignment"		"North-West"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"					"EditablePanel"

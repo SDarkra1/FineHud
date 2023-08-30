@@ -8,14 +8,10 @@
 		"ypos"						"0"
 		"wide"						"155"
 		"tall"						"45"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"upgradebutton_xpos"		"37"
 		"upgradebutton_ypos"		"26"
-
 		"skilltreebuttons_kv"
 		{
 			"wide"							"16"
@@ -35,7 +31,6 @@
 			"disabledfgcolor2_override"		"UpgradeDisabledFg"
 		}
 	}
-
 	"InnerPanelRim"
 	{
 		"ControlName"				"Panel"
@@ -45,14 +40,11 @@
 		"zpos"						"-1"
 		"wide"						"155"
 		"tall"						"45"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"33 33 33 255"
 	}
-
 	"IconBorder"
 	{
 		"ControlName"				"Panel"
@@ -62,14 +54,11 @@
 		"zpos"						"0"
 		"wide"						"30"
 		"tall"						"30"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"0"
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"			"33 33 33 255"
 	}
-
 	"Icon"
 	{
 		"ControlName"		"ImagePanel"
@@ -79,15 +68,11 @@
 		"wide"				"26"
 		"tall"				"26"
 		"zpos"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"0"
-		"tabPosition"		"0"
 		"scaleImage"		"1"
 		"image"				"pve/buy_disabled"
 	}
-
 	"PriceLabel"
 	{
 		"ControlName"		"Label"
@@ -97,16 +82,12 @@
 		"wide"				"30"
 		"tall"				"13"
 		"zpos"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"center"
 		"font"				"Product10"
 	}
-
 	"ShortDescriptionLabel"
 	{
 		"ControlName"		"Label"
@@ -116,17 +97,13 @@
 		"wide"				"97"
 		"tall"				"22"
 		"zpos"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"wrap"				"1"
 		"labelText"			""
 		"textAlignment"		"center-west"
 		"font"				"Product12"
 	}
-
 	"BuySellBG"
 	{
 		"ControlName"				"Panel"
@@ -136,14 +113,11 @@
 		"zpos"						"-1"
 		"wide"						"20"
 		"tall"						"45"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"33 33 33 255"
 	}
-
 	"IncrementButton"
 	{
 		"ControlName"					"CImageButton"
@@ -153,11 +127,8 @@
 		"wide"							"16"
 		"tall"							"16"
 		"zpos"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"0"
-		"tabPosition"					"0"
 		"labelText"						""
 		"scaleImage"					"1"
 		"activeimage"					"pve/buy_disabled"
@@ -174,7 +145,6 @@
 		"selectedBgColor_override"		"255 255 255 0"
 		"disabledfgcolor2_override"		"255 255 255 0"
 	}
-
 	"DecrementButton"
 	{
 		"ControlName"					"CImageButton"
@@ -184,11 +154,8 @@
 		"wide"							"16"
 		"tall"							"16"
 		"zpos"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"0"
-		"tabPosition"					"0"
 		"labelText"						""
 		"scaleImage"					"1"
 		"activeimage"					"pve/sell_disabled"

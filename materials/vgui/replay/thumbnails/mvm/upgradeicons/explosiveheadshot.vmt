@@ -1,4 +1,4 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay/thumbnails\mvm\upgradeicons/explosiveheadshot"
+	"$baseTexture"		"vgui\replay/thumbnails\mvm\upgradeicons/explosiveheadshot"
 }

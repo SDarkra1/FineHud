@@ -8,14 +8,10 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"bgcolor_override"		"11 11 11 200"
 	}
-
 	"Container"
 	{
 		"ControlName"				"EditablePanel"
@@ -24,15 +20,11 @@
 		"ypos"						"c-200"
 		"wide"						"600"
 		"tall"						"400"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"1"
 		"border"					"NoBorder"
-
 		"Background"
 		{
 			"ControlName"			"EditablePanel"
@@ -41,14 +33,10 @@
 			"ypos"					"0"
 			"wide"					"600"
 			"tall"					"400"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"bgcolor_override"		"11 11 11 255"
 		}
-
 		"WorkshopBranding"
 		{
 			"ControlName"		"ImagePanel"
@@ -63,7 +51,6 @@
 			"image"				""
 			"scaleImage"		"1"
 		}
-
 		"BackgroundBottom"
 		{
 			"ControlName"			"EditablePanel"
@@ -72,14 +59,10 @@
 			"ypos"					"355"
 			"wide"					"600"
 			"tall"					"45"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"bgcolor_override"		"11 11 11 255"
 		}
-
 		"NoItemsContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -88,16 +71,12 @@
 			"ypos"						"60"
 			"wide"						"550"
 			"tall"						"245"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"PaintBackgroundType"		"0"
 			"paintbackground"			"1"
 			"bgcolor_override"			"22 22 22 255"
 			"border"					"NoBorder"
-
 			"TitleLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -110,13 +89,10 @@
 				"zpos"					"1"
 				"wide"					"550"
 				"tall"					"20"
-				"autoResize"			"1"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
 				"fgcolor_override"		"255 255 255 255"
 			}
-
 			"DescLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -129,14 +105,11 @@
 				"zpos"					"1"
 				"wide"					"515"
 				"tall"					"200"
-				"autoResize"			"1"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
 				"wrap"					"1"
 				"fgcolor_override"		"255 255 255 255"
 			}
-
 			"LearnMoreButton"
 			{
 				"ControlName"			"CExButton"
@@ -146,11 +119,8 @@
 				"zpos"					"20"
 				"wide"					"200"
 				"tall"					"25"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"0"
 				"labelText"				"#TF_SteamWorkshop_LearnHow"
 				"font"					"Product16"
 				"textAlignment"			"center"
@@ -159,7 +129,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
 		}
-
 		"ItemsContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -169,15 +138,11 @@
 			"zpos"						"1"
 			"wide"						"550"
 			"tall"						"245"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"PaintBackgroundType"		"0"
 			"paintbackground"			"1"
 			"border"					"NoBorder"
-
 			"TitleLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -190,13 +155,10 @@
 				"zpos"					"1"
 				"wide"					"550"
 				"tall"					"20"
-				"autoResize"			"1"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
 				"fgcolor_override"		"86 78 68 255"
 			}
-
 			"SteamWorkshopItem0"
 			{
 				"ControlName"		"CSteamWorkshopItemPanel"
@@ -205,10 +167,8 @@
 				"ypos"				"30"
 				"wide"				"125"
 				"tall"				"200"
-				"pinCorner"			"0"
 				"visible"			"1"
 			}
-
 			"SteamWorkshopItem1"
 			{
 				"ControlName"		"CSteamWorkshopItemPanel"
@@ -217,10 +177,8 @@
 				"ypos"				"30"
 				"wide"				"125"
 				"tall"				"200"
-				"pinCorner"			"0"
 				"visible"			"1"
 			}
-
 			"SteamWorkshopItem2"
 			{
 				"ControlName"		"CSteamWorkshopItemPanel"
@@ -229,10 +187,8 @@
 				"ypos"				"30"
 				"wide"				"125"
 				"tall"				"200"
-				"pinCorner"			"0"
 				"visible"			"1"
 			}
-
 			"SteamWorkshopItem3"
 			{
 				"ControlName"		"CSteamWorkshopItemPanel"
@@ -241,10 +197,8 @@
 				"ypos"				"30"
 				"wide"				"125"
 				"tall"				"200"
-				"pinCorner"			"0"
 				"visible"			"1"
 			}
-
 			"PrevPageButton"
 			{
 				"ControlName"			"CExButton"
@@ -254,21 +208,15 @@
 				"zpos"					"5"
 				"wide"					"25"
 				"tall"					"25"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"0"
 				"labelText"				"<"
 				"font"					"HudFontSmallBold"
 				"textAlignment"			"center"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"Command"				"prevpage"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
-
 			"CurPageLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -281,13 +229,10 @@
 				"zpos"					"5"
 				"wide"					"50"
 				"tall"					"25"
-				"autoResize"			"1"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
 				"fgcolor_override"		"200 80 60 255"
 			}
-
 			"NextPageButton"
 			{
 				"ControlName"			"CExButton"
@@ -297,21 +242,15 @@
 				"zpos"					"5"
 				"wide"					"25"
 				"tall"					"25"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"0"
 				"labelText"				">"
 				"font"					"HudFontSmallBold"
 				"textAlignment"			"center"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"Command"				"nextpage"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
-
 			"ViewPublishedButton"
 			{
 				"ControlName"			"CExButton"
@@ -321,22 +260,16 @@
 				"zpos"					"20"
 				"wide"					"100"
 				"tall"					"25"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"0"
 				"labelText"				"#TF_SteamWorkshop_ViewPublished"
 				"font"					"HudFontSmallBold"
 				"textAlignment"			"center"
 				"textinsetx"			"50"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"Command"				"view_files"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
-
 			"EditButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -345,17 +278,12 @@
 				"ypos"							"215"
 				"wide"							"100"
 				"tall"							"25"
-				"autoResize"					"0"
-				"pinCorner"						"3"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"textinsetx"					"25"
 				"use_proportional_insets"		"1"
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"west"
-				"dulltext"						"0"
-				"brighttext"					"0"
 				"default"						"1"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -363,7 +291,6 @@
 				"command"						"edit"
 				"image_drawcolor"				"235 226 202 255"
 				"image_disabledcolor"			"0 0 0 255"
-
 				"SubImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -379,7 +306,6 @@
 					"image"				"glyph_workshop_edit"
 				}
 			}
-
 			"ViewButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -388,17 +314,12 @@
 				"ypos"							"215"
 				"wide"							"100"
 				"tall"							"25"
-				"autoResize"					"0"
-				"pinCorner"						"3"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"textinsetx"					"25"
 				"use_proportional_insets"		"1"
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"west"
-				"dulltext"						"0"
-				"brighttext"					"0"
 				"default"						"1"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -406,7 +327,6 @@
 				"command"						"view"
 				"image_drawcolor"				"235 226 202 255"
 				"image_disabledcolor"			"0 0 0 255"
-
 				"SubImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -422,7 +342,6 @@
 					"image"				"glyph_workshop_view"
 				}
 			}
-
 			"DeleteButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -431,17 +350,12 @@
 				"ypos"							"215"
 				"wide"							"100"
 				"tall"							"25"
-				"autoResize"					"0"
-				"pinCorner"						"3"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"textinsetx"					"25"
 				"use_proportional_insets"		"1"
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"west"
-				"dulltext"						"0"
-				"brighttext"					"0"
 				"default"						"1"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -449,7 +363,6 @@
 				"command"						"delete_item"
 				"image_drawcolor"				"235 226 202 255"
 				"image_disabledcolor"			"0 0 0 255"
-
 				"SubImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -466,7 +379,6 @@
 				}
 			}
 		}
-
 		"BrowseButton"
 		{
 			"ControlName"				"CExButton"
@@ -476,11 +388,8 @@
 			"zpos"						"20"
 			"wide"						"200"
 			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"labelText"					"#TF_SteamWorkshop_BrowseTheWorkshop"
 			"font"						"HudFontSmallestBold"
 			"textAlignment"				"center"
@@ -492,7 +401,6 @@
 			"armedbgcolor_override"		"55 55 55 255"
 			"paintbackground"			"1"
 		}
-
 		"LoadTestMapButton"
 		{
 			"ControlName"				"CExButton"
@@ -502,11 +410,8 @@
 			"zpos"						"20"
 			"wide"						"200"
 			"tall"						"25"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"labelText"					"#TF_SteamWorkshop_Test"
 			"font"						"Product16"
 			"textAlignment"				"center"
@@ -518,7 +423,6 @@
 			"armedbgcolor_override"		"55 55 55 255"
 			"paintbackground"			"1"
 		}
-
 		"PublishButton"
 		{
 			"ControlName"				"CExButton"
@@ -528,11 +432,8 @@
 			"zpos"						"20"
 			"wide"						"200"
 			"tall"						"25"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"labelText"					"#TF_SteamWorkshop_Publish"
 			"font"						"Product16"
 			"textAlignment"				"center"
@@ -544,7 +445,6 @@
 			"armedbgcolor_override"		"55 55 55 255"
 			"paintbackground"			"1"
 		}
-
 		"LearnMore2Button"
 		{
 			"ControlName"			"CExButton"
@@ -554,11 +454,8 @@
 			"zpos"					"20"
 			"wide"					"150"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_SteamWorkshop_Instructions"
 			"font"					"Product16"
 			"textAlignment"			"center"
@@ -566,7 +463,6 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"ViewLegalAgreementButton"
 		{
 			"ControlName"			"CExButton"
@@ -576,22 +472,16 @@
 			"zpos"					"20"
 			"wide"					"200"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_SteamWorkshop_Legal"
 			"font"					"Product12"
 			"textAlignment"			"center"
 			"textinsetx"			"50"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"Command"				"view_legal_agreement"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -601,17 +491,12 @@
 			"zpos"					"20"
 			"wide"					"100"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_Close"
 			"font"					"Product12"
 			"textAlignment"			"center"
 			"textinsetx"			"50"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"Command"				"cancel"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"

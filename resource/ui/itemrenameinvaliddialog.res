@@ -1,7 +1,6 @@
 "Resource/UI/ItemRenameInvalidDialog.res"
 {
 	// Need to be named ItemRenameConfirmationDialog, because it uses the same base confirmation dialog in code
-
 	"ItemRenameConfirmationDialog"
 	{
 		"fieldName"					"ItemRenameConfirmationDialog"
@@ -17,7 +16,6 @@
 		"settitlebarvisible"		"0"
 		"border"					"none"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -37,7 +35,6 @@
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-
 		"attriblabel"
 		{
 			"font"				"ItemFontAttribLarge"
@@ -46,8 +43,6 @@
 			"zpos"				"2"
 			"wide"				"140"
 			"tall"				"60"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"%attriblist%"
@@ -56,7 +51,6 @@
 			"centerwrap"		"1"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -69,13 +63,10 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"60"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
 	"ToolBG"
 	{
 		"ControlName"			"CExLabel"
@@ -88,14 +79,11 @@
 		"zpos"					"-1"
 		"wide"					"84"
 		"tall"					"64"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
 		"border"				"BackpackItemBorder_SelfMade"
 	}
-
 	"tool_icon"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -112,7 +100,6 @@
 		"tileVertically"		"0"
 		"drawcolor"				"112 176 74 255"
 	}
-
 	"tool_modelpanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -134,14 +121,12 @@
 		"text_ypos"					"100"	// Hide it off the bottom
 		"text_center"				"1"
 		"name_only"					"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"SubjectBG"
 	{
 		"ControlName"			"CExLabel"
@@ -154,14 +139,11 @@
 		"zpos"					"-1"
 		"wide"					"84"
 		"tall"					"64"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
 		"border"				"BackpackItemBorder_Vintage"
 	}
-
 	"subject_icon"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -178,7 +160,6 @@
 		"tileVertically"		"0"
 		"drawcolor"				"71 98 145 255"
 	}
-
 	"subject_modelpanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -200,14 +181,12 @@
 		"text_ypos"					"100"	// Hide it off the bottom
 		"text_center"				"1"
 		"name_only"					"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"ConfirmLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -220,13 +199,10 @@
 		"zpos"					"0"
 		"wide"					"360"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"GivenName"
 	{
 		"ControlName"			"CExLabel"
@@ -239,13 +215,10 @@
 		"zpos"					"0"
 		"wide"					"360"
 		"tall"					"32"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"235 226 202 255"
 	}
-
 	"WarningLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -258,13 +231,10 @@
 		"zpos"					"0"
 		"wide"					"400"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"BackFromInvalidButton"
 	{
 		"ControlName"			"CExButton"
@@ -274,16 +244,11 @@
 		"zpos"					"1"
 		"wide"					"130"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_OK"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"backfrominvalid"
 		"sound_depressed"		"UI/buttonclick.wav"

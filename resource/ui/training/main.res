@@ -8,14 +8,10 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"bgcolor_override"		"0 0 0 200"
 	}
-
 	"Container"
 	{
 		"ControlName"				"EditablePanel"
@@ -25,15 +21,11 @@
 		"zpos"						"0"
 		"wide"						"450"
 		"tall"						"400"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"1"
 		"border"					""
-
 		"GradientBgPanel"
 		{
 			"ControlName"				"ImagePanel"
@@ -51,7 +43,6 @@
 			"paintbackgroundtype"		"2"
 			"paintbackground"			"1"
 		}
-
 		"Background"
 		{
 			"ControlName"			"EditablePanel"
@@ -60,14 +51,10 @@
 			"ypos"					"0"
 			"wide"					"450"
 			"tall"					"500"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"bgcolor_override"		"19 19 22 255"
 		}
-
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -80,12 +67,9 @@
 			"zpos"				"1"
 			"wide"				"450"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"SubTitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -98,12 +82,9 @@
 			"zpos"				"1"
 			"wide"				"450"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"BackButton"
 		{
 			"ControlName"			"CExButton"
@@ -112,22 +93,16 @@
 			"zpos"					"20"
 			"wide"					"100"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_BackCarat"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
 			"textinsetx"			"50"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"Command"				"prevpage"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -136,22 +111,16 @@
 			"zpos"					"20"
 			"wide"					"100"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#Cancel"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
 			"textinsetx"			"50"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"Command"				"cancel"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"ModeSelectionPanel"
 		{
 			"ControlName"			"CModeSelectionPanel"
@@ -161,15 +130,11 @@
 			"zpos"					"2"
 			"wide"					"500"
 			"tall"					"400"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"paintBackground"		"0"
 			"TrainingTitle"			"#TF_Training_Title"
 		}
-
 		"BasicTraining_ClassSelectionPanel"
 		{
 			"ControlName"			"CBasicTraining_ClassSelectionPanel"
@@ -179,11 +144,8 @@
 			"zpos"					"2"
 			"wide"					"430"
 			"tall"					"400"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"paintBackground"		"0"
 			"TrainingTitle"			"#TR_AttackDefense"
 			"TrainingSubTitle"		"#TF_SelectAClass"
@@ -200,7 +162,6 @@
 			"Class2Command"			"basictraining_classselection_spy"
 			"Class3Command"			"basictraining_classselection_engineer"
 		}
-
 		"BasicTraining_ClassDetailsPanel"
 		{
 			"ControlName"			"CBasicTraining_ClassDetailsPanel"
@@ -210,15 +171,11 @@
 			"zpos"					"2"
 			"wide"					"450"
 			"tall"					"500"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"paintBackground"		"0"
 			"TrainingTitle"			"#TR_AttackDefense"
 		}
-
 		"OfflinePractice_ModeSelectionPanel"
 		{
 			"ControlName"			"COfflinePractice_ModeSelectionPanel"
@@ -227,11 +184,8 @@
 			"ypos"					"50"
 			"wide"					"450"
 			"tall"					"500"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"paintBackground"		"0"
 			"TrainingTitle"			"#TR_PracticeModeSelectTitle"
 			"Mode0Token"			"#Gametype_CP"
@@ -247,7 +201,6 @@
 			"Image2Path"			"illustrations/gamemode_payload"
 			"Mode2Id"				"2"
 		}
-
 		"OfflinePractice_MapSelectionPanel"
 		{
 			"ControlName"			"COfflinePractice_MapSelectionPanel"
@@ -256,11 +209,8 @@
 			"ypos"					"50"
 			"wide"					"450"
 			"tall"					"500"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"paintBackground"		"0"
 			"TrainingTitle"			"#TR_PracticeMapSelectTitle"
 		}

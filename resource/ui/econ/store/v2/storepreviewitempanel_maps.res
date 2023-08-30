@@ -9,14 +9,10 @@
 		"zpos"				"1000"
 		"wide"				"f0"
 		"tall"				"f0"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 	}
 	// Fullscreen background panel
-
 	"BgPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -32,7 +28,6 @@
 		"bgcolor_override"			"0 0 0 128"
 	}
 	// Rounded dialog border
-
 	"DialogFrame"
 	{
 		"ControlName"			"EditablePanel"
@@ -48,7 +43,6 @@
 		"border"				"none"
 		"PaintBorder"			"0"
 		// Background for the player model & item preview panels
-
 		"PreviewViewportBg"
 		{
 			"ControlName"		"EditablePanel"
@@ -64,7 +58,6 @@
 			"border"			"StoreInnerShadowBorder"
 		}
 		// 90-degree corners on the top part of the footer
-
 		"FooterTopPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -82,7 +75,6 @@
 			"bgcolor_override"			"50 46 41 255"
 		}
 		// Rounded corners on the bottom of the footer
-
 		"FootBottomPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -100,7 +92,6 @@
 			"bgcolor_override"			"50 46 41 255"
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"					"CTFPlayerModelPanel"
@@ -110,8 +101,6 @@
 		"zpos"							"1"
 		"wide"							"220"
 		"tall"							"220"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
 		"render_texture"				"0"
@@ -120,7 +109,6 @@
 		"paintbackground"				"1"
 		"paintbackgroundenabled"		"1"
 		"bgcolor_override"				"255 255 255 0"
-
 		"model"
 		{
 			"force_pos"				"1"
@@ -137,7 +125,6 @@
 			"modelname"				""
 		}
 	}
-
 	"PreviewItemModelPanel"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -159,7 +146,6 @@
 		"model_only"			"1"
 		"paint_icon_hide"		"0"
 		"text_ypos"				"10"
-
 		"itemmodelpanel"
 		{
 			"inventory_image_type"		"2"
@@ -167,7 +153,6 @@
 			"force_square_image"		"1"
 		}
 	}
-
 	"ItemNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -179,14 +164,11 @@
 		"ypos"				"c-132"
 		"wide"				"260"
 		"tall"				"33"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
 		"centerwrap"		"1"
 	}
-
 	"ClassUsageImage1"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -203,7 +185,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"ClassUsageImage2"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -220,7 +201,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"ClassUsageImage3"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -237,7 +217,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"ClassUsageImage4"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -254,7 +233,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"ClassUsageImage5"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -271,7 +249,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"ClassUsageImage6"
 	{
 		"ControlName"					"CStorePreviewClassIcon"
@@ -288,7 +265,6 @@
 		"image_indent"					"2"
 		"PaintBackgroundType"			"2"
 	}
-
 	"IconsMoveLeftButton"
 	{
 		"ControlName"			"CExButton"
@@ -298,21 +274,15 @@
 		"zpos"					"20"
 		"wide"					"15"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"<"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"command"				"icons_left"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"IconsMoveRightButton"
 	{
 		"ControlName"			"CExButton"
@@ -322,21 +292,15 @@
 		"zpos"					"20"
 		"wide"					"15"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				">"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"command"				"icons_right"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -348,8 +312,6 @@
 		"zpos"						"100"
 		"wide"						"230"
 		"tall"						"55"
-		"autoResize"				"1"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"0 0 0 0"
@@ -359,7 +321,6 @@
 		"textinsetx"				"100"
 		"border"					"LoadoutItemPopupBorder"
 	}
-
 	"RotLeftButton"
 	{
 		"ControlName"			"CPreviewRotButton"
@@ -369,21 +330,15 @@
 		"zpos"					"20"
 		"wide"					"20"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"<"
 		"font"					"HudFontMediumSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"-1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"RotRightButton"
 	{
 		"ControlName"			"CPreviewRotButton"
@@ -393,21 +348,15 @@
 		"zpos"					"20"
 		"wide"					"20"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				">"
 		"font"					"HudFontMediumSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"NextWeaponButton"
 	{
 		"ControlName"			"CExButton"
@@ -417,22 +366,16 @@
 		"zpos"					"20"
 		"wide"					"95"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_NextWeapon"
 		"font"					"HudFontSmallest"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"next_weapon"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ZoomButton"
 	{
 		"ControlName"			"CExButton"
@@ -442,22 +385,16 @@
 		"zpos"					"20"
 		"wide"					"50"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_Zoom"
 		"font"					"HudFontSmallest"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"zoom_toggle"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"TeamButton"
 	{
 		"ControlName"			"CExButton"
@@ -467,22 +404,16 @@
 		"zpos"					"20"
 		"wide"					"50"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_Team"
 		"font"					"HudFontSmallest"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"team_toggle"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"PaintNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -494,14 +425,11 @@
 		"ypos"				"168"
 		"wide"				"110"
 		"tall"				"25"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
 		"centerwrap"		"1"
 	}
-
 	"StyleNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -513,14 +441,11 @@
 		"ypos"				"148"
 		"wide"				"110"
 		"tall"				"25"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
 		"centerwrap"		"1"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"			"CExImageButton"
@@ -530,24 +455,17 @@
 		"zpos"					"10"
 		"wide"					"14"
 		"tall"					"14"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labeltext"				""
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"Command"				"close"
 		"paintbackground"		"0"
 		"image_drawcolor"		"118 107 94 255"
 		"image_armedcolor"		"246 247 213 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -563,7 +481,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"			"CExButton"
@@ -573,22 +490,16 @@
 		"zpos"					"2"
 		"wide"					"80"
 		"tall"					"22"
-		"autoResize"			"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_BackCarat"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"1"
 		"Command"				"close"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"fgcolor"				"White"
 	}
-
 	"AddToCartButton"
 	{
 		"ControlName"					"CExButton"
@@ -598,15 +509,11 @@
 		"zpos"							"2"
 		"wide"							"160"
 		"tall"							"27"
-		"autoResize"					"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"#Store_AddToCart"
 		"font"							"HudFontSmallishBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"addtocart"
 		"sound_depressed"				"UI/buttonclick.wav"

@@ -11,7 +11,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"MapName"
 	{
 		"ControlName"				"CExLabel"
@@ -32,7 +31,6 @@
 	// TEAMS ANCHOR
 	// This element can be used to move all the team selection elements as a whole
 	// ==================================================================================================================================================
-
 	"TeamsAnchor"	// THIS MOVES THE WHOLE TEAM MENU
 	{
 		"ControlName"				"EditablePanel"
@@ -47,7 +45,6 @@
 		"alpha"						"0"
 	}
 	// ==================================================================================================================================================
-
 	"WhiteBar"
 	{
 		"ControlName"				"EditablePanel"
@@ -65,7 +62,6 @@
 		"bgcolor_override"			"White"
 		"pin_to_sibling"			"TeamsAnchor"
 	}
-
 	"FightButton"
 	{
 		"ControlName"					"CExButton"
@@ -98,7 +94,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"			"PIN_TOPLEFT"
 	}
-
 	"FightShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -108,7 +103,6 @@
 		"Command"			"jointeam spectate"
 		"visible"			"1"
 	}
-
 	"FightCount"
 	{
 		"ControlName"				"CExLabel"
@@ -129,7 +123,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"SpectateButton"
 	{
 		"ControlName"					"CExButton"
@@ -147,7 +140,6 @@
 		"labeltext"						"Spectate"
 		"textAlignment"					"east"
 		"command"						"jointeam spectatearena"
-		"default"						"1"
 		"proportionaltoparent"			"1"
 		"RoundedCorners"				"0"
 		"sound_depressed"				"UI/buttonclick.wav"
@@ -162,7 +154,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 	}
-
 	"SpectateShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -172,7 +163,6 @@
 		"Command"			"jointeam spectatearena"
 		"visible"			"1"
 	}
-
 	"SpectateCount"
 	{
 		"ControlName"			"CExLabel"
@@ -194,63 +184,54 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"teambutton2"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton2"
 		"xpos"				"9999"
 	}
-
 	"teambutton3"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton3"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"autodoor"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"autodoor"
 		"xpos"				"9999"
 	}
-
 	"spectate"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"spectate"
 		"xpos"				"9999"
 	}
-
 	"SysMenu"
 	{
 		"ControlName"		"Menu"
 		"fieldName"			"SysMenu"
 		"xpos"				"9999"
 	}
-
 	"MapInfo"
 	{
 		"ControlName"		"HTML"
 		"fieldName"			"MapInfo"
 		"xpos"				"9999"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
 		"xpos"				"9999"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"

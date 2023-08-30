@@ -1,5 +1,4 @@
 "#base"		"StoreHome_Base.res"
-
 "Resource/UI/StoreHome_Premium.res"
 {
 	"PremiumCallout"
@@ -13,7 +12,6 @@
 		"tall"				"300"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"MannCoImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -31,7 +29,6 @@
 			// "visible"		"1"
 			// "image"		"store/store_halloween_premium_callout"
 			// }
-
 			"if_christmas"
 			{
 				"visible"		"1"

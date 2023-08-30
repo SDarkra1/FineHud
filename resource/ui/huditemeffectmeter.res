@@ -12,7 +12,6 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -28,7 +27,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 180"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,18 +36,12 @@
 		"zpos"				"2"
 		"wide"				"41"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Product10"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -60,12 +52,8 @@
 		"zpos"				"2"
 		"wide"				"60"
 		"tall"				"5"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 }

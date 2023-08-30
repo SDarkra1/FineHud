@@ -3,7 +3,6 @@
 	"Fonts"
 	{
 		// BEBAS NEUE
-
 		"Bebas8"
 		{
 			"1"
@@ -14,7 +13,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas10"
 		{
 			"1"
@@ -25,7 +23,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas12"
 		{
 			"1"
@@ -36,7 +33,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas16"
 		{
 			"1"
@@ -47,7 +43,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas18"
 		{
 			"1"
@@ -58,7 +53,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas24"
 		{
 			"1"
@@ -69,7 +63,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas32"
 		{
 			"1"
@@ -80,7 +73,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Bebas48"
 		{
 			"1"
@@ -92,7 +84,6 @@
 			}
 		}
 		// MURO
-
 		"Muro8"
 		{
 			"1"
@@ -103,7 +94,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro10"
 		{
 			"1"
@@ -114,7 +104,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro11"
 		{
 			"1"
@@ -125,7 +114,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro12"
 		{
 			"1"
@@ -136,7 +124,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro16"
 		{
 			"1"
@@ -147,7 +134,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro18"
 		{
 			"1"
@@ -158,7 +144,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro24"
 		{
 			"1"
@@ -169,7 +154,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro28"
 		{
 			"1"
@@ -180,7 +164,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro30"
 		{
 			"1"
@@ -191,7 +174,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro32"
 		{
 			"1"
@@ -202,7 +184,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro40"
 		{
 			"1"
@@ -213,7 +194,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Muro48"
 		{
 			"1"
@@ -225,7 +205,6 @@
 			}
 		}
 		// CODE
-
 		"Code8"
 		{
 			"1"
@@ -236,7 +215,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code12"
 		{
 			"1"
@@ -247,7 +225,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code14"
 		{
 			"1"
@@ -258,7 +235,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code16"
 		{
 			"1"
@@ -269,7 +245,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code18"
 		{
 			"1"
@@ -280,7 +255,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code24"
 		{
 			"1"
@@ -291,7 +265,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code32"
 		{
 			"1"
@@ -302,7 +275,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Code48"
 		{
 			"1"
@@ -314,7 +286,6 @@
 			}
 		}
 		// ICONS
-
 		"Icons8"
 		{
 			"1"
@@ -325,7 +296,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons12"
 		{
 			"1"
@@ -336,7 +306,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons16"
 		{
 			"1"
@@ -347,7 +316,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons18"
 		{
 			"1"
@@ -358,7 +326,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons24"
 		{
 			"1"
@@ -369,7 +336,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons28"
 		{
 			"1"
@@ -380,7 +346,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Icons32"
 		{
 			"1"
@@ -391,7 +356,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols8"
 		{
 			"1"
@@ -402,7 +366,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols12"
 		{
 			"1"
@@ -413,7 +376,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols14"
 		{
 			"1"
@@ -424,7 +386,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols16"
 		{
 			"1"
@@ -435,7 +396,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols18"
 		{
 			"1"
@@ -446,7 +406,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols24"
 		{
 			"1"
@@ -457,7 +416,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols28"
 		{
 			"1"
@@ -468,7 +426,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Symbols32"
 		{
 			"1"
@@ -479,7 +436,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons8"
 		{
 			"1"
@@ -490,7 +446,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons12"
 		{
 			"1"
@@ -501,7 +456,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons16"
 		{
 			"1"
@@ -512,7 +466,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons18"
 		{
 			"1"
@@ -523,7 +476,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons24"
 		{
 			"1"
@@ -534,7 +486,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"m0reicons32"
 		{
 			"1"
@@ -546,7 +497,6 @@
 			}
 		}
 		// PRODUCT SANS
-
 		"product6"
 		{
 			"1"
@@ -557,7 +507,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product8"
 		{
 			"1"
@@ -568,7 +517,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product10"
 		{
 			"1"
@@ -579,7 +527,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product12"
 		{
 			"1"
@@ -590,7 +537,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product14"
 		{
 			"1"
@@ -601,7 +547,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product16"
 		{
 			"1"
@@ -612,7 +557,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product18"
 		{
 			"1"
@@ -623,7 +567,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product20"
 		{
 			"1"
@@ -634,7 +577,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product22"
 		{
 			"1"
@@ -645,7 +587,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product24"
 		{
 			"1"
@@ -656,7 +597,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product32"
 		{
 			"1"
@@ -667,7 +607,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product36"
 		{
 			"1"
@@ -678,7 +617,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product40"
 		{
 			"1"
@@ -689,7 +627,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product44"
 		{
 			"1"
@@ -700,7 +637,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product48"
 		{
 			"1"
@@ -711,7 +647,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product49"
 		{
 			"1"
@@ -722,7 +657,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product50"
 		{
 			"1"
@@ -733,7 +667,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"product52"
 		{
 			"1"
@@ -745,7 +678,6 @@
 			}
 		}
 		// PIZZA TOWER
-
 		"pizza6"
 		{
 			"1"
@@ -756,7 +688,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza8"
 		{
 			"1"
@@ -767,7 +698,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza10"
 		{
 			"1"
@@ -778,7 +708,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza12"
 		{
 			"1"
@@ -789,7 +718,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza14"
 		{
 			"1"
@@ -800,7 +728,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza16"
 		{
 			"1"
@@ -811,7 +738,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza18"
 		{
 			"1"
@@ -822,7 +748,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza20"
 		{
 			"1"
@@ -833,7 +758,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza22"
 		{
 			"1"
@@ -844,7 +768,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza24"
 		{
 			"1"
@@ -855,7 +778,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza32"
 		{
 			"1"
@@ -866,7 +788,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza36"
 		{
 			"1"
@@ -877,7 +798,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza40"
 		{
 			"1"
@@ -888,7 +808,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza44"
 		{
 			"1"
@@ -899,7 +818,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza48"
 		{
 			"1"
@@ -910,7 +828,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza49"
 		{
 			"1"
@@ -921,7 +838,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza50"
 		{
 			"1"
@@ -932,7 +848,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"pizza52"
 		{
 			"1"
@@ -943,7 +858,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultFixedOutline"	// Netgraph Font
 		{
 			"1"
@@ -955,7 +869,6 @@
 			}
 		}
 	}
-
 	"CustomFontFiles"
 	{
 		"1"
@@ -963,55 +876,46 @@
 			"font"		"resource/scheme/fonts/BebasNeue-Regular.ttf"
 			"name"		"Bebas Neue Regular"
 		}
-
 		"2"
 		{
 			"font"		"resource/scheme/fonts/big_noodle_titling.ttf"
 			"name"		"BigNoodleTitling"
 		}
-
 		"3"
 		{
 			"font"		"resource/scheme/fonts/Muro.otf"
 			"name"		"Muro"
 		}
-
 		"4"
 		{
 			"font"		"resource/scheme/fonts/TF2_Icons.ttf"
 			"name"		"TF2 Icons"
 		}
-
 		"5"
 		{
 			"font"		"resource/scheme/fonts/Product_Sans.ttf"
 			"name"		"Product Sans"
 		}
-
 		"6"
 		{
 			"font"		"resource/scheme/fonts/hypnotize_icons.ttf"
 			"name"		"Hypnotize Icons HEx5"
 		}
-
 		"7"
 		{
 			"font"		"resource/scheme/fonts/TF2CharacterIcons.ttf"
 			"name"		"TF2 Character Icons"
 		}
-
 		"8"
 		{
 			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons v3"
 		}
-
 		"9"
 		{
 			"font"		"resource/scheme/fonts/TF2Crosshairs.ttf"
 			"name"		"TF2Crosshairs"
 		}
-
 		"10"
 		{
 			"font"		"resource/scheme/fonts/pizza_tower.ttf"

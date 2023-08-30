@@ -18,7 +18,6 @@
 		"fgcolor"			"White"
 		"textAlignment"		"center"
 	}
-
 	"BalanceLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -40,14 +39,12 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"HudTeamSwitchBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"HudTeamSwitchBG"
 		"xpos"				"9999"
 	}
-
 	"SwitchImage"
 	{
 		"ControlName"		"CTFImagePanel"

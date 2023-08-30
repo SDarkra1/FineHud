@@ -2,13 +2,12 @@
 {
 	"defaults"
 	{
-		"difficulty"	"easy"
-		"min_players"	"1"
-		"max_players"	"32"
-		"suggested_players"	"16"
-		"map"			"cp_dustbowl"
+		"difficulty"			"easy"
+		"min_players"			"1"
+		"max_players"			"32"
+		"suggested_players"		"16"
+		"map"					"cp_dustbowl"
 	}
-	
 	"maps"
 	{
 		"cp_5gorge"
@@ -304,7 +303,7 @@
 			"name"				"Badwater Basin"
 			"min_players"		"12"
 			"max_players"		"24"
-		}	
+		}
 		"pl_barnblitz"
 		{
 			"name"				"Barnblitz"
@@ -401,13 +400,13 @@
 			"min_players"		"12"
 			"max_players"		"24"
 		}
-	//PL Swiftwater is not supported
-	//	"pl_swiftwater_final1"
-	//	{
-	//		"name"				"Swiftwater"
-	//		"min_players"		"12"
-	//		"max_players"		"24"
-	//	}
+		// PL Swiftwater is not supported
+		// "pl_swiftwater_final1"
+		// {
+		// "name"				"Swiftwater"
+		// "min_players"		"12"
+		// "max_players"		"24"
+		// }
 		"pl_terror_event"
 		{
 			"name"				"Terror"
@@ -426,12 +425,12 @@
 			"min_players"		"12"
 			"max_players"		"24"
 		}
-	//PL Wutville is not supported
-	//	"pl_wutville"
-	//	{
-	//		"name"				"Wutville"
-	//		"min_players"		"12"
-	//		"max_players"		"24"
-	//	}
+		// PL Wutville is not supported
+		// "pl_wutville"
+		// {
+		// "name"				"Wutville"
+		// "min_players"		"12"
+		// "max_players"		"24"
+		// }
 	}
 }

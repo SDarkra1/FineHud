@@ -12,7 +12,6 @@
 		"enabled"				"1"
 		"bgcolor_override"		"11 11 11 255"
 	}
-
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -26,7 +25,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"OnYourWayLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -39,12 +37,9 @@
 		"zpos"				"50"
 		"wide"				"360"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -59,12 +54,9 @@
 		"zpos"				"50"
 		"wide"				"350"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"MapType"
 	{
 		"ControlName"		"CExLabel"
@@ -77,12 +69,9 @@
 		"zpos"				"50"
 		"wide"				"350"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"StatData"
 	{
 		"ControlName"		"EditablePanel"
@@ -94,7 +83,6 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"NonInteractiveHeaders"
 		{
 			"ControlName"		"EditablePanel"
@@ -106,7 +94,6 @@
 			"tall"				"480"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"BarChartLabelA"
 			{
 				"ControlName"		"Label"
@@ -119,12 +106,9 @@
 				"zpos"				"5"
 				"wide"				"150"
 				"tall"				"20"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 			}
-
 			"BarChartLabelB"
 			{
 				"ControlName"		"Label"
@@ -137,12 +121,9 @@
 				"zpos"				"5"
 				"wide"				"150"
 				"tall"				"20"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 			}
-
 			"OverallRecordLabel"
 			{
 				"ControlName"		"Label"
@@ -155,13 +136,10 @@
 				"zpos"				"5"
 				"wide"				"200"
 				"tall"				"20"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 			}
 		}
-
 		"InteractiveHeaders"
 		{
 			"ControlName"		"EditablePanel"
@@ -173,7 +151,6 @@
 			"tall"				"480"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"BarChartComboA"
 			{
 				"ControlName"			"ComboBox"
@@ -183,18 +160,14 @@
 				"zpos"					"10"
 				"wide"					"154"
 				"tall"					"14"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"1"
 				"textHidden"			"0"
 				"editable"				"0"
 				"maxchars"				"-1"
 				"NumericInputOnly"		"0"
 				"unicode"				"0"
 			}
-
 			"BarChartComboB"
 			{
 				"ControlName"			"ComboBox"
@@ -204,18 +177,14 @@
 				"zpos"					"10"
 				"wide"					"154"
 				"tall"					"14"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"1"
 				"textHidden"			"0"
 				"editable"				"0"
 				"maxchars"				"-1"
 				"NumericInputOnly"		"0"
 				"unicode"				"0"
 			}
-
 			"ClassCombo"
 			{
 				"ControlName"			"ComboBox"
@@ -225,11 +194,8 @@
 				"zpos"					"10"
 				"wide"					"167"
 				"tall"					"14"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"1"
 				"textHidden"			"0"
 				"editable"				"0"
 				"maxchars"				"-1"
@@ -237,7 +203,6 @@
 				"unicode"				"0"
 			}
 		}
-
 		"AveragesBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -254,13 +219,10 @@
 			"tall"				"300"
 			"tall_hidef"		"633"
 			"tall_lodef"		"633"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"1"
 			"border"			"TFThinLineBorder"
 		}
-
 		"AveragesLabel"
 		{
 			"ControlName"		"Label"
@@ -274,12 +236,9 @@
 			"ypos_lodef"		"32"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG1A"
 		{
 			"ControlName"				"ImagePanel"
@@ -289,15 +248,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG1B"
 		{
 			"ControlName"				"ImagePanel"
@@ -307,15 +262,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar1A"
 		{
 			"ControlName"				"ImagePanel"
@@ -325,15 +276,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"251 111 146 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar1B"
 		{
 			"ControlName"				"ImagePanel"
@@ -343,15 +290,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"251 111 146 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel1A"
 		{
 			"ControlName"		"Label"
@@ -364,12 +307,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel1B"
 		{
 			"ControlName"		"Label"
@@ -382,12 +322,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel1"
 		{
 			"ControlName"		"Label"
@@ -400,12 +337,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG2A"
 		{
 			"ControlName"				"ImagePanel"
@@ -415,15 +349,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG2B"
 		{
 			"ControlName"				"ImagePanel"
@@ -433,15 +363,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar2A"
 		{
 			"ControlName"				"ImagePanel"
@@ -451,15 +377,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"253 127 159 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar2B"
 		{
 			"ControlName"				"ImagePanel"
@@ -469,15 +391,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"253 127 159 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel2A"
 		{
 			"ControlName"		"Label"
@@ -490,12 +408,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel2B"
 		{
 			"ControlName"		"Label"
@@ -508,12 +423,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel2"
 		{
 			"ControlName"		"Label"
@@ -526,12 +438,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG3A"
 		{
 			"ControlName"				"ImagePanel"
@@ -541,15 +450,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG3B"
 		{
 			"ControlName"				"ImagePanel"
@@ -559,15 +464,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar3A"
 		{
 			"ControlName"				"ImagePanel"
@@ -577,15 +478,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 143 171 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar3B"
 		{
 			"ControlName"				"ImagePanel"
@@ -595,15 +492,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 143 171 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel3A"
 		{
 			"ControlName"		"Label"
@@ -616,12 +509,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel3B"
 		{
 			"ControlName"		"Label"
@@ -634,12 +524,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel3"
 		{
 			"ControlName"		"Label"
@@ -652,12 +539,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG4A"
 		{
 			"ControlName"				"ImagePanel"
@@ -667,15 +551,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG4B"
 		{
 			"ControlName"				"ImagePanel"
@@ -685,15 +565,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar4A"
 		{
 			"ControlName"				"ImagePanel"
@@ -703,15 +579,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 161 185 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar4B"
 		{
 			"ControlName"				"ImagePanel"
@@ -721,15 +593,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 161 185 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel4A"
 		{
 			"ControlName"		"Label"
@@ -742,12 +610,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel4B"
 		{
 			"ControlName"		"Label"
@@ -760,12 +625,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel4"
 		{
 			"ControlName"		"Label"
@@ -778,12 +640,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG5A"
 		{
 			"ControlName"				"ImagePanel"
@@ -793,15 +652,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG5B"
 		{
 			"ControlName"				"ImagePanel"
@@ -811,15 +666,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar5A"
 		{
 			"ControlName"				"ImagePanel"
@@ -829,15 +680,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 179 198 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar5B"
 		{
 			"ControlName"				"ImagePanel"
@@ -847,15 +694,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 179 198 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel5A"
 		{
 			"ControlName"		"Label"
@@ -868,12 +711,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel5B"
 		{
 			"ControlName"		"Label"
@@ -886,12 +726,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel5"
 		{
 			"ControlName"		"Label"
@@ -904,12 +741,9 @@
 			"zpos"				"5"
 			"wide"				"282"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG6A"
 		{
 			"ControlName"				"ImagePanel"
@@ -919,15 +753,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG6B"
 		{
 			"ControlName"				"ImagePanel"
@@ -937,15 +767,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar6A"
 		{
 			"ControlName"				"ImagePanel"
@@ -955,15 +781,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 187 204 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar6B"
 		{
 			"ControlName"				"ImagePanel"
@@ -973,15 +795,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 187 204 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel6A"
 		{
 			"ControlName"		"Label"
@@ -994,12 +812,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel6B"
 		{
 			"ControlName"		"Label"
@@ -1012,12 +827,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel6"
 		{
 			"ControlName"		"Label"
@@ -1030,12 +842,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG7A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1045,15 +854,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG7B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1063,15 +868,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar7A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1081,15 +882,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 194 209 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar7B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1099,15 +896,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 194 209 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel7A"
 		{
 			"ControlName"		"Label"
@@ -1120,12 +913,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel7B"
 		{
 			"ControlName"		"Label"
@@ -1138,12 +928,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel7"
 		{
 			"ControlName"		"Label"
@@ -1158,12 +945,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG8A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1173,15 +957,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG8B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1191,15 +971,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar8A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1209,15 +985,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 212 223 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar8B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1227,15 +999,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 212 223 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel8A"
 		{
 			"ControlName"		"Label"
@@ -1248,12 +1016,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel8B"
 		{
 			"ControlName"		"Label"
@@ -1266,12 +1031,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel8"
 		{
 			"ControlName"		"Label"
@@ -1284,12 +1046,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarBG9A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1299,15 +1058,11 @@
 			"zpos"						"2"
 			"wide"						"312"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarBG9B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1317,15 +1072,11 @@
 			"zpos"						"2"
 			"wide"						"70"
 			"tall"						"16"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar9A"
 		{
 			"ControlName"				"ImagePanel"
@@ -1335,15 +1086,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 229 236 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBar9B"
 		{
 			"ControlName"				"ImagePanel"
@@ -1353,15 +1100,11 @@
 			"zpos"						"3"
 			"wide"						"151"
 			"tall"						"12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"255 229 236 255"
 			"PaintBackgroundType"		"0"
 		}
-
 		"ClassBarLabel9A"
 		{
 			"ControlName"		"Label"
@@ -1374,12 +1117,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassBarLabel9B"
 		{
 			"ControlName"		"Label"
@@ -1392,12 +1132,9 @@
 			"zpos"				"6"
 			"wide"				"100"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ClassLabel9"
 		{
 			"ControlName"		"Label"
@@ -1416,12 +1153,9 @@
 			"zpos"				"5"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"RecordsBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -1433,8 +1167,6 @@
 			"wide"				"200"
 			"wide_hidef"		"225"
 			"tall"				"260"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"0"
 			"visible_hidef"		"0"
 			"visible_lodef"		"0"
@@ -1443,7 +1175,6 @@
 			"enabled_lodef"		"0"
 			"border"			"TFThinLineBorder"
 		}
-
 		"RecordsLabel1"
 		{
 			"ControlName"		"Label"
@@ -1455,12 +1186,9 @@
 			"ypos"				"170"
 			"wide"				"300"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"RecordsSubBG1"
 		{
 			"ControlName"				"ImagePanel"
@@ -1478,15 +1206,11 @@
 			"tall"						"157"
 			"tall_hidef"				"183"
 			"tall_lodef"				"183"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"fillcolor"					"0 0 0 80"
 			"PaintBackgroundType"		"0"
 		}
-
 		"RecordsLabel"
 		{
 			"ControlName"		"Label"
@@ -1499,13 +1223,9 @@
 			"zpos"				"5"
 			"wide"				"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0" [$WIN32]
-			"visible"			"1" [$X360]
+			"visible"			"0"
 			"enabled"			"1"
 		}
-
 		"OverallRecord1Label"
 		{
 			"ControlName"		"Label"
@@ -1525,12 +1245,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord1Value"
 		{
 			"ControlName"		"Label"
@@ -1550,12 +1267,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord2Label"
 		{
 			"ControlName"		"Label"
@@ -1575,12 +1289,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord2Value"
 		{
 			"ControlName"		"Label"
@@ -1600,12 +1311,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord3Label"
 		{
 			"ControlName"		"Label"
@@ -1625,12 +1333,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord3Value"
 		{
 			"ControlName"		"Label"
@@ -1650,12 +1355,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord4Label"
 		{
 			"ControlName"		"Label"
@@ -1675,12 +1377,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord4Value"
 		{
 			"ControlName"		"Label"
@@ -1700,12 +1399,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord5Label"
 		{
 			"ControlName"		"Label"
@@ -1725,12 +1421,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord5Value"
 		{
 			"ControlName"		"Label"
@@ -1750,12 +1443,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord6Label"
 		{
 			"ControlName"		"Label"
@@ -1775,12 +1465,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord6Value"
 		{
 			"ControlName"		"Label"
@@ -1800,12 +1487,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord7Label"
 		{
 			"ControlName"		"Label"
@@ -1825,12 +1509,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord7Value"
 		{
 			"ControlName"		"Label"
@@ -1850,12 +1531,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord8Label"
 		{
 			"ControlName"		"Label"
@@ -1875,12 +1553,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord8Value"
 		{
 			"ControlName"		"Label"
@@ -1900,12 +1575,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord9Label"
 		{
 			"ControlName"		"Label"
@@ -1925,12 +1597,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord9Value"
 		{
 			"ControlName"		"Label"
@@ -1950,12 +1619,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord10Label"
 		{
 			"ControlName"		"Label"
@@ -1975,12 +1641,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord10Value"
 		{
 			"ControlName"		"Label"
@@ -2000,12 +1663,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord11Label"
 		{
 			"ControlName"		"Label"
@@ -2025,12 +1685,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord11Value"
 		{
 			"ControlName"		"Label"
@@ -2050,12 +1707,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord12Label"
 		{
 			"ControlName"		"Label"
@@ -2075,12 +1729,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord12Value"
 		{
 			"ControlName"		"Label"
@@ -2100,12 +1751,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord13Label"
 		{
 			"ControlName"		"Label"
@@ -2125,12 +1773,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord13Value"
 		{
 			"ControlName"		"Label"
@@ -2150,12 +1795,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord14Label"
 		{
 			"ControlName"		"Label"
@@ -2175,12 +1817,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord14Value"
 		{
 			"ControlName"		"Label"
@@ -2200,12 +1839,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord15Label"
 		{
 			"ControlName"		"Label"
@@ -2225,12 +1861,9 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"OverallRecord15Value"
 		{
 			"ControlName"		"Label"
@@ -2250,13 +1883,10 @@
 			"wide_hidef"		"220"
 			"wide_lodef"		"220"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
 	}
-
 	"TipImage"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -2271,7 +1901,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"TipText"
 	{
 		"ControlName"				"Label"
@@ -2295,13 +1924,10 @@
 		"tall"						"48"
 		"tall_hidef"				"60"
 		"tall_lodef"				"60"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
 	}
-
 	"NextTipButton"
 	{
 		"ControlName"					"Button"
@@ -2311,11 +1937,8 @@
 		"zpos"							"6"
 		"wide"							"90"
 		"tall"							"15"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"Product12"
 		"paintbackground"				"1"
 		"defaultBgColor_override"		"Blank"
@@ -2323,11 +1946,8 @@
 		"armedFgColor_override"			"200 200 200 255"
 		"labelText"						"Next Tip >"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"nexttip"
 	}
-
 	"ResetStatsButton"
 	{
 		"ControlName"				"Button"
@@ -2337,21 +1957,15 @@
 		"zpos"						"6"
 		"wide"						"150"
 		"tall"						"30"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"paintbackground"			"1"
 		"armedBgColor_override"		"230 45 45 255"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"font"						"HudFontSmallerBold"
 		"labelText"					"Stat Reset"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"resetstatsbutton"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"		"Button"
@@ -2361,15 +1975,10 @@
 		"zpos"				"6"
 		"wide"				"150"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"2"
 		"visible"			"0"
 		"enabled"			"0"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Close"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"Command"			"vguicancel"
 	}
 }

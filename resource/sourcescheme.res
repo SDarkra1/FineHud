@@ -1,5 +1,4 @@
 "#base"		"SourceSchemeBase.res"
-
 "Scheme"
 {
 	"Colors"
@@ -17,7 +16,6 @@
 		"LightTransparentBlackInactive"		"35 35 35 125"
 		"MainPink"							"231 172 207 255"
 	}
-
 	"BaseSettings"
 	{
 		"Border.Bright"								"Grey"
@@ -96,7 +94,6 @@
 		"Tooltip.BgColor"							"MainPink"
 		"Console.TextColor"							"MainPink"
 	}
-
 	"Borders"
 	{
 		"FrameBorder"
@@ -108,14 +105,12 @@
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -123,14 +118,12 @@
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -138,14 +131,12 @@
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -153,7 +144,6 @@
 					"color"			"Border.DarkSolid"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.DarkSolid"
@@ -162,7 +152,6 @@
 			}
 		}
 	}
-
 	"Fonts"
 	{
 		"ConsoleText"
@@ -175,7 +164,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DebugFixed"
 		{
 			"1"
@@ -187,7 +175,6 @@
 			}
 		}
 		// fonts are used in order that they are listed
-
 		"DebugFixedSmall"
 		{
 			"1"
@@ -198,7 +185,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultFixedOutline"
 		{
 			"1"
@@ -210,7 +196,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"Default"
 		{
 			"1"
@@ -221,7 +206,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultBold"
 		{
 			"1"
@@ -232,7 +216,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultUnderline"
 		{
 			"1"
@@ -244,7 +227,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultSmall"
 		{
 			"1"
@@ -255,7 +237,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultSmallDropShadow"
 		{
 			"1"
@@ -267,7 +248,6 @@
 				"antialias"			"1"
 			}
 		}
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -278,7 +258,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"DefaultLarge"
 		{
 			"1"
@@ -289,7 +268,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"UiBold"
 		{
 			"1"
@@ -300,7 +278,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"MenuLarge"
 		{
 			"1"
@@ -311,7 +288,6 @@
 				"antialias"		"1"
 			}
 		}
-
 		"AchievementTitleFont"
 		{
 			"1"
@@ -323,7 +299,6 @@
 				"outline"		"1"
 			}
 		}
-
 		"AchievementTitleFontSmaller"
 		{
 			"1"
@@ -335,7 +310,6 @@
 				// "outline" 		"1"
 			}
 		}
-
 		"AchievementDescriptionFont"
 		{
 			"1"
@@ -347,7 +321,6 @@
 				"outline"		"1"
 				"yres"			"0 480"
 			}
-
 			"2"
 			{
 				"name"			"Product Sans"
@@ -359,7 +332,6 @@
 			}
 		}
 		// CUSTOM: Changing these to use TF2 Secondary to improve appearance in player UI (ie. Mannpower pickups, Headless Horsemann 'IT' text, MvM 'Invalid Inspect Target')
-
 		"Trebuchet24"
 		{
 			"1"
@@ -371,7 +343,6 @@
 				"dropshadow"		"1"
 			}
 		}
-
 		"Trebuchet20"
 		{
 			"1"
@@ -383,7 +354,6 @@
 				"dropshadow"		"1"
 			}
 		}
-
 		"Trebuchet18"
 		{
 			"1"

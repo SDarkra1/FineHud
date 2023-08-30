@@ -1,5 +1,4 @@
 "#base"		"MatchMakingDashboardSidePanel.res"
-
 "Resource/UI/MatchMakingDashboardMvMCriteria.res"
 {
 	"MVMCriteria"
@@ -13,7 +12,6 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"criteria"
 	{
 		"ControlName"				"CMVMCriteriaPanel"
@@ -25,9 +23,7 @@
 		"tall"						"f50"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
-		"pinCorner"					"2"
 	}
-
 	"BackButton"
 	{
 		"ControlName"				"CExButton"
@@ -37,25 +33,18 @@
 		"zpos"						"100"
 		"wide"						"90"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"3"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"font"						"Product12"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"back"
 		"proportionaltoparent"		"1"
 		"labeltext"					"Back"
 		"mouseinputenabled"			"1"
 		"keyboardinputenabled"		"0"
-		// "actionsignallevel"	"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-
 	"MannUpToolTipButtonHack"
 	{
 		"ControlName"						"EditablePanel"
@@ -72,7 +61,6 @@
 		"showtooltipswhenmousedisabled"		"1"
 		"proportionaltoparent"				"1"
 	}
-
 	"MannUpQueueButton"
 	{
 		"ControlName"					"CExButton"
@@ -82,15 +70,10 @@
 		"zpos"							"100"
 		"wide"							"170"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"Product12"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"start_search"
 		"proportionaltoparent"			"1"
 		"labeltext"						"#TF_Matchmaking_StartSearch"
@@ -102,7 +85,6 @@
 		"armedBgColor_override"			"CreditsGreen"
 		"defaultBgColor_override"		"GreenSolid"
 	}
-
 	"BootCampToolTipButtonHack"
 	{
 		"ControlName"						"EditablePanel"
@@ -119,7 +101,6 @@
 		"showtooltipswhenmousedisabled"		"1"
 		"proportionaltoparent"				"1"
 	}
-
 	"BootCampQueueButton"
 	{
 		"ControlName"					"CExButton"
@@ -129,15 +110,10 @@
 		"zpos"							"100"
 		"wide"							"270"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"Product16"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"start_search"
 		"proportionaltoparent"			"1"
 		"labeltext"						"#TF_Matchmaking_StartSearch"
@@ -149,7 +125,6 @@
 		"armedBgColor_override"			"CreditsGreen"
 		"defaultBgColor_override"		"GreenSolid"
 	}
-
 	"NextButton"
 	{
 		"ControlName"				"CExButton"
@@ -159,25 +134,18 @@
 		"zpos"						"100"
 		"wide"						"f20"
 		"tall"						"20"
-		"autoResize"				"0"
-		"pinCorner"					"3"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"font"						"Product12"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"select_tour"
 		"proportionaltoparent"		"1"
 		"labeltext"					"#TF_MvM_SelectChallenge"
 		"mouseinputenabled"			"1"
 		"keyboardinputenabled"		"0"
-		// "actionsignallevel"	"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-
 	"JoinLateCheckButton"
 	{
 		"ControlName"				"CheckButton"
@@ -191,7 +159,6 @@
 		"labelText"					""
 		"proportionaltoparent"		"1"
 	}
-
 	"JoinLateLabel"
 	{
 		"ControlName"				"Label"

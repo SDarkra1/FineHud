@@ -15,7 +15,6 @@
 		"icon"				"hud_menu_bg"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"BuildBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -28,21 +27,18 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"BuildIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildIcon"
 		"xpos"				"9999"
 	}
-
 	"BuildIconShadow"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildIconShadow"
 		"xpos"				"9999"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -53,31 +49,24 @@
 		"zpos"				"2"
 		"wide"				"300"
 		"tall"				"38"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_menu_teleport_title"
 		"allcaps"			"1"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"xpos"				"9999"
 	}
-
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"xpos"				"9999"
 	}
-
 	"available_target_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -89,7 +78,6 @@
 		"tall"				"100"
 		"visible"			"1"
 	}
-
 	"available_target_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -101,7 +89,6 @@
 		"tall"				"100"
 		"visible"			"1"
 	}
-
 	"unavailable_target_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -113,7 +100,6 @@
 		"tall"				"100"
 		"visible"			"0"
 	}
-
 	"unavailable_target_2"
 	{
 		"ControlName"		"EditablePanel"

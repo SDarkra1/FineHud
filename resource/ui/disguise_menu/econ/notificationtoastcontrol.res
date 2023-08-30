@@ -12,7 +12,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"border"					"NoBorder"
-
 		"if_high_priority"
 		{
 			"border"		"NoBorder"
@@ -23,14 +22,12 @@
 		// "defaultbgcolor_override"		"208 193 162 0"
 		"proportionaltoparent"		"1"
 	}
-
 	"RejectButton"
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"RejectButton"
 		"xpos"							"130"
 		"ypos"							"18"
-
 		"if_one_button"
 		{
 			"ypos"		"9"
@@ -56,14 +53,12 @@
 		"depressedBgColor_override"		"20 20 20 255"
 		"depressedFgColor_override"		"200 200 200 255"
 	}
-
 	"AcceptButton"
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"AcceptButton"
 		"xpos"							"130"
 		"ypos"							"2"
-
 		"if_one_button"
 		{
 			"ypos"		"9"

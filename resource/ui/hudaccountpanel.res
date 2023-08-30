@@ -10,7 +10,6 @@
 		"delta_lifetime"			"1"
 		"delta_item_font"			"Product18"
 	}
-
 	"AccountValue"
 	{
 		"ControlName"		"CExLabel"
@@ -27,7 +26,6 @@
 		"font"				"Product18"
 		"fgcolor"			"White"
 	}
-
 	"AccountValueShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -48,14 +46,12 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"AccountBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"AccountBG"
 		"xpos"				"9999"
 	}
-
 	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"

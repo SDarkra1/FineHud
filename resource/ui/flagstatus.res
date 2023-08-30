@@ -12,14 +12,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"
-
 		"if_mvm"
 		{
 			"wide"		"50"
 			"tall"		"50"
 		}
 	}
-
 	"Briefcase"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -36,14 +34,12 @@
 		"pin_to_sibling"			"Arrow"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-
 		"if_mvm"
 		{
 			"wide"		"25"
 			"tall"		"25"
 		}
 	}
-
 	"StatusIcon"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -60,7 +56,6 @@
 		"pin_to_sibling"			"Arrow"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-
 		"if_mvm"
 		{
 			"visible"		"0"

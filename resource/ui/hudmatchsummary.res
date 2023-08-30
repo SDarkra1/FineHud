@@ -4,9 +4,6 @@
 	{
 		"ControlName"							"CTFMatchSummary"
 		"fieldName"								"MatchSummary"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"tabPosition"							"0"
 		"paintbackground"						"0"
 		"zpos"									"20"
 		"visible"								"0"
@@ -34,14 +31,12 @@
 		"AnimBlueTeamLabel12v12YPos"			"47"
 		"AnimRedTeamLabel12v12YPos"				"47"
 		"AnimStatsContainer12v12YPos"			"-20"
-
 		"if_large"
 		{
 			"AnimBlueMedalsYPos"		"50"
 			"AnimRedMedalsYPos"			"50"
 		}
 	}
-
 	"RankBorder"
 	{
 		"ControlName"				"EditablePanel"
@@ -55,13 +50,11 @@
 		"PaintBackgroundType"		"2"
 		"border"					"MainMenuBGBorder"
 		"proportionaltoparent"		"1"
-
 		"if_uses_xp"
 		{
 			"visible"		"1"
 		}
 	}
-
 	"RankPanel"
 	{
 		"ControlName"					"CMiniPvPRankPanel"
@@ -78,13 +71,11 @@
 		"show_name"						"0"
 		"show_sources_when_hidden"		"1"
 		"instantly_update"				"0"
-
 		"if_uses_placement"
 		{
 			"show_model"		"0"
 		}
 	}
-
 	"RankModelPanel"
 	{
 		"ControlName"				"CPvPRankPanel"
@@ -100,13 +91,11 @@
 		"matchgroup"				"MatchGroup_Casual_12v12"
 		"show_progress"				"0"
 		"instantly_update"			"0"
-
 		"if_uses_xp"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"StatsBgPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -121,7 +110,6 @@
 		"PaintBackgroundType"		"1"
 		"bgcolor_override"			"0 0 0 250"
 	}
-
 	"DrawingPanel"
 	{
 		"ControlName"				"CDrawingPanel"
@@ -137,7 +125,6 @@
 		"linecolor"					"RedSolid"
 		"team_colors"				"1"
 	}
-
 	"MainStatsContainer"
 	{
 		"Controlname"				"EditablePanel"
@@ -148,7 +135,6 @@
 		"wide"						"f0"
 		"tall"						"f0"
 		"proportionaltoparent"		"1"
-
 		"ParticlePanel"
 		{
 			"ControlName"		"CTFParticlePanel"
@@ -160,7 +146,6 @@
 			"tall"				"f0"
 			"visible"			"1"
 		}
-
 		"StatsLabelPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -172,8 +157,6 @@
 			"tall"				"15"
 			"visible"			"0"
 			"enabled"			"1"
-			"autoResize"		"0"
-
 			"StatsAndMedals"
 			{
 				"ControlName"		"CExLabel"
@@ -186,12 +169,9 @@
 				"zpos"				"4"
 				"wide"				"200"
 				"tall"				"15"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 			}
-
 			"StatsAndMedalsShadow"
 			{
 				"ControlName"		"CExLabel"
@@ -205,13 +185,10 @@
 				"zpos"				"3"
 				"wide"				"200"
 				"tall"				"15"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 			}
 		}
-
 		"TeamScoresPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -223,7 +200,6 @@
 			"tall"				"f0"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"BlueTeamPanel"
 			{
 				"ControlName"		"EditablePanel"
@@ -235,7 +211,6 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-
 				"BlueTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -245,18 +220,14 @@
 					"zpos"				"2"
 					"wide"				"p.213"
 					"tall"				"36"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 					"border"			"TFFatLineBorderBlueBGOpaque"
-
 					"if_large"
 					{
 						"ypos"		"39"
 					}
 				}
-
 				"BlueTeamScore"
 				{
 					"ControlName"		"CExLabel"
@@ -269,17 +240,13 @@
 					"zpos"				"4"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"43"
 					}
 				}
-
 				"BlueTeamScoreDropshadow"
 				{
 					"ControlName"		"CExLabel"
@@ -293,17 +260,13 @@
 					"zpos"				"3"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"44"
 					}
 				}
-
 				"BlueTeamWinner"
 				{
 					"ControlName"		"CExLabel"
@@ -316,17 +279,13 @@
 					"zpos"				"4"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"43"
 					}
 				}
-
 				"BlueTeamWinnerDropshadow"
 				{
 					"ControlName"		"CExLabel"
@@ -340,17 +299,13 @@
 					"zpos"				"3"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"44"
 					}
 				}
-
 				"BlueTeamImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -364,13 +319,11 @@
 					"enabled"			"0"
 					"image"				""
 					"scaleImage"		"1"
-
 					"if_large"
 					{
 						"ypos"		"29"
 					}
 				}
-
 				"BlueTeamLabel"
 				{
 					"ControlName"		"CExLabel"
@@ -383,12 +336,9 @@
 					"zpos"				"20"
 					"wide"				"195"
 					"tall"				"20"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"BlueLeaderAvatar"
 				{
 					"ControlName"		"CAvatarImagePanel"
@@ -403,13 +353,11 @@
 					"image"				""
 					"scaleImage"		"1"
 					"color_outline"		"52 48 45 255"
-
 					"if_large"
 					{
 						"ypos"		"40"
 					}
 				}
-
 				"BlueLeaderAvatarBG"
 				{
 					"ControlName"				"EditablePanel"
@@ -422,13 +370,11 @@
 					"visible"					"1"
 					"PaintBackgroundType"		"2"
 					"bgcolor_override"			"117 107 94 255"
-
 					"if_large"
 					{
 						"ypos"		"38"
 					}
 				}
-
 				"BluePlayerListParent"
 				{
 					"ControlName"		"EditablePanel"
@@ -440,13 +386,11 @@
 					"tall"				"215"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"77"
 						"tall"		"340"
 					}
-
 					"BluePlayerList"
 					{
 						"ControlName"		"TFSectionedListPanel"
@@ -458,8 +402,6 @@
 						"tall"				"205"
 						"visible"			"1"
 						"enabled"			"1"
-						"tabPosition"		"0"
-						"autoresize"		"0"
 						"linespacing"		"26"
 						"linegap"			"4"
 						// "show_columns"	"1"
@@ -471,7 +413,6 @@
 						"award_width"		"s.04"
 						"stats_width"		"s.08"
 						"horiz_inset"		"5"
-
 						"if_large"
 						{
 							"tall"			"340"
@@ -479,7 +420,6 @@
 						}
 					}
 				}
-
 				"BluePlayerListBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -489,12 +429,9 @@
 					"zpos"				"0"
 					"wide"				"p.2"
 					"tall"				"225"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 					"border"			"TFFatLineBorderClearBG"
-
 					"if_large"
 					{
 						"ypos"		"57"
@@ -502,7 +439,6 @@
 					}
 				}
 			}
-
 			"RedTeamPanel"
 			{
 				"ControlName"		"EditablePanel"
@@ -514,7 +450,6 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-
 				"RedTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -524,18 +459,14 @@
 					"zpos"				"2"
 					"wide"				"p.213"
 					"tall"				"36"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 					"border"			"TFFatLineBorderRedBGOpaque"
-
 					"if_large"
 					{
 						"ypos"		"39"
 					}
 				}
-
 				"RedTeamScore"
 				{
 					"ControlName"		"CExLabel"
@@ -548,17 +479,13 @@
 					"zpos"				"4"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"43"
 					}
 				}
-
 				"RedTeamScoreDropshadow"
 				{
 					"ControlName"		"CExLabel"
@@ -572,17 +499,13 @@
 					"zpos"				"3"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"44"
 					}
 				}
-
 				"RedTeamWinner"
 				{
 					"ControlName"		"CExLabel"
@@ -595,17 +518,13 @@
 					"zpos"				"4"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"43"
 					}
 				}
-
 				"RedTeamWinnerDropshadow"
 				{
 					"ControlName"		"CExLabel"
@@ -619,17 +538,13 @@
 					"zpos"				"3"
 					"wide"				"p.19"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"44"
 					}
 				}
-
 				"RedTeamImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -643,13 +558,11 @@
 					"enabled"			"0"
 					"image"				""
 					"scaleImage"		"1"
-
 					"if_large"
 					{
 						"ypos"		"20"
 					}
 				}
-
 				"RedTeamLabel"
 				{
 					"ControlName"		"CExLabel"
@@ -662,12 +575,9 @@
 					"zpos"				"20"
 					"wide"				"195"
 					"tall"				"20"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"RedLeaderAvatar"
 				{
 					"ControlName"		"CAvatarImagePanel"
@@ -682,13 +592,11 @@
 					"image"				""
 					"scaleImage"		"1"
 					"color_outline"		"52 48 45 255"
-
 					"if_large"
 					{
 						"ypos"		"40"
 					}
 				}
-
 				"RedLeaderAvatarBG"
 				{
 					"ControlName"				"EditablePanel"
@@ -701,13 +609,11 @@
 					"visible"					"1"
 					"PaintBackgroundType"		"2"
 					"bgcolor_override"			"117 107 94 255"
-
 					"if_large"
 					{
 						"ypos"		"38"
 					}
 				}
-
 				"RedPlayerListParent"
 				{
 					"ControlName"		"EditablePanel"
@@ -719,13 +625,11 @@
 					"tall"				"215"
 					"visible"			"1"
 					"enabled"			"1"
-
 					"if_large"
 					{
 						"ypos"		"77"
 						"tall"		"340"
 					}
-
 					"RedPlayerList"
 					{
 						"ControlName"		"TFSectionedListPanel"
@@ -737,8 +641,6 @@
 						"tall"				"205"
 						"visible"			"1"
 						"enabled"			"1"
-						"tabPosition"		"0"
-						"autoresize"		"0"
 						"linespacing"		"26"
 						"linegap"			"4"
 						// "show_columns"	"1"
@@ -750,7 +652,6 @@
 						"award_width"		"s.04"
 						"stats_width"		"s.08"
 						"horiz_inset"		"5"
-
 						"if_large"
 						{
 							"tall"			"340"
@@ -758,7 +659,6 @@
 						}
 					}
 				}
-
 				"RedPlayerListBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -768,12 +668,9 @@
 					"zpos"				"0"
 					"wide"				"p.2"
 					"tall"				"225"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 					"border"			"TFFatLineBorderClearBG"
-
 					"if_large"
 					{
 						"ypos"		"57"
@@ -781,7 +678,6 @@
 					}
 				}
 			}
-
 			"BlueMedals"
 			{
 				"ControlName"		"EditablePanel"
@@ -793,12 +689,10 @@
 				"tall"				"15"
 				"visible"			"1"
 				"enabled"			"1"
-
 				"if_large"
 				{
 					"visible"		"0"
 				}
-
 				"BlueGoldMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -813,7 +707,6 @@
 					"image"				"competitive/competitive_coin_gold"
 					"scaleImage"		"1"
 				}
-
 				"BlueGoldMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -826,12 +719,9 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"BlueSilverMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -846,7 +736,6 @@
 					"image"				"competitive/competitive_coin_silver"
 					"scaleImage"		"1"
 				}
-
 				"BlueSilverMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -859,12 +748,9 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"BlueBronzeMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -879,7 +765,6 @@
 					"image"				"competitive/competitive_coin_bronze"
 					"scaleImage"		"1"
 				}
-
 				"BlueBronzeMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -892,13 +777,10 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
 			}
-
 			"RedMedals"
 			{
 				"ControlName"		"EditablePanel"
@@ -910,12 +792,10 @@
 				"tall"				"15"
 				"visible"			"1"
 				"enabled"			"1"
-
 				"if_large"
 				{
 					"visible"		"0"
 				}
-
 				"RedGoldMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -930,7 +810,6 @@
 					"image"				"competitive/competitive_coin_gold"
 					"scaleImage"		"1"
 				}
-
 				"RedGoldMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -943,12 +822,9 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"RedSilverMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -963,7 +839,6 @@
 					"image"				"competitive/competitive_coin_silver"
 					"scaleImage"		"1"
 				}
-
 				"RedSilverMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -976,12 +851,9 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}
-
 				"RedBronzeMedal"
 				{
 					"ControlName"		"ImagePanel"
@@ -996,7 +868,6 @@
 					"image"				"competitive/competitive_coin_bronze"
 					"scaleImage"		"1"
 				}
-
 				"RedBronzeMedalValue"
 				{
 					"ControlName"		"CExLabel"
@@ -1009,8 +880,6 @@
 					"zpos"				"6"
 					"wide"				"15"
 					"tall"				"15"
-					"autoResize"		"0"
-					"pinCorner"			"0"
 					"visible"			"1"
 					"enabled"			"1"
 				}

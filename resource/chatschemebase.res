@@ -8,13 +8,11 @@
 // Borders			- description of all the borders
 //
 ///////////////////////////////////////////////////////////
-
 "Scheme"
 {
 	//////////////////////// COLORS ///////////////////////////
 	// color details
 	// this is a list of all the colors used by the scheme
-
 	"Colors"
 	{
 		// base colors
@@ -31,7 +29,6 @@
 	//
 	// default settings for all panels
 	// controls use these to determine their settings
-
 	"BaseSettings"
 	{
 		// vgui_controls color specifications
@@ -41,8 +38,7 @@
 		"Button.TextColor"										"White"
 		"Button.BgColor"										"Blank"
 		"Button.ArmedTextColor"									"White"
-		"Button.ArmedBgColor"									"Blank" [$WIN32]
-		"Button.ArmedBgColor"									"190 115 0 255" [$X360]
+		"Button.ArmedBgColor"									"Blank"
 		"Button.DepressedTextColor"								"White"
 		"Button.DepressedBgColor"								"Blank"
 		"Button.FocusBorderColor"								"Black"
@@ -60,10 +56,8 @@
 		"Frame.TitleTextInsetX"									"16"
 		"Frame.ClientInsetX"									"8"
 		"Frame.ClientInsetY"									"6"
-		"Frame.BgColor"											"160 160 160 128" [$WIN32]
-		"Frame.BgColor"											"80 80 80 192" [$X360]
-		"Frame.OutOfFocusBgColor"								"160 160 160 32" [$WIN32]
-		"Frame.OutOfFocusBgColor"								"80 80 80 192" [$X360]
+		"Frame.BgColor"											"160 160 160 128"
+		"Frame.OutOfFocusBgColor"								"160 160 160 32"
 		"Frame.FocusTransitionEffectTime"						"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		"Frame.TransitionEffectTime"							"0.3"	// time it takes for a window to fade in/out on open/close
 		"Frame.AutoSnapRange"									"0"
@@ -77,8 +71,8 @@
 		"FrameSystemButton.BgColor"								"Blank"
 		"FrameSystemButton.Icon"								""
 		"FrameSystemButton.DisabledIcon"						""
-		"FrameTitleBar.Font"									"UiBold" [$WIN32]
-		"FrameTitleBar.Font"									"DefaultLarge" [$WIN32]
+		"FrameTitleBar.Font"									"UiBold"
+		"FrameTitleBar.Font"									"DefaultLarge"
 		"FrameTitleBar.TextColor"								"White"
 		"FrameTitleBar.BgColor"									"Blank"
 		"FrameTitleBar.DisabledTextColor"						"255 255 255 192"
@@ -156,21 +150,17 @@
 		"TreeView.BgColor"										"TransparentBlack"
 		"WizardSubPanel.BgColor"								"Blank"
 		// scheme-specific colors
-		"MainMenu.TextColor"									"White" [$WIN32]
-		"MainMenu.TextColor"									"200 200 200 255" [$X360]
-		"MainMenu.ArmedTextColor"								"200 200 200 255" [$WIN32]
-		"MainMenu.ArmedTextColor"								"White" [$X360]
+		"MainMenu.TextColor"									"White"
+		"MainMenu.ArmedTextColor"								"200 200 200 255"
 		"MainMenu.DepressedTextColor"							"192 186 80 255"
-		"MainMenu.MenuItemHeight"								"16" [$WIN32]
-		"MainMenu.MenuItemHeight"								"32" [$X360]
+		"MainMenu.MenuItemHeight"								"16"
 		"MainMenu.Inset"										"32"
 		"MainMenu.Backdrop"										"0 0 0 156"
 		"Console.TextColor"										"OffWhite"
 		"Console.DevTextColor"									"White"
 		"NewGame.TextColor"										"White"
 		"NewGame.FillColor"										"0 0 0 255"
-		"NewGame.SelectionColor"								"Orange" [$WIN32]
-		"NewGame.SelectionColor"								"0 0 0 255" [$X360]
+		"NewGame.SelectionColor"								"Orange"
 		"NewGame.DisabledColor"									"128 128 128 196"
 		"TFColors.ChatTextYellow"								"251 235 202 255"
 		"TFColors.ChatTextTeamBlue"								"153 204 255 255"
@@ -179,7 +169,6 @@
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	//
 	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-
 	"BitmapFontFiles"
 	{
 		// UI buttons, custom font, (256x64)
@@ -188,7 +177,6 @@
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// describes all the fonts
-
 	"Fonts"
 	{
 		"Default"
@@ -201,7 +189,6 @@
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
 			}
-
 			"2"
 			{
 				"name"			"Verdana"
@@ -210,7 +197,6 @@
 				"range"			"0x0000 0x017F"
 				"yres"			"600 767"
 			}
-
 			"3"
 			{
 				"name"			"Verdana"
@@ -220,7 +206,6 @@
 				"yres"			"768 1023"
 				"antialias"		"1"
 			}
-
 			"4"
 			{
 				"name"			"Verdana"
@@ -230,7 +215,6 @@
 				"yres"			"1024 1199"
 				"antialias"		"1"
 			}
-
 			"5"
 			{
 				"name"			"Verdana"
@@ -242,7 +226,6 @@
 			}
 		}
 		// this is the symbol font
-
 		"Marlett"
 		{
 			"1"
@@ -253,7 +236,6 @@
 				"yres"			"480 599"
 				"symbol"		"1"
 			}
-
 			"2"
 			{
 				"name"			"Marlett"
@@ -262,7 +244,6 @@
 				"yres"			"600 767"
 				"symbol"		"1"
 			}
-
 			"3"
 			{
 				"name"			"Marlett"
@@ -271,7 +252,6 @@
 				"yres"			"768 1023"
 				"symbol"		"1"
 			}
-
 			"4"
 			{
 				"name"			"Marlett"
@@ -280,7 +260,6 @@
 				"yres"			"1024 1199"
 				"symbol"		"1"
 			}
-
 			"5"
 			{
 				"name"			"Marlett"
@@ -290,7 +269,6 @@
 				"symbol"		"1"
 			}
 		}
-
 		"MarlettSmall"
 		{
 			"1"
@@ -301,7 +279,6 @@
 				"yres"			"480 599"
 				"symbol"		"1"
 			}
-
 			"2"
 			{
 				"name"			"Marlett"
@@ -310,7 +287,6 @@
 				"yres"			"600 767"
 				"symbol"		"1"
 			}
-
 			"3"
 			{
 				"name"			"Marlett"
@@ -319,7 +295,6 @@
 				"yres"			"768 1023"
 				"symbol"		"1"
 			}
-
 			"4"
 			{
 				"name"			"Marlett"
@@ -328,7 +303,6 @@
 				"yres"			"1024 1199"
 				"symbol"		"1"
 			}
-
 			"5"
 			{
 				"name"			"Marlett"
@@ -338,54 +312,44 @@
 				"symbol"		"1"
 			}
 		}
-
 		"ChatFont"
 		{
 			"1"
 			{
 				"name"				"Verdana"
-				"tall"				"12" [$WIN32]
-				"tall"				"15" [$X360]
+				"tall"				"12"
 				"weight"			"700"
 				"yres"				"480 599"
 				"dropshadow"		"1"
 			}
-
 			"2"
 			{
 				"name"				"Verdana"
-				"tall"				"14" [$WIN32]
-				"tall"				"17" [$X360]
+				"tall"				"14"
 				"weight"			"700"
 				"yres"				"600 767"
 				"dropshadow"		"1"
 			}
-
 			"3"
 			{
 				"name"				"Verdana"
-				"tall"				"15" [$WIN32]
-				"tall"				"18" [$X360]
+				"tall"				"15"
 				"weight"			"700"
 				"yres"				"768 1023"
 				"dropshadow"		"1"
 			}
-
 			"4"
 			{
 				"name"				"Verdana"
-				"tall"				"17" [$WIN32]
-				"tall"				"20" [$X360]
+				"tall"				"17"
 				"weight"			"700"
 				"yres"				"1024 1199"
 				"dropshadow"		"1"
 			}
-
 			"5"
 			{
 				"name"				"Verdana"
-				"tall"				"22" [$WIN32]
-				"tall"				"25" [$X360]
+				"tall"				"22"
 				"weight"			"700"
 				"yres"				"1200 10000"
 				"dropshadow"		"1"
@@ -396,7 +360,6 @@
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
-
 	"Borders"
 	{
 		"BaseBorder"				"DepressedBorder"
@@ -405,17 +368,14 @@
 		"MenuBorder"				"RaisedBorder"
 		"BrowserBorder"				"DepressedBorder"
 		"PropertySheetBorder"		"RaisedBorder"
-
 		"FrameBorder"
 		{
 			// rounded corners for frames
 			"backgroundtype"		"2"
 		}
-
 		"DepressedBorder"
 		{
 			"inset"		"0 0 1 1"
-
 			"Left"
 			{
 				"1"
@@ -424,7 +384,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -433,7 +392,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -442,7 +400,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -452,11 +409,9 @@
 				}
 			}
 		}
-
 		"RaisedBorder"
 		{
 			"inset"		"0 0 1 1"
-
 			"Left"
 			{
 				"1"
@@ -465,7 +420,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -474,7 +428,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -483,7 +436,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -493,26 +445,21 @@
 				}
 			}
 		}
-
 		"TitleButtonBorder"
 		{
 			"backgroundtype"		"0"
 		}
-
 		"TitleButtonDisabledBorder"
 		{
 			"backgroundtype"		"0"
 		}
-
 		"TitleButtonDepressedBorder"
 		{
 			"backgroundtype"		"0"
 		}
-
 		"ScrollBarButtonBorder"
 		{
 			"inset"		"2 2 0 0"
-
 			"Left"
 			{
 				"1"
@@ -521,7 +468,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -530,7 +476,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -539,7 +484,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -549,11 +493,9 @@
 				}
 			}
 		}
-
 		"ScrollBarButtonDepressedBorder"
 		{
 			"inset"		"2 2 0 0"
-
 			"Left"
 			{
 				"1"
@@ -562,7 +504,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -571,7 +512,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -580,7 +520,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -590,11 +529,9 @@
 				}
 			}
 		}
-
 		"TabBorder"
 		{
 			"inset"		"0 0 1 1"
-
 			"Left"
 			{
 				"1"
@@ -603,7 +540,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -612,7 +548,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -622,11 +557,9 @@
 				}
 			}
 		}
-
 		"TabActiveBorder"
 		{
 			"inset"		"0 0 1 0"
-
 			"Left"
 			{
 				"1"
@@ -635,7 +568,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -644,7 +576,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -654,11 +585,9 @@
 				}
 			}
 		}
-
 		"ToolTipBorder"
 		{
 			"inset"		"0 0 1 0"
-
 			"Left"
 			{
 				"1"
@@ -667,7 +596,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -676,7 +604,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -685,7 +612,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -696,11 +622,9 @@
 			}
 		}
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
-
 		"ButtonKeyFocusBorder"
 		{
 			"inset"		"0 0 1 1"
-
 			"Left"
 			{
 				"1"
@@ -708,14 +632,12 @@
 					"color"			"Border.Selection"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.Bright"
 					"offset"		"0 1"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -723,14 +645,12 @@
 					"color"			"Border.Selection"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.Bright"
 					"offset"		"1 0"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -738,14 +658,12 @@
 					"color"			"Border.Selection"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.Dark"
 					"offset"		"1 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -753,7 +671,6 @@
 					"color"			"Border.Selection"
 					"offset"		"0 0"
 				}
-
 				"2"
 				{
 					"color"			"Border.Dark"
@@ -761,11 +678,9 @@
 				}
 			}
 		}
-
 		"ButtonDepressedBorder"
 		{
 			"inset"		"2 1 1 1"
-
 			"Left"
 			{
 				"1"
@@ -774,7 +689,6 @@
 					"offset"		"0 1"
 				}
 			}
-
 			"Right"
 			{
 				"1"
@@ -783,7 +697,6 @@
 					"offset"		"1 0"
 				}
 			}
-
 			"Top"
 			{
 				"1"
@@ -792,7 +705,6 @@
 					"offset"		"0 0"
 				}
 			}
-
 			"Bottom"
 			{
 				"1"
@@ -806,7 +718,6 @@
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-
 	"CustomFontFiles"
 	{
 		"1"		"resource/HALFLIFE2.ttf"

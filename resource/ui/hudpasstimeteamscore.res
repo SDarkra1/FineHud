@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"BlueScore"
 	{
 		"ControlName"		"CExLabel"
@@ -29,7 +28,6 @@
 		"font"				"Product32"
 		"fgcolor"			"m0reblue"
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -47,7 +45,6 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"		"CExLabel"
@@ -64,7 +61,6 @@
 		"font"				"Product32"
 		"fgcolor"			"m0rered"
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -82,7 +78,6 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"RedScore"
 	}
-
 	"PlayingToCluster"
 	{
 		"ControlName"		"EditablePanel"
@@ -94,7 +89,6 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"PlayingTo"
 		{
 			"ControlName"				"CExLabel"
@@ -112,7 +106,6 @@
 			"font"						"DefaultVerySmall"
 			"fgcolor"					"White"
 		}
-
 		"PlayingToBG"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -123,21 +116,18 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"LeftSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"LeftSideBG"
 		"xpos"				"9999"
 	}
-
 	"RightSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RightSideBG"
 		"xpos"				"9999"
 	}
-
 	"OutlineBG"
 	{
 		"ControlName"		"ImagePanel"

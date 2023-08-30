@@ -2,7 +2,6 @@
 "#base"		"../resource/scheme/fonts.res"
 "#base"		"../resource/scheme/default.res"
 "#base"		"scheme/crosshairs/crosshair_scheme.res"
-
 "Scheme"
 {
 	"Colors"

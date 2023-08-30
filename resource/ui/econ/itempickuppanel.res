@@ -9,11 +9,8 @@
 		"zpos"								"10000"
 		"wide"								"f0"
 		"tall"								"480"
-		"autoResize"						"0"
-		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		"tabPosition"						"0"
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"11 11 11 255"
@@ -23,7 +20,6 @@
 		"modelpanels_width"					"500"
 		"modelpanels_height"				"260"
 		"modelpanels_ypos"					"110"
-
 		"modelpanelskv"
 		{
 			"PaintBackgroundType"		"2"
@@ -39,7 +35,6 @@
 			"text_center"				"1"
 			"is_mouseover"				"1"
 			"hide_collection_panel"		"1"
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"		"0"
@@ -47,7 +42,6 @@
 			}
 		}
 	}
-
 	"classimageoutline"
 	{
 		"ControlName"			"EditablePanel"
@@ -60,7 +54,6 @@
 		"visible"				"1"
 		"bgcolor_override"		"0 0 0 255"
 	}
-
 	"classimage"
 	{
 		"ControlName"		"ImagePanel"
@@ -75,7 +68,6 @@
 		"image"				"achievements/tf_medic_heal_grind"
 		"scaleImage"		"1"
 	}
-
 	"ItemsFoundLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -88,12 +80,9 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -106,12 +95,9 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -124,12 +110,9 @@
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -142,12 +125,9 @@
 		"zpos"				"5"
 		"wide"				"120"
 		"tall"				"40"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"NextButton"
 	{
 		"ControlName"			"CExButton"
@@ -157,21 +137,15 @@
 		"zpos"					"1"
 		"wide"					"70"
 		"tall"					"30"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"Next"
 		"font"					"Product16"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"nextitem"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"			"CExButton"
@@ -181,21 +155,15 @@
 		"zpos"					"1"
 		"wide"					"70"
 		"tall"					"30"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"Prev"
 		"font"					"Product16"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"previtem"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"			"CExButton"
@@ -205,23 +173,17 @@
 		"zpos"					"6"
 		"wide"					"250"
 		"tall"					"30"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				""
 		"roundedcorners"		"0"
 		"font"					"Product12"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"vguicancel"
 		"default"				"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"OpenLoadoutButton"
 	{
 		"ControlName"			"CExButton"
@@ -231,22 +193,16 @@
 		"zpos"					"6"
 		"wide"					"250"
 		"tall"					"30"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"%loadouttext%"
 		"roundedcorners"		"0"
 		"font"					"Product12"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"changeloadout"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"DiscardButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -256,17 +212,12 @@
 		"zpos"							"10"
 		"wide"							"20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						""
 		"roundedcorners"				"0"
 		"font"							"Product12"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"discarditem"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -274,7 +225,6 @@
 		"armedBgColor_override"			"0 0 0 0"
 		"image_drawcolor"				"77 77 77 255"
 		"image_armedcolor"				"120 120 120 255"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -292,7 +242,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"DiscardButtonTooltip"
 	{
 		"ControlName"				"EditablePanel"
@@ -305,7 +254,6 @@
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
 		"border"					"NoBorder"
-
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -319,8 +267,6 @@
 			"ypos"					"0"
 			"wide"					"80"
 			"tall"					"50"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"paintbackground"		"1"
@@ -330,7 +276,6 @@
 			"centerwrap"			"1"
 		}
 	}
-
 	"DiscardedLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -343,14 +288,11 @@
 		"zpos"					"5"
 		"wide"					"420"
 		"tall"					"60"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 		"bgcolor_override"		"46 43 42 255"
 	}
-
 	"ScoreEntry"
 	{
 		"ControlName"			"TextEntry"
@@ -359,11 +301,8 @@
 		"ypos"					"380"
 		"wide"					"200"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"tabPosition"			"0"
 		"textHidden"			"0"
 		"editable"				"1"
 		"maxchars"				"5"

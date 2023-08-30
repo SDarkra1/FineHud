@@ -13,7 +13,6 @@
 		"bgcolor_override"		"0 0 0 200"
 		"pin_to_sibling"		"TauntAnchor"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -24,16 +23,11 @@
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"38"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"TAUNTS"
 		"textAlignment"		"Center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"Divider"
 	{
 		"ControlName"			"EditablePanel"
@@ -47,7 +41,6 @@
 		"bgcolor_override"		"White"
 		"pin_to_sibling"		"TauntAnchor"
 	}
-
 	"WeaponTauntLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -58,23 +51,17 @@
 		"zpos"				"2"
 		"wide"				"350"
 		"tall"				"13"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"xpos"				"9999"
 	}
-
 	"TauntAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -87,7 +74,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"TauntModelPanel1"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -109,20 +95,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt1Label"
 	{
 		"ControlName"			"Label"
@@ -140,21 +123,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel1"
 	}
-
 	"NumberBg1"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg1"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel1"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel1"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel2"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -176,20 +156,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt2Label"
 	{
 		"ControlName"			"Label"
@@ -207,21 +184,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel2"
 	}
-
 	"NumberBg2"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg2"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel2"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel2"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel3"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -243,20 +217,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt3Label"
 	{
 		"ControlName"			"Label"
@@ -274,21 +245,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel3"
 	}
-
 	"NumberBg3"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg3"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel3"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel3"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel4"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -310,20 +278,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt4Label"
 	{
 		"ControlName"			"Label"
@@ -341,21 +306,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel4"
 	}
-
 	"NumberBg4"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg4"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel4"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel4"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel5"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -377,20 +339,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt5Label"
 	{
 		"ControlName"			"Label"
@@ -408,21 +367,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel5"
 	}
-
 	"NumberBg5"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg5"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel5"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel5"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel6"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -444,20 +400,17 @@
 		"text_center"				"1"
 		"text_forcesize"			"3"
 		"model_only"				"1"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt6Label"
 	{
 		"ControlName"			"Label"
@@ -475,21 +428,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel6"
 	}
-
 	"NumberBg6"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg6"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel6"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel6"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel7"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -511,20 +461,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt7Label"
 	{
 		"ControlName"			"Label"
@@ -542,21 +489,18 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel7"
 	}
-
 	"NumberBg7"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg7"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel7"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel7"
 		"xpos"				"9999"
 	}
-
 	"TauntModelPanel8"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -578,20 +522,17 @@
 		"text_forcesize"			"3"
 		"model_only"				"1"
 		"pin_to_sibling"			"TauntAnchor"
-
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"Taunt8Label"
 	{
 		"ControlName"			"Label"
@@ -609,14 +550,12 @@
 		"textAlignment"			"center"
 		"pin_to_sibling"		"TauntModelPanel8"
 	}
-
 	"NumberBg8"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg8"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel8"
 	{
 		"ControlName"		"CExLabel"

@@ -1,7 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
 	///CONTROL POINT ICONS///
-
 	"CPCapMask"
 	{
 		"ControlName"		"ImagePanel"
@@ -11,7 +10,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_mask"
 	}
-
 	"CPIconWhite"
 	{
 		"ControlName"		"ImagePanel"
@@ -21,7 +19,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_white"
 	}
-
 	"CPIconBlu"
 	{
 		"ControlName"		"ImagePanel"
@@ -31,7 +28,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_blu"
 	}
-
 	"CPIconBluLocked"
 	{
 		"ControlName"		"ImagePanel"
@@ -41,7 +37,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_blu_locked"
 	}
-
 	"CPIconBluCap"
 	{
 		"ControlName"		"ImagePanel"
@@ -51,7 +46,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_blu"
 	}
-
 	"CPIconBluCapUp"
 	{
 		"ControlName"		"ImagePanel"
@@ -61,7 +55,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
 	}
-
 	"CPIconRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -71,7 +64,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_red"
 	}
-
 	"CPIconRedLocked"
 	{
 		"ControlName"		"ImagePanel"
@@ -81,7 +73,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_red_locked"
 	}
-
 	"CPIconRedCap"
 	{
 		"ControlName"		"ImagePanel"
@@ -91,7 +82,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_red"
 	}
-
 	"CPIconRedCapUp"
 	{
 		"ControlName"		"ImagePanel"
@@ -101,7 +91,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
-
 	"CPIconNeutral"
 	{
 		"ControlName"		"ImagePanel"
@@ -111,7 +100,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral"
 	}
-
 	"CPIconNeutralLocked"
 	{
 		"ControlName"		"ImagePanel"
@@ -121,9 +109,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-
 	///CART ICONS///
-
 	"CartBlue"
 	{
 		"ControlName"		"ImagePanel"
@@ -133,7 +119,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/cart_icons/cart_blue"
 	}
-
 	"CartArrowLeft"
 	{
 		"ControlName"		"ImagePanel"
@@ -143,7 +128,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/cart_icons/cart_arrow_left"
 	}
-
 	"CartArrowRight"
 	{
 		"ControlName"		"ImagePanel"
@@ -153,7 +137,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/cart_icons/cart_arrow_right"
 	}
-
 	"CartHomeBlue"
 	{
 		"ControlName"		"ImagePanel"
@@ -163,7 +146,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/cart_icons/cart_home_blue"
 	}
-
 	"CartHomeRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -173,7 +155,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/hud/cart_home_red"
 	}
-
 	"CartPointRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -183,7 +164,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/hud/cart_point_red"
 	}
-
 	"CartPointBlue"
 	{
 		"ControlName"		"ImagePanel"
@@ -193,7 +173,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/hud/cart_point_blue"
 	}
-
 	"CartPointRedOpaque"
 	{
 		"ControlName"		"ImagePanel"
@@ -203,9 +182,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/hud/cart_point_red_opaque"
 	}
-
 	///BOMB CARRIER///
-
 	"BombCarried"
 	{
 		"ControlName"		"ImagePanel"
@@ -215,7 +192,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/hud/bomb_carried"
 	}
-
 	"BombCarrierUpgradeMeter"
 	{
 		"ControlName"		"ImagePanel"
@@ -225,7 +201,6 @@
 		"enabled"			"1"
 		"image"				"../hud/bomb_carrier_upgrade_meter"
 	}
-
 	"BombDropped"
 	{
 		"ControlName"		"ImagePanel"
@@ -235,7 +210,6 @@
 		"enabled"			"1"
 		"image"				"../hud/bomb_dropped"
 	}
-
 	"MvmBombUpgrade1Disabled"
 	{
 		"ControlName"		"ImagePanel"
@@ -245,7 +219,6 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_1_disabled"
 	}
-
 	"MvmBombUpgrade2"
 	{
 		"ControlName"		"ImagePanel"
@@ -255,7 +228,6 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_2"
 	}
-
 	"MvmBombUpgrade2Disabled"
 	{
 		"ControlName"		"ImagePanel"
@@ -265,7 +237,6 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_2_disabled"
 	}
-
 	"MvmBombUpgrade3"
 	{
 		"ControlName"		"ImagePanel"
@@ -275,7 +246,6 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_3"
 	}
-
 	"MvmBombUpgrade3Disabled"
 	{
 		"ControlName"		"ImagePanel"
@@ -285,9 +255,7 @@
 		"enabled"			"1"
 		"image"				"../hud/hud_mvm_bomb_upgrade_3_disabled"
 	}
-
 	///BACKPACK///
-
 	"LoadoutRectangle"
 	{
 		"ControlName"		"ImagePanel"
@@ -297,7 +265,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/backpack/loadout_rect"
 	}
-
 	"White"
 	{
 		"ControlName"		"ImagePanel"
@@ -307,93 +274,79 @@
 		"enabled"			"1"
 		"image"				"../sprites/white"
 	}
-
 	///RADIAL CALLOUTS///
-
 	"radialpreload"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"radialpreload"
 		"xpos"				"99999"
 		"visible"			"1"
-
 		"radialz"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/z/z"
 		}
-
 		"radialz1"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/z/z1"
 		}
-
 		"radialz2"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/z/z2"
 		}
-
 		"radialz3"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/z/z3"
 		}
-
 		"radialx"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/x/x"
 		}
-
 		"radialx1"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/x/x1"
 		}
-
 		"radialx2"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/x/x2"
 		}
-
 		"radialx3"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/x/x3"
 		}
-
 		"radialc"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/c/c"
 		}
-
 		"radialc1"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/c/c1"
 		}
-
 		"radialc2"
 		{
 			"ControlName"		"ImagePanel"
 			"visible"			"1"
 			"image"				"crosshairs/../replay/thumbnails/c/c2"
 		}
-
 		"radialc3"
 		{
 			"ControlName"		"ImagePanel"

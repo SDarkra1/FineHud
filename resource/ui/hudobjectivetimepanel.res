@@ -16,7 +16,6 @@
 		"paintbackgroundtype"		"0"
 		"bgcolor_override"			"0 0 0 100"
 	}
-
 	"TeamBG"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -39,7 +38,6 @@
 		"draw_corner_width"			"0"
 		"draw_corner_height"		"0"
 	}
-
 	"OvertimeLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -53,8 +51,6 @@
 		"enabled"					"1"
 		"labelText"					"#game_Overtime"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"font"						"Product8"
 		"AllCaps"					"1"
 		"proportionaltoparent"		"1"
@@ -63,7 +59,6 @@
 		"fgcolor"					"White"
 		"bgcolor_override"			"0 0 0 100"
 	}
-
 	"SetupLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -77,8 +72,6 @@
 		"enabled"					"1"
 		"labelText"					"#game_Setup"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"font"						"Product8"
 		"AllCaps"					"1"
 		"proportionaltoparent"		"1"
@@ -87,7 +80,6 @@
 		"fgcolor"					"White"
 		"bgcolor_override"			"0 0 0 100"
 	}
-
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -101,69 +93,58 @@
 		"enabled"					"1"
 		"labelText"					"%servertimeleft%"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"font"						"Product10"
 		"fgcolor"					"Black"
 		"proportionaltoparent"		"1"
 	}
-
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
 		"xpos"				"9999"
 	}
-
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"9999"
 	}
-
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"WaitingForPlayersBG"
 		"xpos"				"9999"
 	}
-
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"9999"
 	}
-
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"OvertimeBG"
 		"xpos"				"9999"
 	}
-
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"SuddenDeathBG"
 		"xpos"				"9999"
 	}
-
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"9999"
 	}
-
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"SetupBG"
 		"xpos"				"9999"
 	}
-
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"

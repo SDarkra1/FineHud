@@ -17,7 +17,6 @@
 		"font"						"Product16"
 		"fgcolor"					"100 255 0 255"
 	}
-
 	"CurrencyBad"
 	{
 		"ControlName"				"CExLabel"
@@ -35,7 +34,6 @@
 		"font"						"Product16"
 		"fgcolor"					"Red"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -57,14 +55,12 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"BackgroundGood"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BackgroundGood"
 		"xpos"				"9999"
 	}
-
 	"MoneyImagePanel"
 	{
 		"ControlName"		"ImagePanel"

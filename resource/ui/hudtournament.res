@@ -18,17 +18,14 @@
 		"team2_player_delta_x"				"42"
 		"team2_player_delta_y"				"0"
 		"teams_player_delta_x_comp"			"42"
-
 		"if_competitive"
 		{
 			"team1_player_base_y"		"50"
 		}
-
 		"if_readymode"
 		{
 			"team1_player_base_y"		"50"
 		}
-
 		"if_mvm"
 		{
 			"team1_player_base_y"		"75"
@@ -37,7 +34,6 @@
 		"spacer"							"5"
 		"name_width"						"57"
 		"horiz_inset"						"2"
-
 		"playerpanels_kv"
 		{
 			"visible"				"0"
@@ -46,7 +42,6 @@
 			"zpos"					"1"
 			"color_ready"			"0 255 0 220"
 			"color_notready"		"0 0 0 220"
-
 			"playername"
 			{
 				"ControlName"				"CExLabel"
@@ -62,7 +57,6 @@
 				"labelText"					"%playername%"
 				"textAlignment"				"west"
 			}
-
 			"classimage"
 			{
 				"ControlName"				"CTFClassImage"
@@ -78,7 +72,6 @@
 				"image"						"../hud/class_scoutred"
 				"scaleImage"				"1"
 			}
-
 			"ReadyBG"
 			{
 				"ControlName"				"ScalableImagePanel"
@@ -97,7 +90,6 @@
 				"draw_corner_width"			"3"
 				"draw_corner_height"		"3"
 			}
-
 			"ReadyImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -113,7 +105,6 @@
 				"image"						"hud/checkmark"
 				"scaleImage"				"1"
 			}
-
 			"classimagebg"
 			{
 				"ControlName"				"Panel"
@@ -127,12 +118,10 @@
 				"enabled"					"1"
 				"bgcolor_override"			"Black"
 				"PaintBackgroundType"		"0"
-
 				"if_mvm"
 				{
 					"visible"		"0"
 				}
-
 				"if_competitive"
 				{
 					"xpos"						"4"
@@ -142,34 +131,29 @@
 					"visible"					"1"
 					"proportionaltoparent"		"1"
 				}
-
 				"if_readymode"
 				{
 					"visible"		"0"
 				}
 			}
-
 			"respawntime"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"respawntime"
 				"xpos"				"9999"
 			}
-
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"9999"
 			}
-
 			"chargeamount"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
 				"xpos"				"9999"
 			}
-
 			"specindex"
 			{
 				"ControlName"		"CExLabel"
@@ -182,7 +166,6 @@
 	// STATUS BAR ANCHOR
 	// This element can be used to move all the tournament ready panel elements at the same time
 	// ==================================================================================================================================================
-
 	"StatusBar"
 	{
 		"ControlName"				"EditablePanel"
@@ -196,7 +179,6 @@
 		"alpha"						"0"
 		"proportionaltoparent"		"1"
 	}
-
 	"WhiteBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -212,17 +194,14 @@
 		"painbackgroundtype"		"0"
 		"bgcolor_override"			"White"
 		"pin_to_sibling"			"StatusBar"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
@@ -231,7 +210,6 @@
 	// ==================================================================================================================================================
 	// BLUE
 	// ==================================================================================================================================================
-
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -249,23 +227,19 @@
 		"pin_to_sibling"			"WhiteBG"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPLEFT"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"TournamentBLUELabel"
 	{
 		"ControlName"			"CExLabel"
@@ -282,23 +256,19 @@
 		"textAlignment"			"west"
 		"fgcolor"				"White"
 		"pin_to_sibling"		"HudTournamentBLUEBG"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"TournamentBLUEStateLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -317,17 +287,14 @@
 		"pin_to_sibling"			"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
@@ -336,7 +303,6 @@
 	// ==================================================================================================================================================
 	// RED
 	// ==================================================================================================================================================
-
 	"HudTournamentREDBG"
 	{
 		"ControlName"				"EditablePanel"
@@ -354,23 +320,19 @@
 		"pin_to_sibling"			"WhiteBG"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"TournamentREDLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -389,23 +351,19 @@
 		"pin_to_sibling"			"HudTournamentRedBG"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"TournamentREDStateLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -422,24 +380,20 @@
 		"textAlignment"			"east"
 		"fgcolor"				"White"
 		"pin_to_sibling"		"HudTournamentRedBG"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
 	// ==================================================================================================================================================
-
 	"TournamentConditionLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -459,23 +413,19 @@
 		"pin_to_sibling"			"WhiteBG"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
-
 		"if_competitive"
 		{
 			"visible"		"0"
 		}
-
 		"if_readymode"
 		{
 			"ypos"		"20"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"TournamentInstructionsLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -492,33 +442,28 @@
 		"labelText"					"%readylabel%"
 		"textAlignment"				"center"
 		"fgcolor"					"White"
-
 		"if_competitive"
 		{
 			"visible"		"1"
 			"ypos"			"85"
 		}
-
 		"if_readymode"
 		{
 			"visible"		"1"
 			"ypos"			"85"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"1"
 			"ypos"			"105"
 		}
 	}
-
 	"CountdownBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CountdownBG"
 		"xpos"				"9999"
 	}
-
 	"CountdownLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -535,12 +480,10 @@
 		"textAlignment"				"center"
 		"fgcolor"					"White"
 		"proportionaltoparent"		"1"
-
 		"if_competitive"
 		{
 			"font"		"Product24"
 		}
-
 		"if_readymode"
 		{
 			"font"		"Product24"
@@ -549,28 +492,24 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"HudTournamentBGHelp"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"HudTournamentBGHelp"
 		"xpos"				"9999"
 	}
-
 	"TournamentLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TournamentLabel"
 		"xpos"				"9999"
 	}
-
 	"HudTournamentBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"HudTournamentBG"
 		"xpos"				"9999"
 	}
-
 	"CountdownLabelShadow"
 	{
 		"ControlName"		"CExLabel"

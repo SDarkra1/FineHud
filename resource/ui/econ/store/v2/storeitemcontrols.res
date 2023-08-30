@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"AddToCartButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -22,17 +21,11 @@
 		"zpos"							"10"
 		"wide"							"20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"0"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labeltext"						""
 		"font"							"HudFontSmallBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		"Command"						"addtocart"
@@ -43,7 +36,6 @@
 		"image_drawcolor"				"117 107 94 255"
 		"image_armedcolor"				"200 80 60 255"
 		"image_depressedcolor"			"255 80 60 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"

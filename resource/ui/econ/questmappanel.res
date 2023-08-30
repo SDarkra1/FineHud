@@ -9,14 +9,10 @@
 		"zpos"						"100"
 		"wide"						"f0"
 		"tall"						"f0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"0"
-		"skip_autoresize"			"1"
-
 		"MouseBlocker"
 		{
 			"ControlName"			"Panel"
@@ -26,20 +22,15 @@
 			"zpos"					"10000"
 			"wide"					"f0"
 			"tall"					"f0"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"mouseinputenabled"		"1"
 		}
-
 		"RewardItemKV"
 		{
 			"wide"		"250"
 			"tall"		"60"
 		}
-
 		"mouseoveritempanel"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -59,7 +50,6 @@
 			"model_hide"				"1"
 			"resize_to_text"			"1"
 			"padding_height"			"15"
-
 			"attriblabel"
 			{
 				"font"				"ItemFontAttribLarge"
@@ -68,8 +58,6 @@
 				"zpos"				"2"
 				"wide"				"140"
 				"tall"				"60"
-				"autoResize"		"0"
-				"pinCorner"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 				"labelText"			"%attriblist%"
@@ -78,7 +66,6 @@
 				"centerwrap"		"1"
 			}
 		}
-
 		"TooltipPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -91,7 +78,6 @@
 			"visible"					"0"
 			"PaintBackgroundType"		"2"
 			"border"					"MainMenuBGBorder"
-
 			"TipLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -104,14 +90,11 @@
 				"zpos"					"2"
 				"wide"					"200"
 				"tall"					"30"
-				"autoResize"			"0"
-				"pinCorner"				"0"
 				"visible"				"1"
 				"enabled"				"1"
 				"fgcolor_override"		"235 226 202 255"
 				"wrap"					"1"
 			}
-
 			"QuestObjective"
 			{
 				"fieldName"		"QuestObjective"
@@ -119,7 +102,6 @@
 				"zpos"			"1002"
 			}
 		}
-
 		"Dimmer"
 		{
 			"ControlName"			"EditablePanel"
@@ -129,14 +111,10 @@
 			"zpos"					"-2"
 			"wide"					"f0"
 			"tall"					"f0"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"bgcolor_override"		"20 15 5 230"
 		}
-
 		"OutsideCloseButton"
 		{
 			"ControlName"			"Button"
@@ -146,33 +124,26 @@
 			"zpos"					"-1"
 			"wide"					"f0"
 			"tall"					"f0"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				""
 			"bgcolor_override"		"0 0 0 220"
 			"command"				"close"
 			"paintbackground"		"0"
 			"paintborder"			"0"
 		}
-
 		"MainContainer"
 		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"MainContainer"
-			"xpos"					"cs-0.5"
-			"ypos"					"cs-0.5-20"
-			"zpos"					"1"
-			"wide"					"700"
-			"tall"					"700"
-			"skip_autoresize"		"1"
-			"visible"				"1"
-			"enabled"				"1"
-			"tabPosition"			"0"
-			"paintborder"			"0"
-
+			"ControlName"		"EditablePanel"
+			"fieldName"			"MainContainer"
+			"xpos"				"cs-0.5"
+			"ypos"				"cs-0.5-20"
+			"zpos"				"1"
+			"wide"				"700"
+			"tall"				"700"
+			"visible"			"1"
+			"enabled"			"1"
+			"paintborder"		"0"
 			"CloseButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -182,17 +153,11 @@
 				"zpos"							"10"
 				"wide"							"14"
 				"tall"							"14"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labeltext"						""
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"Command"						"close"
@@ -204,7 +169,6 @@
 				"depressedFgColor_override"		"46 43 42 255"
 				"image_drawcolor"				"200 80 60 255"
 				"image_armedcolor"				"255 80 60 255"
-
 				"SubImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -221,7 +185,6 @@
 				}
 			}
 			// Close button
-
 			"PowerSwitchButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -231,16 +194,10 @@
 				"zpos"							"1000"
 				"wide"							"o1"
 				"tall"							"88"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"labeltext"						""
 				"sound_depressed"				"ui/cyoa_switch.wav"
 				"sound_released"				"ui/cyoa_switch.wav"
@@ -252,7 +209,6 @@
 				"image_default"					"cyoa/cyoa_pda_switch_on"
 				"image_selected"				"cyoa/cyoa_pda_switch_off"
 				"image_armed"					"cyoa/cyoa_pda_switch_on"
-
 				"SubImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -270,7 +226,6 @@
 				}
 			}
 			// PowerSwitchButton
-
 			"PowerLabel"
 			{
 				"ControlName"				"Label"
@@ -287,7 +242,6 @@
 				"mouseinputenabled"			"0"
 				"fgcolor_override"			"255 255 255 100"
 			}
-
 			"MapStoreLabel"
 			{
 				"ControlName"				"Label"
@@ -304,7 +258,6 @@
 				"mouseinputenabled"			"0"
 				"fgcolor_override"			"255 255 255 100"
 			}
-
 			"MapButton"
 			{
 				"ControlName"				"CExImageButton"
@@ -314,16 +267,10 @@
 				"zpos"						"1000"
 				"wide"						"o1.75"
 				"tall"						"43"
-				"autoResize"				"0"
-				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
-				"tabPosition"				"0"
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"0"
 				"labeltext"					""
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
@@ -334,7 +281,6 @@
 				"image_default"				"cyoa/cyoa_pda_button_off_map"
 				"image_selected"			"cyoa/cyoa_pda_button_on_map"
 				"image_armed"				"cyoa/cyoa_pda_button_over_map"
-
 				"SubImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -352,7 +298,6 @@
 				}
 			}
 			// MapButton
-
 			"RewardsStoreLabel"
 			{
 				"ControlName"				"Label"
@@ -369,7 +314,6 @@
 				"mouseinputenabled"			"0"
 				"fgcolor_override"			"255 255 255 100"
 			}
-
 			"RewardsStoreButton"
 			{
 				"ControlName"				"CExImageButton"
@@ -379,16 +323,10 @@
 				"zpos"						"1000"
 				"wide"						"o1.75"
 				"tall"						"43"
-				"autoResize"				"0"
-				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
-				"tabPosition"				"0"
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"0"
 				"labeltext"					""
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
@@ -399,7 +337,6 @@
 				"image_default"				"cyoa/cyoa_pda_button_off_store"
 				"image_selected"			"cyoa/cyoa_pda_button_on_store"
 				"image_armed"				"cyoa/cyoa_pda_button_over_store"
-
 				"SubImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -417,7 +354,6 @@
 				}
 			}
 			// RewardsStoreButton
-
 			"DebugButton"
 			{
 				"ControlName"					"URLLabel"
@@ -427,17 +363,11 @@
 				"zpos"							"10"
 				"wide"							"14"
 				"tall"							"14"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labeltext"						"?"
 				"font"							"Product10"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"Command"						"debug_menu"
@@ -450,7 +380,6 @@
 				"depressedFgColor_override"		"46 43 42 255"
 				"image_drawcolor"				"117 107 94 255"
 				"image_armedcolor"				"200 80 60 255"
-
 				"SubImage"
 				{
 					"ControlName"		"ImagePanel"
@@ -467,7 +396,6 @@
 				}
 			}
 			// RickRoll pt.2
-
 			"ScreenBorder"
 			{
 				"ControlName"				"ImagePanel"
@@ -484,7 +412,6 @@
 				"image"						"cyoa/cyoa_pda"
 				"scaleimage"				"1"
 			}
-
 			"MapAreaPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -496,7 +423,6 @@
 				"zpos"						"0"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"1"
-
 				"Introduction"
 				{
 					"ControlName"				"EditablePanel"
@@ -508,7 +434,6 @@
 					"tall"						"f0"
 					"visible"					"1"
 					"proportionaltoparent"		"1"
-
 					"StaticBG"
 					{
 						"ControlName"				"ImagePanel"
@@ -527,7 +452,6 @@
 						"image"						"..\models\passtime\tv\passtime_tv_screen_static"
 						"tileImage"					"1"
 					}
-
 					"StaticDarken"
 					{
 						"ControlName"				"EditablePanel"
@@ -541,7 +465,6 @@
 						"proportionaltoparent"		"1"
 						"bgcolor_override"			"0 0 0 240"
 					}
-
 					"VideoPanel"
 					{
 						"ControlName"				"VideoPanel"
@@ -555,7 +478,6 @@
 						"loop"						"1"
 						"visible"					"0"
 					}
-
 					"IntroTitle"
 					{
 						"ControlName"				"Label"
@@ -572,7 +494,6 @@
 						"mouseinputenabled"			"0"
 						"fgcolor_override"			"QuestMap_ActiveOrange"
 					}
-
 					"IntroDesc"
 					{
 						"ControlName"					"Label"
@@ -592,7 +513,6 @@
 						"textinsetx"					"23"
 						"use_proportional_insets"		"1"
 					}
-
 					"HoverButtonStage1"
 					{
 						"fieldName"						"HoverButtonStage1"
@@ -610,7 +530,6 @@
 						"armedBgColor_override"			"QuestMap_ActiveOrange"
 						"image_drawcolor"				"255 255 255 255"
 						"image_armedcolor"				"0 0 0 0"
-
 						"SubImage"
 						{
 							"ControlName"				"ImagePanel"
@@ -627,7 +546,6 @@
 							"proportionaltoparent"		"1"
 						}
 					}
-
 					"HoverButtonStage2"
 					{
 						"fieldName"						"HoverButtonStage2"
@@ -645,7 +563,6 @@
 						"armedBgColor_override"			"QuestMap_ActiveOrange"
 						"image_drawcolor"				"255 255 255 255"
 						"image_armedcolor"				"0 0 0 0"
-
 						"SubImage"
 						{
 							"ControlName"				"ImagePanel"
@@ -662,7 +579,6 @@
 							"proportionaltoparent"		"1"
 						}
 					}
-
 					"HoverButtonStage3"
 					{
 						"fieldName"						"HoverButtonStage3"
@@ -680,7 +596,6 @@
 						"armedBgColor_override"			"QuestMap_ActiveOrange"
 						"image_drawcolor"				"255 255 255 255"
 						"image_armedcolor"				"0 0 0 0"
-
 						"SubImage"
 						{
 							"ControlName"				"ImagePanel"
@@ -697,7 +612,6 @@
 							"proportionaltoparent"		"1"
 						}
 					}
-
 					"IntroStage0"
 					{
 						"ControlName"				"EditablePanel"
@@ -711,7 +625,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"1"
 						"keyboardinputenabled"		"0"
-
 						"StartButton"
 						{
 							"ControlName"					"CExButton"
@@ -729,8 +642,6 @@
 							"use_proportional_insets"		"1"
 							"font"							"HudFontSmallBold"
 							"textAlignment"					"west"
-							"dulltext"						"0"
-							"brighttext"					"0"
 							"default"						"1"
 							"command"						"endintro"
 							"proportionaltoparent"			"1"
@@ -746,7 +657,6 @@
 							"depressedBgColor_override"		"CreditsGreen"
 						}
 					}
-
 					"IntroStage1"
 					{
 						"ControlName"				"EditablePanel"
@@ -760,7 +670,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"0"
 						"keyboardinputenabled"		"0"
-
 						"StageDesc"
 						{
 							"ControlName"					"Label"
@@ -781,7 +690,6 @@
 							"use_proportional_insets"		"1"
 						}
 					}
-
 					"IntroStage2"
 					{
 						"ControlName"				"EditablePanel"
@@ -795,7 +703,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"0"
 						"keyboardinputenabled"		"0"
-
 						"StageDesc"
 						{
 							"ControlName"					"Label"
@@ -816,7 +723,6 @@
 							"use_proportional_insets"		"1"
 						}
 					}
-
 					"IntroStage3"
 					{
 						"ControlName"				"EditablePanel"
@@ -831,7 +737,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"0"
 						"keyboardinputenabled"		"0"
-
 						"StageDesc"
 						{
 							"ControlName"					"Label"
@@ -853,7 +758,6 @@
 						}
 					}
 				}
-
 				"CyclingAd"
 				{
 					"ControlName"				"CCyclingAdContainerPanel"
@@ -868,7 +772,6 @@
 					"scaleImage"				"1"
 					"proportionaltoparent"		"1"
 					"bgcolor_override"			"0 0 0 255"
-
 					"items"
 					{
 						"0"
@@ -878,7 +781,6 @@
 						}
 					}
 				}
-
 				"TurnInCompletePopup"
 				{
 					"ControlName"				"EditablePanel"
@@ -892,7 +794,6 @@
 					"proportionaltoparent"		"1"
 					"mouseinputenabled"			"0"
 					"border"					"CYOANodeViewBorder"
-
 					"BorderOverlay"
 					{
 						"ControlName"				"Panel"
@@ -905,7 +806,6 @@
 						"proportionaltoparent"		"1"
 						"border"					"CYOANodeViewBorder_Active"
 					}
-
 					"CheckImage"
 					{
 						"ControlName"				"ImagePanel"
@@ -920,7 +820,6 @@
 						"scaleimage"				"1"
 						"drawcolor_override"		"QuestMap_ActiveOrange"
 					}
-
 					"BodyText"
 					{
 						"ControlName"				"Label"
@@ -938,7 +837,6 @@
 						"centerwrap"				"1"
 					}
 				}
-
 				"GlobalStatus"
 				{
 					"ControlName"				"EditablePanel"
@@ -952,7 +850,6 @@
 					"mouseinputenabled"			"1"
 					"border"					"QuickplayBorder"
 					"bgcolor_override"			"0 0 0 240"
-
 					"BloodMoneyTooltip"
 					{
 						"ControlName"			"Panel"
@@ -965,7 +862,6 @@
 						"paintbackground"		"0"
 						"paintborder"			"0"
 					}
-
 					"RewardCreditImage"
 					{
 						"ControlName"				"ImagePanel"
@@ -983,7 +879,6 @@
 						"image"						"cyoa/cyoa_cash_large"
 						"scaleimage"				"1"
 					}
-
 					"RewardCreditsLabel"
 					{
 						"ControlName"				"Label"
@@ -999,7 +894,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"0"
 					}
-
 					"StarsAvailableTooltip"
 					{
 						"ControlName"			"Panel"
@@ -1012,7 +906,6 @@
 						"paintbackground"		"0"
 						"paintborder"			"0"
 					}
-
 					"AvailableStarsImage"
 					{
 						"ControlName"				"ImagePanel"
@@ -1030,7 +923,6 @@
 						"image"						"cyoa/star_on"
 						"scaleimage"				"1"
 					}
-
 					"AvailableStarsLabel"
 					{
 						"ControlName"				"Label"
@@ -1046,7 +938,6 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"			"0"
 					}
-
 					"TotalStarsTooltip"
 					{
 						"ControlName"				"Panel"
@@ -1060,7 +951,6 @@
 						"paintbackground"			"0"
 						"paintborder"				"0"
 					}
-
 					"TotalStarsImage"
 					{
 						"ControlName"				"ImagePanel"
@@ -1078,7 +968,6 @@
 						"image"						"cyoa/star_off"
 						"scaleimage"				"1"
 					}
-
 					"TotalStarsLabel"
 					{
 						"ControlName"				"Label"
@@ -1095,7 +984,6 @@
 						"mouseinputenabled"			"0"
 					}
 				}
-
 				"SelectedNodeInfoPanel"
 				{
 					"fieldName"					"SelectedNodeInfoPanel"
@@ -1113,7 +1001,6 @@
 					"collapsed_height"			"165"
 					"expanded_height"			"220"
 				}
-
 				"QuestObjective"
 				{
 					"fieldName"				"QuestObjective"
@@ -1123,7 +1010,6 @@
 					"mouseinputenabled"		"0"
 					"border"				"CYOAPopupBorder"
 					"bgcolor_override"		"37 37 37 255"
-
 					"ObjectivesLabel"
 					{
 						"fieldName"				"ObjectivesLabel"
@@ -1141,7 +1027,6 @@
 						"textAlignment"			"west"
 						"textinsetx"			"5"
 					}
-
 					"ItemTrackerPanel"
 					{
 						"fieldName"								"ItemTrackerPanel"
@@ -1158,7 +1043,6 @@
 						"bar_gap"								"5"
 						"group_bars_with_objectives"			"1"
 						"proportionaltoparent"					"1"
-
 						"ModelImageKV"
 						{
 							"fieldName"			"ModelImage"
@@ -1167,7 +1051,6 @@
 							"scaleimage"		"1"
 							"zpos"				"10"
 						}
-
 						"progressbarKV"
 						{
 							"xpos"						"0"
@@ -1179,7 +1062,6 @@
 							"enabled"					"1"
 							"proportionaltoparent"		"1"
 							"bgcolor_override"			"250 234 201 51"
-
 							"PointsLabel"
 							{
 								"ControlName"				"Label"
@@ -1195,7 +1077,6 @@
 								"TextAlignment"				"center"
 								"proportionaltoparent"		"1"
 							}
-
 							"ProgressBarStandardHighlight"	// current completed
 							{
 								"ControlName"				"EditablePanel"
@@ -1209,7 +1090,6 @@
 								"visible"					"1"
 								"enabled"					"1"
 								"proportionaltoparent"		"1"
-
 								"PointsLabelInvert"
 								{
 									"ControlName"				"Label"
@@ -1227,7 +1107,6 @@
 									"fgcolor_override"			"Black"
 								}
 							}
-
 							"ProgressBarStandard"	// current completed
 							{
 								"ControlName"				"EditablePanel"
@@ -1241,7 +1120,6 @@
 								"enabled"					"1"
 								"proportionaltoparent"		"1"
 								"bgcolor_override"			"251 235 202 255"
-
 								"PointsLabelInvert"
 								{
 									"ControlName"				"Label"
@@ -1262,7 +1140,6 @@
 						}
 					}
 				}
-
 				"RewardsShop"
 				{
 					"ControlName"				"EditablePanel"
@@ -1274,7 +1151,6 @@
 					"tall"						"p1"
 					"visible"					"0"
 					"proportionaltoparent"		"1"
-
 					"BlackBG"
 					{
 						"ControlName"				"Panel"
@@ -1291,7 +1167,6 @@
 						"keyboardinputenabled"		"0"
 						"bgcolor_override"			"0 0 0 255"
 					}
-
 					"Dimmer"
 					{
 						"ControlName"				"Panel"
@@ -1309,7 +1184,6 @@
 						"alpha"						"100"
 						"bgcolor_override"			"0 0 0 255"
 					}
-
 					"TitleBorder"
 					{
 						"ControlName"				"Panel"
@@ -1326,7 +1200,6 @@
 						"keyboardinputenabled"		"0"
 						"border"					"ReplayDefaultBorder"
 					}
-
 					"Title"
 					{
 						"ControlName"				"Label"
@@ -1336,22 +1209,15 @@
 						"zpos"						"10"
 						"wide"						"300"
 						"tall"						"14"
-						"autoResize"				"0"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
 						"labeltext"					"#TF_QuestMap_RewardStore_Title"
 						"font"						"QuestLargeText"
 						"textAlignment"				"center"
-						"dulltext"					"0"
-						"brighttext"				"0"
-						"default"					"0"
 						"proportionaltoparent"		"1"
 						"paintbackground"			"0"
 					}
 					// Title
-
 					"Description"
 					{
 						"ControlName"				"Label"
@@ -1361,22 +1227,15 @@
 						"zpos"						"10"
 						"wide"						"f0"
 						"tall"						"14"
-						"autoResize"				"0"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
 						"labeltext"					"#TF_QuestMap_RewardStore_Desc"
 						"font"						"QuestMap_Small"
 						"textAlignment"				"center"
-						"dulltext"					"0"
-						"brighttext"				"0"
-						"default"					"0"
 						"proportionaltoparent"		"1"
 						"paintbackground"			"0"
 					}
 					// Title
-
 					"ItemsScroller"
 					{
 						"ControlName"				"CExScrollingEditablePanel"
@@ -1390,7 +1249,6 @@
 						"mouseinputenabled"			"1"
 						"bottom_buffer"				"50"
 						"scroll_step"				"20"
-
 						"ScrollBar"
 						{
 							"ControlName"				"ScrollBar"
@@ -1402,19 +1260,16 @@
 							"zpos"						"1000"
 							"nobuttons"					"1"
 							"proportionaltoparent"		"1"
-
 							"Slider"
 							{
 								"fgcolor_override"		"TanDark"
 							}
-
 							"UpButton"
 							{
 								"ControlName"		"Button"
 								"FieldName"			"UpButton"
 								"visible"			"0"
 							}
-
 							"DownButton"
 							{
 								"ControlName"		"Button"
@@ -1426,7 +1281,6 @@
 					// ItemsScroller
 				}
 				// RewardsShop
-
 				"DisconnetedContainer"
 				{
 					"ControlName"				"EditablePanel"
@@ -1439,7 +1293,6 @@
 					"alpha"						"255"
 					"proportionaltoparent"		"1"
 					"mouseinputenabled"			"0"
-
 					"IntroDesc"
 					{
 						"ControlName"				"Label"
@@ -1457,7 +1310,6 @@
 						"fgcolor_override"			"TanLight"
 						"wrap"						"0"
 					}
-
 					"StaticBackground"
 					{
 						"ControlName"				"ImagePanel"
@@ -1477,7 +1329,6 @@
 						"tileImage"					"1"
 					}
 				}
-
 				"StaticBar1"
 				{
 					"ControlName"				"ImagePanel"
@@ -1497,7 +1348,6 @@
 					"scaleimage"				"1"
 					"rotation"					"3"
 				}
-
 				"StaticBar2"
 				{
 					"ControlName"				"EditablePanel"
@@ -1514,7 +1364,6 @@
 					"keyboardinputenabled"		"0"
 					"bgcolor_override"			"255 255 255 3"
 				}
-
 				"BlackOverlay"
 				{
 					"ControlName"				"Panel"
@@ -1531,7 +1380,6 @@
 					"keyboardinputenabled"		"0"
 					"bgcolor_override"			"0 0 0 255"
 				}
-
 				"StaticOverlay"
 				{
 					"ControlName"				"ImagePanel"

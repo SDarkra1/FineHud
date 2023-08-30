@@ -15,7 +15,6 @@
 		// "model_wide_collection"	"156"
 		// "model_tall_collection"	"100"
 	}
-
 	"LoadingSpinner"
 	{
 		"ControlName"		"ImagePanel"
@@ -25,15 +24,12 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"f0"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"0"
 		"image"				"animated/tf2_logo_hourglass"
 		"scaleImage"		"1"
 	}
-
 	"MainContentsContainer"
 	{
 		"ControlName"			"EditablePanel"
@@ -44,7 +40,6 @@
 		"tall"					"f0"
 		"visible"				"1"
 		"bgcolor_override"		"0 0 0 0"
-
 		"itemmodelpanel"
 		{
 			"ControlName"				"CEmbeddedItemModelPanel"
@@ -54,8 +49,6 @@
 			"zpos"						"1"
 			"wide"						"140"
 			"tall"						"100"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"useparentbg"				"1"
@@ -64,7 +57,6 @@
 			"fov"						"54"
 			"start_framed"				"1"
 			"disable_manipulation"		"1"
-
 			"model"
 			{
 				"angles_x"		"10"
@@ -73,7 +65,6 @@
 				"spotlight"		"1"
 			}
 		}
-
 		"namelabel"
 		{
 			"ControlName"		"CExLabel"
@@ -84,8 +75,6 @@
 			"zpos"				"2"
 			"wide"				"140"
 			"tall"				"30"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"%itemname%"
@@ -93,7 +82,6 @@
 			"fgcolor"			"235 226 202 255"
 			"centerwrap"		"1"
 		}
-
 		"attriblabel"
 		{
 			"ControlName"		"CExLabel"
@@ -104,8 +92,6 @@
 			"zpos"				"2"
 			"wide"				"140"
 			"tall"				"60"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"%attriblist%"
@@ -113,7 +99,6 @@
 			"fgcolor"			"117 107 94 255"
 			"centerwrap"		"1"
 		}
-
 		"equippedlabel"
 		{
 			"ControlName"				"CExLabel"
@@ -124,8 +109,6 @@
 			"zpos"						"2"
 			"wide"						"35"
 			"tall"						"10"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"labelText"					"#ItemPanelEquipped"
@@ -134,7 +117,6 @@
 			"bgcolor_override"			"0 0 0 255"
 			"PaintBackgroundType"		"2"
 		}
-
 		"paint_icon"
 		{
 			"ControlName"		"CItemMaterialCustomizationIconPanel"
@@ -147,7 +129,6 @@
 			"visible"			"0"
 			"enabled"			"1"
 		}
-
 		"quantitylabel"
 		{
 			"ControlName"				"CExLabel"
@@ -158,8 +139,6 @@
 			"zpos"						"2"
 			"wide"						"10"
 			"tall"						"10"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
 			"labelText"					""
@@ -168,7 +147,6 @@
 			"bgcolor_override"			"0 0 0 255"
 			"PaintBackgroundType"		"2"
 		}
-
 		"serieslabel"
 		{
 			"ControlName"				"CExLabel"
@@ -179,8 +157,6 @@
 			"zpos"						"2"
 			"wide"						"14"
 			"tall"						"10"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
 			"labelText"					""
@@ -189,7 +165,6 @@
 			"bgcolor_override"			"0 40 30 255"
 			"PaintBackgroundType"		"2"
 		}
-
 		"matcheslabel"
 		{
 			"ControlName"				"CExLabel"
@@ -200,8 +175,6 @@
 			"zpos"						"2"
 			"wide"						"20"
 			"tall"						"10"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
 			"labelText"					""
@@ -210,7 +183,6 @@
 			"bgcolor_override"			"0 40 30 255"
 			"PaintBackgroundType"		"2"
 		}
-
 		"vision_restriction_icon"
 		{
 			"ControlName"		"ImagePanel"
@@ -218,15 +190,12 @@
 			"xpos"				"4"
 			"ypos"				"4"
 			"zpos"				"2"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"wide"				"16"
 			"tall"				"16"
 			"visible"			"0"
 			"enabled"			"1"
 			"scaleImage"		"1"
 		}
-
 		"is_strange_icon"
 		{
 			"ControlName"		"ImagePanel"
@@ -234,15 +203,12 @@
 			"xpos"				"4"
 			"ypos"				"4"
 			"zpos"				"2"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"wide"				"16"
 			"tall"				"16"
 			"visible"			"0"
 			"enabled"			"1"
 			"scaleImage"		"1"
 		}
-
 		"is_unusual_icon"
 		{
 			"ControlName"		"ImagePanel"
@@ -250,15 +216,12 @@
 			"xpos"				"4"
 			"ypos"				"4"
 			"zpos"				"2"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"wide"				"16"
 			"tall"				"16"
 			"visible"			"0"
 			"enabled"			"1"
 			"scaleImage"		"1"
 		}
-
 		"is_loaner_icon"
 		{
 			"ControlName"		"ImagePanel"
@@ -266,15 +229,12 @@
 			"xpos"				"4"
 			"ypos"				"4"
 			"zpos"				"2"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"wide"				"16"
 			"tall"				"16"
 			"visible"			"0"
 			"enabled"			"1"
 			"scaleImage"		"1"
 		}
-
 		"contained_item_panel"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -299,7 +259,6 @@
 			"model_only"				"1"
 			"inset_eq_x"				"2"
 			"inset_eq_y"				"2"
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"		"0"

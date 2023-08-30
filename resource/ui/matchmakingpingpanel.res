@@ -1,5 +1,4 @@
 "#base"		"MatchMakingDashboardSidePanel.res"
-
 "Resource/UI/MatchMakingPingPanel.res"
 {
 	"PingPanel"
@@ -15,7 +14,6 @@
 		"datacenter_y"				"3"
 		"datacenter_y_space"		"1"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -32,7 +30,6 @@
 		"bgcolor_override"			"11 11 11 255"
 		"proportionaltoparent"		"1"
 	}
-
 	"Title"
 	{
 		"ControlName"				"Label"
@@ -50,7 +47,6 @@
 		"bgcolor_override"			"11 11 11 255"
 		"mouseinputenabled"			"0"
 	}
-
 	"InviteModeLabel"
 	{
 		"ControlName"					"Label"
@@ -69,7 +65,6 @@
 		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
-
 	"InviteModeComboBox"
 	{
 		// "ControlName"	"ComboBox"
@@ -91,7 +86,6 @@
 		"selectionTextColor_override"			"235 226 202 255"
 		"defaultSelectionBG2Color_override"		"Blank"
 	}
-
 	"IgnorePartyInvites"
 	{
 		"ControlName"					"CvarToggleCheckButton"
@@ -110,7 +104,6 @@
 		"button_activation_type"		"1"
 		"cvar_name"						"tf_party_ignore_invites"
 	}
-
 	"KeepPartyOnSameTeam"
 	{
 		"ControlName"					"CvarToggleCheckButton"
@@ -129,7 +122,6 @@
 		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
-
 	"KeepPartyOnSameTeamLabel"
 	{
 		"ControlName"					"Label"
@@ -148,7 +140,6 @@
 		"button_activation_type"		"1"
 		"fgcolor_override"				"TanDark"
 	}
-
 	"CustomPingCheckButton"
 	{
 		"ControlName"					"CvarToggleCheckButton"
@@ -170,7 +161,6 @@
 	}
 	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
 	// and the above checkbox has that behavior.  To get around it, make another label
-
 	"CheckLabel"
 	{
 		"ControlName"					"Label"
@@ -188,7 +178,6 @@
 		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
-
 	"DescLabel"
 	{
 		"ControlName"					"CExLabel"
@@ -207,7 +196,6 @@
 		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
-
 	"CurrentPingLabel"
 	{
 		"ControlName"				"Label"
@@ -223,7 +211,6 @@
 		"font"						"HudFontSmallestBold"
 		"mouseinputenabled"			"0"
 	}
-
 	"PingSlider"
 	{
 		"ControlName"				"CCvarSlider"
@@ -232,19 +219,15 @@
 		"ypos"						"175"
 		"wide"						"f40"
 		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"RoundedCorners"			"15"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"proportionaltoparent"		"1"
 		"cvar_name"					"tf_mm_custom_ping"
 		"use_convar_minmax"			"1"
 	}
-
 	"DataCenterContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -254,13 +237,9 @@
 		"zpos"						"100"
 		"wide"						"f37"
 		"tall"						"f220"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"proportionaltoparent"		"1"
-
 		"DataCenterList"
 		{
 			"ControlName"				"CScrollableList"
@@ -273,7 +252,6 @@
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 			"restrict_width"			"0"
-
 			"ScrollBar"
 			{
 				"ControlName"				"ScrollBar"
@@ -285,19 +263,16 @@
 				"zpos"						"1000"
 				"nobuttons"					"1"
 				"proportionaltoparent"		"1"
-
 				"Slider"
 				{
 					"fgcolor_override"		"TanDark"
 				}
-
 				"UpButton"
 				{
 					"ControlName"		"Button"
 					"FieldName"			"UpButton"
 					"visible"			"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"		"Button"
@@ -306,7 +281,6 @@
 				}
 			}
 		}
-
 		"Frame"
 		{
 			"Controlname"				"EditablePanel"
@@ -320,7 +294,6 @@
 			"border"					"none"
 			"mouseinputenabled"			"0"
 		}
-
 		"Background"
 		{
 			"ControlName"				"EditablePanel"

@@ -5,22 +5,18 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"90" [$WIN32]
-		"ypos"			"r100" [$WIN32]
-		"xpos"			"r194" [$X360]
-		"ypos"			"r74" [$X360]
+		"xpos"			"90"
+		"ypos"			"r100"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-
 		"HudItemEffectMeter_minmode"
 		{
-			"xpos"		"r70" [$WIN32]
-			"ypos"		"r74" [$WIN32]
+			"xpos"		"r70"
+			"ypos"		"r74"
 		}
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"				"CTFImagePanel"
@@ -39,13 +35,11 @@
 		"teambg_3"					"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"			"../hud/misc_ammo_area_blue_lodef"
 		"proportionalToParent"		"1"
-
 		"ItemEffectMeterBG_minmode"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -55,19 +49,13 @@
 		"zpos"						"2"
 		"wide"						"41"
 		"tall"						"15"
-		"autoResize"				"1"
-		"pinCorner"					"2"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labelText"					"#TF_Ball"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"font"						"TFFontSmall"
 		"proportionalToParent"		"1"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"				"ContinuousProgressBar"
@@ -78,15 +66,10 @@
 		"zpos"						"2"
 		"wide"						"40"
 		"tall"						"6"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"0"
 		"textAlignment"				"Left"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"proportionalToParent"		"1"
-
 		"ItemEffectMeter_minmode"
 		{
 			"ypos"		"0"
@@ -94,7 +77,6 @@
 			"wide"		"50"
 		}
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"				"CExLabel"
@@ -104,14 +86,10 @@
 		"zpos"						"2"
 		"wide"						"50"
 		"tall"						"20"
-		"pinCorner"					"2"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labelText"					"%progresscount%"
 		"textAlignment"				"north"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"font"						"HudFontMedium"
 		"proportionalToParent"		"1"
 	}

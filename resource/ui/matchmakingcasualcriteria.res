@@ -12,9 +12,6 @@
 		"visible"					"1"
 		"PaintBackgroundType"		"2"
 		"proportionaltoparent"		"1"
-		"pinCorner"					"2"
-		"autoResize"				"1"
-
 		"RankImage"
 		{
 			"ControlName"				"CTFLocalPlayerBadgePanel"
@@ -30,7 +27,6 @@
 			"mouseinputenabled"			"0"
 			"matchgroup"				"MatchGroup_Casual_12v12"
 		}
-
 		"RankPanel"
 		{
 			"ControlName"				"CPvPRankPanel"
@@ -47,7 +43,6 @@
 			"show_model"				"0"
 			"show_name"					"0"
 		}
-
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"				"CExImageButton"
@@ -57,17 +52,11 @@
 			"zpos"						"100"
 			"wide"						"15"
 			"tall"						"o1"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"labelText"					""
 			"font"						"HudFontSmallBold"
 			"textAlignment"				"center"
-			"dulltext"					"0"
-			"brighttext"				"0"
-			"default"					"0"
 			"Command"					"restore_search_criteria"
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
@@ -75,7 +64,6 @@
 			"proportionaltoparent"		"1"
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"235 226 202 255"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -91,7 +79,6 @@
 				"scaleImage"		"1"
 			}
 		}
-
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"				"CExImageButton"
@@ -101,17 +88,11 @@
 			"zpos"						"100"
 			"wide"						"15"
 			"tall"						"o1"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"labelText"					""
 			"font"						"HudFontSmallBold"
 			"textAlignment"				"center"
-			"dulltext"					"0"
-			"brighttext"				"0"
-			"default"					"0"
 			"Command"					"save_search_criteria"
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
@@ -119,7 +100,6 @@
 			"proportionaltoparent"		"1"
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"235 226 202 255"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -135,14 +115,12 @@
 				"scaleImage"		"1"
 			}
 		}
-
 		"ShowExplanationsButton"
 		{
 			"ControlName"		"CExButton"
 			"fieldName"			"ShowExplanationsButton"
 			"xpos"				"9999"
 		}
-
 		"Title"
 		{
 			"ControlName"				"Label"
@@ -158,7 +136,6 @@
 			"font"						"Product16"
 			"mouseinputenabled"			"0"
 		}
-
 		"SelectedCount"
 		{
 			"ControlName"				"Label"
@@ -176,7 +153,6 @@
 			"fgcolor_override"			"TanDark"
 			"mouseinputenabled"			"1"
 		}
-
 		"QueueEstimation"
 		{
 			"ControlName"				"Label"
@@ -195,7 +171,6 @@
 			"visible"					"0"
 			"mouseinputenabled"			"0"
 		}
-
 		"PlayListDropShadow"
 		{
 			"ControlName"				"EditablePanel"
@@ -211,7 +186,6 @@
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"0"
 		}
-
 		"GameModesList"
 		{
 			"ControlName"				"CScrollableList"
@@ -224,7 +198,6 @@
 			"proportionaltoparent"		"1"
 			"restrict_width"			"0"
 			"border"					"NoBorder"
-
 			"ScrollBar"
 			{
 				"ControlName"				"ScrollBar"
@@ -236,19 +209,16 @@
 				"zpos"						"1000"
 				"nobuttons"					"1"
 				"proportionaltoparent"		"1"
-
 				"Slider"
 				{
 					"fgcolor_override"		"TanDark"
 				}
-
 				"UpButton"
 				{
 					"ControlName"		"Button"
 					"FieldName"			"UpButton"
 					"visible"			"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"		"Button"

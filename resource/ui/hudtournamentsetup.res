@@ -9,8 +9,6 @@
 		"zpos"						"-1"
 		"wide"						"180"
 		"tall"						"65"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_brown"
@@ -19,7 +17,6 @@
 		"draw_corner_width"			"8"	// screen size of the corners ( and sides ), proportional
 		"draw_corner_height"		"8"
 	}
-
 	"TournamentSetupBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -31,7 +28,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 200"
 	}
-
 	"TournamentSetupLabel"
 	{
 		"ControlName"		"Label"
@@ -42,8 +38,6 @@
 		"zpos"				"1"
 		"wide"				"180"
 		"tall"				"35"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
@@ -51,7 +45,6 @@
 		"labelText"			"%tournamentstatelabel%"
 		"textAlignment"		"center"
 	}
-
 	"TournamentTeamNameLabel"
 	{
 		"ControlName"		"Label"
@@ -62,15 +55,12 @@
 		"zpos"				"1"
 		"wide"				"74"
 		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
 		"labelText"			"#Tournament_TeamNamePanel"
 		"textAlignment"		"west"
 	}
-
 	"TournamentNameEdit"
 	{
 		"ControlName"			"TextEntry"
@@ -79,11 +69,8 @@
 		"ypos"					"27"
 		"wide"					"165"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"textHidden"			"0"
 		"editable"				"1"
 		"maxchars"				"5"
@@ -95,7 +82,6 @@
 		"labelText"				"%teamname%"
 		"textAlignment"			"west"
 	}
-
 	"HudTournamentNameBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -105,14 +91,11 @@
 		"wide"				"50"
 		"tall"				"14"
 		"zpos"				"0"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
 		"fillcolor"			"Black"
 		"scaleImage"		"1"
 	}
-
 	"TournamentNotReadyButton"
 	{
 		"ControlName"			"CExButton"
@@ -122,21 +105,15 @@
 		"wide"					"70"
 		"tall"					"14"
 		"zpos"					"5"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"Not Ready"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"command"				"teamnotready"
-		"default"				"1"
 		"font"					"Product10"
 		"fgcolor"				"Red"
 		"roundedcorners"		"0"
 	}
-
 	"TournamentReadyButton"
 	{
 		"ControlName"			"CExButton"
@@ -146,14 +123,10 @@
 		"wide"					"70"
 		"tall"					"14"
 		"zpos"					"5"
-		"autoResize"			"0"
-		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"Ready"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"command"				"teamready"
 		"default"				"1"
 		"font"					"Product10"

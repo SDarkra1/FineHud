@@ -16,7 +16,6 @@
 		"paintbackgroundtype"		"0"
 		"bgcolor_override"			"0 0 0 100"
 	}
-
 	"ToggleLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -40,7 +39,6 @@
 		"fgcolor"					"230 230 230 255"
 		"pin_to_sibling"			"Background"
 	}
-
 	"class_item_red_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -53,7 +51,6 @@
 		"visible"				"1"
 		"pin_to_sibling"		"Background"
 	}
-
 	"class_item_blue_1"
 	{
 		"ControlName"			"EditablePanel"
@@ -66,7 +63,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_1"
 	}
-
 	"class_item_red_2"
 	{
 		"ControlName"				"EditablePanel"
@@ -81,7 +77,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_2"
 	{
 		"ControlName"			"EditablePanel"
@@ -94,7 +89,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_2"
 	}
-
 	"class_item_red_3"
 	{
 		"ControlName"				"EditablePanel"
@@ -109,7 +103,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_3"
 	{
 		"ControlName"			"EditablePanel"
@@ -122,7 +115,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_3"
 	}
-
 	"class_item_red_4"
 	{
 		"ControlName"				"EditablePanel"
@@ -137,7 +129,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_4"
 	{
 		"ControlName"			"EditablePanel"
@@ -150,7 +141,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_4"
 	}
-
 	"class_item_red_5"
 	{
 		"ControlName"				"EditablePanel"
@@ -165,7 +155,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_5"
 	{
 		"ControlName"			"EditablePanel"
@@ -178,7 +167,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_5"
 	}
-
 	"class_item_red_6"
 	{
 		"ControlName"				"EditablePanel"
@@ -193,7 +181,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_6"
 	{
 		"ControlName"			"EditablePanel"
@@ -206,7 +193,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_6"
 	}
-
 	"class_item_red_7"
 	{
 		"ControlName"				"EditablePanel"
@@ -221,7 +207,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_7"
 	{
 		"ControlName"			"EditablePanel"
@@ -234,7 +219,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_7"
 	}
-
 	"class_item_red_8"
 	{
 		"ControlName"				"EditablePanel"
@@ -249,7 +233,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_8"
 	{
 		"ControlName"			"EditablePanel"
@@ -262,7 +245,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_8"
 	}
-
 	"class_item_red_9"
 	{
 		"ControlName"				"EditablePanel"
@@ -277,7 +259,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"class_item_blue_9"
 	{
 		"ControlName"			"EditablePanel"
@@ -290,7 +271,6 @@
 		"visible"				"0"
 		"pin_to_sibling"		"class_item_red_9"
 	}
-
 	"NumberLabel1"
 	{
 		"ControlName"				"CExLabel"
@@ -310,7 +290,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
-
 	"NumberLabel2"
 	{
 		"ControlName"				"CExLabel"
@@ -330,7 +309,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
-
 	"NumberLabel3"
 	{
 		"ControlName"				"CExLabel"
@@ -353,56 +331,48 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"MainBackground"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MainBackground"
 		"xpos"				"9999"
 	}
-
 	"Divider"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"Divider"
 		"xpos"				"9999"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"xpos"				"9999"
 	}
-
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
 		"xpos"				"9999"
 	}
-
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"xpos"				"9999"
 	}
-
 	"NumberBg1"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"9999"
 	}
-
 	"NumberBg2"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"9999"
 	}
-
 	"NumberBg3"
 	{
 		"ControlName"		"CIconPanel"

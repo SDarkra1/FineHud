@@ -14,37 +14,29 @@
 		"paintbackgroundtype"		"2"
 		"settitlebarvisible"		""
 		"border"					""
-
 		"button_kv"
 		{
 			"xpos"		"10"
 			"ypos"		"0"
 			"wide"		"350"
 			"tall"		"30"
-
 			"button"
 			{
 				"xpos"							"0"
 				"ypos"							"0"
 				"wide"							"350"
 				"tall"							"30"
-				"autoResize"					"0"
-				"pinCorner"						"3"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labelText"						""
 				"font"							"HudFontSmallBold"
 				"textAlignment"					"west"
 				"textinsetx"					"34"
 				"use_proportional_insets"		"1"
-				"dulltext"						"0"
-				"brighttext"					"0"
 				"default"						"1"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
-
 			"avatar"
 			{
 				"ControlName"		"CAvatarImagePanel"
@@ -62,7 +54,6 @@
 			}
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -75,13 +66,10 @@
 		"zpos"					"1"
 		"wide"					"400"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"PlayerListScroller"
 	{
 		"ControlName"				"ScrollableEditablePanel"
@@ -93,7 +81,6 @@
 		"PaintBackgroundType"		"2"
 		"fgcolor_override"			"117 107 94 255"
 		"bgcolor_override"			"0 0 0 64"
-
 		"PlayerList"
 		{
 			"ControlName"		"EditablePanel"
@@ -105,7 +92,6 @@
 			"visible"			"1"
 		}
 	}
-
 	"StatePanel0"
 	{
 		"ControlName"				"EditablePanel"
@@ -117,7 +103,6 @@
 		"wide"						"400"
 		"tall"						"180"
 		"PaintBackgroundType"		"2"
-
 		"QueryLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -130,13 +115,10 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"			"CExButton"
@@ -146,22 +128,16 @@
 			"zpos"					"1"
 			"wide"					"200"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_TradeStartDialog_SelectFriends"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"default"				"1"
 			"Command"				"friends"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"subbutton1"
 		{
 			"ControlName"			"CExButton"
@@ -171,22 +147,16 @@
 			"zpos"					"1"
 			"wide"					"200"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_TradeStartDialog_SelectServer"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"default"				"1"
 			"Command"				"server"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"subbutton2"
 		{
 			"ControlName"			"CExButton"
@@ -196,23 +166,17 @@
 			"zpos"					"1"
 			"wide"					"200"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_TradeStartDialog_SelectProfile"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"default"				"1"
 			"Command"				"profile"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
 	}
-
 	"StatePanel1"
 	{
 		"ControlName"				"EditablePanel"
@@ -224,7 +188,6 @@
 		"wide"						"400"
 		"tall"						"180"
 		"PaintBackgroundType"		"2"
-
 		"QueryLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -236,13 +199,10 @@
 			"ypos"					"10"
 			"wide"					"400"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -255,16 +215,13 @@
 			"zpos"					"1"
 			"wide"					"400"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"wrap"					"1"
 			"centerwrap"			"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
 	}
-
 	"StatePanel2"
 	{
 		"ControlName"				"EditablePanel"
@@ -276,7 +233,6 @@
 		"wide"						"400"
 		"tall"						"180"
 		"PaintBackgroundType"		"2"
-
 		"QueryLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -289,13 +245,10 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -308,16 +261,13 @@
 			"zpos"					"1"
 			"wide"					"400"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"wrap"					"1"
 			"centerwrap"			"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
 	}
-
 	"StatePanel3"
 	{
 		"ControlName"				"EditablePanel"
@@ -329,7 +279,6 @@
 		"wide"						"400"
 		"tall"						"180"
 		"PaintBackgroundType"		"2"
-
 		"QueryLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -342,13 +291,10 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"200 187 161 255"
 		}
-
 		"URLHelpLabel"
 		{
 			"ControlName"			"Label"
@@ -361,15 +307,12 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
+				"visible"				"1"
 			"enabled"				"1"
 			"wrap"					"1"
 			"centerwrap"			"1"
 			"fgcolor_override"		"117 107 94 255"
 		}
-
 		"URLFailLabel"
 		{
 			"ControlName"			"Label"
@@ -382,15 +325,12 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"40"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"0"
+				"visible"				"0"
 			"enabled"				"1"
 			"wrap"					"1"
 			"centerwrap"			"1"
 			"fgcolor_override"		"200 80 60 255"
 		}
-
 		"URLSearchingLabel"
 		{
 			"ControlName"			"Label"
@@ -403,15 +343,12 @@
 			"zpos"					"-1"
 			"wide"					"400"
 			"tall"					"40"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"0"
+				"visible"				"0"
 			"enabled"				"1"
 			"wrap"					"1"
 			"centerwrap"			"1"
 			"fgcolor_override"		"200 80 60 255"
 		}
-
 		"URLEntry"
 		{
 			"ControlName"				"TextEntry"
@@ -420,11 +357,8 @@
 			"ypos"						"80"
 			"wide"						"360"
 			"tall"						"24"
-			"autoResize"				"1"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"textHidden"				"0"
 			"editable"					"1"
 			"maxchars"					"256"
@@ -438,7 +372,6 @@
 			"font"						"HudFontSmall"
 			"textAlignment"				"west"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"			"CExButton"
@@ -448,23 +381,17 @@
 			"zpos"					"1"
 			"wide"					"200"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_TradeStartDialog_ProfileGo"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"default"				"1"
 			"Command"				"url_ok"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -474,16 +401,11 @@
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Cancel"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"

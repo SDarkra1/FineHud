@@ -11,7 +11,6 @@
 		"tall"						"f0"
 		"stats_buffer_width"		"50"
 	}
-
 	"QuestsStatusContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -22,7 +21,6 @@
 		"tall"						"17"
 		"proportionaltoparent"		"1"
 		"paintborder"				"0"
-
 		"Header"
 		{
 			"ControlName"				"CExLabel"
@@ -38,7 +36,6 @@
 			"proportionaltoparent"		"1"
 			"fgcolor"					"White"
 		}
-
 		"CallToAction"
 		{
 			"ControlName"				"CExLabel"
@@ -54,7 +51,6 @@
 			"proportionaltoparent"		"1"
 			"fgcolor"					"White"
 		}
-
 		"Image"
 		{
 			"ControlName"		"CTFImagePanel"

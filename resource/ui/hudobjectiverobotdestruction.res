@@ -19,12 +19,10 @@
 		"robot_y_step"					"0"
 		"color_blue"					"84 111 127 255"
 		"color_red"						"171 59 59 255"
-
 		"if_hybrid"
 		{
 			"zpos"		"-1"
 		}
-
 		"robot_kv"
 		{
 			"ControlName"				"CTFHudRobotDestruction_RobotIndicator"
@@ -36,83 +34,63 @@
 			"bgcolor_override"			"Blank"
 			"PaintBackgroundType"		"0"
 			"paintborder"				"0"
-			"AutoResize"				"0"
-			"skip_autoresize"			"1"
 		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayingTo"
-		"xpos"				"c-70" [$WIN32]
-		"xpos"				"c-60" [$X360]
-		"ypos"				"r28" [$WIN32]
-		"ypos"				"r48" [$X360]
+		"xpos"				"c-70"
+		"ypos"				"r28"
 		"zpos"				"4"
-		"wide"				"140" [$WIN32]
-		"wide"				"120" [$X360]
+		"wide"				"140"
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#TF_PlayingTo"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontSmall"
 		"fgcolor"			"TanLight"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"PlayingToBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayingToBG"
-		"xpos"				"c-75" [$WIN32]
-		"xpos"				"c-70" [$X360]
-		"ypos"				"r31" [$WIN32]
-		"ypos"				"r51" [$X360]
+		"xpos"				"c-75"
+		"ypos"				"r31"
 		"zpos"				"3"
-		"wide"				"150" [$WIN32]
-		"wide"				"140" [$X360]
-		"tall"				"38" [$WIN32]
-		"tall"				"35" [$X360]
+		"wide"				"150"
+		"tall"				"38"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_flagpanel_bg_playingto"
 		"image_hidef"		"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"		"1"
-
 		"if_hybrid"
 		{
 			"visible"		"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"		"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"			"EditablePanel"
@@ -125,7 +103,6 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"bgcolor_override"		"Blank"
-
 		"CarriedImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -141,7 +118,6 @@
 			"scaleImage"				"1"
 			"proportionalToParent"		"1"
 		}
-
 		"CarriedProgressBar"
 		{
 			"fieldName"					"CarriedProgressBar"
@@ -163,7 +139,6 @@
 			"bright_color"				"110 159 189 255"
 			"left_to_right"				"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"				"CExLabel"
@@ -185,7 +160,6 @@
 			"fgcolor"					"TanLight"
 			"proportionalToParent"		"1"
 		}
-
 		"FlagValueShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -208,7 +182,6 @@
 			"proportionalToParent"		"1"
 		}
 	}
-
 	"ScoreContainer"
 	{
 		"fieldName"			"ScoreContainer"
@@ -221,7 +194,6 @@
 		"scaleimage"		"0"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"ProgressBarContainer"
 		{
 			"fieldName"					"ProgressBarContainer"
@@ -234,7 +206,6 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"proportionalToParent"		"1"
-
 			"ScoreOutline"
 			{
 				"fieldName"					"ScoreOutline"
@@ -250,7 +221,6 @@
 				"Image"						"../hud/objectives_corepanel_bg"
 				"proportionalToParent"		"1"
 			}
-
 			"BlueVictoryContainer"
 			{
 				"fieldName"					"BlueVictoryContainer"
@@ -263,7 +233,6 @@
 				"visible"					"0"
 				"enabled"					"1"
 				"proportionalToParent"		"1"
-
 				"VictoryLabel"
 				{
 					"ControlName"				"CExLabel"
@@ -281,7 +250,6 @@
 					"fgcolor"					"TanLight"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -299,7 +267,6 @@
 					"fgcolor"					"Black"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"				"CExLabel"
@@ -320,7 +287,6 @@
 					"pin_corner_to_sibling"		"7"
 					"pin_to_sibling_corner"		"5"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -342,7 +308,6 @@
 					"pin_to_sibling_corner"		"5"
 				}
 			}
-
 			"BlueProgressBarFill"
 			{
 				"fieldName"					"BlueProgressBarFill"
@@ -366,7 +331,6 @@
 				"blink_threshold"			"1.0"
 				"blink_rate"				"10"
 			}
-
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"					"BlueProgressBarEscrow"
@@ -390,7 +354,6 @@
 				"blink_threshold"			"1"
 				"blink_rate"				"20"
 			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"					"RedVictoryContainer"
@@ -403,7 +366,6 @@
 				"visible"					"0"
 				"enabled"					"1"
 				"proportionalToParent"		"1"
-
 				"VictoryLabel"
 				{
 					"ControlName"				"CExLabel"
@@ -421,7 +383,6 @@
 					"fgcolor"					"TanLight"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -439,7 +400,6 @@
 					"fgcolor"					"Black"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"				"CExLabel"
@@ -460,7 +420,6 @@
 					"pin_corner_to_sibling"		"7"
 					"pin_to_sibling_corner"		"5"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -482,7 +441,6 @@
 					"pin_to_sibling_corner"		"5"
 				}
 			}
-
 			"RedProgressBarFill"
 			{
 				"fieldName"					"RedProgressBarFill"
@@ -506,7 +464,6 @@
 				"blink_threshold"			"1.0"
 				"blink_rate"				"10"
 			}
-
 			"RedProgressBarEscrow"
 			{
 				"fieldName"					"RedProgressBarEscrow"
@@ -531,7 +488,6 @@
 				"blink_rate"				"20"
 			}
 		}
-
 		"BlueScoreValueContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -545,7 +501,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
-
 			"Score"
 			{
 				"ControlName"				"CExLabel"
@@ -565,7 +520,6 @@
 				"fgcolor"					"TanLight"
 				"proportionalToParent"		"1"
 			}
-
 			"ScoreShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -586,7 +540,6 @@
 				"proportionalToParent"		"1"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -600,7 +553,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
-
 			"Score"
 			{
 				"ControlName"				"CExLabel"
@@ -620,7 +572,6 @@
 				"fgcolor"					"TanLight"
 				"proportionalToParent"		"1"
 			}
-
 			"ScoreShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -641,7 +592,6 @@
 				"proportionalToParent"		"1"
 			}
 		}
-
 		"BlueStolenContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -655,7 +605,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"0 0 0 0"
 			"proportionalToParent"		"1"
-
 			"IntelImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -671,7 +620,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -685,7 +633,6 @@
 				"enabled"					"1"
 				"bgcolor_override"			"0 0 0 0"
 				"proportionalToParent"		"1"
-
 				"DroppedIntelImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -702,7 +649,6 @@
 					"proportionalToParent"		"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"				"CExLabel"
@@ -721,7 +667,6 @@
 				"bgcolor_override"			"0 0 0 0"
 				"proportionalToParent"		"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -740,7 +685,6 @@
 				"proportionalToParent"		"1"
 			}
 		}
-
 		"RedStolenContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -754,7 +698,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"0 0 0 0"
 			"proportionalToParent"		"1"
-
 			"IntelImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -770,7 +713,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -784,7 +726,6 @@
 				"enabled"					"1"
 				"bgcolor_override"			"0 0 0 0"
 				"proportionalToParent"		"1"
-
 				"DroppedIntelImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -801,7 +742,6 @@
 					"proportionalToParent"		"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"				"CExLabel"
@@ -820,7 +760,6 @@
 				"bgcolor_override"			"0 0 0 0"
 				"proportionalToParent"		"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"				"CExLabel"

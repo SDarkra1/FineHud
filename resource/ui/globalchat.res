@@ -27,7 +27,6 @@
 		"resize_time"						"0.3"
 		"invalidate_parent_on_resize"		"0"
 	}
-
 	"chatlog"
 	{
 		"ControlName"				"richtext"
@@ -44,9 +43,6 @@
 		"pin_to_sibling"			"partychat"
 		"paintbackground"			"0"
 		"bgcolor_override"			"0 0 0 0"
-		"pinCorner"					"2"
-		"autoResize"				"1"
-
 		"ScrollBar"
 		{
 			"FieldName"					"ScrollBar"
@@ -57,19 +53,16 @@
 			"zpos"						"1000"
 			"nobuttons"					"1"
 			"proportionaltoparent"		"1"
-
 			"Slider"
 			{
 				"fgcolor_override"		"TanLight"
 			}
-
 			"UpButton"
 			{
 				"ControlName"		"Button"
 				"FieldName"			"UpButton"
 				"visible"			"0"
 			}
-
 			"DownButton"
 			{
 				"ControlName"		"Button"
@@ -78,7 +71,6 @@
 			}
 		}
 	}
-
 	"chatentry"
 	{
 		// "ControlName"	"TextEntry"
@@ -96,10 +88,7 @@
 		"alpha"						"0"
 		"mouseinputenabled"			"0"
 		"pin_to_sibling"			"partychat"
-		"pinCorner"					"2"
-		// "autoResize"	"1"
 	}
-
 	"EntryShadow"
 	{
 		"ControlName"				"Panel"
@@ -116,6 +105,5 @@
 		"border"					"QuickplayBorder"
 		"keyboardinputenabled"		"0"
 		"mouseinputenabled"			"0"
-		"pinCorner"					"2"
 	}
 }

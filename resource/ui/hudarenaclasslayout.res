@@ -20,7 +20,6 @@
 		"draw_corner_width"			"5"
 		"draw_corner_height"		"5"
 	}
-
 	"Title"
 	{
 		"ControlName"				"CExLabel"
@@ -38,7 +37,6 @@
 		"fgcolor"					"White"
 		"proportionaltoparent"		"1"
 	}
-
 	"TitleShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -56,7 +54,6 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"title"
 	}
-
 	"classImage0"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -71,7 +68,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage1"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -86,7 +82,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage2"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -101,7 +96,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage3"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -116,7 +110,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage4"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -131,7 +124,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage5"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -146,7 +138,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage6"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -161,7 +152,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage7"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -176,7 +166,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage8"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -191,7 +180,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage9"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -206,7 +194,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage10"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -221,7 +208,6 @@
 		"image"				""
 		"scaleImage"		"1"
 	}
-
 	"classImage11"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -239,21 +225,18 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"background"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"background"
 		"ypos"				"9999"
 	}
-
 	"ChangeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChangeLabel"
 		"xpos"				"9999"
 	}
-
 	"ChangeLabelShadow"
 	{
 		"ControlName"		"CExLabel"

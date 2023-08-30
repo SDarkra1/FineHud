@@ -8,11 +8,8 @@
 		"ypos"						"90"
 		"wide"						"500"
 		"tall"						"350"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"bgcolor_override"			"11 11 11 255"
 		"paintbackgroundtype"		"2"
 		"settitlebarvisible"		""
@@ -25,7 +22,6 @@
 		"slider_w"					"500"
 		"slider_h"					"25"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -38,13 +34,10 @@
 		"zpos"					"1"
 		"wide"					"500"
 		"tall"					"40"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"220 220 220 255"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -54,22 +47,15 @@
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"Exit"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"1"
 		"Command"				"Close"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"OkButton"
 	{
 		"ControlName"			"CExButton"
@@ -79,22 +65,16 @@
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"Apply"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"Ok"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"PanelListPanel"
 	{
 		"ControlName"			"CPanelListPanel"
@@ -103,14 +83,10 @@
 		"ypos"					"40"
 		"wide"					"480"
 		"tall"					"260"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"bgcolor_override"		"0 0 0 0"
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -125,7 +101,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"33 33 33 255"
 		"border"					"NoBorder"
-
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -138,8 +113,6 @@
 			"zpos"					"2"
 			"wide"					"200"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"235 226 202 255"

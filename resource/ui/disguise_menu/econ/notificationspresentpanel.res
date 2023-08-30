@@ -13,7 +13,6 @@
 		"enabled"			"1"
 		"border"			"NoBorder"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -24,8 +23,6 @@
 		"zpos"						"2"
 		"wide"						"f10"
 		"tall"						"f0"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"0"

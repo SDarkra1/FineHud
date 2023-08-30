@@ -14,7 +14,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"10 10 10 255"
 		"proportionaltoparent"		"1"
-
 		"QuestionContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -26,7 +25,6 @@
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 		}
-
 		"SubmittingContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -37,7 +35,6 @@
 			"tall"						"f0"
 			"visible"					"0"
 			"proportionaltoparent"		"1"
-
 			"SubmittingLabel"
 			{
 				"ControlName"				"Label"
@@ -55,7 +52,6 @@
 				"labelText"					"#TF_SurveyQuestion_Submitting"
 				"proportionaltoparent"		"1"
 			}
-
 			"SpinnerImage"
 			{
 				"ControlName"				"ScalableImagePanel"
@@ -71,7 +67,6 @@
 				"proportionaltoparent"		"1"
 			}
 		}
-
 		"ThanksContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -82,7 +77,6 @@
 			"tall"						"f0"
 			"visible"					"0"
 			"proportionaltoparent"		"1"
-
 			"ThankYouLabel"
 			{
 				"ControlName"				"Label"
@@ -100,7 +94,6 @@
 				"labelText"					"#TF_SurveyQuestion_ThankYouTitle"
 				"proportionaltoparent"		"1"
 			}
-
 			"Explanation"
 			{
 				"ControlName"				"Label"
@@ -121,7 +114,6 @@
 				"proportionaltoparent"		"1"
 			}
 		}
-
 		"CloseButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -131,17 +123,11 @@
 			"zpos"							"10"
 			"wide"							"14"
 			"tall"							"14"
-			"autoResize"					"0"
-			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labeltext"						""
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"0"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"Command"						"close"
@@ -153,7 +139,6 @@
 			"depressedFgColor_override"		"46 43 42 255"
 			"image_drawcolor"				"117 107 94 255"
 			"image_armedcolor"				"200 80 60 255"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"

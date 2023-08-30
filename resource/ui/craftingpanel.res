@@ -10,10 +10,7 @@
 		"tall"								"400"
 		"zpos"								"501"
 		"visible"							"1"
-		"autoResize"						"0"
-		"pinCorner"							"0"
 		"enabled"							"1"
-		"tabPosition"						"0"
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"11 11 11 255"
@@ -28,7 +25,6 @@
 		"button_ypos"						"85"
 		"button_ydelta"						"80"
 		"button_override_delete_xpos"		"0"
-
 		"modelpanels_kv"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -47,7 +43,6 @@
 			"noitem_use_fullpanel"		"1"
 			"inset_eq_x"				"2"
 			"inset_eq_y"				"2"
-
 			"MainContentsContainer"
 			{
 				"ControlName"			"EditablePanel"
@@ -58,13 +53,11 @@
 				"tall"					"f0"
 				"visible"				"1"
 				"bgcolor_override"		"0 0 0 0"
-
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget"		"0"
 					"allow_rot"					"0"
 				}
-
 				"namelabel"
 				{
 					"ControlName"		"CExLabel"
@@ -74,9 +67,7 @@
 					"zpos"				"2"
 					"wide"				"50"
 					"tall"				"30"
-					"autoResize"		"0"
-					"pinCorner"			"0"
-					"visible"			"1"
+							"visible"			"1"
 					"enabled"			"1"
 					"labelText"			"%itemname%"
 					"textAlignment"		"south"
@@ -86,7 +77,6 @@
 				}
 			}
 		}
-
 		"recipebuttons_kv"
 		{
 			"font"							"HudFontSmallestBold"
@@ -95,8 +85,6 @@
 			"zpos"							"1"
 			"wide"							"280"
 			"tall"							"13"
-			"autoResize"					"0"
-			"pinCorner"						"0"
 			"visible"						"1"
 			"wrap"							"0"
 			"centerwrap"					"0"
@@ -113,28 +101,22 @@
 		"filter_ypos"						"30"
 		"filter_xdelta"						"10"
 		"filter_ydelta"						"10"
-
 		"recipefilterbuttons_kv"
 		{
 			"zpos"					"2"
 			"wide"					"30"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				""
 			"textAlignment"			"south-west"
 			"Command"				""
-			"Default"				"0"
 			"font"					"MenuKeys"
 			"scaleImage"			"1"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
 	}
-
 	"ClassLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -147,13 +129,10 @@
 		"zpos"					"1"
 		"wide"					"240"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 187 161 255"
 	}
-
 	"selectedrecipecontainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -165,7 +144,6 @@
 		"tall"						"350"
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"			"200 187 161 0"
-
 		"RecipeTitle"
 		{
 			"ControlName"		"CExLabel"
@@ -178,14 +156,11 @@
 			"zpos"				"1"
 			"wide"				"280"
 			"tall"				"30"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"200 187 161 255"
 			"wrap"				"1"
 		}
-
 		"RecipeInputStringLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -198,14 +173,11 @@
 			"zpos"				"1"
 			"wide"				"280"
 			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"153 204 255 255"
 			"wrap"				"1"
 		}
-
 		"InputLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -218,13 +190,10 @@
 			"zpos"				"1"
 			"wide"				"200"
 			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"117 107 94 255"
 		}
-
 		"OutputLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -237,13 +206,10 @@
 			"zpos"				"1"
 			"wide"				"200"
 			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"117 107 94 255"
 		}
-
 		"CraftButton"
 		{
 			"ControlName"			"CExButton"
@@ -253,22 +219,16 @@
 			"zpos"					"20"
 			"wide"					"200"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"0"
-			"tabPosition"			"0"
 			"labelText"				"#CraftConfirm"
 			"font"					"HudFontMediumBold"
 			"textAlignment"			"center"
 			"textinsetx"			"50"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"Command"				"craft"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"FreeAccountLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -281,14 +241,11 @@
 			"zpos"				"21"
 			"wide"				"200"
 			"tall"				"25"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"UpgradeButton"
 		{
 			"ControlName"					"CExButton"
@@ -298,17 +255,12 @@
 			"zpos"							"20"
 			"wide"							"100"
 			"tall"							"25"
-			"autoResize"					"0"
-			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labelText"						"#TF_Trial_Upgrade"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
 			"textinsetx"					"50"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"Command"						"upgrade"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -318,7 +270,6 @@
 			"selectedBgColor_override"		"143 167 57 255"
 		}
 	}
-
 	"recipecontainerscroller"
 	{
 		"ControlName"				"EditablePanel"
@@ -333,7 +284,6 @@
 		"bgcolor_override"			"200 187 161 0"
 		"autohide_buttons"			"1"
 	}
-
 	"recipecontainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -346,7 +296,6 @@
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"			"200 187 161 0"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -366,7 +315,6 @@
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-
 		"attriblabel"
 		{
 			"font"				"ItemFontAttribLarge"
@@ -375,8 +323,6 @@
 			"zpos"				"2"
 			"wide"				"140"
 			"tall"				"60"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"%attriblist%"
@@ -385,7 +331,6 @@
 			"centerwrap"		"1"
 		}
 	}
-
 	"mousedragitempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -405,14 +350,12 @@
 		"text_ypos"					"60"
 		"text_center"				"1"
 		"name_only"					"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -427,7 +370,6 @@
 		"PaintBackgroundType"		"1"
 		"border"					"NoBorder"
 		"bgcolor_override"			"25 25 25 200"
-
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -440,8 +382,6 @@
 			"zpos"					"2"
 			"wide"					"100"
 			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"235 226 202 255"
@@ -449,7 +389,6 @@
 			"centerwrap"			"1"
 		}
 	}
-
 	"ShowExplanationsButton"
 	{
 		"ControlName"			"CExButton"
@@ -459,16 +398,11 @@
 		"zpos"					"100"
 		"wide"					"20"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"?"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"reloadscheme"
 		"sound_depressed"		"UI/buttonclick.wav"

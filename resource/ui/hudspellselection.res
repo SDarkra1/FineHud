@@ -7,7 +7,6 @@
 		"wide"		"150"
 		"tall"		"30"
 	}
-
 	"SpellIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -24,7 +23,6 @@
 		"image"						"../signs/death_wheel_whammy"
 		"fgcolor"					"White"
 	}
-
 	"CountText"
 	{
 		"ControlName"				"CExLabel"
@@ -40,7 +38,6 @@
 		"proportionaltoparent"		"1"
 		"fgcolor"					"White"
 	}
-
 	"CountTextShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -56,7 +53,6 @@
 		"fgcolor"					"Black"
 		"pin_to_sibling"			"CountText"
 	}
-
 	"ActionText"
 	{
 		"ControlName"				"CExLabel"
@@ -73,7 +69,6 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"SpellBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -88,21 +83,18 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 180"
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemEffectMeterBG"
 		"xpos"				"9999"
 	}
-
 	"Spellbook"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"Spellbook"
 		"xpos"				"9999"
 	}
-
 	"SpellText"
 	{
 		"ControlName"		"CExLabel"

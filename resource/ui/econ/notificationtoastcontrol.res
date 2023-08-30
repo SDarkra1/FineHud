@@ -12,7 +12,6 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"border"						"noborder"
-
 		"if_high_priority"
 		{
 			"border"		"noborder"
@@ -22,7 +21,6 @@
 		"PaintBackgroundType"			"0"
 		"defaultbgcolor_override"		"208 193 162 0"
 	}
-
 	"DeleteButton"
 	{
 		"ControlName"				"CExImageButton"
@@ -34,16 +32,11 @@
 		"wide"						"0"
 		"AUTO_WIDE_TOCONTENTS"		"0"
 		"tall"						"16"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labeltext"					"DELETE"
 		"font"						"HudFontSmallestBold"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"default"					"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -54,7 +47,6 @@
 		"paintborder"				"0"
 		"image_drawcolor"			"255 255 255 255"
 		"image_armedcolor"			"200 80 60 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -70,13 +62,11 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"TriggerButton"
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"TriggerButton"
 		"xpos"						"0"
-
 		"if_one_button"
 		{
 			"xpos"		"0"
@@ -87,16 +77,11 @@
 		"Textinsety"				"1"
 		"AUTO_WIDE_TOCONTENTS"		"1"
 		"tall"						"16"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labeltext"					"+"
 		"font"						"Symbols14"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"default"					"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -107,7 +92,6 @@
 		"paintborder"				"0"
 		"image_drawcolor"			"255 255 255 255"
 		"image_armedcolor"			"200 80 60 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -126,7 +110,6 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
-
 	"AcceptButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -136,16 +119,11 @@
 		"zpos"							"10"
 		"wide"							"20"
 		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"0"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labeltext"						""
 		"font"							"HudFontSmallestBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -159,7 +137,6 @@
 		"depressedFgColor_override"		"46 43 42 255"
 		"image_drawcolor"				"255 255 255 255"
 		"image_armedcolor"				"200 80 60 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -175,7 +152,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"DeclineButton"
 	{
 		"ControlName"				"CExImageButton"
@@ -186,16 +162,11 @@
 		"wide"						"16"
 		"proportionaltoparent"		"1"
 		"tall"						"16"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labeltext"					"-"
 		"font"						"Symbols14"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"default"					"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"

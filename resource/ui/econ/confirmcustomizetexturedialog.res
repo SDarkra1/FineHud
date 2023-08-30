@@ -23,15 +23,11 @@
 	// "ypos"					"c-225"
 	// "wide"					"560"
 	// "tall"					"345"
-	// "autoResize"		"0"
-	// "pinCorner"		"0"
 	// "visible"		"1"
 	// "enabled"		"1"
-	// "tabPosition"		"0"
 	// "PaintBackgroundType"	"0"
 	// "paintbackground"		"1"
 	// "border"				"QuickplayBorder"
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -51,7 +47,6 @@
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-
 		"attriblabel"
 		{
 			"font"				"ItemFontAttribLarge"
@@ -66,7 +61,6 @@
 			"centerwrap"		"1"
 		}
 	}
-
 	"ToolBG"
 	{
 		"ControlName"			"CExLabel"
@@ -82,7 +76,6 @@
 		"paintbackground"		"0"
 		"border"				"BackpackItemBorder_SelfMade"
 	}
-
 	"tool_icon"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -99,7 +92,6 @@
 		"tileVertically"		"0"
 		"drawcolor"				"112 176 74 255"
 	}
-
 	"tool_modelpanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -122,14 +114,12 @@
 		"text_center"				"1"
 		"name_only"					"1"
 		"paint_icon_hide"			"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
 			"allow_rot"					"0"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -144,7 +134,6 @@
 		"tall"				"60"
 		"centerwrap"		"1"
 	}
-
 	"SubjectBG"
 	{
 		"ControlName"			"CExLabel"
@@ -160,7 +149,6 @@
 		"paintbackground"		"0"
 		"border"				"BackpackItemBorder_3"
 	}
-
 	"subject_icon"
 	{
 		"ControlName"			"ScalableImagePanel"
@@ -177,7 +165,6 @@
 		"tileVertically"		"0"
 		"drawcolor"				"71 98 145 255"
 	}
-
 	"subject_modelpanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -199,7 +186,6 @@
 		"text_ypos"					"100"	// Hide it off the bottom
 		"text_center"				"1"
 		"name_only"					"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
@@ -207,7 +193,6 @@
 		}
 	}
 	// Dynamically sized and moded based on the current page
-
 	"paint_model"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -231,7 +216,6 @@
 		// "name_only"		"1"
 		"model_only"			"1"
 		"paint_icon_hide"		"1"
-
 		"itemmodelpanel"
 		{
 			"force_use_model"			"1"
@@ -240,7 +224,6 @@
 		}
 	}
 	// ----------------------------
-
 	"SelectImagePage"
 	{
 		"ControlName"		"EditablePanel"
@@ -251,7 +234,6 @@
 		"tall"				"260"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"PageTitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -265,7 +247,6 @@
 			"wide"				"540"
 			"tall"				"20"
 		}
-
 		"ImagePaletteGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -276,7 +257,6 @@
 			"wide"				"350"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"UseAvatarRadio"
 			{
 				"ControlName"		"RadioButton"
@@ -289,7 +269,6 @@
 				"textAlignment"		"west"
 				"font"				"HudFontSmallBold"
 			}
-
 			"UseAnyImageRadio"
 			{
 				"ControlName"		"RadioButton"
@@ -302,7 +281,6 @@
 				"textAlignment"		"west"
 				"font"				"HudFontSmallBold"
 			}
-
 			"BrowseForNewImageButton"
 			{
 				"ControlName"			"CExButton"
@@ -318,7 +296,6 @@
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
-
 			"ForBestResultsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -333,7 +310,6 @@
 				"wrap"				"1"
 			}
 		}
-
 		"PreviewImageGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -344,7 +320,6 @@
 			"wide"				"180"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"PreviewCroppedImage"
 			{
 				"ControlName"		"CRGBAImagePanel"
@@ -355,7 +330,6 @@
 				"wide"				"140"
 				"tall"				"140"
 			}
-
 			"SquarizeComboBox"
 			{
 				"ControlName"							"ComboBox"
@@ -376,7 +350,6 @@
 				"defaultSelectionBG2Color_override"		"0 0 0 0"
 			}
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -393,7 +366,6 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"NextButton"
 		{
 			"ControlName"			"CExButton"
@@ -412,7 +384,6 @@
 		}
 	}
 	// ----------------------------
-
 	"AdjustFilterPage"
 	{
 		"ControlName"		"EditablePanel"
@@ -423,7 +394,6 @@
 		"tall"				"260"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"PageTitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -437,7 +407,6 @@
 			"wide"				"540"
 			"tall"				"20"
 		}
-
 		"FilterOptionsGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -449,7 +418,6 @@
 			"wide"				"160"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"FilterLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -463,7 +431,6 @@
 				"textAlignment"		"north-west"
 				"visible"			"0"
 			}
-
 			"FilterComboBox"
 			{
 				"ControlName"							"ComboBox"
@@ -484,7 +451,6 @@
 				"selectionTextColor_override"			"235 226 202 255"
 				"defaultSelectionBG2Color_override"		"0 0 0 0"
 			}
-
 			"PainterlyOptions"
 			{
 				"ControlName"		"EditablePanel"
@@ -494,7 +460,6 @@
 				"zpos"				"-1"
 				"wide"				"140"
 				"tall"				"150"
-
 				"FilterDescriptionLabel"
 				{
 					"ControlName"		"CExLabel"
@@ -509,7 +474,6 @@
 					"wrap"				"1"
 				}
 			}
-
 			"StencilOptions"
 			{
 				"ControlName"		"EditablePanel"
@@ -519,7 +483,6 @@
 				"zpos"				"-1"
 				"wide"				"140"
 				"tall"				"150"
-
 				"FilterDescriptionLabel"
 				{
 					"ControlName"		"CExLabel"
@@ -534,7 +497,6 @@
 					"wrap"				"1"
 					"visible"			"0"
 				}
-
 				"ColorPaletteLabel"
 				{
 					"ControlName"		"CExLabel"
@@ -547,7 +509,6 @@
 					"textAlignment"		"north-west"
 					"font"				"HudFontSmallBold"
 				}
-
 				"PrevStencilPaletteButton"
 				{
 					"ControlName"			"CExButton"
@@ -564,7 +525,6 @@
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
 				}
-
 				"NextStencilPaletteButton"
 				{
 					"ControlName"			"CExButton"
@@ -581,7 +541,6 @@
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
 				}
-
 				"StencilGradientMap"
 				{
 					"ControlName"		"CustomTextureStencilGradientMapWidget"
@@ -592,7 +551,6 @@
 					"wide"				"140"
 					"tall"				"20"
 				}
-
 				"StencilModeComboBox"
 				{
 					"ControlName"							"ComboBox"
@@ -614,7 +572,6 @@
 				}
 			}
 		}
-
 		"PreviewImageGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -625,7 +582,6 @@
 			"wide"				"180"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"PreviewFilteredImage"
 			{
 				"ControlName"		"CRGBAImagePanel"
@@ -637,7 +593,6 @@
 				"tall"				"140"
 			}
 		}
-
 		"PreviewModelGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -648,7 +603,6 @@
 			"wide"				"180"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"GradientBgPanel"
 			{
 				"ControlName"				"ImagePanel"
@@ -666,7 +620,6 @@
 				"paintbackgroundtype"		"2"
 				"paintbackground"			"1"
 			}
-
 			"DragToRotateLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -682,7 +635,6 @@
 				"centerwrap"		"1"
 			}
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -699,7 +651,6 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"BackButton"
 		{
 			"ControlName"			"CExButton"
@@ -716,7 +667,6 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"NextButton"
 		{
 			"ControlName"			"CExButton"
@@ -735,7 +685,6 @@
 		}
 	}
 	// ----------------------------
-
 	"FinalConfirmPage"
 	{
 		"ControlName"		"EditablePanel"
@@ -744,7 +693,6 @@
 		"ypos"				"80"
 		"wide"				"540"
 		"tall"				"260"
-
 		"PageTitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -758,7 +706,6 @@
 			"wide"				"540"
 			"tall"				"20"
 		}
-
 		"WarningTextGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -770,7 +717,6 @@
 			"wide"				"350"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"WarningText"
 			{
 				"ControlName"		"CExLabel"
@@ -785,7 +731,6 @@
 				"wrap"				"1"
 			}
 		}
-
 		"PreviewModelGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -796,7 +741,6 @@
 			"wide"				"180"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"GradientBgPanel"
 			{
 				"ControlName"				"ImagePanel"
@@ -814,7 +758,6 @@
 				"paintbackgroundtype"		"2"
 				"paintbackground"			"1"
 			}
-
 			"DragToRotateLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -830,7 +773,6 @@
 				"centerwrap"		"1"
 			}
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -843,12 +785,10 @@
 			"labelText"				"#Cancel"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"default"				"0"
 			"Command"				"cancel"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"BackButton"
 		{
 			"ControlName"			"CExButton"
@@ -865,7 +805,6 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
-
 		"OkButton"
 		{
 			"ControlName"			"CExButton"
@@ -885,7 +824,6 @@
 		}
 	}
 	// ----------------------------
-
 	"PerformingActionPage"
 	{
 		"ControlName"		"EditablePanel"
@@ -894,7 +832,6 @@
 		"ypos"				"80"
 		"wide"				"540"
 		"tall"				"260"
-
 		"PleaseWaitLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -909,7 +846,6 @@
 			"tall"				"200"
 			"centerwrap"		"1"
 		}
-
 		"PreviewModelGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -920,7 +856,6 @@
 			"wide"				"180"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-
 			"GradientBgPanel"
 			{
 				"ControlName"				"ImagePanel"
@@ -938,7 +873,6 @@
 				"paintbackgroundtype"		"2"
 				"paintbackground"			"1"
 			}
-
 			"DragToRotateLabel"
 			{
 				"ControlName"		"CExLabel"

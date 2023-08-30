@@ -7,7 +7,6 @@
 		"font"				"Product12"
 		"xpos"				"9999"
 	}
-
 	"ItemBackground"
 	{
 		"ControlName"			"CIconPanel"
@@ -25,7 +24,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"DestroyIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -41,7 +39,6 @@
 		"icon"				"ico_demolish"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -57,14 +54,12 @@
 		"icon"				"obj_status_dispenser"
 		"iconColor"			"255 255 255 128"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -76,13 +71,9 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"18"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"1"
 		"textAlignment"		"Center"
-		"dulltext"			"1"
-		"brighttext"		"0"
 	}
 }

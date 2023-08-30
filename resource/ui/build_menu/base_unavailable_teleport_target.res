@@ -7,7 +7,6 @@
 		"font"				"Default"
 		"xpos"				"9999"
 	}
-
 	"ItemBackground"
 	{
 		"ControlName"			"CIconPanel"
@@ -25,7 +24,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
@@ -36,30 +34,23 @@
 		"zpos"				"2"
 		"wide"				"80"
 		"tall"				"18"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"UNAVAILABLE"
 		"textAlignment"		"Center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"xpos"				"9999"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -71,13 +62,9 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"18"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"1"
 		"textAlignment"		"Center"
-		"dulltext"			"1"
-		"brighttext"		"0"
 	}
 }

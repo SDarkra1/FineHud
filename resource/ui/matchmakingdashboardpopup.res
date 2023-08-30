@@ -15,9 +15,6 @@
 		"mouseinputenabled"			"1"
 		"collapsed_height"			"0"
 		"expanded_height"			"70"
-		"pinCorner"					"2"
-		"autoResize"				"1"
-
 		"OuterShadow"
 		{
 			"ControlName"				"EditablePanel"
@@ -31,10 +28,7 @@
 			"PaintBackgroundType"		"0"
 			"border"					"OuterShadowBorder"
 			"proportionaltoparent"		"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
 		}
-
 		"IdleContainer"
 		{
 			"fieldName"					"IdleContainer"
@@ -46,10 +40,7 @@
 			"tall"						"f5"
 			"visible"					"0"
 			"proportionaltoparent"		"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
 		}
-
 		"ChooseRematchOrRequeueContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -62,9 +53,6 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
-
 			"BGPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -79,7 +67,6 @@
 				"border"					"ReplayDefaultBorder"
 				"proportionaltoparent"		"1"
 			}
-
 			"LeaderContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -92,7 +79,6 @@
 				"visible"					"1"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"1"
-
 				"RematchButton"
 				{
 					"ControlName"				"CExButton"
@@ -102,15 +88,10 @@
 					"zpos"						"100"
 					"wide"						"80"
 					"tall"						"15"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallestBold"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"Command"					"rematch"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_Matchmaking_RollingQueue_Rematch"
@@ -120,7 +101,6 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 				}
-
 				"RequeueButton"
 				{
 					"ControlName"				"CExButton"
@@ -130,15 +110,10 @@
 					"zpos"						"100"
 					"wide"						"140"
 					"tall"						"15"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallestBold"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"Command"					"new_match"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_Matchmaking_RollingQueue_Requeue"
@@ -149,7 +124,6 @@
 					"sound_released"			"UI/buttonclickrelease.wav"
 				}
 			}
-
 			"NonLeaderContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -162,7 +136,6 @@
 				"visible"					"0"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"1"
-
 				"NonLeaderDesc"
 				{
 					"ControlName"				"Label"
@@ -172,20 +145,14 @@
 					"zpos"						"100"
 					"wide"						"f0"
 					"tall"						"20"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallest"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_Matchmaking_RollingQueue_RequeueNonLeader"
 					"paintbackground"			"1"
 				}
-
 				"LeavePartyButton"
 				{
 					"ControlName"				"CExButton"
@@ -195,15 +162,10 @@
 					"zpos"						"100"
 					"wide"						"100"
 					"tall"						"15"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallestBold"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"Command"					"leave_party"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_Matchmaking_RollingQueue_LeaveParty"
@@ -215,7 +177,6 @@
 					"sound_released"			"UI/buttonclickrelease.wav"
 				}
 			}
-
 			"DescLabel"
 			{
 				"ControlName"				"Label"
@@ -233,7 +194,6 @@
 				"labelText"					"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"		"1"
 			}
-
 			"VoteEndTimeLabel"
 			{
 				"ControlName"				"Label"
@@ -251,7 +211,6 @@
 				"labelText"					"%vote_end_time%"
 				"proportionaltoparent"		"1"
 			}
-
 			"RematchVoteState"
 			{
 				"ControlName"				"Label"
@@ -261,21 +220,15 @@
 				"zpos"						"100"
 				"wide"						"f0"
 				"tall"						"20"
-				"autoResize"				"0"
-				"pinCorner"					"3"
 				"visible"					"1"
 				"enabled"					"1"
-				"tabPosition"				"0"
 				"font"						"HudFontSmallest"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
 				"proportionaltoparent"		"1"
 				"labeltext"					"%votes_needed%"
 				"paintbackground"			"1"
 			}
 		}
-
 		"RematchWaitingForOthers"
 		{
 			"ControlName"				"EditablePanel"
@@ -288,9 +241,6 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
-
 			"BGPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -305,7 +255,6 @@
 				"border"					"ReplayDefaultBorder"
 				"proportionaltoparent"		"1"
 			}
-
 			"DescLabel"
 			{
 				"ControlName"				"Label"
@@ -323,7 +272,6 @@
 				"labelText"					"#TF_Matchmaking_RollingQueue_Rematch_Waiting"
 				"proportionaltoparent"		"1"
 			}
-
 			"VoteEndTimeLabel"
 			{
 				"ControlName"				"Label"
@@ -341,7 +289,6 @@
 				"labelText"					"%vote_end_time%"
 				"proportionaltoparent"		"1"
 			}
-
 			"NonLeaderContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -353,7 +300,6 @@
 				"tall"						"f0"
 				"visible"					"0"
 				"proportionaltoparent"		"1"
-
 				"LeavePartyButton"
 				{
 					"ControlName"				"CExButton"
@@ -363,15 +309,10 @@
 					"zpos"						"100"
 					"wide"						"100"
 					"tall"						"15"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallestBold"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"Command"					"leave_party"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_Matchmaking_RollingQueue_LeaveParty"
@@ -384,7 +325,6 @@
 				}
 			}
 		}
-
 		"SearchingContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -397,9 +337,6 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
-
 			"BGPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -414,7 +351,6 @@
 				"border"					"ReplayDefaultBorder"
 				"proportionaltoparent"		"1"
 			}
-
 			"SearchingLabel"
 			{
 				"ControlName"				"Label"
@@ -432,7 +368,6 @@
 				"labelText"					"#TF_Matchmaking_RollingQueue_Start"
 				"proportionaltoparent"		"1"
 			}
-
 			"Spinner"
 			{
 				"ControlName"				"ImagePanel"
@@ -442,8 +377,6 @@
 				"zpos"						"1"
 				"wide"						"o1"
 				"tall"						"40"
-				"autoResize"				"0"
-				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
 				"paintborder"				"0"
@@ -451,7 +384,6 @@
 				"scaleImage"				"1"
 				"proportionaltoparent"		"1"
 			}
-
 			"LeaderContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -464,7 +396,6 @@
 				"visible"					"0"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"1"
-
 				"LeaveQueueButton"
 				{
 					"ControlName"				"CExButton"
@@ -474,15 +405,10 @@
 					"zpos"						"100"
 					"wide"						"100"
 					"tall"						"15"
-					"autoResize"				"0"
-					"pinCorner"					"3"
 					"visible"					"1"
 					"enabled"					"1"
-					"tabPosition"				"0"
 					"font"						"HudFontSmallestBold"
 					"textAlignment"				"center"
-					"dulltext"					"0"
-					"brighttext"				"0"
 					"Command"					"leave_queue"
 					"proportionaltoparent"		"1"
 					"labeltext"					"#TF_MM_LeaveQueue"
@@ -495,7 +421,6 @@
 				}
 			}
 		}
-
 		"MatchReadyAndWaitingContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -508,9 +433,6 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
-
 			"BGPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -526,7 +448,6 @@
 				"paintbackground"			"1"
 				"bgcolor_override"			"Black"
 			}
-
 			"DescLabel"
 			{
 				"ControlName"				"Label"
@@ -544,7 +465,6 @@
 				"labelText"					"#TF_Matchmaking_RollingQueue_NewMatchReady"
 				"proportionaltoparent"		"1"
 			}
-
 			"AutoJoinLabel"
 			{
 				"ControlName"				"Label"
@@ -562,7 +482,6 @@
 				"labelText"					"%auto_join%"
 				"proportionaltoparent"		"1"
 			}
-
 			"AbandonButton"
 			{
 				"ControlName"				"CExButton"
@@ -572,15 +491,10 @@
 				"zpos"						"100"
 				"wide"						"75"
 				"tall"						"15"
-				"autoResize"				"0"
-				"pinCorner"					"3"
 				"visible"					"1"
 				"enabled"					"1"
-				"tabPosition"				"0"
 				"font"						"HudFontSmallestBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
 				"Command"					"abandon_match"
 				"proportionaltoparent"		"1"
 				"labeltext"					"#TF_MM_Rejoin_Leave"
@@ -591,7 +505,6 @@
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 			}
-
 			"JoinNowButton"
 			{
 				"ControlName"					"CExButton"
@@ -601,15 +514,10 @@
 				"zpos"							"100"
 				"wide"							"150"
 				"tall"							"15"
-				"autoResize"					"0"
-				"pinCorner"						"3"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"font"							"HudFontSmallestBold"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
 				"Command"						"join_match"
 				"proportionaltoparent"			"1"
 				"labeltext"						"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -622,7 +530,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
 		}
-
 		"RematchStartingContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -635,9 +542,6 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"1"
-			"pinCorner"					"2"
-			"autoResize"				"1"
-
 			"BGPanel"
 			{
 				"ControlName"				"EditablePanel"
@@ -652,7 +556,6 @@
 				"border"					"ReplayDefaultBorder"
 				"proportionaltoparent"		"1"
 			}
-
 			"SearchingLabel"
 			{
 				"ControlName"				"Label"
@@ -670,7 +573,6 @@
 				"labelText"					"#TF_Matchmaking_RollingQueue_RematchStarting"
 				"proportionaltoparent"		"1"
 			}
-
 			"Spinner"
 			{
 				"ControlName"				"ImagePanel"
@@ -680,8 +582,6 @@
 				"zpos"						"1"
 				"wide"						"o1"
 				"tall"						"40"
-				"autoResize"				"0"
-				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
 				"paintborder"				"0"

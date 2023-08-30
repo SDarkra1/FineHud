@@ -8,11 +8,8 @@
 		"ypos"									"0"
 		"wide"									"f0"
 		"tall"									"480"
-		"autoResize"							"0"
-		"pinCorner"								"0"
 		"visible"								"1"
 		"enabled"								"1"
-		"tabPosition"							"0"
 		"settitlebarvisible"					"1"
 		"PaintBackgroundType"					"0"
 		"bgcolor_override"						"11 11 11 255"
@@ -28,7 +25,6 @@
 		"clientinsetx_override"					"0"
 		"sheetinset_bottom"						"40"
 	}
-
 	"BackgroundHeader"
 	{
 		"ControlName"			"EditablePanel"
@@ -45,7 +41,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"11 11 11 255"
 	}
-
 	"BackgroundFooter"
 	{
 		"ControlName"			"EditablePanel"
@@ -62,7 +57,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"11 11 11 255"
 	}
-
 	"FooterLine"
 	{
 		"ControlName"				"EditablePanel"
@@ -77,7 +71,6 @@
 		"paintbackgroundtype"		"2"
 		"bgcolor_override"			"SkyBlue"
 	}
-
 	"Sheet"
 	{
 		"ControlName"			"EditablePanel"
@@ -88,7 +81,6 @@
 		"tabheight"				"20"
 		"yoffset"				"14"
 		"transition_time"		"0"
-
 		"HeaderLine"
 		{
 			"ControlName"		"ImagePanel"
@@ -103,7 +95,6 @@
 			"image"				""
 			"scaleImage"		"1"
 		}
-
 		"tabskv"
 		{
 			"textinsetx"					"6"
@@ -119,7 +110,6 @@
 			"normalborder_override"			"none"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"			"CExButton"
@@ -129,22 +119,15 @@
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_BackCarat"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"1"
 		"Command"				"close"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -156,7 +139,6 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"		"CNotificationsPresentPanel"
@@ -169,7 +151,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -183,7 +164,6 @@
 		"labelText"			""
 		"visible"			"0"
 	}
-
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -199,7 +179,6 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-
 	"CheckoutButton"
 	{
 		"ControlName"			"CExButton"
@@ -209,16 +188,11 @@
 		"zpos"					"2"
 		"wide"					"130"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Store_Checkout"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"checkout"
 		"sound_depressed"		"UI/buttonclick.wav"

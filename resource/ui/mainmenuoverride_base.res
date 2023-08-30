@@ -1,6 +1,5 @@
 "#base"		"preload.res"
 "#base"		"../../customization/enabled/bookmarks.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -18,7 +17,6 @@
 		"button_x_offset"		"-241"
 		"button_y"				"190"
 		"button_y_delta"		"3"
-
 		"button_kv"
 		{
 			"xpos"			"0"
@@ -26,7 +24,6 @@
 			"wide"			"150"
 			"tall"			"14"
 			"visible"		"1"
-
 			"SubButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -62,7 +59,6 @@
 		// You people are fucking pussies
 		// Emma 29.1.23 - 4.01 AM
 		//// Socials
-
 		"GitHub"
 		{
 			"ControlName"			"URLLabel"
@@ -81,7 +77,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"SteamGroup"
 		{
 			"ControlName"			"URLLabel"
@@ -100,7 +95,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"Discord"
 		{
 			"ControlName"			"URLLabel"
@@ -119,7 +113,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"MOTD_ShowButtonPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -139,7 +132,6 @@
 			"pin_to_sibling"			"MenuPanel"
 			"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
 			"MOTD_ShowButtonPanel_SB"
 			{
 				"ControlName"					"CExImageButton"
@@ -174,7 +166,6 @@
 				"image_armedcolor"				"White"
 			}
 		}
-
 		"MOTD_Panel"
 		{
 			"ControlName"				"EditablePanel"
@@ -189,7 +180,6 @@
 			"paintborder"				"0"
 			"bgcolor_override"			"11 11 11 255"
 			"PaintBackgroundType"		"0"
-
 			"MOTD_HeaderContainer"
 			{
 				"ControlName"			"EditablePanel"
@@ -200,7 +190,6 @@
 				"tall"					"22"
 				"visible"				"1"
 				"bgcolor_override"		"8 8 8 255"
-
 				"HeaderLabel"
 				{
 					"ControlName"			"Label"
@@ -211,8 +200,6 @@
 					"ypos"					"0"
 					"wide"					"375"
 					"tall"					"24"
-					"autoResize"			"0"
-					"pinCorner"				"0"
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground"		"0"
@@ -221,7 +208,6 @@
 					"allcaps"				"1"
 				}
 			}
-
 			"MOTD_CloseButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -231,17 +217,11 @@
 				"zpos"							"10"
 				"wide"							"18"
 				"tall"							"18"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labeltext"						"%"
 				"font"							"Symbols18"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"actionsignallevel"				"2"
 				"Command"						"motd_hide"
 				"paintbackground"				"0"
@@ -251,7 +231,6 @@
 				"armedFgColor_override"			"MainPink"
 				"depressedFgColor_override"		"White"
 			}
-
 			"SliderBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -264,7 +243,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 200"
 			}
-
 			"FOVSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -274,7 +252,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -290,7 +267,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -307,7 +283,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"VolumeSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -317,7 +292,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -333,7 +307,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -350,7 +323,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"NetGraphSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -360,7 +332,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -376,7 +347,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -394,7 +364,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"CrosshairColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -408,7 +377,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"CrosshairRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -429,7 +397,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -450,7 +417,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -471,7 +437,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairPink"
 			{
 				"ControlName"					"CExImageButton"
@@ -492,7 +457,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -515,7 +479,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -529,7 +492,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"DamageRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -550,7 +512,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -571,7 +532,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -592,7 +552,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamagePink"
 			{
 				"ControlName"					"CExImageButton"
@@ -613,7 +572,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -634,7 +592,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"ColorsBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -647,7 +604,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 255"
 			}
-
 			"ToggleDamageNumbers"
 			{
 				"ControlName"			"CExImageButton"
@@ -665,7 +621,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"FixSound"
 			{
 				"ControlName"			"CExImageButton"
@@ -684,56 +639,48 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"MOTD_HeaderIcon"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_HeaderIcon"
 				"xpos"				"9999"
 			}
-
 			"MOTD_Label"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"MOTD_Label"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageBg"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_TitleImageBg"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageContainer"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"MOTD_TitleImageContainer"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TextScroller"
 			{
 				"ControlName"		"ScrollableEditablePanel"
 				"fieldName"			"MOTD_TextScroller"
 				"xpos"				"9999"
 			}
-
 			"MOTD_URLButton"
 			{
 				"ControlName"		"CExButton"
 				"fieldName"			"MOTD_URLButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_PrevButton"
 			{
 				"ControlName"		"CExImageButton"
 				"fieldName"			"MOTD_PrevButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_NextButton"
 			{
 				"ControlName"		"CExImageButton"
@@ -742,7 +689,6 @@
 			}
 		}
 		//// Socials
-
 		"GitHub"
 		{
 			"ControlName"			"URLLabel"
@@ -761,7 +707,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"SteamGroup"
 		{
 			"ControlName"			"URLLabel"
@@ -780,7 +725,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"Discord"
 		{
 			"ControlName"			"URLLabel"
@@ -799,7 +743,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"MOTD_ShowButtonPanel"
 		{
 			"ControlName"			"EditablePanel"
@@ -817,7 +760,6 @@
 			"navLeft"				"Notifications_Panel"
 			"navRight"				"MOTD_Panel"
 			"navToRelay"			"MOTD_ShowButtonPanel_SB"
-
 			"MOTD_ShowButtonPanel_SB"
 			{
 				"ControlName"					"CExImageButton"
@@ -850,7 +792,6 @@
 				"image_armedcolor"				"White"
 			}
 		}
-
 		"MOTD_Panel"
 		{
 			"ControlName"				"EditablePanel"
@@ -865,7 +806,6 @@
 			"paintborder"				"0"
 			"bgcolor_override"			"11 11 11 205"
 			"PaintBackgroundType"		"0"
-
 			"MOTD_HeaderContainer"
 			{
 				"ControlName"			"EditablePanel"
@@ -876,7 +816,6 @@
 				"tall"					"22"
 				"visible"				"1"
 				"bgcolor_override"		"8 8 8 255"
-
 				"HeaderLabel"
 				{
 					"ControlName"			"Label"
@@ -887,8 +826,6 @@
 					"ypos"					"-1"
 					"wide"					"247"
 					"tall"					"24"
-					"autoResize"			"0"
-					"pinCorner"				"0"
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground"		"0"
@@ -897,7 +834,6 @@
 					"allcaps"				"1"
 				}
 			}
-
 			"MOTD_CloseButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -907,17 +843,11 @@
 				"zpos"							"10"
 				"wide"							"18"
 				"tall"							"18"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labeltext"						"%"
 				"font"							"Symbols18"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"actionsignallevel"				"2"
 				"Command"						"motd_hide"
 				"paintbackground"				"0"
@@ -927,7 +857,6 @@
 				"armedFgColor_override"			"MainPink"
 				"depressedFgColor_override"		"White"
 			}
-
 			"SliderBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -940,7 +869,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 200"
 			}
-
 			"FOVSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -950,7 +878,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -966,7 +893,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -983,7 +909,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"VolumeSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -993,7 +918,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -1009,7 +933,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -1026,7 +949,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"NetGraphSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -1036,7 +958,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -1052,7 +973,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -1070,7 +990,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"CrosshairColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1084,7 +1003,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"CrosshairRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -1105,7 +1023,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -1126,7 +1043,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -1147,7 +1063,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairPink"
 			{
 				"ControlName"					"CExImageButton"
@@ -1168,7 +1083,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -1192,7 +1106,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1206,7 +1119,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"DamageRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -1227,7 +1139,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -1247,7 +1158,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -1268,7 +1178,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamagePink"
 			{
 				"ControlName"					"CExImageButton"
@@ -1289,7 +1198,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -1310,7 +1218,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"ColorsBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -1323,7 +1230,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 200"
 			}
-
 			"ToggleDamageNumbers"
 			{
 				"ControlName"			"CExImageButton"
@@ -1341,7 +1247,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"ToggleCrosshair"
 			{
 				"ControlName"			"CExImageButton"
@@ -1359,7 +1264,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"FixSound"
 			{
 				"ControlName"					"CExImageButton"
@@ -1379,7 +1283,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"FixVisuals"
 			{
 				"ControlName"					"CExImageButton"
@@ -1399,7 +1302,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"ReloadHUD"
 			{
 				"ControlName"					"CExImageButton"
@@ -1419,7 +1321,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Walkway"
 			{
 				"ControlName"					"CExImageButton"
@@ -1439,7 +1340,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Newbots"
 			{
 				"ControlName"					"CExImageButton"
@@ -1459,7 +1359,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Itemtest"
 			{
 				"ControlName"					"CExImageButton"
@@ -1479,7 +1378,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"VersionLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -1496,56 +1394,48 @@
 				"fgcolor_override"		"255 255 255 180"
 				"font"					"Product10"
 			}
-
 			"MOTD_HeaderIcon"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_HeaderIcon"
 				"xpos"				"9999"
 			}
-
 			"MOTD_Label"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"MOTD_Label"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageBg"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_TitleImageBg"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageContainer"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"MOTD_TitleImageContainer"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TextScroller"
 			{
 				"ControlName"		"ScrollableEditablePanel"
 				"fieldName"			"MOTD_TextScroller"
 				"xpos"				"9999"
 			}
-
 			"MOTD_URLButton"
 			{
 				"ControlName"		"CExButton"
 				"fieldName"			"MOTD_URLButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_PrevButton"
 			{
 				"ControlName"		"CExImageButton"
 				"fieldName"			"MOTD_PrevButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_NextButton"
 			{
 				"ControlName"		"CExImageButton"
@@ -1554,7 +1444,6 @@
 			}
 		}
 		//// Socials
-
 		"GitHub"
 		{
 			"ControlName"			"URLLabel"
@@ -1573,7 +1462,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"SteamGroup"
 		{
 			"ControlName"			"URLLabel"
@@ -1592,7 +1480,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"Discord"
 		{
 			"ControlName"			"URLLabel"
@@ -1611,7 +1498,6 @@
 			"font"					"Symbols16"
 			"fgcolor_override"		"255 255 255 185"
 		}
-
 		"MOTD_ShowButtonPanel"
 		{
 			"ControlName"			"EditablePanel"
@@ -1629,7 +1515,6 @@
 			"navLeft"				"Notifications_Panel"
 			"navRight"				"MOTD_Panel"
 			"navToRelay"			"MOTD_ShowButtonPanel_SB"
-
 			"MOTD_ShowButtonPanel_SB"
 			{
 				"ControlName"					"CExImageButton"
@@ -1662,7 +1547,6 @@
 				"image_armedcolor"				"White"
 			}
 		}
-
 		"MOTD_Panel"
 		{
 			"ControlName"				"EditablePanel"
@@ -1677,7 +1561,6 @@
 			"paintborder"				"0"
 			"bgcolor_override"			"11 11 11 205"
 			"PaintBackgroundType"		"0"
-
 			"MOTD_HeaderContainer"
 			{
 				"ControlName"			"EditablePanel"
@@ -1688,7 +1571,6 @@
 				"tall"					"22"
 				"visible"				"1"
 				"bgcolor_override"		"8 8 8 255"
-
 				"HeaderLabel"
 				{
 					"ControlName"			"Label"
@@ -1699,8 +1581,6 @@
 					"ypos"					"-1"
 					"wide"					"247"
 					"tall"					"24"
-					"autoResize"			"0"
-					"pinCorner"				"0"
 					"visible"				"1"
 					"enabled"				"1"
 					"paintbackground"		"0"
@@ -1709,7 +1589,6 @@
 					"allcaps"				"1"
 				}
 			}
-
 			"MOTD_CloseButton"
 			{
 				"ControlName"					"CExImageButton"
@@ -1719,17 +1598,11 @@
 				"zpos"							"10"
 				"wide"							"18"
 				"tall"							"18"
-				"autoResize"					"0"
-				"pinCorner"						"0"
 				"visible"						"1"
 				"enabled"						"1"
-				"tabPosition"					"0"
 				"labeltext"						"%"
 				"font"							"Symbols18"
 				"textAlignment"					"center"
-				"dulltext"						"0"
-				"brighttext"					"0"
-				"default"						"0"
 				"actionsignallevel"				"2"
 				"Command"						"motd_hide"
 				"paintbackground"				"0"
@@ -1739,7 +1612,6 @@
 				"armedFgColor_override"			"MainPink"
 				"depressedFgColor_override"		"White"
 			}
-
 			"SliderBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -1752,7 +1624,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 200"
 			}
-
 			"FOVSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -1762,7 +1633,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -1778,7 +1648,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -1795,7 +1664,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"VolumeSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -1805,7 +1673,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -1821,7 +1688,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -1838,7 +1704,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"NetGraphSlider"
 			{
 				"ControlName"		"EditablePanel"
@@ -1848,7 +1713,6 @@
 				"zpos"				"15"
 				"wide"				"152"
 				"tall"				"28"
-
 				"SubButton"
 				{
 					"ControlName"					"CExImageButton"
@@ -1864,7 +1728,6 @@
 					"paintborder"					"0"
 					"defaultfgcolor_override"		"White"
 				}
-
 				"Slider"
 				{
 					"ControlName"			"CCvarSlider"
@@ -1882,7 +1745,6 @@
 					"allotoutofrange"		"0"
 				}
 			}
-
 			"CrosshairColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -1896,7 +1758,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"CrosshairRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -1917,7 +1778,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -1938,7 +1798,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -1959,7 +1818,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairPink"
 			{
 				"ControlName"					"CExImageButton"
@@ -1980,7 +1838,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"CrosshairYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -2004,7 +1861,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageColorsLabel"
 			{
 				"ControlName"		"CExLabel"
@@ -2018,7 +1874,6 @@
 				"textAlignment"		"center"
 				"font"				"Product12"
 			}
-
 			"DamageRed"
 			{
 				"ControlName"					"CExImageButton"
@@ -2039,7 +1894,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageGreen"
 			{
 				"ControlName"					"CExImageButton"
@@ -2059,7 +1913,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageBlue"
 			{
 				"ControlName"					"CExImageButton"
@@ -2080,7 +1933,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamagePink"
 			{
 				"ControlName"					"CExImageButton"
@@ -2101,7 +1953,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"DamageYellow"
 			{
 				"ControlName"					"CExImageButton"
@@ -2122,7 +1973,6 @@
 				"sound_released"				"UI/buttonclickrelease.wav"
 				"actionsignallevel"				"2"
 			}
-
 			"ColorsBG"
 			{
 				"ControlName"			"EditablePanel"
@@ -2135,7 +1985,6 @@
 				"paintbackground"		"1"
 				"bgcolor_override"		"16 16 16 200"
 			}
-
 			"ToggleDamageNumbers"
 			{
 				"ControlName"			"CExImageButton"
@@ -2153,7 +2002,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"ToggleCrosshair"
 			{
 				"ControlName"			"CExImageButton"
@@ -2171,7 +2019,6 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 				"actionsignallevel"		"2"
 			}
-
 			"FixSound"
 			{
 				"ControlName"					"CExImageButton"
@@ -2191,7 +2038,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"FixVisuals"
 			{
 				"ControlName"					"CExImageButton"
@@ -2211,7 +2057,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"ReloadHUD"
 			{
 				"ControlName"					"CExImageButton"
@@ -2231,7 +2076,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Walkway"
 			{
 				"ControlName"					"CExImageButton"
@@ -2251,7 +2095,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Newbots"
 			{
 				"ControlName"					"CExImageButton"
@@ -2271,7 +2114,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"Itemtest"
 			{
 				"ControlName"					"CExImageButton"
@@ -2291,7 +2133,6 @@
 				"defaultbgcolor_override"		"16 16 16 255"
 				"actionsignallevel"				"2"
 			}
-
 			"VersionLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -2306,56 +2147,48 @@
 				"fgcolor_override"		"255 255 255 180"
 				"font"					"Product10"
 			}
-
 			"MOTD_HeaderIcon"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_HeaderIcon"
 				"xpos"				"9999"
 			}
-
 			"MOTD_Label"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"MOTD_Label"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageBg"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"MOTD_TitleImageBg"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TitleImageContainer"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"MOTD_TitleImageContainer"
 				"xpos"				"9999"
 			}
-
 			"MOTD_TextScroller"
 			{
 				"ControlName"		"ScrollableEditablePanel"
 				"fieldName"			"MOTD_TextScroller"
 				"xpos"				"9999"
 			}
-
 			"MOTD_URLButton"
 			{
 				"ControlName"		"CExButton"
 				"fieldName"			"MOTD_URLButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_PrevButton"
 			{
 				"ControlName"		"CExImageButton"
 				"fieldName"			"MOTD_PrevButton"
 				"xpos"				"9999"
 			}
-
 			"MOTD_NextButton"
 			{
 				"ControlName"		"CExImageButton"
@@ -2363,7 +2196,6 @@
 				"xpos"				"9999"
 			}
 		}
-
 		"SaxxySettings"
 		{
 			"xpos"							"0"
@@ -2387,7 +2219,6 @@
 			"flash_start_time"				"4.0"
 			"initial_freakout_duration"		"15.0"
 			"clap_sound_duration"			"10.0"
-
 			"CameraFlashSettings"
 			{
 				"visible"			"1"
@@ -2398,7 +2229,6 @@
 			}
 		}
 	}
-
 	"TFCharacterImage"
 	{
 		// "ControlName"	"ImagePanel"
@@ -2413,7 +2243,6 @@
 		"scaleImage"		"1"
 	}
 	// MAIN MENU BUTTONS
-
 	"ServerBrowserButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2423,19 +2252,14 @@
 		"wide"							"115"
 		"tall"							"30"
 		"zpos"							"5"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"textinsetx"					"4"
 		"textinsety"					"0"
 		"textinsetz"					"5"
 		"use_proportional_insets"		"1"
 		"font"							"product16"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"command"						"openserverbrowser"
 		"labeltext"						"SERVERS"
@@ -2451,7 +2275,6 @@
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		"paintbackground"				"1"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2468,23 +2291,17 @@
 			"image"						"replay/thumbnails/icons/search"
 		}
 	}
-
 	"MusicChangeButton"
 	{
 		"ControlName"					"CExImageButton"
 		"zpos"							"1"
 		"wide"							"30"
 		"tall"							"25"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						""
 		// "font"						"HudFontSmallBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine tf2song"
 		"navUp"							"ServerBrowserButton"
@@ -2502,7 +2319,6 @@
 		"pin_to_sibling"				"MusicStopButton"
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -2518,7 +2334,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"MusicChangeButton2"
 	{
 		"ControlName"					"CExImageButton"
@@ -2527,15 +2342,10 @@
 		"zpos"							"2"
 		"wide"							"25"
 		"tall"							"25"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						""
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine tf2songp"
 		"navUp"							"Servers"
@@ -2554,7 +2364,6 @@
 		"pin_to_sibling"				"ServerBrowserButton"
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -2570,7 +2379,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"MusicStopButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2580,16 +2388,11 @@
 		"zpos"							"4"
 		"wide"							"25"
 		"tall"							"25"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						""
 		// "font"						"HudFontSmallBold"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine tf2nomusic"
 		"navUp"							"ServerBrowserButton"
@@ -2607,7 +2410,6 @@
 		"pin_to_sibling"				"MusicChangeButton2"
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -2623,7 +2425,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"SettingsButtonR"
 	{
 		"ControlName"					"CExImageButton"
@@ -2634,19 +2435,14 @@
 		"roundedcorners"				"0"
 		"tall"							"42"
 		"zpos"							"26"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"SETTINGS"
 		"textinsetx"					"6"
 		"textinsety"					"-1"
 		"use_proportional_insets"		"1"
 		"font"							"product8"
 		"textAlignment"					"south-west"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"OpenOptionsDialog"
 		"navUp"							"Notifications_Panel"
@@ -2661,7 +2457,6 @@
 		"paintbackground"				"1"
 		"image_drawcolor"				"White"
 		"image_armedcolor"				"231 172 207 255"	// "MainPink"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2679,7 +2474,6 @@
 			"image"						"replay/thumbnails/icons/gear"
 		}
 	}
-
 	"TF2SettingsButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2689,18 +2483,13 @@
 		"zpos"							"27"
 		"wide"							"11"
 		"tall"							"12"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"+"
 		"textAlignment"					"center"
 		"font"							"product16"
 		"textinsetx"					"0"
 		"textinsety"					"-2"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"opentf2options"
 		"use_proportional_insets"		"1"
@@ -2714,7 +2503,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPRIGHT"	// This Element
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"	// Target Element
 	}
-
 	"BackpackButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2725,19 +2513,14 @@
 		"roundedcorners"				"0"
 		"tall"							"42"
 		"zpos"							"26"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"BACKPACK"
 		"textinsetx"					"4"
 		"textinsety"					"-1"
 		"use_proportional_insets"		"1"
 		"font"							"product8"
 		"textAlignment"					"south-west"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine open_charinfo"
 		"navUp"							"Notifications_Panel"
@@ -2752,7 +2535,6 @@
 		"paintbackground"				"1"
 		"image_drawcolor"				"White"
 		"image_armedcolor"				"231 172 207 255"	// "MainPink"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2770,7 +2552,6 @@
 			"image"						"replay/thumbnails/icons/items"
 		}
 	}
-
 	"StoreButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2781,19 +2562,14 @@
 		"roundedcorners"				"0"
 		"tall"							"42"
 		"zpos"							"26"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"STORE"
 		"textinsetx"					"4"
 		"textinsety"					"-1"
 		"use_proportional_insets"		"1"
 		"font"							"product8"
 		"textAlignment"					"south-west"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine open_store"
 		"navUp"							"Notifications_Panel"
@@ -2808,7 +2584,6 @@
 		"paintbackground"				"1"
 		"image_drawcolor"				"White"
 		"image_armedcolor"				"231 172 207 255"	// "MainPink"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2826,7 +2601,6 @@
 			"image"						"replay/thumbnails/icons/store"
 		}
 	}
-
 	"ConsoleButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -2837,19 +2611,14 @@
 		"roundedcorners"				"0"
 		"tall"							"42"
 		"zpos"							"26"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"CONSOLE"
 		"textinsetx"					"6"
 		"textinsety"					"-1"
 		"use_proportional_insets"		"1"
 		"font"							"product8"
 		"textAlignment"					"south-west"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"engine showconsole"
 		"navUp"							"Notifications_Panel"
@@ -2864,7 +2633,6 @@
 		"paintbackground"				"1"
 		"image_drawcolor"				"White"
 		"image_armedcolor"				"231 172 207 255"	// "MainPink"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2882,7 +2650,6 @@
 			"image"						"replay/thumbnails/icons/console"
 		}
 	}
-
 	"CreateServer"
 	{
 		"ControlName"					"CExImageButton"
@@ -2893,19 +2660,14 @@
 		"roundedcorners"				"0"
 		"tall"							"42"
 		"zpos"							"26"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"CREATE"
 		"textinsetx"					"0"
 		"textinsety"					"0"
 		"use_proportional_insets"		"1"
 		"font"							"product16"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"Command"						"OpenCreateMultiplayerGameDialog"
 		"roundedcorners"				"0"
@@ -2917,7 +2679,6 @@
 		"armedbgcolor_override"			"0 0 0 185"
 		"image_drawcolor"				"150 150 150 40"
 		"image_armedcolor"				"231 172 207 75"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -2934,7 +2695,6 @@
 			"image"						"replay/thumbnails/icons/tools"
 		}
 	}
-
 	"CallVoteButton"
 	{
 		"ControlName"				"EditablePanel"
@@ -2949,7 +2709,6 @@
 		"pin_to_sibling"			"FriendsContainer"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
-
 		"SubButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -2958,17 +2717,12 @@
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"f0"
-			"autoResize"					"0"
-			"pinCorner"						"3"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"textinsetx"					"100"
 			"use_proportional_insets"		"1"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"west"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"default"						"1"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -2983,7 +2737,6 @@
 			"image_drawcolor"				"White"
 			"image_armedcolor"				"245 245 245 175"
 			"proportionaltoparent"			"1"
-
 			"SubImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -3002,7 +2755,6 @@
 			}
 		}
 	}
-
 	"MutePlayersButton"
 	{
 		"ControlName"			"EditablePanel"
@@ -3015,7 +2767,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"pin_to_sibling"		"CallVoteButton"
-
 		"SubButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -3024,17 +2775,12 @@
 			"ypos"							"0"
 			"wide"							"f0"
 			"tall"							"f0"
-			"autoResize"					"0"
-			"pinCorner"						"3"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"textinsetx"					"100"
 			"use_proportional_insets"		"1"
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"west"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"default"						"1"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -3049,7 +2795,6 @@
 			"image_drawcolor"				"White"
 			"image_armedcolor"				"245 245 245 175"
 			"proportionaltoparent"			"1"
-
 			"SubImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -3068,7 +2813,6 @@
 			}
 		}
 	}
-
 	"BugReport"
 	{
 		"ControlName"			"URLLabel"
@@ -3088,7 +2832,6 @@
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"ContrackerButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -3113,7 +2856,6 @@
 		"armedfgcolor_override"			"MainPink"
 		"armedbgcolor_override"			"0 0 0 185"
 	}
-
 	"RankPanel"
 	{
 		"ControlName"			"CPvPRankPanel"
@@ -3129,7 +2871,6 @@
 		"show_model"			"0"
 		"show_type"				"1"
 	}
-
 	"RankModelPanel"
 	{
 		"ControlName"				"CPvPRankPanel"
@@ -3145,7 +2886,6 @@
 		"matchgroup"				"MatchGroup_Casual_12v12"
 		"show_progress"				"0"
 	}
-
 	"RankPanelBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -3160,7 +2900,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"StatsTextBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -3175,7 +2914,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"StatsTextLine"
 	{
 		"ControlName"			"EditablePanel"
@@ -3190,7 +2928,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"White"
 	}
-
 	"StatsText"
 	{
 		"ControlName"			"Label"
@@ -3206,7 +2943,6 @@
 		"font"					"product12"
 		"fgcolor_override"		"White"
 	}
-
 	"CycleRankTypeButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -3216,8 +2952,6 @@
 		"zpos"							"10"
 		"wide"							"15"
 		"tall"							"15"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
 		"labelText"						"|"
@@ -3241,7 +2975,6 @@
 		"defaultfgcolor_override"		"White"
 		"armedfgcolor_override"			"MainPink"
 	}
-
 	"NoGCMessage"
 	{
 		"ControlName"					"Label"
@@ -3259,7 +2992,6 @@
 		"AllCaps"						"0"
 		"use_proportional_insets"		"1"
 	}
-
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -3270,7 +3002,6 @@
 		"wide"				"150"
 		"tall"				"30"
 		"visible"			"1"
-
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"ControlName"					"CExImageButton"
@@ -3286,7 +3017,6 @@
 			"font"							"Symbols24"
 			"labeltext"						"G"
 			"textAlignment"					"center"
-			"default"						"0"
 			"command"						"noti_show"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -3298,7 +3028,6 @@
 			"depressedfgcolor_override"		"170 127 37 255"
 		}
 	}
-
 	"Notifications_Panel"
 	{
 		"ControlName"				"EditablePanel"
@@ -3313,7 +3042,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 0"
 		"border"					"noborder"
-
 		"Notifications_CloseButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -3324,17 +3052,11 @@
 			"wide"							"10"
 			"proportionaltoparent"			"1"
 			"tall"							"10"
-			"autoResize"					"0"
-			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labeltext"						""
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"0"
 			"command"						"noti_hide"
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -3345,7 +3067,6 @@
 			"depressedFgColor_override"		"46 43 42 255"
 			"image_drawcolor"				"tanlight60"
 			"image_armedcolor"				"245 245 245 240"
-
 			"SubImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -3362,7 +3083,6 @@
 				"scaleImage"				"1"
 			}
 		}
-
 		"Notifications_TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -3374,14 +3094,11 @@
 			"ypos"				"2"
 			"wide"				"250"
 			"tall"				"10"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"MainPink"
 			"wrap"				"1"
 		}
-
 		"Background"
 		{
 			"ControlName"			"EditablePanel"
@@ -3391,13 +3108,10 @@
 			"zpos"					"-10"
 			"wide"					"100"
 			"tall"					"45"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"bgcolor_override"		"0 0 0 165"
 		}
-
 		"Notifications_Scroller"
 		{
 			"ControlName"				"ScrollableEditablePanel"
@@ -3409,7 +3123,6 @@
 			"tall"						"f0"
 			"PaintBackgroundType"		"2"
 			"fgcolor_override"			"tanlight120"
-
 			"Notifications_Control"
 			{
 				"ControlName"		"CMainMenuNotificationsControl"
@@ -3422,7 +3135,6 @@
 			}
 		}
 	}
-
 	"FriendsContainer"
 	{
 		"ControlName"			"EditablePanel"
@@ -3435,7 +3147,6 @@
 		"visible"				"1"
 		"visible_minmode"		"0"
 		"border"				"noborder"
-
 		"TitleLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -3447,16 +3158,12 @@
 			"zpos"					"16"
 			"fgcolor_override"		"230 230 230 245"
 			"ypos"					"-3"
-			"default"				"0"
 			"wide"					"f0"
 			"tall"					"20"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"textinsetx"			"0"
 		}
-
 		"FriendsTextLine"
 		{
 			"ControlName"			"EditablePanel"
@@ -3471,7 +3178,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"White"
 		}
-
 		"SteamFriendsList"
 		{
 			"ControlName"				"CSteamFriendsListPanel"
@@ -3490,13 +3196,11 @@
 			"row_gap"					"0"
 			"column_gap"				"10"
 			"restrict_width"			"0"
-
 			"friendpanel_kv"
 			{
 				"wide"		"150"
 				"tall"		"20"
 			}
-
 			"ScrollBar"
 			{
 				"ControlName"				"ScrollBar"
@@ -3508,19 +3212,16 @@
 				"zpos"						"1000"
 				"nobuttons"					"1"
 				"proportionaltoparent"		"1"
-
 				"Slider"
 				{
 					"fgcolor_override"		"245 245 245 16"
 				}
-
 				"UpButton"
 				{
 					"ControlName"		"Button"
 					"FieldName"			"UpButton"
 					"visible"			"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"		"Button"
@@ -3529,7 +3230,6 @@
 				}
 			}
 		}
-
 		"BelowDarken"
 		{
 			"ControlName"				"EditablePanel"
@@ -3545,7 +3245,6 @@
 			"mouseinputenabled"			"0"
 			"bgcolor_override"			"0 0 0 175"
 		}
-
 		"BelowDarken2"
 		{
 			"ControlName"				"EditablePanel"
@@ -3562,7 +3261,6 @@
 			"bgcolor_override"			"0 0 0 175"
 		}
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -3577,7 +3275,6 @@
 		"PaintBackgroundType"		"1"
 		"border"					"NoBorder"
 		"bgcolor_override"			"11 11 11 200"
-
 		"TipSubLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -3597,7 +3294,6 @@
 			"bgcolor"					"Black"
 			"fgcolor"					"White"
 		}
-
 		"TipLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -3617,7 +3313,6 @@
 			"fgcolor"					"White"
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -3637,7 +3332,6 @@
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-
 		"attriblabel"
 		{
 			"font"				"ItemFontAttribLarge"
@@ -3654,7 +3348,6 @@
 			"centerwrap"		"1"
 		}
 	}
-
 	"LJxK4ujfayHmYgji"
 	{
 		"ControlName"			"URLLabel"

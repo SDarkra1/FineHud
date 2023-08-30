@@ -14,7 +14,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 180"
 	}
-
 	"AmmoInClip"
 	{
 		"ControlName"			"CExLabel"
@@ -32,7 +31,6 @@
 		"fgcolor"				"Ammo In Clip"
 		"pin_to_sibling"		"AmmoBG"
 	}
-
 	"AmmoInClipShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -50,7 +48,6 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"AmmoInClip"
 	}
-
 	"AmmoInReserve"
 	{
 		"ControlName"			"CExLabel"
@@ -68,7 +65,6 @@
 		"fgcolor"				"Ammo In Reserve"
 		"pin_to_sibling"		"AmmoBG"
 	}
-
 	"AmmoInReserveShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -86,7 +82,6 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"AmmoInReserve"
 	}
-
 	"AmmoNoClip"
 	{
 		"ControlName"			"CExLabel"
@@ -104,7 +99,6 @@
 		"fgcolor"				"Ammo No Clip"
 		"pin_to_sibling"		"AmmoBG"
 	}
-
 	"AmmoNoClipShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -122,14 +116,12 @@
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"AmmoNoClip"
 	}
-
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"HudWeaponAmmoBG"
 		"xpos"				"9999"
 	}
-
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"		"ImagePanel"

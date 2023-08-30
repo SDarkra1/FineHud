@@ -13,7 +13,6 @@
 		"proportionaltoparent"		"1"
 		"scaleImage"				"1"
 	}
-
 	"Background"
 	{
 		"ControlName"				"EditablePanel"
@@ -27,7 +26,6 @@
 		"bgcolor_override"			"15 15 15 255"
 		"proportionaltoparent"		"1"
 	}
-
 	"EmptyImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -43,7 +41,6 @@
 		"image"						"glyph_create"
 		"mouseinputenabled"			"0"
 	}
-
 	"LeaderIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -59,7 +56,6 @@
 		"scaleImage"			"1"
 		"mouseinputenabled"		"0"
 	}
-
 	"BannedIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -77,7 +73,6 @@
 		"proportionaltoparent"		"1"
 		"drawcolor"					"255 0 0 255"
 	}
-
 	"OutOfDateIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -95,7 +90,6 @@
 		"proportionaltoparent"		"1"
 		"drawcolor"					"OrangeDim"
 	}
-
 	"OfflineIcon"
 	{
 		"ControlName"				"ImagePanel"
@@ -113,7 +107,6 @@
 		"proportionaltoparent"		"1"
 		"drawcolor"					"OrangeDim"
 	}
-
 	"StatusDimmer"
 	{
 		"ControlName"				"Panel"
@@ -127,7 +120,6 @@
 		"proportionaltoparent"		"1"
 		"bgcolor_override"			"0 0 0 240"
 	}
-
 	"InteractButton"
 	{
 		"ControlName"					"CExImageButton"
@@ -137,15 +129,10 @@
 		"zpos"							"200"
 		"wide"							"f1"
 		"tall"							"f1"
-		"autoResize"					"0"
-		"pinCorner"						"3"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"PlayerPanelPlayerName"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"interact"
 		"proportionaltoparent"			"1"
 		"labeltext"						""
@@ -159,7 +146,6 @@
 		"border_default"				"QuickplayBorder"
 		"border_armed"					"FriendHighlightBorderThick"
 	}
-
 	"Spinner"
 	{
 		"ControlName"				"CTFLogoPanel"

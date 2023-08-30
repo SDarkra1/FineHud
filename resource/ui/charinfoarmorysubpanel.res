@@ -7,10 +7,7 @@
 		"wide"								"f0"
 		"zpos"								"501"
 		"visible"							"1"
-		"autoResize"						"0"
-		"pinCorner"							"0"
 		"enabled"							"1"
-		"tabPosition"						"0"
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"11 11 11 255"
@@ -25,7 +22,6 @@
 		"thumbnails_y"						"60"
 		"thumbnails_delta_x"				"8"
 		"thumbnails_delta_y"				"8"
-
 		"thumbnail_modelpanels_kv"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -46,7 +42,6 @@
 			"name_only"					"1"
 			"inset_eq_x"				"2"
 			"inset_eq_y"				"2"
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"		"0"
@@ -54,7 +49,6 @@
 			}
 		}
 	}
-
 	"CaratLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -67,13 +61,10 @@
 		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"ArmoryLabel"
 	{
 		"ControlName"		"Label"
@@ -86,12 +77,9 @@
 		"zpos"				"1"
 		"wide"				"560"
 		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"FiltersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -104,12 +92,9 @@
 		"zpos"				"1"
 		"wide"				"60"
 		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"FilterComboBox"
 	{
 		"ControlName"							"ComboBox"
@@ -120,11 +105,8 @@
 		"zpos"									"1"
 		"wide"									"150"
 		"tall"									"20"
-		"autoResize"							"0"
-		"pinCorner"								"0"
 		"visible"								"1"
 		"enabled"								"1"
-		"tabPosition"							"1"
 		"textHidden"							"0"
 		"editable"								"0"
 		"maxchars"								"-1"
@@ -138,7 +120,6 @@
 		"selectionTextColor_override"			"235 226 202 255"
 		"defaultSelectionBG2Color_override"		"51 47 46 255"
 	}
-
 	"DataPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -152,7 +133,6 @@
 		"PaintBackgroundType"		"0"
 		"paintborder"				"1"
 		"border"					"StorePreviewBorder"
-
 		"Data_TextRichText"
 		{
 			"ControlName"						"CEconItemDetailsRichText"
@@ -164,9 +144,7 @@
 			"ypos"								"138"
 			"wide"								"260"
 			"tall"								"125"
-			"autoResize"						"0"
-			"pinCorner"							"0"
-			"visible"							"1"
+				"visible"							"1"
 			"enabled"							"1"
 			"fgcolor"							"TanLight"
 			"wrap"								"1"
@@ -181,7 +159,6 @@
 			"image_box"							"ArmoryScrollbarBox"
 		}
 	}
-
 	"SelectedItemModelPanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -198,7 +175,6 @@
 		"model_hide"				"1"
 		"text_center"				"1"
 		"resize_to_text"			"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
@@ -206,7 +182,6 @@
 			"allow_rot"					"0"
 		}
 	}
-
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -226,7 +201,6 @@
 		"attrib_only"				"0"
 		"model_only"				"1"
 		"paint_icon_hide"			"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
@@ -234,7 +208,6 @@
 			"allow_rot"					"0"
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -261,7 +234,6 @@
 		"model_tall"				"100"
 		"text_forcesize"			"1"
 		"is_mouseover"				"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
@@ -269,7 +241,6 @@
 			"allow_rot"					"0"
 		}
 	}
-
 	"PrevPageButton"
 	{
 		"ControlName"			"CExButton"
@@ -279,21 +250,15 @@
 		"zpos"					"5"
 		"wide"					"20"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"<"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"prevpage"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -306,13 +271,10 @@
 		"zpos"					"5"
 		"wide"					"60"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"			"CExButton"
@@ -322,21 +284,15 @@
 		"zpos"					"5"
 		"wide"					"20"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				">"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"nextpage"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"WikiButton"
 	{
 		"ControlName"			"CExButton"
@@ -346,22 +302,16 @@
 		"zpos"					"20"
 		"wide"					"160"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Wiki"
 		"font"					"HudFontSmallestBold"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"wiki"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ViewSetButton"
 	{
 		"ControlName"			"CExButton"
@@ -371,22 +321,16 @@
 		"zpos"					"20"
 		"wide"					"100"
 		"tall"					"20"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_SetDetails"
 		"font"					"HudFontSmallestBold"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"viewset"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"StoreButton"
 	{
 		"ControlName"			"CExButton"
@@ -396,21 +340,15 @@
 		"zpos"					"20"
 		"wide"					"200"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Store"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"openstore"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"ReloadSchemeButton"
 	{
 		"ControlName"			"CExButton"
@@ -420,17 +358,12 @@
 		"zpos"					"25"
 		"wide"					"100"
 		"tall"					"15"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"RELOADSCHEME"
 		"font"					"HudFontSmallestBold"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"reloadscheme"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

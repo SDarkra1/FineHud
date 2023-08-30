@@ -1,4 +1,4 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\mvm\upgradeicons/upgrade_buff"
+	"$baseTexture"		"vgui\replay\thumbnails\mvm\upgradeicons/upgrade_buff"
 }

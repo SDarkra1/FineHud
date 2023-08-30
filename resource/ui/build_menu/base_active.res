@@ -10,16 +10,11 @@
 		"zpos"				"1"
 		"wide"				"84"
 		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#TF_Object_Sentry"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"ItemBackground"
 	{
 		"ControlName"			"CIconPanel"
@@ -37,7 +32,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -53,7 +47,6 @@
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -69,7 +62,6 @@
 		"icon"				"ico_metal"
 		"iconColor"			"White"
 	}
-
 	"CostLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -81,14 +73,11 @@
 		"zpos"				"1"
 		"wide"				"84"
 		"tall"				"13"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"Center"
 	}
-
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -100,21 +89,17 @@
 		"zpos"				"1"
 		"wide"				"44"
 		"tall"				"13"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"9999"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -126,13 +111,9 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"18"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"1"
 		"textAlignment"		"Center"
-		"dulltext"			"1"
-		"brighttext"		"0"
 	}
 }

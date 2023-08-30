@@ -8,11 +8,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"specgui"
 	{
 	}
-
 	"ReinforcementsLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -30,14 +28,12 @@
 		"font"						"product24"
 		"fgcolor"					"White"
 		"proportionaltoparent"		"1"
-
 		"if_mvm"
 		{
 			"xpos"		"-75"
 			"ypos"		"50"
 		}
 	}
-
 	"respawnbg"
 	{
 		"ControlName"			"EditablePanel"
@@ -50,7 +46,6 @@
 		"paintbackground"		"0"
 		"bgcolor_override"		"0 0 0 195"
 	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -67,7 +62,6 @@
 		"wrap"				"1"
 		"centerwrap"		"1"
 	}
-
 	"itempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -94,14 +88,12 @@
 		"padding_height"			"10"
 		"resize_to_text"			"1"
 		"text_forcesize"			"2"
-
 		"itemmodelpanel"
 		{
 			"fieldName"					"itemmodelpanel"
 			"use_item_rendertarget"		"0"
 			"useparentbg"				"1"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"		"Label"
@@ -118,7 +110,6 @@
 			"textAlignment"		"Left"
 		}
 	}
-
 	"spectator_extras"
 	{
 		"ControlName"		"EditablePanel"
@@ -133,7 +124,6 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"topbar"
 	{
 		"ControlName"		"Panel"
@@ -145,7 +135,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"BottomBar"
 	{
 		"ControlName"		"Frame"
@@ -156,7 +145,6 @@
 		"visible"			"1"
 		"enabled"			"0"
 	}
-
 	"bottombarblank"
 	{
 		"ControlName"		"Panel"
@@ -168,63 +156,54 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MapLabel"
 		"xpos"				"9999"
 	}
-
 	"ClassOrTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassOrTeamLabel"
 		"xpos"				"9999"
 	}
-
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SwitchCamModeKeyLabel"
 		"xpos"				"9999"
 	}
-
 	"SwitchCamModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SwitchCamModeLabel"
 		"xpos"				"9999"
 	}
-
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CycleTargetFwdKeyLabel"
 		"xpos"				"9999"
 	}
-
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CycleTargetFwdLabel"
 		"xpos"				"9999"
 	}
-
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CycleTargetRevKeyLabel"
 		"xpos"				"9999"
 	}
-
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CycleTargetRevLabel"
 		"xpos"				"9999"
 	}
-
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"

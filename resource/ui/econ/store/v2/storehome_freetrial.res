@@ -1,5 +1,4 @@
 "#base"		"StoreHome_Base.res"
-
 "Resource/UI/StoreHome_FreeTrial.res"
 {
 	"Callout"
@@ -10,8 +9,6 @@
 		"ypos"						"193"
 		"wide"						"235"
 		"tall"						"150"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"131 66 55 255"
@@ -19,7 +16,6 @@
 		"paintborder"				"0"
 		"paintbackgroundtype"		"2"
 		// Cover up top rounded corners
-
 		"BodyBgSquare"
 		{
 			"ControlName"				"EditablePanel"
@@ -28,8 +24,6 @@
 			"ypos"						"32"
 			"wide"						"231"
 			"tall"						"20"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"34 30 31 255"
@@ -37,7 +31,6 @@
 			"paintbackgroundtype"		"0"
 		}
 		// Bottom rounded corners
-
 		"BodyBg"
 		{
 			"ControlName"				"EditablePanel"
@@ -46,15 +39,12 @@
 			"ypos"						"40"
 			"wide"						"231"
 			"tall"						"108"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"34 30 31 255"
 			"paintbackground"			"1"
 			"paintbackgroundtype"		"2"
 		}
-
 		"HeaderText"
 		{
 			"ControlName"		"CExLabel"
@@ -66,13 +56,10 @@
 			"ypos"				"2"
 			"wide"				"210"
 			"tall"				"28"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 		}
-
 		"FreeTrialPoint1Dot"
 		{
 			"ControlName"		"CExLabel"
@@ -88,7 +75,6 @@
 			"enabled"			"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"FreeTrialPoint1"
 		{
 			"ControlName"		"CExLabel"
@@ -101,14 +87,11 @@
 			"zpos"				"2"
 			"wide"				"205"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"180 168 145 255"
 		}
-
 		"FreeTrialPoint2Dot"
 		{
 			"ControlName"		"CExLabel"
@@ -124,7 +107,6 @@
 			"enabled"			"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"FreeTrialPoint2"
 		{
 			"ControlName"		"CExLabel"
@@ -137,14 +119,11 @@
 			"zpos"				"2"
 			"wide"				"205"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"180 168 145 255"
 		}
-
 		"FreeTrialPoint3Dot"
 		{
 			"ControlName"		"CExLabel"
@@ -160,7 +139,6 @@
 			"enabled"			"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"FreeTrialPoint3"
 		{
 			"ControlName"		"CExLabel"
@@ -173,14 +151,11 @@
 			"zpos"				"2"
 			"wide"				"205"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"180 168 145 255"
 		}
-
 		"FreeTrialPoint4Dot"
 		{
 			"ControlName"		"CExLabel"
@@ -196,7 +171,6 @@
 			"enabled"			"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"FreeTrialPoint4"
 		{
 			"ControlName"		"CExLabel"
@@ -209,14 +183,11 @@
 			"zpos"				"2"
 			"wide"				"205"
 			"tall"				"40"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"180 168 145 255"
 		}
-
 		"PlusLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -229,13 +200,10 @@
 			"zpos"				"2"
 			"wide"				"325"
 			"tall"				"40"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"178 82 22 255"
 		}
-
 		"Plus2Label"
 		{
 			"ControlName"		"CExLabel"
@@ -248,15 +216,12 @@
 			"zpos"				"2"
 			"wide"				"200"
 			"tall"				"60"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 			"fgcolor"			"180 168 145 255"
 		}
 	}
-
 	"FeaturedItemSymbol"
 	{
 		"ControlName"		"ImagePanel"
@@ -271,7 +236,6 @@
 		"image"				"store/store_starburst"
 		"scaleImage"		"1"
 	}
-
 	"PromotionImage_Hat"
 	{
 		"ControlName"		"ImagePanel"

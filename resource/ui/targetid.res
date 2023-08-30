@@ -17,7 +17,6 @@
 		"draw_corner_width"			"0"
 		"draw_corner_height"		"0"
 	}
-
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -35,7 +34,6 @@
 		"draw_corner_width"			"0"
 		"draw_corner_height"		"0"
 	}
-
 	"TargetBGshade"
 	{
 		"ControlName"		"ImagePanel"
@@ -49,7 +47,6 @@
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 100"
 	}
-
 	"TargetNameLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -66,7 +63,6 @@
 		"textAlignment"		"west"
 		"fgcolor"			"White"
 	}
-
 	"TargetDataLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -83,7 +79,6 @@
 		"textAlignment"		"north-west"
 		"fgcolor"			"White"
 	}
-
 	"SpectatorGUIHealth"
 	{
 		"ControlName"					"EditablePanel"
@@ -103,14 +98,12 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
 		"xpos"				"9999"
 	}
-
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"

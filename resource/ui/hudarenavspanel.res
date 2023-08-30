@@ -10,7 +10,6 @@
 		"wide"				"200"
 		"tall"				"50"
 		"visible"			"1"
-
 		"background"
 		{
 			"ControlName"				"CTFImagePanel"
@@ -20,8 +19,6 @@
 			"zpos"						"0"
 			"wide"						"200"
 			"tall"						"50"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"image"						"../hud/color_panel_blu"
@@ -30,7 +27,6 @@
 			"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"5"
 		}
-
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -46,7 +42,6 @@
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
-
 		"teamname"
 		{
 			"ControlName"		"CExLabel"
@@ -56,8 +51,6 @@
 			"zpos"				"1"
 			"wide"				"200"
 			"tall"				"50"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"font"				"HudFontMediumBold"
@@ -66,7 +59,6 @@
 			"fgcolor"			"HudOffWhite"
 		}
 	}
-
 	"vslabel"
 	{
 		"ControlName"		"CExLabel"
@@ -76,8 +68,6 @@
 		"zpos"				"1"
 		"wide"				"160"
 		"tall"				"40"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"font"				"HudFontMedium"
@@ -85,7 +75,6 @@
 		"textAlignment"		"center"
 		"fgcolor"			"HudOffWhite"
 	}
-
 	"redpanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -96,7 +85,6 @@
 		"wide"				"200"
 		"tall"				"50"
 		"visible"			"1"
-
 		"background"
 		{
 			"ControlName"				"CTFImagePanel"
@@ -106,8 +94,6 @@
 			"zpos"						"0"
 			"wide"						"200"
 			"tall"						"50"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"image"						"../hud/color_panel_red"
@@ -116,7 +102,6 @@
 			"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"5"
 		}
-
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -132,7 +117,6 @@
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
-
 		"teamname"
 		{
 			"ControlName"		"CExLabel"
@@ -142,8 +126,6 @@
 			"zpos"				"1"
 			"wide"				"160"
 			"tall"				"50"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"font"				"HudFontMediumBold"

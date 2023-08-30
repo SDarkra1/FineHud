@@ -11,7 +11,6 @@
 		"collapsed_height"			"57"
 		"resize_time"				"0.2"
 	}
-
 	"TopContainer"
 	{
 		"Controlname"				"EditablePanel"
@@ -24,7 +23,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
-
 		"BGColor"
 		{
 			"ControlName"				"EditablePanel"
@@ -40,14 +38,12 @@
 			"proportionaltoparent"		"1"
 			"bgcolor_override"			"33 33 33 255"
 		}
-
 		"BGImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"			"BGImage"
 			"xpos"				"9999"
 		}
-
 		"EntryToggleButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -75,7 +71,6 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"image_default"					"glyph_expand"
 			"button_activation_type"		"1"
-
 			"SubImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -91,7 +86,6 @@
 				"proportionaltoparent"		"1"
 			}
 		}
-
 		"Shade"
 		{
 			"fieldName"					"Shade"
@@ -105,7 +99,6 @@
 			"proportionaltoparent"		"1"
 			"bgcolor_override"			"Blank"
 		}
-
 		"Checkbutton"
 		{
 			"ControlName"					"CExCheckButton"
@@ -121,7 +114,6 @@
 			"sound_depressed"				"UI/buttonclickrelease.wav"
 			"button_activation_type"		"1"
 		}
-
 		"Title"
 		{
 			"ControlName"					"CExLabel"
@@ -138,14 +130,11 @@
 			"use_proportional_insets"		"1"
 			"font"							"Product24"
 			"textAlignment"					"west"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"default"						"1"
 			"proportionaltoparent"			"1"
 			"mouseinputenabled"				"0"
 			"fgcolor"						"TanLight"
 		}
-
 		"TitleShadow"
 		{
 			"ControlName"					"CExLabel"
@@ -162,15 +151,12 @@
 			"use_proportional_insets"		"1"
 			"font"							"Product24"
 			"textAlignment"					"west"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"default"						"1"
 			"proportionaltoparent"			"1"
 			"mouseinputenabled"				"0"
 			"pin_to_sibling"				"Title"
 			"fgcolor_override"				"Black"
 		}
-
 		"DescLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -178,7 +164,6 @@
 			"xpos"				"9999"
 		}
 	}
-
 	"PlayListDropShadow"
 	{
 		"ControlName"				"EditablePanel"
@@ -194,7 +179,6 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 	}
-
 	"MapsContainer"
 	{
 		"Controlname"				"EditablePanel"
@@ -208,9 +192,6 @@
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
 		"border"					"NoBorder"
-		"pinCorner"					"2"
-		"autoResize"				"1"
-		"skip_autoresize"			"1"
 		"bgcolor_override"			"0 0 0 150"
 	}
 }

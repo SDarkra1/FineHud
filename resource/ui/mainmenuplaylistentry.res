@@ -15,7 +15,6 @@
 		"proportionaltoparent"		"1"
 		"image"						""
 	}
-
 	"PlayListDropShadow"
 	{
 		"ControlName"				"EditablePanel"
@@ -31,7 +30,6 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 	}
-
 	"BGColor"
 	{
 		"ControlName"				"EditablePanel"
@@ -46,7 +44,6 @@
 		"proportionaltoparent"		"1"
 		"bgcolor_override"			"15 15 15 215"
 	}
-
 	"ToolTipHack"
 	{
 		"ControlName"						"EditablePanel"
@@ -62,7 +59,6 @@
 		"eatmouseinput"						"0"
 		"showtooltipswhenmousedisabled"		"1"
 	}
-
 	"ToolTipButtonHack"
 	{
 		"ControlName"						"EditablePanel"
@@ -79,7 +75,6 @@
 		"showtooltipswhenmousedisabled"		"1"
 		"proportionaltoparent"				"1"
 	}
-
 	"ModeButton"
 	{
 		"ControlName"					"CExButton"
@@ -96,14 +91,10 @@
 		"use_proportional_insets"		"1"
 		"font"							"Product18"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"default"						"1"
 		"command"						"%button_command%"
 		"proportionaltoparent"			"1"
 		"actionsignallevel"				"2"
-		// "border_default"	"NoBorder"
-		// "border_armed"		"NoBorder"
 		"paintbackground"				"1"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -111,7 +102,6 @@
 		"armedFgColor_override"			"nüWhite"
 		"depressedFgColor_override"		"nüWhite"
 	}
-
 	"MatchmakingBanPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -126,7 +116,6 @@
 		"mouseinputenabled"			"0"
 		"bgcolor_override"			"Black"
 		"proportionaltoparent"		"1"
-
 		"MatchmakingBanDurationLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -142,13 +131,10 @@
 			"tall"						"f0"
 			"visible"					"1"
 			"enabled"					"1"
-			"autoResize"				"1"
-			"pinCorner"					"0"
 			"proportionaltoparent"		"1"
 			"paintbackground"			"0"
 		}
 	}
-
 	"DescLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -161,8 +147,6 @@
 		"zpos"						"2"
 		"wide"						"125"
 		"tall"						"40"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"0"
 		"wrap"						"1"
@@ -170,7 +154,6 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 	}
-
 	"DescLabelShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -183,8 +166,6 @@
 		"zpos"						"1"
 		"wide"						"125"
 		"tall"						"40"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"0"
 		"wrap"						"1"
@@ -192,7 +173,6 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 	}
-
 	"DisabledIcon"
 	{
 		"ControlName"					"CExImageButton"
@@ -219,7 +199,6 @@
 		"depressedBgColor_override"		"Blank"
 		"image_drawcolor"				"240 240 240 255"
 		"image_armedcolor"				"240 240 240 255"
-
 		"SubImage"
 		{
 			"ControlName"				"ImagePanel"

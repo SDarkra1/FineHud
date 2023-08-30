@@ -8,11 +8,8 @@
 		"ypos"						"50"
 		"wide"						"f0"
 		"tall"						"480"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
 		"bgcolor_override"			"46 43 42 255"
@@ -20,7 +17,6 @@
 		"NavToRelay"				"MvMTourOfDutyGroupBox"
 		"NavDown"					"MvMEconItemsGroupBox"
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -33,7 +29,6 @@
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
 		"border"					"MainMenuBGBorder"
-
 		"TipLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -46,15 +41,12 @@
 			"zpos"						"2"
 			"wide"						"100"
 			"tall"						"10"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"fgcolor_override"			"TanLight"
 			"auto_wide_tocontents"		"1"
 		}
 	}
-
 	"NoGCGroupBox"
 	{
 		"ControlName"				"EditablePanel"
@@ -68,7 +60,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"Black"
 		"proportionaltoparent"		"1"
-
 		"NoGCTitle"
 		{
 			"ControlName"				"Label"
@@ -85,7 +76,6 @@
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
 		}
-
 		"NoGCSubTitle"
 		{
 			"ControlName"				"Label"
@@ -102,7 +92,6 @@
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
 		}
-
 		"SpinnerImage"
 		{
 			"ControlName"				"ScalableImagePanel"
@@ -118,7 +107,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"MatchInProgressGroupBox"
 	{
 		"ControlName"				"EditablePanel"
@@ -132,7 +120,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"Black"
 		"proportionaltoparent"		"1"
-
 		"MatchInProgressTitle"
 		{
 			"ControlName"				"Label"
@@ -149,7 +136,6 @@
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
 		}
-
 		"MatchInProgressSubTitle"
 		{
 			"ControlName"				"Label"
@@ -166,7 +152,6 @@
 			"enabled"					"1"
 			"proportionaltoparent"		"1"
 		}
-
 		"SpinnerImage"
 		{
 			"ControlName"				"ScalableImagePanel"
@@ -182,7 +167,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"SearchActiveGroupBox"
 	{
 		"ControlName"				"EditablePanel"
@@ -196,7 +180,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 200"
 		"border"					"QuickplayBorder"
-
 		"SearchActiveTitle"
 		{
 			"ControlName"		"Label"
@@ -212,7 +195,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"NearbyColumnHead"
 		{
 			"ControlName"		"Label"
@@ -228,7 +210,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"WorldwideColumnHead"
 		{
 			"ControlName"		"Label"
@@ -244,7 +225,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersInGameLabel"
 		{
 			"ControlName"		"Label"
@@ -260,7 +240,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersInGameTotalLabel"
 		{
 			"ControlName"		"Label"
@@ -276,7 +255,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersInGameTotalNearbyValue"
 		{
 			"ControlName"		"Label"
@@ -292,7 +270,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersInGameTotalWorldwideValue"
 		{
 			"ControlName"		"Label"
@@ -308,7 +285,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersInGameMatchingLabel"
 		{
 			"ControlName"		"Label"
@@ -324,7 +300,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersInGameMatchingNearbyValue"
 		{
 			"ControlName"		"Label"
@@ -340,7 +315,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersInGameMatchingWorldwideValue"
 		{
 			"ControlName"		"Label"
@@ -356,7 +330,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersSearchingLabel"
 		{
 			"ControlName"		"Label"
@@ -372,7 +345,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersSearchingTotalLabel"
 		{
 			"ControlName"		"Label"
@@ -388,7 +360,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersSearchingTotalNearbyValue"
 		{
 			"ControlName"		"Label"
@@ -404,7 +375,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersSearchingTotalWorldwideValue"
 		{
 			"ControlName"		"Label"
@@ -420,7 +390,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersSearchingMatchingLabel"
 		{
 			"ControlName"		"Label"
@@ -436,7 +405,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"PlayersSearchingMatchingNearbyValue"
 		{
 			"ControlName"		"Label"
@@ -452,7 +420,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PlayersSearchingMatchingWorldwideValue"
 		{
 			"ControlName"		"Label"
@@ -468,7 +435,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"EmptyGameserversLabel"
 		{
 			"ControlName"		"Label"
@@ -484,7 +450,6 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"EmptyGameserversMatchingNearbyValue"
 		{
 			"ControlName"		"Label"
@@ -500,7 +465,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"EmptyGameserversMatchingWorldwideValue"
 		{
 			"ControlName"		"Label"
@@ -516,7 +480,6 @@
 			"enabled"			"1"
 			"labelText"			"?"
 		}
-
 		"PartyHasLowPriorityGroupBox"
 		{
 			"ControlName"		"EditablePanel"
@@ -528,7 +491,6 @@
 			"tall"				"100"
 			"visible"			"0"
 			"enabled"			"1"
-
 			"PartyLowPriorityImage"
 			{
 				"ControlName"			"ImagePanel"
@@ -544,7 +506,6 @@
 				"image"					"pve/mvm_timeout_active_large"
 				"scaleImage"			"1"
 			}
-
 			"PartyHasLowPriorityLabel"
 			{
 				"ControlName"			"Label"
@@ -562,7 +523,6 @@
 				"wrap"					"1"
 				"fgcolor_override"		"250 114 45 255"
 			}
-
 			"PartyLowPriorityPenaltyTimer"
 			{
 				"ControlName"		"Label"
@@ -581,7 +541,6 @@
 			}
 		}
 	}
-
 	"PartyActiveGroupBox"
 	{
 		"ControlName"		"EditablePanel"
@@ -596,7 +555,6 @@
 		"NavDown"			"<<NextButton"
 		"NavLeft"			"<<Sheet"
 		"NavRight"			"<<StartPartyButton"
-
 		"PartyGroupBox"
 		{
 			"ControlName"				"EditablePanel"
@@ -611,7 +569,6 @@
 			"bgcolor_override"			"0 0 0 200"
 			"border"					"QuickplayBorder"
 			"NavToRelay"				"InviteButton"
-
 			"PartyLabel"
 			{
 				"ControlName"		"Label"
@@ -625,7 +582,6 @@
 				"wide"				"120"
 				"tall"				"20"
 			}
-
 			"InviteButton"
 			{
 				"ControlName"			"CExImageButton"
@@ -635,22 +591,16 @@
 				"zpos"					"2"
 				"wide"					"100"
 				"tall"					"20"
-				"autoResize"			"0"
-				// "pinCorner"		"3"
 				"visible"				"1"
 				"enabled"				"1"
-				"tabPosition"			"0"
 				"labelText"				"#TF_Matchmaking_Invite"
 				"font"					"HudFontSmallBold"
 				"textAlignment"			"center"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"default"				"1"
 				"Command"				"invite"
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
 			}
-
 			"TourLevelImage"
 			{
 				"ControlName"			"ImagePanel"
@@ -666,7 +616,6 @@
 				"image"					"../hud/mvm_tours"
 				"scaleImage"			"1"
 			}
-
 			"PartyPlayerList"
 			{
 				"ControlName"		"SectionedListPanel"
@@ -679,7 +628,6 @@
 				"linespacing"		"18"
 			}
 		}
-
 		"ChatLog"
 		{
 			"ControlName"			"RichText"
@@ -693,7 +641,6 @@
 			"bgcolor_override"		"0 0 0 200"
 			"border"				"QuickplayBorder"
 		}
-
 		"ChatTextEntry"
 		{
 			"ControlName"			"TextEntry"
@@ -708,7 +655,6 @@
 			"border"				"QuickplayBorder"
 		}
 	}
-
 	"JoinLateCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -721,7 +667,6 @@
 		"font"				"HudFontSmall"
 		"labelText"			"#TF_Matchmaking_JoinInProgress"
 	}
-
 	"JoinLateValueLabel"
 	{
 		"ControlName"		"Label"

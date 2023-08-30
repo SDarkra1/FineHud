@@ -10,8 +10,6 @@
 		"wide"						"300"
 		"tall"						"90"
 		"image"						"../hud/tournament_panel_brown"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"src_corner_height"			"22"	// pixels inside the image
@@ -19,7 +17,6 @@
 		"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 		"draw_corner_height"		"5"
 	}
-
 	"WaveCompleteContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -30,7 +27,6 @@
 		"tall"						"24"
 		"visible"					"1"
 		"PaintBackgroundType"		"2"
-
 		"WinningTeamLabelDropshadow"
 		{
 			"ControlName"				"CExLabel"
@@ -41,20 +37,15 @@
 			"ypos"						"3"
 			"wide"						"295"
 			"tall"						"26"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"labelText"					"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"				"Center"
-			"dulltext"					"0"
-			"brighttext"				"0"
 			// blue Background
 			"PaintBackgroundType"		"2"
 			"fgcolor_override"			"Black"
 			"bgcolor_override"			"91 122 142 200"
 		}
-
 		"WinningTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -64,15 +55,12 @@
 			"ypos"				"2"
 			"wide"				"295"
 			"tall"				"26"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 		}
 	}
-
 	"WinReasonLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -83,16 +71,11 @@
 		"zpos"				"1"
 		"wide"				"292"
 		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%WinReasonLabel%"
 		"textAlignment"		"Center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"DetailsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -103,18 +86,13 @@
 		"zpos"				"1"
 		"wide"				"265"
 		"tall"				"30"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%DetailsLabel%"
 		"textAlignment"		"Center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"wrap"				"1"
 		"centerwrap"		"1"
 	}
-
 	"RespecBackground"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -123,8 +101,6 @@
 		"ypos"						"142"
 		"wide"						"300"
 		"tall"						"25"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../HUD/tournament_panel_brown"
@@ -133,7 +109,6 @@
 		"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 		"draw_corner_height"		"5"
 	}
-
 	"RespecContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -144,7 +119,6 @@
 		"tall"						"25"
 		"visible"					"1"
 		"PaintBackgroundType"		"2"
-
 		"RespecTextLabelLoss"
 		{
 			"ControlName"		"CExLabel"
@@ -158,7 +132,6 @@
 			"tall"				"20"
 			"fgcolor"			"tanlight"
 		}
-
 		"RespecCountLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -9,13 +9,11 @@
 		"zpos"				"-2"
 		"wide"				"96"	// 95
 		"tall"				"49"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/ramka"
 		"scaleImage"		"1"
 	}
-
 	"speedmeter"
 	{
 		"ControlName"		"ImagePanel"
@@ -25,13 +23,11 @@
 		"zpos"				"-2"
 		"wide"				"110"
 		"tall"				"110"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/speedometer"
 		"scaleImage"		"1"
 	}
-
 	"arrow"
 	{
 		"ControlName"		"ImagePanel"
@@ -41,13 +37,11 @@
 		"zpos"				"-2"
 		"wide"				"110"
 		"tall"				"110"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/arrow"
 		"scaleImage"		"1"
 	}
-
 	"digits16"
 	{
 		"ControlName"		"ImagePanel"
@@ -57,13 +51,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_16"
 		"scaleImage"		"1"
 	}
-
 	"digits13"
 	{
 		"ControlName"		"ImagePanel"
@@ -73,13 +65,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_13"
 		"scaleImage"		"1"
 	}
-
 	"digits14"
 	{
 		"ControlName"		"ImagePanel"
@@ -89,13 +79,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_14"
 		"scaleImage"		"1"
 	}
-
 	"digits15"
 	{
 		"ControlName"		"ImagePanel"
@@ -105,13 +93,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_15"
 		"scaleImage"		"1"
 	}
-
 	"avg"
 	{
 		"ControlName"		"ImagePanel"
@@ -121,13 +107,11 @@
 		"zpos"				"-2"
 		"wide"				"36"
 		"tall"				"9"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/avg"
 		"scaleImage"		"1"
 	}
-
 	"max"
 	{
 		"ControlName"		"ImagePanel"
@@ -137,13 +121,11 @@
 		"zpos"				"-2"
 		"wide"				"36"
 		"tall"				"9"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/max"
 		"scaleImage"		"1"
 	}
-
 	"digits12"
 	{
 		"ControlName"		"ImagePanel"
@@ -153,13 +135,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_12"
 		"scaleImage"		"1"
 	}
-
 	"digits9"
 	{
 		"ControlName"		"ImagePanel"
@@ -169,13 +149,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_9"
 		"scaleImage"		"1"
 	}
-
 	"digits10"
 	{
 		"ControlName"		"ImagePanel"
@@ -185,13 +163,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_10"
 		"scaleImage"		"1"
 	}
-
 	"digits11"
 	{
 		"ControlName"		"ImagePanel"
@@ -201,13 +177,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_11"
 		"scaleImage"		"1"
 	}
-
 	"digits8"
 	{
 		"ControlName"		"ImagePanel"
@@ -217,13 +191,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_8"
 		"scaleImage"		"1"
 	}
-
 	"digits5"
 	{
 		"ControlName"		"ImagePanel"
@@ -233,13 +205,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_5"
 		"scaleImage"		"1"
 	}
-
 	"digits6"
 	{
 		"ControlName"		"ImagePanel"
@@ -249,13 +219,11 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_6"
 		"scaleImage"		"1"
 	}
-
 	"digits7"
 	{
 		"ControlName"		"ImagePanel"
@@ -265,7 +233,6 @@
 		"zpos"				"-2"
 		"wide"				"8"
 		"tall"				"16"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/speed/digits_7"

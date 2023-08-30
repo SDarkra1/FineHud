@@ -8,14 +8,10 @@
 		"ypos"					"0"
 		"wide"					"125"
 		"tall"					"200"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"bgcolor_override"		"0 0 0 240"
 	}
-
 	"HighlightPanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -28,7 +24,6 @@
 		"mouseinputenabled"		"0"
 		"bgcolor_override"		"178 82 22 255"
 	}
-
 	"PreviewImage"
 	{
 		"ControlName"			"CBitmapPanel"
@@ -41,7 +36,6 @@
 		"visible"				"1"
 		"mouseinputenabled"		"0"
 	}
-
 	"LabelTitle"
 	{
 		"ControlName"			"Label"
@@ -50,15 +44,10 @@
 		"ypos"					"155"
 		"wide"					"125"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"%title%"
 		"textAlignment"			"north-west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"wrap"					"0"
 		"font"					"HudFontSmallest"
 		"fgcolor_override"		"86 78 68 255"

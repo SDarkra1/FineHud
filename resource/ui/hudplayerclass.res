@@ -1,7 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
-
 	"HudPlayerClass"
 	{
 		"ControlName"		"EditablePanel"
@@ -14,7 +13,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"PlayerStatusClassImage"
 	{
 		"ControlName"		"CTFClassImage"
@@ -29,7 +27,6 @@
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
 	}
-
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -46,7 +43,6 @@
 		"teambg_2"			"../hud/class_spyred"
 		"teambg_3"			"../hud/class_spyblue"
 	}
-
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -61,21 +57,18 @@
 		"image"				"../hud/class_spy_outline"
 		"scaleImage"		"1"
 	}
-
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayerStatusClassImageBG"
 		"xpos"				"9999"
 	}
-
 	"classmodelpanelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"classmodelpanelBG"
 		"xpos"				"9999"
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"				"CTFPlayerModelPanel"
@@ -85,15 +78,12 @@
 		"zpos"						"2"
 		"wide"						"200"
 		"tall"						"350"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"render_texture"			"0"
 		"fov"						"12"
 		"allow_rot"					"1"
 		"disable_speak_event"		"1"
-
 		"model"
 		{
 			"force_pos"				"1"
@@ -109,13 +99,11 @@
 			"spotlight"				"1"
 			"modelname"				""
 		}
-
 		"customclassdata"
 		{
 			"undefined"
 			{
 			}
-
 			"Scout"
 			{
 				"fov"			"25"
@@ -126,7 +114,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-85"
 			}
-
 			"Sniper"
 			{
 				"fov"			"25"
@@ -137,7 +124,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-95"
 			}
-
 			"Soldier"
 			{
 				"fov"			"25"
@@ -148,7 +134,6 @@
 				"origin_y"		"10"
 				"origin_z"		"-95"
 			}
-
 			"Demoman"
 			{
 				"fov"			"25"
@@ -159,7 +144,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-95"
 			}
-
 			"Medic"
 			{
 				"fov"			"20"
@@ -170,7 +154,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-95"
 			}
-
 			"Heavy"
 			{
 				"fov"			"18"
@@ -181,7 +164,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-105"
 			}
-
 			"Pyro"
 			{
 				"fov"			"18"
@@ -192,7 +174,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-95"
 			}
-
 			"Spy"
 			{
 				"fov"			"20"
@@ -203,7 +184,6 @@
 				"origin_y"		"5"
 				"origin_z"		"-95"
 			}
-
 			"Engineer"
 			{
 				"fov"			"20"
@@ -216,7 +196,6 @@
 			}
 		}
 	}
-
 	"CarryingWeapon"
 	{
 		"ControlName"		"EditablePanel"
@@ -226,7 +205,6 @@
 		"zpos"				"100"
 		"wide"				"500"
 		"tall"				"28"
-
 		"CarryingBackground"
 		{
 			"ControlName"				"CTFImagePanel"
@@ -236,9 +214,7 @@
 			"zpos"						"0"
 			"wide"						"p1"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
+				"visible"					"1"
 			"enabled"					"1"
 			"image"						"../hud/color_panel_brown"
 			"scaleImage"				"1"
@@ -251,7 +227,6 @@
 			"draw_corner_width"			"5"	// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"		"5"
 		}
-
 		"CarryingLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -262,18 +237,13 @@
 			"zpos"						"1"
 			"wide"						"200"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
+				"visible"					"1"
 			"enabled"					"1"
 			"textAlignment"				"North-West"
-			"dulltext"					"0"
-			"brighttext"				"0"
 			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
 			"labelText"					"%carrying%"
 		}
-
 		"CarryingLabelDropShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -284,19 +254,14 @@
 			"zpos"						"0"
 			"wide"						"200"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
+				"visible"					"1"
 			"enabled"					"1"
 			"textAlignment"				"North-West"
-			"dulltext"					"0"
-			"brighttext"				"0"
 			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
 			"fgcolor_override"			"Black"
 			"labelText"					"%carrying%"
 		}
-
 		"OwnerLabel"
 		{
 			"ControlName"				"Label"
@@ -307,13 +272,9 @@
 			"zpos"						"0"
 			"wide"						"200"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
+				"visible"					"1"
 			"enabled"					"1"
 			"textAlignment"				"North-West"
-			"dulltext"					"0"
-			"brighttext"				"0"
 			"proportionaltoparent"		"1"
 			"auto_wide_tocontents"		"1"
 		}

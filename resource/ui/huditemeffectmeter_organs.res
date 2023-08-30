@@ -12,7 +12,6 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -22,18 +21,12 @@
 		"zpos"				"2"
 		"wide"				"41"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Product8"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -44,15 +37,10 @@
 		"zpos"				"2"
 		"wide"				"40"
 		"tall"				"6"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
@@ -62,17 +50,12 @@
 		"zpos"				"2"
 		"wide"				"40"
 		"tall"				"20"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"%progresscount%"
 		"textAlignment"		"north"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Product24"
 	}
-
 	"HeadsIcon"
 	{
 		"ControlName"			"Label"
@@ -86,7 +69,6 @@
 		"labelText"				":"
 		"font"					"Symbols24"
 	}
-
 	"HeadsIconS"
 	{
 		"ControlName"			"Label"
@@ -100,7 +82,6 @@
 		"labelText"				":"
 		"font"					"Symbols24"
 	}
-
 	"HeadsBG"
 	{
 		"ControlName"			"EditablePanel"

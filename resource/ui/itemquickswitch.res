@@ -17,7 +17,6 @@
 		"bgcolor_override"			"0 0 0 100"
 		"itempanel_xpos"			"0"
 		"itempanel_ydelta"			"0"
-
 		"itemskv"
 		{
 			"wide"						"210"
@@ -37,7 +36,6 @@
 			"noitem_textcolor"			"117 107 94 255"
 		}
 	}
-
 	"TopLine"
 	{
 		"ControlName"				"EditablePanel"
@@ -54,7 +52,6 @@
 		"paintbackgroundtype"		"0"
 		"bgcolor_override"			"White"
 	}
-
 	"ItemSlotLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -73,7 +70,6 @@
 		"fgcolor"					"Black"
 		"pin_to_sibling"			"TopLine"
 	}
-
 	"itemcontainerscroller"
 	{
 		"ControlName"				"EditablePanel"
@@ -87,7 +83,6 @@
 		"paintbackground"			"0"
 		"autohide_buttons"			"1"
 	}
-
 	"itemcontainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -98,7 +93,6 @@
 		"tall"						"f0"
 		"proportionaltoparent"		"1"
 		"paintbackground"			"0"
-
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"		"CExLabel"
@@ -115,7 +109,6 @@
 			"fgcolor"			"White"
 		}
 	}
-
 	"loadout_preset_panel"
 	{
 		"ControlName"				"CLoadoutPresetPanel"
@@ -132,21 +125,18 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CaratLabel"
 		"xpos"				"9999"
 	}
-
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
 		"xpos"				"9999"
 	}
-
 	"NoItemsLabel"
 	{
 		"ControlName"		"CExLabel"

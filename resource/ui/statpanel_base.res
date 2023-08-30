@@ -14,7 +14,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 180"
 	}
-
 	"StatPanelClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -33,7 +32,6 @@
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
 	}
-
 	"titleLable"
 	{
 		"ControlName"		"Label"
@@ -44,16 +42,11 @@
 		"zpos"				"2"
 		"wide"				"175"
 		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%title%"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"summaryLabel"
 	{
 		"ControlName"		"Label"
@@ -64,17 +57,12 @@
 		"zpos"				"2"
 		"wide"				"175"
 		"tall"				"40"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%statdesc%"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"wrap"				"1"
 	}
-
 	"StatLabelLarge"
 	{
 		"ControlName"		"Label"
@@ -85,16 +73,11 @@
 		"zpos"				"3"
 		"wide"				"200"
 		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%stattextlarge%"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"StatLabelSmall"
 	{
 		"ControlName"		"Label"
@@ -105,23 +88,17 @@
 		"zpos"				"3"
 		"wide"				"200"
 		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%stattextsmall%"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"StatBox"
 	{
 		"ControlName"				"Panel"
 		"fieldName"					"StatBox"
 		"visible"					"1"
 		"enabled"					"1"
-		"pinCorner"					"0"
 		"xpos"						"72"
 		"xpos_lodef"				"100"
 		"ypos"						"77"

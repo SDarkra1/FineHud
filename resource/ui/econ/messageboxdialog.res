@@ -8,17 +8,13 @@
 		"ypos"						"140"
 		"wide"						"300"
 		"tall"						"230"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"1"
 		"bgcolor_override"			"22 22 22 255"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -31,12 +27,9 @@
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"30"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -49,14 +42,11 @@
 		"zpos"					"1"
 		"wide"					"300"
 		"tall"					"170"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"centerwrap"			"0"
 		"fgcolor_override"		"MainPink"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"
@@ -66,22 +56,16 @@
 		"zpos"					"20"
 		"wide"					"175"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#ConfirmButtonText"
 		"font"					"Product14"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"confirm"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"Icon"
 	{
 		"ControlName"			"ImagePanel"

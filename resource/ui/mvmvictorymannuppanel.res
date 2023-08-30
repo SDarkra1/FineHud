@@ -1,7 +1,6 @@
 "Resource/UI/MvMVictoryMannUpPanel.res"
 {
 	// Mouse over panel
-
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -21,7 +20,6 @@
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-
 		"attriblabel"
 		{
 			"font"				"ItemFontAttribLarge"
@@ -30,8 +28,6 @@
 			"zpos"				"2"
 			"wide"				"140"
 			"tall"				"60"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"%attriblist%"
@@ -40,7 +36,6 @@
 			"centerwrap"		"1"
 		}
 	}
-
 	"DoneButton"
 	{
 		"ControlName"			"CExImageButton"
@@ -50,22 +45,17 @@
 		"zpos"					"100"
 		"wide"					"106"
 		"tall"					"25"
-		"autoResize"			"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#DoneButton"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"image_drawcolor"		"235 226 202 255"
 		"Command"				"done"
 	}
-
 	"ParticlePanel"
 	{
 		"ControlName"		"CTFParticlePanel"
@@ -77,7 +67,6 @@
 		"tall"				"f0"
 		"visible"			"1"
 	}
-
 	"OutterBackground"
 	{
 		"ControlName"				"Panel"
@@ -87,14 +76,11 @@
 		"zpos"						"-8"
 		"wide"						"f0"
 		"tall"						"320"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
 		"bgcolor_override"			"42 39 37 255"
 	}
-
 	"HeaderLine"
 	{
 		"ControlName"				"ImagePanel"
@@ -112,7 +98,6 @@
 		"pin_corner_to_sibling"		"2"
 		"pin_to_sibling_corner"		"0"
 	}
-
 	"FooterLine"
 	{
 		"ControlName"				"ImagePanel"
@@ -130,7 +115,6 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
-
 	"TabContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -141,7 +125,6 @@
 		"wide"				"399"
 		"tall"				"40"
 		"visible"			"1"
-
 		"PlayerTab1"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -151,15 +134,12 @@
 			"zpos"						"-5"
 			"wide"						"63"
 			"tall"						"f0"
-			"autoResize"				"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"42 41 39 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
-
 		"PlayerTab2"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -169,16 +149,12 @@
 			"zpos"						"-5"
 			"wide"						"62"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"77 72 68 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
-
 		"PlayerTab3"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -188,16 +164,12 @@
 			"zpos"						"-5"
 			"wide"						"62"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"77 72 68 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
-
 		"PlayerTab4"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -207,16 +179,12 @@
 			"zpos"						"-5"
 			"wide"						"62"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"77 72 68 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
-
 		"PlayerTab5"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -226,16 +194,12 @@
 			"zpos"						"-5"
 			"wide"						"62"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"77 72 68 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
-
 		"PlayerTab6"
 		{
 			"ControlName"				"CMvMVictoryMannUpPlayerTab"
@@ -245,17 +209,13 @@
 			"zpos"						"-5"
 			"wide"						"62"
 			"tall"						"f0"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"bgcolor_override"			"77 72 68 255"
 			"PaintBackgroundType"		"2"
 			"proportionalToParent"		"1"
 		}
 	}
-
 	"MainPanelContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -266,7 +226,6 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-
 		"NoItemServerContainer"
 		{
 			"ControlName"		"EditablePanel"
@@ -276,7 +235,6 @@
 			"wide"				"530"
 			"tall"				"480"
 			"visible"			"1"
-
 			"NoItemServerHeader"
 			{
 				"ControlName"		"CExLabel"
@@ -289,7 +247,6 @@
 				"wide"				"530"
 				"fgcolor"			"tanlight"
 			}
-
 			"NoItemServerMessage"
 			{
 				"ControlName"		"CExLabel"

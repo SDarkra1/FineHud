@@ -10,7 +10,6 @@
 		"wide"				"25"
 		"tall"				"25"
 		"visible"			"1"
-
 		"Count"
 		{
 			"ControlName"				"CExLabel"
@@ -28,7 +27,6 @@
 			"textAlignment"				"center"
 			"fgcolor"					"m0reBlue"
 		}
-
 		"CountShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -47,14 +45,12 @@
 			"fgcolor"					"Black"
 			"pin_to_sibling"			"count"
 		}
-
 		"background"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"background"
 			"xpos"				"9999"
 		}
-
 		"playerimage"
 		{
 			"ControlName"		"ImagePanel"
@@ -62,7 +58,6 @@
 			"xpos"				"9999"
 		}
 	}
-
 	"RedTeam"
 	{
 		"ControlName"		"EditablePanel"
@@ -73,7 +68,6 @@
 		"wide"				"25"
 		"tall"				"25"
 		"visible"			"1"
-
 		"Count"
 		{
 			"ControlName"				"CExLabel"
@@ -91,7 +85,6 @@
 			"textAlignment"				"center"
 			"fgcolor"					"m0reRed"
 		}
-
 		"CountShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -110,14 +103,12 @@
 			"fgcolor"					"Black"
 			"pin_to_sibling"			"count"
 		}
-
 		"background"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"background"
 			"xpos"				"9999"
 		}
-
 		"playerimage"
 		{
 			"ControlName"		"ImagePanel"

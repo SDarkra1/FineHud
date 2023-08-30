@@ -17,7 +17,6 @@
 		"font"						"Product12"
 		"fgcolor"					"Health Numbers"
 	}
-
 	"PlayerStatusHealthValueSpecguiShadow"
 	{
 		"ControlName"				"CexLabel"
@@ -39,28 +38,24 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImage"
 		"xpos"				"9999"
 	}
-
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImageBG"
 		"xpos"				"9999"
 	}
-
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BuildingStatusHealthImageBG"
 		"xpos"				"9999"
 	}
-
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"		"ImagePanel"

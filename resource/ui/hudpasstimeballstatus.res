@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"EventTitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -30,7 +29,6 @@
 		"labelText"			"A TEAM STOLE THE BALL"
 		"fgcolor"			"White"
 	}
-
 	"EventBonusLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -51,7 +49,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
 	}
-
 	"EventDetailLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -72,7 +69,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
-
 	"ProgressLevelBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -88,7 +84,6 @@
 		"image"				"../passtime/hud/passtime_ballcontrol_bar"
 		"scaleImage"		"1"
 	}
-
 	"BlueProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
@@ -99,7 +94,6 @@
 		"ypos"				"r33"
 		"visible"			"0"
 	}
-
 	"RedProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
@@ -110,7 +104,6 @@
 		"ypos"				"r33"
 		"visible"			"0"
 	}
-
 	"GoalBlue0"
 	{
 		"ControlName"		"ImagePanel"
@@ -122,12 +115,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"		"1"
 	}
-
 	"GoalBlue1"
 	{
 		"ControlName"		"ImagePanel"
@@ -139,12 +130,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"		"1"
 	}
-
 	"GoalBlue2"
 	{
 		"ControlName"		"ImagePanel"
@@ -156,12 +145,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"		"1"
 	}
-
 	"GoalRed0"
 	{
 		"ControlName"		"ImagePanel"
@@ -173,12 +160,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"		"1"
 	}
-
 	"GoalRed1"
 	{
 		"ControlName"		"ImagePanel"
@@ -190,12 +175,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"		"1"
 	}
-
 	"GoalRed2"
 	{
 		"ControlName"		"ImagePanel"
@@ -207,12 +190,10 @@
 		"tall"				"12"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"		"1"
 	}
-
 	"ProgressBallIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -224,12 +205,10 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"image"				"../passtime/hud/passtime_ball"
 		"scaleImage"		"1"
 	}
-
 	"ProgressSelfPlayerIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -241,11 +220,9 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"scaleImage"		"1"
 	}
-
 	"ProgressBallCarrierName"
 	{
 		"ControlName"				"CExLabel"
@@ -263,7 +240,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
-
 	"BallPowerCluster"
 	{
 		"ControlName"		"EditablePanel"
@@ -275,7 +251,6 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"BallPowerMeterFrame"
 		{
 			"ControlName"		"ImagePanel"
@@ -290,7 +265,6 @@
 			"image"				"../passtime/hud/passtime_powerball_meter_frame"
 			"scaleImage"		"1"
 		}
-
 		"BallPowerMeterFinalSectionContainer"
 		{
 			// This exists because the bar is filled by changing the width dynamically
@@ -307,7 +281,6 @@
 			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"BallPowerMeterFinalSection"
 			{
 				"ControlName"		"ImagePanel"
@@ -323,7 +296,6 @@
 				"scaleImage"		"1"
 			}
 		}
-
 		"BallPowerMeterFillContainer"
 		{
 			// This exists because the bar is filled by changing the width dynamically
@@ -340,7 +312,6 @@
 			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
-
 			"BallPowerMeterFill"
 			{
 				"ControlName"		"ImagePanel"
@@ -357,7 +328,6 @@
 			}
 		}
 	}
-
 	"playericon0"
 	{
 		"ControlName"		"ImagePanel"
@@ -365,7 +335,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon1"
 	{
 		"ControlName"		"ImagePanel"
@@ -373,7 +342,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon2"
 	{
 		"ControlName"		"ImagePanel"
@@ -381,7 +349,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon3"
 	{
 		"ControlName"		"ImagePanel"
@@ -389,7 +356,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon4"
 	{
 		"ControlName"		"ImagePanel"
@@ -397,7 +363,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon5"
 	{
 		"ControlName"		"ImagePanel"
@@ -405,7 +370,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon6"
 	{
 		"ControlName"		"ImagePanel"
@@ -413,7 +377,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon7"
 	{
 		"ControlName"		"ImagePanel"
@@ -421,7 +384,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon8"
 	{
 		"ControlName"		"ImagePanel"
@@ -429,7 +391,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon9"
 	{
 		"ControlName"		"ImagePanel"
@@ -437,7 +398,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon10"
 	{
 		"ControlName"		"ImagePanel"
@@ -445,7 +405,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon11"
 	{
 		"ControlName"		"ImagePanel"
@@ -453,7 +412,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon12"
 	{
 		"ControlName"		"ImagePanel"
@@ -461,7 +419,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon13"
 	{
 		"ControlName"		"ImagePanel"
@@ -469,7 +426,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon14"
 	{
 		"ControlName"		"ImagePanel"
@@ -477,7 +433,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon15"
 	{
 		"ControlName"		"ImagePanel"
@@ -485,7 +440,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon16"
 	{
 		"ControlName"		"ImagePanel"
@@ -493,7 +447,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon17"
 	{
 		"ControlName"		"ImagePanel"
@@ -501,7 +454,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon18"
 	{
 		"ControlName"		"ImagePanel"
@@ -509,7 +461,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon19"
 	{
 		"ControlName"		"ImagePanel"
@@ -517,7 +468,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon20"
 	{
 		"ControlName"		"ImagePanel"
@@ -525,7 +475,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon21"
 	{
 		"ControlName"		"ImagePanel"
@@ -533,7 +482,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon22"
 	{
 		"ControlName"		"ImagePanel"
@@ -541,7 +489,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon23"
 	{
 		"ControlName"		"ImagePanel"
@@ -549,7 +496,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon24"
 	{
 		"ControlName"		"ImagePanel"
@@ -557,7 +503,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon25"
 	{
 		"ControlName"		"ImagePanel"
@@ -565,7 +510,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon26"
 	{
 		"ControlName"		"ImagePanel"
@@ -573,7 +517,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon27"
 	{
 		"ControlName"		"ImagePanel"
@@ -581,7 +524,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon28"
 	{
 		"ControlName"		"ImagePanel"
@@ -589,7 +531,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon29"
 	{
 		"ControlName"		"ImagePanel"
@@ -597,7 +538,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon30"
 	{
 		"ControlName"		"ImagePanel"
@@ -605,7 +545,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon31"
 	{
 		"ControlName"		"ImagePanel"
@@ -613,7 +552,6 @@
 		"wide"				"12"
 		"tall"				"12"
 	}
-
 	"playericon32"
 	{
 		"ControlName"		"ImagePanel"

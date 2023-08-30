@@ -15,7 +15,6 @@
 		"image"						"../hud/health_over_bg"
 		"scaleImage"				"1"
 	}
-
 	"PlayerStatusHealthValueKiller"
 	{
 		"ControlName"				"CExLabel"
@@ -33,7 +32,6 @@
 		"font"						"Product16"
 		"fgcolor"					"Health Numbers"
 	}
-
 	"PlayerStatusHealthValueShadowKiller"
 	{
 		"ControlName"				"CExLabel"
@@ -55,21 +53,18 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImage"
 		"xpos"				"9999"
 	}
-
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImageBG"
 		"xpos"				"9999"
 	}
-
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"

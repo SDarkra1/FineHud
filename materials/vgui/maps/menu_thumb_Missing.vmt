@@ -1,5 +1,5 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "vgui/maps/menu_thumb_Missing"
-	"$translucent" 1
+	"$basetexture"		"vgui/maps/menu_thumb_Missing"
+	"$translucent"		"1"
 }

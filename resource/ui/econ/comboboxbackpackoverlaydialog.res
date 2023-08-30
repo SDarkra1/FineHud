@@ -15,7 +15,6 @@
 		"settitlebarvisible"		"0"
 		"border"					"none"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -28,13 +27,10 @@
 		"zpos"				"0"
 		"wide"				"280"
 		"tall"				"60"
-		"autoResize"		"1"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
 	"preview_model"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -59,7 +55,6 @@
 		"text_center"				"1"
 		"name_only"					"1"
 		"paint_icon_hide"			"1"
-
 		"itemmodelpanel"
 		{
 			"force_use_model"			"1"
@@ -67,7 +62,6 @@
 			"allow_rot"					"1"
 		}
 	}
-
 	"ComboBox"
 	{
 		"ControlName"							"ComboBox"
@@ -78,11 +72,8 @@
 		"zpos"									"1"
 		"wide"									"220"
 		"tall"									"15"
-		"autoResize"							"0"
-		"pinCorner"								"0"
 		"visible"								"1"
 		"enabled"								"1"
-		"tabPosition"							"1"
 		"textHidden"							"0"
 		"editable"								"0"
 		"maxchars"								"-1"
@@ -96,7 +87,6 @@
 		"selectionTextColor_override"			"117 107 94 255"
 		"defaultSelectionBG2Color_override"		"251 235 202 255"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -106,22 +96,15 @@
 		"zpos"					"1"
 		"wide"					"70"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#Cancel"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"0"
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"OkButton"
 	{
 		"ControlName"			"CExButton"
@@ -131,16 +114,11 @@
 		"zpos"					"1"
 		"wide"					"70"
 		"tall"					"25"
-		"autoResize"			"0"
-		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_OK"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"apply"
 		"sound_depressed"		"UI/buttonclick.wav"

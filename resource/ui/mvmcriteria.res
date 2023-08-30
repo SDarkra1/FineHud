@@ -13,7 +13,6 @@
 		"NavUp"				"MvMSelectChallengeGroupBox"
 		"NavLeft"			"MvMSelectChallengeGroupBox"
 		"NavRight"			"PartyActiveGroupBox"
-
 		"ChallengeLabel"
 		{
 			"ControlName"			"Label"
@@ -28,7 +27,6 @@
 			"tall"					"26"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"DifficultyLabel"
 		{
 			"ControlName"			"Label"
@@ -43,7 +41,6 @@
 			"tall"					"24"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"CompleteLabel"
 		{
 			"ControlName"			"Label"
@@ -58,7 +55,6 @@
 			"tall"					"24"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"TourLevelLabel"
 		{
 			"ControlName"			"Label"
@@ -73,7 +69,6 @@
 			"tall"					"26"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"TourlistGroupBox"
 		{
 			"ControlName"				"EditablePanel"
@@ -88,7 +83,6 @@
 			"bgcolor_override"			"0 0 0 200"
 			"border"					"QuickplayBorder"
 			"NavToRelay"				"TourList"
-
 			"GreyOutPanel"
 			{
 				"ControlName"			"EditablePanel"
@@ -101,7 +95,6 @@
 				"visible"				"0"
 				"bgcolor_override"		"128 128 128 128"
 			}
-
 			"TourList"
 			{
 				"ControlName"		"SectionedListPanel"
@@ -115,7 +108,6 @@
 				"linespacing"		"12"
 			}
 		}
-
 		"TourDifficultyWarning"
 		{
 			"ControlName"			"Label"
@@ -134,7 +126,6 @@
 			"fgcolor_override"		"250 114 45 255"
 		}
 	}
-
 	"MannUpTourLootDescriptionBox"
 	{
 		"ControlName"				"EditablePanel"
@@ -148,7 +139,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 200"
 		"border"					"QuickplayBorder"
-
 		"TourLootImage"
 		{
 			"ControlName"			"ImagePanel"
@@ -164,7 +154,6 @@
 			"image"					"pve/mvm_loot_image"
 			"scaleImage"			"1"
 		}
-
 		"TourLootTitle"
 		{
 			"ControlName"		"Label"
@@ -178,7 +167,6 @@
 			"wide"				"200"
 			"tall"				"30"
 		}
-
 		"TourLootDetailLabel"
 		{
 			"ControlName"		"Label"
@@ -194,7 +182,6 @@
 			"tall"				"85"
 		}
 	}
-
 	"MvMEconItemsGroupBox"
 	{
 		"ControlName"			"EditablePanel"
@@ -210,7 +197,6 @@
 		"NavUp"					"MvMTourOfDutyGroupBox"
 		"NavDown"				"MvMPracticeGroupBox"
 		"NavRight"				"PartyActiveGroupBox"
-
 		"InventoryTitleLabel"
 		{
 			"ControlName"		"Label"
@@ -224,7 +210,6 @@
 			"wide"				"200"
 			"tall"				"30"
 		}
-
 		"MannUpTicketAd"
 		{
 			"ControlName"			"CCyclingAdContainerPanel"
@@ -238,7 +223,6 @@
 			"enabled"				"1"
 			"mouseinputenabled"		"1"
 			"paintborder"			"0"
-
 			"items"
 			{
 				"0"
@@ -251,7 +235,6 @@
 				}
 			}
 		}
-
 		"MannUpTicketCountLabel"
 		{
 			"ControlName"			"Label"
@@ -267,7 +250,6 @@
 			"tall"					"30"
 			"mouseinputenabled"		"0"
 		}
-
 		"SquadSurplusTicketAd"
 		{
 			"ControlName"			"CCyclingAdContainerPanel"
@@ -281,7 +263,6 @@
 			"enabled"				"1"
 			"mouseinputenabled"		"1"
 			"paintborder"			"0"
-
 			"items"
 			{
 				"0"
@@ -294,7 +275,6 @@
 				}
 			}
 		}
-
 		"SquadSurplusCountLabel"
 		{
 			"ControlName"			"Label"
@@ -310,7 +290,6 @@
 			"tall"					"30"
 			"mouseinputenabled"		"0"
 		}
-
 		"SquadSurplusCheckButton"
 		{
 			"ControlName"		"CheckButton"
@@ -323,7 +302,6 @@
 			"font"				"HudFontSmall"
 			"labelText"			""
 		}
-
 		"ActivateSquadSurplusLabel"
 		{
 			"ControlName"		"Label"
@@ -338,7 +316,6 @@
 			"wide"				"120"
 			"tall"				"60"
 		}
-
 		"Slot0"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -350,7 +327,6 @@
 			"tall"				"200"
 			"party_slot"		"0"
 		}
-
 		"Slot1"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -362,7 +338,6 @@
 			"tall"				"200"
 			"party_slot"		"1"
 		}
-
 		"Slot2"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -374,7 +349,6 @@
 			"tall"				"200"
 			"party_slot"		"2"
 		}
-
 		"Slot3"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -386,7 +360,6 @@
 			"tall"				"200"
 			"party_slot"		"3"
 		}
-
 		"Slot4"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -398,7 +371,6 @@
 			"tall"				"200"
 			"party_slot"		"4"
 		}
-
 		"Slot5"
 		{
 			"ControlName"		"CMvMPlayerTicketStatusPanel"
@@ -410,7 +382,6 @@
 			"tall"				"200"
 			"party_slot"		"5"
 		}
-
 		"MissingTicketsAlertImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -428,7 +399,6 @@
 			"proportionaltoparent"		"1"
 			"drawcolor"					"White"
 		}
-
 		"MissingTicketsLabel"
 		{
 			"ControlName"				"Label"
@@ -446,7 +416,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"MvMPracticeGroupBox"
 	{
 		"ControlName"				"EditablePanel"
@@ -464,7 +433,6 @@
 		"NavUp"						"MvMEconItemsGroupBox"
 		"NavDown"					"<<BackButton"
 		"NavRight"					"PartyActiveGroupBox"
-
 		"NoMannUpImage"
 		{
 			"ControlName"			"ImagePanel"
@@ -480,7 +448,6 @@
 			"image"					"pve/mvm_loot_image"
 			"scaleImage"			"1"
 		}
-
 		"NoMannUpTitleLabel"
 		{
 			"ControlName"		"Label"
@@ -494,7 +461,6 @@
 			"wide"				"200"
 			"tall"				"30"
 		}
-
 		"NoMannUpDescriptionLabel"
 		{
 			"ControlName"		"Label"
@@ -509,7 +475,6 @@
 			"wide"				"280"
 			"tall"				"50"
 		}
-
 		"MannUpNowButton"
 		{
 			"ControlName"			"CExButton"
@@ -519,22 +484,16 @@
 			"zpos"					"2"
 			"wide"					"120"
 			"tall"					"20"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#TF_MvM_MannUpNow"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"command"				"mann_up_now"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 		}
 	}
-
 	"MvMSelectChallengeGroupBox"
 	{
 		"ControlName"		"EditablePanel"
@@ -546,7 +505,6 @@
 		"tall"				"225"
 		"NavToRelay"		"ChallengeListGroupBox"
 		"NavRight"			"MvMTourOfDutyGroupBox"
-
 		"ChallengeLabel"
 		{
 			"ControlName"			"Label"
@@ -561,7 +519,6 @@
 			"tall"					"26"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"CompleteLabel"
 		{
 			"ControlName"			"Label"
@@ -576,7 +533,6 @@
 			"tall"					"24"
 			"fgcolor_override"		"250 114 45 255"
 		}
-
 		"TourLevelImage"
 		{
 			"ControlName"			"ImagePanel"
@@ -592,7 +548,6 @@
 			"image"					"../hud/mvm_tours"
 			"scaleImage"			"1"
 		}
-
 		"TourLevelLabel"
 		{
 			"ControlName"			"Label"
@@ -607,7 +562,6 @@
 			"tall"					"26"
 			"fgcolor_override"		"Black"
 		}
-
 		"ChallengeListGroupBox"
 		{
 			"ControlName"				"EditablePanel"
@@ -622,7 +576,6 @@
 			"bgcolor_override"			"0 0 0 200"
 			"border"					"QuickplayBorder"
 			"NavToRelay"				"ChallengeList"
-
 			"GreyOutPanel"
 			{
 				"ControlName"			"EditablePanel"
@@ -635,7 +588,6 @@
 				"visible"				"0"
 				"bgcolor_override"		"128 128 128 128"
 			}
-
 			"ChallengeList"
 			{
 				"ControlName"		"SectionedListPanel"

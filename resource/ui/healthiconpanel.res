@@ -12,7 +12,6 @@
 		"enabled"			"1"
 		"TFFont"			"HudFontSmall"
 		"TextColor"			"HudOffWhite"
-		"autoResize"		"1"
 	}
 
 	"SpectatorGUIHealth"
@@ -27,7 +26,6 @@
 		"enabled"				"1"
 		"TFFont"				"HudFontSmall"
 		"TextColor"				"HudOffWhite"
-		"autoResize"			"1"
 		"HealthBonusPosAdj"		"23"
 	}
 }

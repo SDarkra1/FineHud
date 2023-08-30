@@ -10,7 +10,6 @@
 		"visible"		"1"
 		"zpos"			"1000"
 	}
-
 	"Title"
 	{
 		"ControlName"				"Label"
@@ -28,7 +27,6 @@
 		"fgcolor_override"			"TanLight"
 		"proportionaltoparent"		"1"
 	}
-
 	"DescText"
 	{
 		"ControlName"				"Label"
@@ -46,7 +44,6 @@
 		"fgcolor_override"			"Orange"
 		"proportionaltoparent"		"1"
 	}
-
 	"BGPanel"
 	{
 		"fieldName"					"BGPanel"
@@ -60,7 +57,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"19 19 19 255"
 	}
-
 	"Shade"
 	{
 		"fieldName"					"Shade"
@@ -75,7 +71,6 @@
 		"mouseinputenabled"			"1"
 		"bgcolor_override"			"0 0 0 0"
 	}
-
 	"RedeemingPanel"
 	{
 		"fieldName"					"RedeemingPanel"
@@ -90,7 +85,6 @@
 		"border"					"none"
 		"paintbackground"			"1"
 		"bgcolor_override"			"19 19 19 255"
-
 		"CTFLogoPanel"
 		{
 			"fieldName"					"WorkingLogo"
@@ -105,7 +99,6 @@
 			"radius"					"30"
 			"fgcolor_override"			"255 255 255 255"
 		}
-
 		"WorkingText"
 		{
 			"ControlName"				"Label"
@@ -123,7 +116,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"SuccessPanel"
 	{
 		"fieldName"					"SuccessPanel"
@@ -138,7 +130,6 @@
 		"border"					"none"
 		"paintbackground"			"1"
 		"bgcolor_override"			"19 19 19 255"
-
 		"CTFLogoPanel"
 		{
 			"fieldName"					"SuccessLogo"
@@ -153,7 +144,6 @@
 			"radius"					"30"
 			"fgcolor_override"			"CreditsGreen"
 		}
-
 		"SuccessText"
 		{
 			"ControlName"				"Label"
@@ -171,7 +161,6 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-
 	"FailurePanel"
 	{
 		"fieldName"					"FailurePanel"
@@ -186,7 +175,6 @@
 		"border"					"none"
 		"paintbackground"			"1"
 		"bgcolor_override"			"19 19 19 255"
-
 		"CTFLogoPanel"
 		{
 			"fieldName"					"FailureLogo"
@@ -201,7 +189,6 @@
 			"radius"					"30"
 			"fgcolor_override"			"RedSolid"
 		}
-
 		"FailureText"
 		{
 			"ControlName"				"Label"
@@ -220,7 +207,6 @@
 			"centerwrap"				"1"
 		}
 	}
-
 	"InspectionPanel"
 	{
 		"fieldName"					"InspectionPanel"
@@ -231,7 +217,6 @@
 		"tall"						"350"
 		"proportionaltoparent"		"1"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"				"CExButton"
@@ -241,23 +226,17 @@
 		"zpos"						"20"
 		"wide"						"100"
 		"tall"						"25"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labelText"					"#GameUI_CancelBold"
 		"font"						"Product12"
 		"textAlignment"				"center"
 		"textinsetx"				"50"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"cancel"
 		"proportionaltoparent"		"1"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"				"CExButton"
@@ -268,17 +247,12 @@
 		"wide"						"140"
 		"tall"						"25"
 		"default"					"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"labelText"					"#TF_QuestView_RedeemReward"
 		"font"						"Product14"
 		"textAlignment"				"center"
 		"textinsetx"				"50"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"accept"
 		"proportionaltoparent"		"1"
 		"sound_depressed"			"UI/buttonclick.wav"

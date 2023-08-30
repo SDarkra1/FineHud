@@ -13,7 +13,6 @@
 		"enabled"			"1"
 		"verbose"			"1"
 	}
-
 	"PopFileLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -28,7 +27,6 @@
 		"tall"				"20"
 		"fgcolor"			"White"
 	}
-
 	"DifficultyContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -39,7 +37,6 @@
 		"tall"				"25"
 		"visible"			"1"
 		"zpos"				"30"
-
 		"DifficultyLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -55,7 +52,6 @@
 			"visible"			"0"
 			"enabled"			"0"
 		}
-
 		"DifficultyValue"
 		{
 			"ControlName"		"CExLabel"
@@ -71,14 +67,12 @@
 			"fgcolor"			"195 195 50 255"
 		}
 	}
-
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"PlayerListBackground"
 		"xpos"				"9999"
 	}
-
 	"PlayersBg"
 	{
 		"ControlName"			"EditablePanel"
@@ -88,14 +82,11 @@
 		"zpos"					"0"
 		"wide"					"600"
 		"tall"					"370"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 150"
 	}
-
 	"MvMPlayerList"
 	{
 		"ControlName"		"SectionedListPanel"
@@ -105,16 +96,12 @@
 		"wide"				"582"
 		"tall"				"180"
 		"zpos"				"2"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
-		"autoresize"		"3"
 		"linespacing"		"22"
 		"font"				"product8"
 		"textcolor"			"White"
 	}
-
 	"WaveStatsBg"
 	{
 		"ControlName"			"EditablePanel"
@@ -128,7 +115,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"Blank"
 	}
-
 	"TotalStatsBg"
 	{
 		"ControlName"			"EditablePanel"
@@ -142,7 +128,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"Blank"
 	}
-
 	"PlayerListBg"
 	{
 		"ControlName"			"EditablePanel"
@@ -156,7 +141,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 100"
 	}
-
 	"CreditStatsContainer"
 	{
 		"ControlName"			"EditablePanel"
@@ -169,7 +153,6 @@
 		"visible"				"1"
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 100"
-
 		"CreditStatsBackground"
 		{
 			"ControlName"				"ScalableImagePanel"
@@ -179,8 +162,6 @@
 			"zpos"						"-1"
 			"wide"						"600"
 			"tall"						"66"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"0"
 			"enabled"					"1"
 			"image"						"../HUD/tournament_panel_brown"
@@ -191,7 +172,6 @@
 			"draw_corner_width"			"0"
 			"draw_corner_height"		"0"
 		}
-
 		"CreditsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -208,7 +188,6 @@
 			"fgcolor"			"White"
 			"visible"			"0"
 		}
-
 		"CreditsShadowLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -225,7 +204,6 @@
 			"fgcolor"			"Black"
 			"visible"			"0"
 		}
-
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"			"CCreditDisplayPanel"
@@ -238,7 +216,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 150"
 		}
-
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"			"CCreditSpendPanel"
@@ -251,7 +228,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 150"
 		}
-
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"			"CCreditDisplayPanel"
@@ -265,7 +241,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 150"
 		}
-
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"			"CCreditSpendPanel"
@@ -279,7 +254,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 150"
 		}
-
 		"RespecStatusLabel"
 		{
 			"ControlName"		"CExLabel"

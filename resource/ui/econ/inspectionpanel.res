@@ -15,7 +15,6 @@
 		"scaleImage"				"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"ItemName"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -39,7 +38,6 @@
 		"model_hide"				"1"
 		"text_forcesize"			"4"
 		"name_only"					"1"
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"		"0"
@@ -48,7 +46,6 @@
 			"continued_velocity"		"1"
 		}
 	}
-
 	"ModelInspectionPanel"
 	{
 		"fieldName"					"ModelInspectionPanel"
@@ -67,7 +64,6 @@
 		"use_pedestal"				"1"
 		"use_particle"				"1"
 		"fov"						"75"
-
 		"model"
 		{
 			"force_pos"				"1"
@@ -83,7 +79,6 @@
 			"spotlight"				"1"
 			"modelname"				""
 		}
-
 		"lights"
 		{
 			"default"
@@ -92,7 +87,6 @@
 				"color"			"1 1 1"
 				"direction"		"0 0 -1"
 			}
-
 			"spot light"
 			{
 				"name"					"spot"
@@ -105,7 +99,6 @@
 				"maxDistance"			"1000"
 				"exponent"				"25"
 			}
-
 			"point light"
 			{
 				"name"				"point"
@@ -116,7 +109,6 @@
 			}
 		}
 	}
-
 	"TeamNavPanel"
 	{
 		"ControlName"						"CNavigationPanel"
@@ -126,8 +118,6 @@
 		"zpos"								"100"
 		"wide"								"60"
 		"tall"								"25"
-		"autoResize"						"0"
-		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
 		"proportionaltoparent"				"1"
@@ -137,16 +127,12 @@
 		"auto_layout_vertical_buffer"		"-4"
 		"display_vertically"				"0"
 		"align"								"west"
-
 		"ButtonSettings"
 		{
 			"wide"							"19"
 			"tall"							"19"
-			"autoResize"					"0"
-			"pinCorner"						"2"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labelText"						""
 			"textAlignment"					"south-west"
 			"scaleImage"					"1"
@@ -166,7 +152,6 @@
 			"image_selectedcolor"			"255 255 255 255"
 			"stayselectedonclick"			"1"
 			"keyboardinputenabled"			"0"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -181,7 +166,6 @@
 				"scaleImage"		"1"
 			}
 		}
-
 		"Buttons"
 		{
 			"all"
@@ -190,20 +174,17 @@
 				"image_default"			"store/store_redteam"
 				"image_armed"			"store/store_redteam"
 				"image_selected"		"store/store_redteam"
-
 				"SubImage"
 				{
 					"image"		"store/store_redteam"
 				}
 			}
-
 			"scout"
 			{
 				"userdata"				"3"
 				"image_default"			"store/store_blueteam"
 				"image_armed"			"store/store_blueteam"
 				"image_selected"		"store/store_blueteam"
-
 				"SubImage"
 				{
 					"image"		"store/store_blueteam"
@@ -211,7 +192,6 @@
 			}
 		}
 	}
-
 	"PaintkitPreviewContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -227,24 +207,20 @@
 		"mouseinputenabled"			"1"
 		"proportionaltoparent"		"1"
 		"visible"					"0"
-
 		"fixed_item"
 		{
 			"tall"			"80"
 			"visible"		"1"
 		}
-
 		"fixed_paintkit"
 		{
 			"tall"			"60"
 			"visible"		"1"
 		}
-
 		"consume_mode"
 		{
 			"border"		"ReplayHighlightBorder"
 		}
-
 		"DebugButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -254,17 +230,11 @@
 			"zpos"							"1005"
 			"wide"							"8"
 			"tall"							"8"
-			"autoResize"					"0"
-			"pinCorner"						"0"
 			"visible"						"0"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labeltext"						""
 			"font"							"HudFontSmallBold"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"0"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"Command"						"debug_menu"
@@ -276,7 +246,6 @@
 			"depressedFgColor_override"		"46 43 42 255"
 			"image_drawcolor"				"TanDark"
 			"image_armedcolor"				"200 80 60 255"
-
 			"SubImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -293,7 +262,6 @@
 			}
 		}
 		// Debug button
-
 		"ComboBoxValidPaintkits"
 		{
 			"ControlName"							"ComboBox"
@@ -305,8 +273,6 @@
 			"zpos"									"100"
 			"wide"									"200"
 			"tall"									"15"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -314,10 +280,8 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			"default"								"0"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
-
 			"fixed_paintkit"
 			{
 				"visible"		"0"
@@ -330,7 +294,6 @@
 			"selectionTextColor_override"			"235 226 202 255"
 			"defaultSelectionBG2Color_override"		"0 0 0 0"
 		}
-
 		"PaintkitLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -342,18 +305,14 @@
 			"ypos"					"10"
 			"wide"					"80"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"235 227 203 255"
-
 			"fixed_paintkit"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"ComboBoxValidItems"
 		{
 			"ControlName"							"ComboBox"
@@ -362,7 +321,6 @@
 			"wrap"									"0"
 			"xpos"									"rs1-10"
 			"ypos"									"30"
-
 			"fixed_paintkit"
 			{
 				"ypos"		"10"
@@ -370,8 +328,6 @@
 			"zpos"									"100"
 			"wide"									"200"
 			"tall"									"15"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -379,9 +335,7 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			"default"								"0"
 			"actionsignallevel"						"2"
-
 			"fixed_item"
 			{
 				"visible"		"0"
@@ -395,7 +349,6 @@
 			"selectionTextColor_override"			"235 226 202 255"
 			"defaultSelectionBG2Color_override"		"0 0 0 0"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -405,37 +358,30 @@
 			"textAlignment"			"west"
 			"xpos"					"8"
 			"ypos"					"30"
-
 			"fixed_paintkit"
 			{
 				"ypos"		"10"
 			}
 			"wide"					"80"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"235 227 203 255"
-
 			"fixed_item"
 			{
 				"visible"		"0"
 			}
-
 			"consume_mode"
 			{
 				"labelText"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
-
 		"WearSlider"
 		{
 			"ControlName"				"Slider"
 			"fieldName"					"WearSlider"
 			"xpos"						"90"
 			"ypos"						"50"
-
 			"fixed_item"
 			{
 				"ypos"		"30"
@@ -450,18 +396,15 @@
 			"righttext"					"#TFUI_InvTooltip_FactoryNew"
 			"proportionaltoparent"		"1"
 			"actionsignallevel"			"2"
-
 			"fixed_paintkit"
 			{
 				"visible"		"0"
 			}
-
 			"consume_mode"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"WearLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -471,42 +414,34 @@
 			"textAlignment"			"west"
 			"xpos"					"8"
 			"ypos"					"50"
-
 			"fixed_item"
 			{
 				"ypos"		"30"
 			}
 			"wide"					"80"
 			"tall"					"15"
-			"autoResize"			"0"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor_override"		"235 227 203 255"
-
 			"fixed_paintkit"
 			{
 				"visible"		"0"
 			}
-
 			"consume_mode"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"NewSeedButton"
 		{
 			"ControlName"					"Button"
 			"fieldName"						"NewSeedButton"
 			"xpos"							"8"
 			"ypos"							"75"
-
 			"fixed_item"
 			{
 				"ypos"		"50"
 			}
-
 			"fixed_paintkit"
 			{
 				"ypos"		"30"
@@ -514,39 +449,31 @@
 			"zpos"							"10"
 			"wide"							"70"
 			"tall"							"20"
-			"autoResize"					"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"labelText"						"#TF_ItemPreview_PaintkitSeed"
 			"actionsignallevel"				"2"
 			"use_proportional_insets"		"1"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"keyboardinputenabled"			"0"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"command"						"random_seed"
-
 			"consume_mode"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"SeedTextEntry"
 		{
 			"ControlName"			"TextEntry"
 			"fieldName"				"SeedTextEntry"
 			"xpos"					"90"
 			"ypos"					"75"
-
 			"fixed_item"
 			{
 				"ypos"		"50"
 			}
-
 			"fixed_paintkit"
 			{
 				"ypos"		"30"
@@ -554,34 +481,28 @@
 			"zpos"					"10"
 			"wide"					"115"
 			"tall"					"20"
-			"autoResize"			"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"actionsignallevel"		"2"
 			"default"				"1"
 			"NumericInputOnly"		"1"
 			"bgcolor_override"		"0 0 0 200"
 			"maxchars"				"20"
-
 			"consume_mode"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"MarketButton"
 		{
 			"ControlName"					"CExButton"
 			"fieldName"						"MarketButton"
 			"xpos"							"rs1-10"
 			"ypos"							"75"
-
 			"fixed_item"
 			{
 				"ypos"		"50"
 			}
-
 			"fixed_paintkit"
 			{
 				"ypos"		"30"

@@ -1,5 +1,4 @@
 "#base"		"HudItemEffectMeter.res"
-
 "Resource/UI/HudRocketPack.res"
 {
 	"HudItemEffectMeter"
@@ -12,7 +11,6 @@
 		"wide"			"94"
 		"tall"			"45"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -22,19 +20,13 @@
 		"zpos"				"2"
 		"wide"				"90"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_RocketPack_Disabled"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Product8"
 		"fgcolor"			"178 0 0 255"
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -45,16 +37,11 @@
 		"zpos"				"2"
 		"wide"				"22"
 		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"fgcolor"			"White"
 	}
-
 	"ItemEffectMeter2"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -65,13 +52,9 @@
 		"zpos"				"2"
 		"wide"				"22"
 		"tall"				"15"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"fgcolor"			"White"
 	}
 }

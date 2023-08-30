@@ -15,7 +15,6 @@
 		"scaleImage"				"1"
 		"icon"						"hud_menu_scout_red"
 	}
-
 	"NewNumberLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -33,7 +32,6 @@
 		"font"						"Product12"
 		"fgcolor"					"White"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -54,14 +52,12 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"ItemNameLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
 		"xpos"				"9999"
 	}
-
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"

@@ -26,14 +26,12 @@
 		"padding_height"		"10"
 		"resize_to_text"		"1"
 		"text_forcesize"		"2"
-
 		"itemmodelpanel"
 		{
 			"fieldName"					"itemmodelpanel"
 			"use_item_rendertarget"		"0"
 			"useparentbg"				"0"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"		"Label"
@@ -44,14 +42,10 @@
 			"zpos"				"1"
 			"wide"				"270"
 			"tall"				"9"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"#FreezePanel_Item"
 			"textAlignment"		"Left"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 	}
 }

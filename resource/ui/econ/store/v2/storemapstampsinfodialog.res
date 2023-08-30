@@ -9,14 +9,10 @@
 		"zpos"				"1000"
 		"wide"				"f0"
 		"tall"				"f0"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 	}
 	// Fullscreen background panel
-
 	"BgPanel"
 	{
 		"ControlName"				"Panel"
@@ -33,7 +29,6 @@
 		"bgcolor_override"			"0 0 0 128"
 	}
 	// Rounded dialog border
-
 	"DialogFrame"
 	{
 		"ControlName"			"EditablePanel"
@@ -49,7 +44,6 @@
 		"border"				"TFFatLineBorderOpaque"
 		"PaintBorder"			"1"
 		// Background for the player model & item preview panels
-
 		"PreviewViewportBg"
 		{
 			"ControlName"		"EditablePanel"
@@ -65,7 +59,6 @@
 			"border"			"StoreInnerShadowBorder"
 		}
 		// 90-degree corners on the top part of the footer
-
 		"FooterTopPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -83,7 +76,6 @@
 			"bgcolor_override"			"50 46 41 255"
 		}
 		// Rounded corners on the bottom of the footer
-
 		"FootBottomPanel"
 		{
 			"ControlName"				"EditablePanel"
@@ -100,7 +92,6 @@
 			"paintbackground"			"1"
 			"bgcolor_override"			"50 46 41 255"
 		}
-
 		"MapsDescLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -113,13 +104,10 @@
 			"zpos"				"5"
 			"wide"				"200"
 			"tall"				"200"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"1"
 		}
-
 		"PromotionImage_Hat"
 		{
 			"ControlName"		"ImagePanel"
@@ -135,7 +123,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"			"CExImageButton"
@@ -145,24 +132,17 @@
 		"zpos"					"10"
 		"wide"					"14"
 		"tall"					"14"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labeltext"				""
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"default"				"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 		"Command"				"close"
 		"paintbackground"		"0"
 		"image_drawcolor"		"118 107 94 255"
 		"image_armedcolor"		"246 247 213 255"
-
 		"SubImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -178,7 +158,6 @@
 			"scaleImage"		"1"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"			"CExButton"
@@ -188,15 +167,11 @@
 		"zpos"					"2"
 		"wide"					"80"
 		"tall"					"22"
-		"autoResize"			"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_BackCarat"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"close"
 		"sound_depressed"		"UI/buttonclick.wav"

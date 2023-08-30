@@ -6,7 +6,6 @@
         {
             "xpos"      "c0"
         }
-
         "MedalButton"
         {
             "xpos"      "c30"

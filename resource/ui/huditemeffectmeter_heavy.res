@@ -11,14 +11,12 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-
 		"HudItemEffectMeter_minmode"
 		{
 			"xpos"		"r52"
 			"ypos"		"r68"
 		}
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -36,13 +34,11 @@
 		"teambg_2_lodef"		"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"				"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"		"../hud/misc_ammo_area_blue_lodef"
-
 		"ItemEffectMeterBG_minmode"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -52,17 +48,11 @@
 		"zpos"				"2"
 		"wide"				"41"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_ENERGYDRINK"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"TFFontSmall"
-
 		"ItemEffectMeterLabel_minmode"
 		{
 			"visible"			"1"
@@ -71,7 +61,6 @@
 			"textAlignment"		"west"
 		}
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -82,14 +71,9 @@
 		"zpos"				"2"
 		"wide"				"30"
 		"tall"				"5"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
-
 		"ItemEffectMeter_minmode"
 		{
 			"ypos"		"0"
@@ -97,7 +81,6 @@
 			"wide"		"50"
 		}
 	}
-
 	"ItemEffectMeterLabel2"
 	{
 		"ControlName"		"CExLabel"
@@ -107,17 +90,11 @@
 		"zpos"				"2"
 		"wide"				"41"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"0"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_KILLCOMBO"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"TFFontSmall"
-
 		"ItemEffectMeterLabel2_minmode"
 		{
 			"visible"		"0"
@@ -125,7 +102,6 @@
 			"xpos"			"-10"
 		}
 	}
-
 	"KillComboClassIcon1"
 	{
 		"ControlName"		"ImagePanel"
@@ -138,13 +114,11 @@
 		"enabled"			"1"
 		"image"				"../HUD/leaderboard_class_scout"
 		"scaleImage"		"1"
-
 		"KillComboClassIcon1_minmode"
 		{
 			"visible"		"0"
 		}
 	}
-
 	"KillComboClassIcon2"
 	{
 		"ControlName"			"ImagePanel"
@@ -159,7 +133,6 @@
 		"image"					"../HUD/leaderboard_class_scout"
 		"scaleImage"			"1"
 	}
-
 	"KillComboClassIcon3"
 	{
 		"ControlName"			"ImagePanel"

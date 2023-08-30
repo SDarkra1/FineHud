@@ -1,5 +1,4 @@
 "#base"		"MatchMakingDashboardSidePanel.res"
-
 "Resource/UI/MatchMakingDashboardPlayList.res"	// Main mode selection panel
 {
 	"ExpandableList"
@@ -13,7 +12,6 @@
 		"visible"					"0"
 		"proportionaltoparent"		"1"
 	}
-
 	"Title"
 	{
 		"ControlName"				"Label"
@@ -31,7 +29,6 @@
 		"bgcolor_override"			"Blank"
 		"mouseinputenabled"			"0"
 	}
-
 	"playlist"
 	{
 		// "ControlName"	"CTFPlaylistPanel"
@@ -44,7 +41,6 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"PlayListDropShadow"
 	{
 		"ControlName"				"EditablePanel"

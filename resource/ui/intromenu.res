@@ -13,7 +13,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 200"
 	}
-
 	"VideoPanel"
 	{
 		"ControlName"				"CTFVideoPanel"
@@ -29,7 +28,6 @@
 		"end_delay"					"0"
 		"proportionaltoparent"		"1"
 	}
-
 	"VideoCaption"
 	{
 		"ControlName"				"CExLabel"
@@ -54,7 +52,6 @@
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
-
 	"Skip"
 	{
 		"ControlName"					"CExButton"
@@ -79,7 +76,6 @@
 		"pin_corner_to_sibling"			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 	}
-
 	"Back"
 	{
 		"ControlName"					"CExButton"
@@ -107,35 +103,30 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"titlelabel"
 		"xpos"				"9999"
 	}
-
 	"ReplayVideo"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ReplayVideo"
 		"xpos"				"9999"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"Continue"
 	{
 		"ControlName"		"CExButton"

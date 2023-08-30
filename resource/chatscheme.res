@@ -1,5 +1,4 @@
 "#base"		"ChatSchemeBase.res"
-
 "Scheme"
 {
 	"BaseSettings"

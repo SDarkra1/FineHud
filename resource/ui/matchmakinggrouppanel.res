@@ -9,7 +9,6 @@
 		"tall"						"25"
 		"proportionaltoparent"		"1"
 	}
-
 	"BGPanel"
 	{
 		"fieldName"					"BGPanel"
@@ -23,7 +22,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"10 10 10 255"
 	}
-
 	"Checkbutton"
 	{
 		"ControlName"					"CExCheckButton"

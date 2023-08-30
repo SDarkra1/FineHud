@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Size:10 | Outline:ON"
 		{

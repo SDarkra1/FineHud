@@ -16,7 +16,6 @@
 		"paintbackgroundtype"		"2"
 		"paintbackground"			"1"
 	}
-
 	"GameModeImageBgPanel"
 	{
 		"ControlName"		"ImagePanel"
@@ -30,7 +29,6 @@
 		"scaleImage"		"1"
 		"image"				"illustrations/bg"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"			"CExButton"
@@ -40,22 +38,16 @@
 		"zpos"					"20"
 		"wide"					"18"
 		"tall"					"43"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_LessThan"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
 		"textinsetx"			"0"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"goprev"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"NextButton"
 	{
 		"ControlName"			"CExButton"
@@ -65,22 +57,16 @@
 		"zpos"					"20"
 		"wide"					"18"
 		"tall"					"43"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_GreaterThan"
 		"font"					"HudFontSmallBold"
 		"textAlignment"			"center"
 		"textinsetx"			"0"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"Command"				"gonext"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-
 	"GameModeLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -92,13 +78,11 @@
 		"ypos"					"-5"
 		"wide"					"330"
 		"tall"					"25"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"0"
 		"fgcolor_override"		"255 255 255 255"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -111,14 +95,11 @@
 		"zpos"					"1"
 		"wide"					"40"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
 		"fgcolor_override"		"255 255 255 255"
 	}
-
 	"DescLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -130,14 +111,11 @@
 		"ypos"					"230"
 		"wide"					"330"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"0"
 		"fgcolor_override"		"255 255 255 255"
 	}
-
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"					"CExButton"
@@ -146,18 +124,13 @@
 		"ypos"							"260"
 		"wide"							"130"
 		"tall"							"30"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"#TF_Select"
 		"font"							"HudFontSmallBold"
 		"textAlignment"					"center"
 		"roundedcorners"				"0"
 		"textinsetx"					"50"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"selectcurrentgamemode"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"

@@ -9,18 +9,12 @@
 		"zpos"				"2"
 		"wide"				"41"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Product8"
 	}
-
 	"ChargeMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -31,15 +25,10 @@
 		"zpos"				"2"
 		"wide"				"65"
 		"tall"				"5"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -50,14 +39,12 @@
 		"wide"				"100"
 		"tall"				"50"
 		"visible"			"0"
-
 		"PipeIcon"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"PipeIcon"
 			"xpos"				"9999"
 		}
-
 		"NumPipesLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -67,19 +54,13 @@
 			"zpos"					"7"
 			"wide"					"35"
 			"tall"					"20"
-			"autoResize"			"1"
-			"pinCorner"				"2"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"%activepipes%"
 			"fgcolor_override"		"255 255 255 255"
 			"textAlignment"			"west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product24"
 		}
-
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"			"CExLabel"
@@ -89,20 +70,14 @@
 			"zpos"					"7"
 			"wide"					"35"
 			"tall"					"20"
-			"autoResize"			"1"
-			"pinCorner"				"2"
 			"visible"				"0"
 			"enabled"				"0"
-			"tabPosition"			"0"
 			"labelText"				"%activepipes%"
 			"fgcolor_override"		"255 255 255 255"
 			"textAlignment"			"west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product24"
 			"fgcolor"				"black"
 		}
-
 		"G_PipeIcon"
 		{
 			"ControlName"			"CExLabel"
@@ -123,7 +98,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 175"
 		}
-
 		"G_PipeIconS"
 		{
 			"ControlName"			"CExLabel"
@@ -145,7 +119,6 @@
 			"bgcolor_override"		"0 0 0 175"
 		}
 	}
-
 	"NoPipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -156,14 +129,12 @@
 		"wide"				"100"
 		"tall"				"50"
 		"visible"			"1"
-
 		"PipeIcon"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"PipeIcon"
 			"xpos"				"9999"
 		}
-
 		"G_PipeIcon"
 		{
 			"ControlName"			"CExLabel"
@@ -184,7 +155,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"		"0 0 0 175"
 		}
-
 		"G_PipeIconS"
 		{
 			"ControlName"			"CExLabel"
@@ -205,7 +175,6 @@
 			"paintbackground"		"0"
 			"bgcolor_override"		"0 0 0 175"
 		}
-
 		"NumPipesLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -216,19 +185,13 @@
 			"wide"					"35"
 			"tall"					"20"
 			"tall_lodef"			"28"
-			"autoResize"			"1"
-			"pinCorner"				"2"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"%activepipes%"
 			"fgcolor_override"		"255 255 255 255"
 			"textAlignment"			"west"
-			"dulltext"				"1"
-			"brighttext"			"0"
 			"font"					"Product24"
 		}
-
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"			"CExLabel"
@@ -239,16 +202,11 @@
 			"wide"					"35"
 			"tall"					"20"
 			"tall_lodef"			"28"
-			"autoResize"			"1"
-			"pinCorner"				"2"
 			"visible"				"0"
 			"enabled"				"0"
-			"tabPosition"			"0"
 			"labelText"				"%activepipes%"
 			"fgcolor_override"		"255 255 255 255"
 			"textAlignment"			"west"
-			"dulltext"				"1"
-			"brighttext"			"0"
 			"font"					"HudFontMedium"
 			"fgcolor"				"black"
 		}

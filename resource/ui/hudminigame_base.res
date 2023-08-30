@@ -17,7 +17,6 @@
 		"font"						"m0refont30"
 		"fgcolor"					"m0reblue"
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -36,7 +35,6 @@
 		"fgcolor"					"Black"
 		"pin_to_sibling"			"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"				"CExLabel"
@@ -54,7 +52,6 @@
 		"font"						"m0refont30"
 		"fgcolor"					"m0rered"
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -73,7 +70,6 @@
 		"fgcolor"					"Black"
 		"pin_to_sibling"			"RedScore"
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"				"CExLabel"
@@ -94,35 +90,30 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"LeftSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"LeftSideBG"
 		"xpos"				"9999"
 	}
-
 	"RightSideBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RightSideBG"
 		"xpos"				"9999"
 	}
-
 	"OutlineBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"OutlineBG"
 		"xpos"				"9999"
 	}
-
 	"PlayingToBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayingToBG"
 		"xpos"				"9999"
 	}
-
 	"GameImage"
 	{
 		"ControlName"		"ImagePanel"

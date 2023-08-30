@@ -8,9 +8,7 @@
 		"wide"						"p0.5"
 		"tall"						"18"
 		"proportionaltoparent"		"1"
-		"skip_autoresize"			"1"
 	}
-
 	"MapCheckbutton"
 	{
 		"ControlName"					"CExCheckButton"
@@ -28,7 +26,6 @@
 		"sound_depressed"				"UI/buttonclickrelease.wav"
 		"button_activation_type"		"1"
 	}
-
 	"MapNameLabel"
 	{
 		"ControlName"					"Label"
@@ -46,7 +43,6 @@
 		"use_proportional_insets"		"1"
 		"mouseinputenabled"				"0"
 	}
-
 	"HealthProgressBar"
 	{
 		"ControlName"				"ContinuousProgressBar"

@@ -19,12 +19,10 @@
 		"robot_y_step"					"0"
 		"color_blue"					"84 111 127 255"
 		"color_red"						"171 59 59 255"
-
 		"if_hybrid"
 		{
 			"zpos"		"-1"
 		}
-
 		"robot_kv"
 		{
 			"ControlName"			"CTFHudRobotDestruction_RobotIndicator"
@@ -33,12 +31,10 @@
 			"wide"					"20"
 			"tall"					"20"
 			"visible"				"1"
-			"skip_autoresize"		"1"
 			"PaintBackground"		"0"
 			"paintborder"			"0"
 		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"				"CExLabel"
@@ -56,7 +52,6 @@
 		"font"						"DefaultVerySmall"
 		"fgcolor"					"White"
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -72,7 +67,6 @@
 		"PaintBackground"			"1"
 		"PaintBackgroundtype"		"0"
 		"bgcolor_override"			"100 255 0 100"
-
 		"CarriedImage"
 		{
 			"ControlName"				"ImagePanel"
@@ -88,7 +82,6 @@
 			"scaleImage"				"1"
 			"proportionalToParent"		"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"				"CExLabel"
@@ -109,7 +102,6 @@
 			"pin_corner_to_sibling"		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
 		}
-
 		"FlagValueShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -128,28 +120,24 @@
 			"proportionalToParent"		"1"
 			"pin_to_sibling"			"FlagValue"
 		}
-
 		"CarriedProgressBar"
 		{
 			"fieldName"			"CarriedProgressBar"
 			"ControlName"		"ImagePanel"
 			"xpos"				"9999"
 		}
-
 		"WhiteBG"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"WhiteBG"
 			"xpos"				"9999"
 		}
-
 		"GreenBG"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"GreenBG"
 			"xpos"				"9999"
 		}
-
 		"TeamLeaderImage"
 		{
 			"ControlName"		"CTFImagePanel"
@@ -157,7 +145,6 @@
 			"xpos"				"9999"
 		}
 	}
-
 	"ScoreContainer"	// ProportionalToParent breaks this
 	{
 		"fieldName"			"ScoreContainer"
@@ -170,7 +157,6 @@
 		"scaleimage"		"0"
 		"visible"			"1"
 		"enabled"			"1"
-
 		"ProgressBarContainer"
 		{
 			"fieldName"					"ProgressBarContainer"
@@ -183,7 +169,6 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"proportionalToParent"		"1"
-
 			"FlagImageBlue"
 			{
 				"ControlName"				"ImagePanel"
@@ -199,7 +184,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"EscrowBlue"
 			{
 				"ControlName"				"CExLabel"
@@ -220,7 +204,6 @@
 				"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"		"PIN_TOPLEFT"
 			}
-
 			"EscrowBlueShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -239,7 +222,6 @@
 				"proportionalToParent"		"1"
 				"pin_to_sibling"			"EscrowBlue"
 			}
-
 			"FlagImageRed"
 			{
 				"ControlName"				"ImagePanel"
@@ -255,7 +237,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"EscrowRed"
 			{
 				"ControlName"				"CExLabel"
@@ -276,7 +257,6 @@
 				"pin_corner_to_sibling"		"PIN_TOPLEFT"
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
-
 			"EscrowRedShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -295,7 +275,6 @@
 				"proportionalToParent"		"1"
 				"pin_to_sibling"			"EscrowRed"
 			}
-
 			"BlueVictoryContainer"
 			{
 				"fieldName"					"BlueVictoryContainer"
@@ -308,7 +287,6 @@
 				"visible"					"0"
 				"enabled"					"1"
 				"proportionalToParent"		"1"
-
 				"VictoryLabel2"
 				{
 					"ControlName"				"CExLabel"
@@ -326,7 +304,6 @@
 					"fgcolor"					"White"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"				"CExLabel"
@@ -345,7 +322,6 @@
 					"proportionalToParent"		"1"
 					"pin_to_sibling"			"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"				"CExLabel"
@@ -366,7 +342,6 @@
 					"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 					"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -385,14 +360,12 @@
 					"proportionalToParent"		"1"
 					"pin_to_sibling"			"VictoryLabelTime"
 				}
-
 				"VictoryLabel"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"VictoryLabel"
 					"xpos"				"9999"
 				}
-
 				"VictoryLabelShadow"
 				{
 					"ControlName"		"CExLabel"
@@ -400,7 +373,6 @@
 					"xpos"				"9999"
 				}
 			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"					"RedVictoryContainer"
@@ -413,7 +385,6 @@
 				"visible"					"0"
 				"enabled"					"1"
 				"proportionalToParent"		"1"
-
 				"VictoryLabel2"
 				{
 					"ControlName"				"CExLabel"
@@ -431,7 +402,6 @@
 					"fgcolor"					"White"
 					"proportionalToParent"		"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"				"CExLabel"
@@ -450,7 +420,6 @@
 					"proportionalToParent"		"1"
 					"pin_to_sibling"			"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"				"CExLabel"
@@ -471,7 +440,6 @@
 					"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 					"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"				"CExLabel"
@@ -490,14 +458,12 @@
 					"proportionalToParent"		"1"
 					"pin_to_sibling"			"VictoryLabelTime"
 				}
-
 				"VictoryLabel"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"VictoryLabel"
 					"xpos"				"9999"
 				}
-
 				"VictoryLabelShadow"
 				{
 					"ControlName"		"CExLabel"
@@ -505,35 +471,30 @@
 					"xpos"				"9999"
 				}
 			}
-
 			"ScoreOutline"
 			{
 				"fieldName"			"ScoreOutline"
 				"ControlName"		"ImagePanel"
 				"xpos"				"9999"
 			}
-
 			"BlueProgressBarFill"
 			{
 				"fieldName"			"BlueProgressBarFill"
 				"ControlName"		"ImagePanel"
 				"xpos"				"9999"
 			}
-
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"			"BlueProgressBarEscrow"
 				"ControlName"		"ImagePanel"
 				"xpos"				"9999"
 			}
-
 			"RedProgressBarFill"
 			{
 				"fieldName"			"RedProgressBarFill"
 				"ControlName"		"ImagePanel"
 				"xpos"				"9999"
 			}
-
 			"RedProgressBarEscrow"
 			{
 				"fieldName"			"RedProgressBarEscrow"
@@ -541,7 +502,6 @@
 				"xpos"				"9999"
 			}
 		}
-
 		"BlueScoreValueContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -554,7 +514,6 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"proportionalToParent"		"1"
-
 			"Score"
 			{
 				"ControlName"				"CExLabel"
@@ -572,7 +531,6 @@
 				"fgcolor"					"m0reblue"
 				"proportionalToParent"		"1"
 			}
-
 			"ScoreShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -592,7 +550,6 @@
 				"pin_to_sibling"			"Score"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -606,7 +563,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
-
 			"Score"
 			{
 				"ControlName"				"CExLabel"
@@ -624,7 +580,6 @@
 				"fgcolor"					"m0rered"
 				"proportionalToParent"		"1"
 			}
-
 			"ScoreShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -644,7 +599,6 @@
 				"pin_to_sibling"			"Score"
 			}
 		}
-
 		"BlueStolenContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -658,7 +612,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
-
 			"IntelImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -674,7 +627,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -688,7 +640,6 @@
 				"enabled"					"1"
 				"bgcolor_override"			"Blank"
 				"proportionalToParent"		"1"
-
 				"DroppedIntelImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -705,7 +656,6 @@
 					"proportionalToParent"		"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"				"CExLabel"
@@ -724,7 +674,6 @@
 				"bgcolor_override"			"Blank"
 				"proportionalToParent"		"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -744,7 +693,6 @@
 				"pin_to_sibling"			"IntelValue"
 			}
 		}
-
 		"RedStolenContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -758,7 +706,6 @@
 			"enabled"					"1"
 			"bgcolor_override"			"Blank"
 			"proportionalToParent"		"1"
-
 			"IntelImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -774,7 +721,6 @@
 				"scaleImage"				"1"
 				"proportionalToParent"		"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"				"EditablePanel"
@@ -788,7 +734,6 @@
 				"enabled"					"1"
 				"bgcolor_override"			"Blank"
 				"proportionalToParent"		"1"
-
 				"DroppedIntelImage"
 				{
 					"ControlName"				"ImagePanel"
@@ -805,7 +750,6 @@
 					"proportionalToParent"		"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"				"CExLabel"
@@ -824,7 +768,6 @@
 				"bgcolor_override"			"Blank"
 				"proportionalToParent"		"1"
 			}
-
 			"IntelValueShadow"
 			{
 				"ControlName"				"CExLabel"
@@ -845,7 +788,6 @@
 			}
 		}
 	}
-
 	"CountdownContainer"
 	{
 		"ControlName"				"EditablePanel"
@@ -858,7 +800,6 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
-
 		"CountdownLabelTime"
 		{
 			"ControlName"				"CExLabel"
@@ -876,7 +817,6 @@
 			"fgcolor"					"White"
 			"proportionalToParent"		"1"
 		}
-
 		"CountdownLabelTimeTimeShadow"
 		{
 			"ControlName"				"CExLabel"
@@ -895,14 +835,12 @@
 			"proportionalToParent"		"1"
 			"pin_to_sibling"			"CountdownLabelTime"
 		}
-
 		"Background"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"			"Background"
 			"xpos"				"9999"
 		}
-
 		"CountdownImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -913,7 +851,6 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"PlayingToBG"
 	{
 		"ControlName"		"CTFImagePanel"

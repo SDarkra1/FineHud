@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"Countdown"
 	{
 		"ControlName"		"CControlPointCountdown"
@@ -25,14 +24,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"CapPlayerImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"CapPlayerImage"
 		"xpos"				"9999"
 	}
-
 	"CapNumPlayers"
 	{
 		"ControlName"		"Label"
@@ -43,16 +40,11 @@
 		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"33"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#ControlPointIconCappers"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
-
 	"OverlayImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -67,7 +59,6 @@
 		"image"				"capture_icon"
 		"scaleImage"		"1"
 	}
-
 	"CPTimerLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -81,12 +72,9 @@
 		"enabled"			"1"
 		"labelText"			"60"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"ControlPointTimer"
 	}
-
 	"CPTimerBG"
 	{
 		"ControlName"		"Panel"

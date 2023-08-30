@@ -1,32 +1,26 @@
 "#base"		"HudMiniGame_Soccer.res"
-
 "Resource/UI/HudMiniGame_SuddenDeath.res"
 {
 	"PlayingTo"
 	{
 		"labelText"		"#game_SuddenDeath"
 	}
-
 	"RedScore"
 	{
 		"visible"		"0"
 	}
-
 	"RedScoreShadow"
 	{
 		"visible"		"0"
 	}
-
 	"BlueScore"
 	{
 		"visible"		"0"
 	}
-
 	"BlueScoreShadow"
 	{
 		"visible"		"0"
 	}
-
 	"RedSkullImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -42,7 +36,6 @@
 		"scaleImage"				"1"
 		"proportionaltoparent"		"1"
 	}
-
 	"BlueSkullImage"
 	{
 		"ControlName"				"ImagePanel"

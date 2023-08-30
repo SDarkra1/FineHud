@@ -13,7 +13,6 @@
 		"enabled"				"1"
 		"ScrollDistance"		"0"
 	}
-
 	"FloatingNumberLabel"
 	{
 		"ControlName"		"Label"

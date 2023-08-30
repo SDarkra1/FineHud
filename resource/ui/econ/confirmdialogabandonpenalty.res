@@ -8,17 +8,13 @@
 		"ypos"						"140"
 		"wide"						"300"
 		"tall"						"200"
-		"autoResize"				"0"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
 		"paintbackground"			"1"
 		"bgcolor_override"			"Econ.Dialog.BgColor"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -31,13 +27,10 @@
 		"zpos"					"1"
 		"wide"					"300"
 		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"AbandonIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -51,7 +44,6 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -64,14 +56,11 @@
 		"zpos"					"1"
 		"wide"					"220"
 		"tall"					"170"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
 		"fgcolor_override"		"200 80 60 255"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"					"CExButton"
@@ -81,17 +70,12 @@
 		"zpos"							"20"
 		"wide"							"100"
 		"tall"							"25"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"#GameUI_CancelBold"
 		"font"							"EconFontSmall"
 		"textAlignment"					"center"
 		"textinsetx"					"50"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"cancel"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -102,7 +86,6 @@
 		"depressedBgColor_override"		"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"		"Econ.Button.DepressedFgColor"
 	}
-
 	"CancelButtonHintIcon"
 	{
 		"ControlName"		"CSCHintIcon"
@@ -116,7 +99,6 @@
 		"actionSet"			"MenuControls"
 		"actionName"		"menu_cancel"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"					"CExButton"
@@ -127,17 +109,12 @@
 		"wide"							"175"
 		"tall"							"25"
 		"default"						"1"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"labelText"						"#ConfirmButtonText"
 		"font"							"EconFontSmall"
 		"textAlignment"					"center"
 		"textinsetx"					"50"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"confirm"
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -148,7 +125,6 @@
 		"depressedBgColor_override"		"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"		"Econ.Button.DepressedFgColor"
 	}
-
 	"ConfirmButtonHintIcon"
 	{
 		"ControlName"		"CSCHintIcon"

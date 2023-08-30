@@ -15,7 +15,6 @@
 		"image"						"../hud/health_over_bg"
 		"scaleImage"				"1"
 	}
-
 	"PlayerStatusHealthValueTarget"	// Proportional positioning doesn't work :(
 	{
 		"ControlName"				"CExLabel"
@@ -33,7 +32,6 @@
 		"font"						"Product24"
 		"fgcolor"					"Health Numbers"
 	}
-
 	"PlayerStatusHealthValueTargetShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -55,28 +53,24 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImage"
 		"xpos"				"9999"
 	}
-
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImageBG"
 		"xpos"				"9999"
 	}
-
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BuildingStatusHealthImageBG"
 		"xpos"				"9999"
 	}
-
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"		"CExLabel"

@@ -11,7 +11,6 @@
 		"tall"						"f0"
 		"proportionaltoparent"		"1"
 		"actionsignallevel"			"2"
-
 		"BelowModelParticlePanel"
 		{
 			"ControlName"				"CTFParticlePanel"
@@ -23,12 +22,10 @@
 			"tall"						"f0"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
-
 			"if_mini"
 			{
 				"xpos"		"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
@@ -43,7 +40,6 @@
 			}
 			"paintbackground"			"0"
 		}
-
 		"RankModel"
 		{
 			"ControlName"				"CBaseModelPanel"
@@ -53,13 +49,10 @@
 			"zpos"						"0"
 			"wide"						"o1"
 			"tall"						"p0.12"
-			"autoResize"				"0"
-			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"fov"						"70"
 			"proportionaltoparent"		"1"
-
 			"if_mini"
 			{
 				"xpos"			"cs-0.5-228"
@@ -70,7 +63,6 @@
 			}
 			"paintbackground"			"0"
 			"render_texture"			"0"
-
 			"model"
 			{
 				"force_pos"		"1"
@@ -83,19 +75,16 @@
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"		"1"
-
 				"if_mini"
 				{
 					"origin_x"		"55"
 				}
-
 				"animation"
 				{
 					"sequence"		"idle"
 					"default"		"1"
 				}
 			}
-
 			"lights"
 			{
 				"default"
@@ -106,7 +95,6 @@
 				}
 			}
 		}
-
 		"AboveModelParticlePanel"
 		{
 			"ControlName"				"CTFParticlePanel"
@@ -119,12 +107,10 @@
 			"visible"					"0"
 			"proportionaltoparent"		"1"
 			"paintbackground"			"0"
-
 			"if_mini"
 			{
 				"xpos"		"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
@@ -136,7 +122,6 @@
 					"start_activated"		"0"
 					"loop"					"0"
 				}
-
 				"1"
 				{
 					"particle_xpos"			"c0"
@@ -146,7 +131,6 @@
 					"start_activated"		"0"
 					"loop"					"0"
 				}
-
 				"2"
 				{
 					"particle_xpos"			"c-8"
@@ -159,7 +143,6 @@
 			}
 			"paintbackground"			"1"
 		}
-
 		"MedalButton"
 		{
 			"ControlName"				"Button"
@@ -177,7 +160,6 @@
 			"backgroundenabled"			"0"
 		}
 	}
-
 	"BGPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -190,7 +172,6 @@
 		"visible"					"1"
 		"PaintBackgroundType"		"2"
 		"proportionaltoparent"		"1"
-
 		"if_mini"
 		{
 			"xpos"		"cs-0.5"
@@ -198,7 +179,6 @@
 			"tall"		"35"
 			"wide"		"505"
 		}
-
 		"NameLabel"
 		{
 			"ControlName"				"Label"
@@ -216,13 +196,11 @@
 			"textAlignment"				"north-west"
 			"labelText"					"%name%"
 			"proportionaltoparent"		"1"
-
 			"if_mini"
 			{
 				"visible"		"0"
 			}
 		}
-
 		"DescLine1"
 		{
 			// Mode Indicator for stats (Casual / Comp)
@@ -242,7 +220,6 @@
 			"labelText"					"%desc1%"
 			"proportionaltoparent"		"1"
 		}
-
 		"DescLine2"
 		{
 			// Casual Level / Comp Rank
@@ -260,21 +237,18 @@
 			"textAlignment"				"north-west"
 			"labelText"					"%desc2%"
 			"proportionaltoparent"		"1"
-
 			"fonts"
 			{
 				"0"		"Muro16"
 				"1"		"Muro8"
 				"2"		"Muro16"
 			}
-
 			"colors"
 			{
 				"1"		"100 255 100 255"
 				"2"		"TanLight"
 			}
 		}
-
 		"StatsContainer"
 		{
 			"ControlName"				"EditablePanel"
@@ -284,14 +258,12 @@
 			"wide"						"f70"
 			"tall"						"f0"
 			"proportionaltoparent"		"1"
-
 			"if_mini"
 			{
 				"xpos"		"rs1-10"
 				"ypos"		"0"
 				"wide"		"p0.85"
 			}
-
 			"XPBar"
 			{
 				"Controlname"				"EditablePanel"
@@ -301,14 +273,12 @@
 				"wide"						"p0.4"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-
 				"if_mini"
 				{
 					"xpos"		"cs-0.5"
 					"ypos"		"rs1-3"
 					"wide"		"p1"
 				}
-
 				"CurrentXPLabel"
 				{
 					"ControlName"				"Label"
@@ -325,7 +295,6 @@
 					"textAlignment"				"center"
 					"labelText"					"%current_xp%"
 					"proportionaltoparent"		"1"
-
 					"if_mini"
 					{
 						"visible"		"0"
@@ -334,7 +303,6 @@
 						"ypos"			"0"
 					}
 				}
-
 				"NextLevelXPLabel"
 				{
 					"ControlName"				"Label"
@@ -351,7 +319,6 @@
 					"textAlignment"				"south-east"
 					"labelText"					"%next_level_xp%"
 					"proportionaltoparent"		"1"
-
 					"if_mini"	// This is genuinely the worst thing I've ever had to work on in this HUD
 					{
 						"visible"		"0"
@@ -360,7 +327,6 @@
 						"ypos"			"0"
 					}
 				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"				"EditablePanel"
@@ -370,12 +336,10 @@
 					"wide"						"p1"
 					"tall"						"5"
 					"proportionaltoparent"		"1"
-
 					"if_mini"
 					{
 						"tall"		"7"
 					}
-
 					"ProgressBar"
 					{
 						"ControlName"				"ProgressBar"
@@ -390,7 +354,6 @@
 						"fgcolor_override"			"Blank"
 						"bgcolor_override"			"Blank"
 					}
-
 					"ContinuousProgressBar"
 					{
 						"ControlName"				"ContinuousProgressBar"
@@ -404,7 +367,6 @@
 						"fgcolor_override"			"63 165 233 255"
 						"bgcolor_override"			"150 150 150 25"
 					}
-
 					"Frame"
 					{
 						"Controlname"				"EditablePanel"
@@ -419,7 +381,6 @@
 					}
 				}
 			}
-
 			"Stats"
 			{
 				"ControlName"				"EditablePanel"
@@ -431,7 +392,6 @@
 				"visible"					"1"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"			"Blank"
-
 				"Frame"
 				{
 					"ControlName"				"EditablePanel"
@@ -445,7 +405,6 @@
 					"border"					""
 				}
 				// First column
-
 				"GamesLabel"
 				{
 					"ControlName"				"Label"
@@ -463,7 +422,6 @@
 					"labelText"					"%stat_games%"
 					"proportionaltoparent"		"1"
 				}
-
 				"KillsLabel"
 				{
 					"ControlName"				"Label"
@@ -481,7 +439,6 @@
 					"labelText"					"%stat_kills%"
 					"proportionaltoparent"		"1"
 				}
-
 				"DeathsLabel"
 				{
 					"ControlName"				"Label"
@@ -500,7 +457,6 @@
 					"proportionaltoparent"		"1"
 				}
 				// Second column
-
 				"DamageLabel"
 				{
 					"ControlName"				"Label"
@@ -518,7 +474,6 @@
 					"labelText"					"%stat_damage%"
 					"proportionaltoparent"		"1"
 				}
-
 				"HealingLabel"
 				{
 					"ControlName"				"Label"
@@ -536,7 +491,6 @@
 					"labelText"					"%stat_healing%"
 					"proportionaltoparent"		"1"
 				}
-
 				"SupportLabel"
 				{
 					"ControlName"				"Label"
@@ -555,7 +509,6 @@
 					"proportionaltoparent"		"1"
 				}
 				// Third column
-
 				"ScoreLabel"
 				{
 					"ControlName"				"Label"

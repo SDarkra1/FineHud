@@ -18,7 +18,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 100"
 	}
-
 	"TableBackground"
 	{
 		"ControlName"				"EditablePanel"
@@ -32,7 +31,6 @@
 		"proportionaltoparent"		"1"
 		"bgcolor_override"			"0 0 0 50"
 	}
-
 	"UpgradesLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -49,7 +47,6 @@
 		"fgcolor"					"White"
 		"pin_to_sibling"			"TableBackground"
 	}
-
 	"UpgradesCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -67,7 +64,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -86,7 +82,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-
 	"BuyBackCountLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -104,7 +99,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"BottleLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -123,7 +117,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-
 	"BottleCountLabel"
 	{
 		"ControlName"				"CExLabel"

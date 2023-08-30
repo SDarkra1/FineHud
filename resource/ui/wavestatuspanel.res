@@ -17,7 +17,6 @@
 		"textinsety"		"-3"
 		"labelText"			"%wave_count%"
 	}
-
 	"SeparatorBar"
 	{
 		"ControlName"			"Panel"
@@ -31,13 +30,11 @@
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"bgcolor_override"		"TanLight"
-
 		"if_verbose"
 		{
 			"visible"		"1"
 		}
 	}
-
 	"SupportLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -53,13 +50,11 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"#TF_MVM_Support"
-
 		"if_verbose"
 		{
 			"visible"		"1"
 		}
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -78,7 +73,6 @@
 		"draw_corner_height"		"0"
 		"pin_to_sibling"			"WaveCountLabel"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -103,7 +97,6 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"Background"
 	{
 		"ControlName"		"ScalableImagePanel"

@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/maps/menu_photos_ctf_gorge"
-	"$translucent" 1
-	"$ignorez" 1
-	"$vertexcolor" 1
-} 
+	"$basetexture"		"vgui/maps/menu_photos_ctf_gorge"
+	"$translucent"		"1"
+	"$ignorez"			"1"
+	"$vertexcolor"		"1"
+}

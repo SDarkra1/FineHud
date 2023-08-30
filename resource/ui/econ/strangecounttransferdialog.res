@@ -12,7 +12,6 @@
 		"tall"					"f0"
 		"bgcolor_override"		"30 25 25 245"
 	}
-
 	"BG"
 	{
 		"fieldName"					"BG"
@@ -29,7 +28,6 @@
 		"settitlebarvisible"		"0"
 		"proportionaltoparent"		"1"
 		"border"					"None"
-
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -42,13 +40,10 @@
 			"zpos"				"0"
 			"wide"				"210"
 			"tall"				"60"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"centerwrap"		"1"
 		}
-
 		"ToolBG"
 		{
 			"ControlName"			"CExLabel"
@@ -61,14 +56,11 @@
 			"zpos"					"-1"
 			"wide"					"84"
 			"tall"					"64"
-			"autoResize"			"1"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"paintbackground"		"0"
 			"border"				"BackpackItemBorder_SelfMade"
 		}
-
 		"SourceItem"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -92,14 +84,12 @@
 			"name_only"					"1"
 			"paint_icon_hide"			"1"
 			"actionsignallevel"			"2"
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"		"0"
 				"allow_rot"					"0"
 			}
 		}
-
 		"SubjectBG"
 		{
 			"ControlName"			"CExLabel"
@@ -112,14 +102,11 @@
 			"zpos"					"-1"
 			"wide"					"84"
 			"tall"					"64"
-			"autoResize"			"1"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"paintbackground"		"0"
 			"border"				"BackpackItemBorder_Vintage"
 		}
-
 		"TargetItem"
 		{
 			"ControlName"				"CItemModelPanel"
@@ -142,14 +129,12 @@
 			"text_center"				"1"
 			"name_only"					"1"
 			"actionsignallevel"			"2"
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"		"0"
 				"allow_rot"					"0"
 			}
 		}
-
 		"ConfirmLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -162,14 +147,11 @@
 			"zpos"					"0"
 			"wide"					"360"
 			"tall"					"100"
-			"autoResize"			"1"
-			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
 			"wrap"					"1"
 			"fgcolor_override"		"200 80 60 255"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"			"CExButton"
@@ -179,23 +161,16 @@
 			"zpos"					"1"
 			"wide"					"130"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#Cancel"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
-			"default"				"0"
 			"Command"				"cancel"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			"actionsignallevel"		"2"
 		}
-
 		"OkButton"
 		{
 			"ControlName"			"CExButton"
@@ -205,16 +180,11 @@
 			"zpos"					"1"
 			"wide"					"130"
 			"tall"					"25"
-			"autoResize"			"0"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
 			"labelText"				"#CraftNameConfirm"
 			"font"					"HudFontSmallBold"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"default"				"1"
 			"Command"				"apply"
 			"sound_depressed"		"UI/buttonclick.wav"

@@ -13,7 +13,6 @@
 		"border"				""
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
-
 		"PassedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -27,7 +26,6 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_yes"
 		}
-
 		"PassedTitle"
 		{
 			"ControlName"			"Label"
@@ -40,13 +38,10 @@
 			"enabled"				"1"
 			"labelText"				"#GameUI_vote_passed"
 			"textAlignment"			"west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"PassedResult"
 		{
 			"ControlName"			"Label"
@@ -59,15 +54,12 @@
 			"enabled"				"1"
 			"labelText"				"%passedresult%"
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 			"noshortcutsyntax"		"1"
 		}
 	}
-
 	"VoteActive"
 	{
 		"ControlName"			"EditablePanel"
@@ -81,7 +73,6 @@
 		"border"				""
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
-
 		"Header"
 		{
 			"ControlName"			"Label"
@@ -94,13 +85,10 @@
 			"enabled"				"1"
 			"labelText"				"%header%"
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"ScoreboardVerySmall"
 			"wrap"					"1"
 			"fgcolor_override"		"128 128 128 255"
 		}
-
 		"Issue"
 		{
 			"ControlName"			"Label"
@@ -113,14 +101,11 @@
 			"enabled"				"1"
 			"labelText"				"%voteissue%"
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"ScoreboardSmall"
 			"fgcolor_override"		"255 255 255 255"
 			"wrap"					"1"
 			"noshortcutsyntax"		"1"
 		}
-
 		"TargetAvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -136,7 +121,6 @@
 			"color_outline"		"52 48 45 255"
 		}
 		// divider
-
 		"Divider"
 		{
 			"ControlName"		"ImagePanel"
@@ -149,7 +133,6 @@
 			"zpos"				"0"
 		}
 		// Temp UI
-
 		"LabelOption1"
 		{
 			"ControlName"			"Label"
@@ -163,12 +146,9 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"left"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"Option1Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -181,7 +161,6 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"1"
 		}
-
 		"Option1CountLabel"
 		{
 			"ControlName"			"Label"
@@ -195,12 +174,9 @@
 			"enabled"				"1"
 			"labelText"				"Yes"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"LabelOption2"
 		{
 			"ControlName"			"Label"
@@ -214,12 +190,9 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"left"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"Option2Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -232,7 +205,6 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"1"
 		}
-
 		"Option2CountLabel"
 		{
 			"ControlName"			"Label"
@@ -246,12 +218,9 @@
 			"enabled"				"1"
 			"labelText"				"No"
 			"textAlignment"			"center"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"LabelOption3"
 		{
 			"ControlName"			"Label"
@@ -265,12 +234,9 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"left"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"Option3Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -283,7 +249,6 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"0"
 		}
-
 		"LabelOption4"
 		{
 			"ControlName"			"Label"
@@ -297,12 +262,9 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"left"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"Option4Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -315,7 +277,6 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"0"
 		}
-
 		"LabelOption5"
 		{
 			"ControlName"			"Label"
@@ -329,12 +290,9 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"left"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"fgcolor_override"		"255 255 255 255"
 		}
-
 		"Option5Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -348,7 +306,6 @@
 			"visible"			"0"
 		}
 		// divider
-
 		"Divider2"
 		{
 			"ControlName"		"ImagePanel"
@@ -360,7 +317,6 @@
 			"fillcolor"			"128 128 128 255"
 			"zpos"				"0"
 		}
-
 		"VoteCountLabel"
 		{
 			"ControlName"			"Label"
@@ -373,13 +329,10 @@
 			"enabled"				"1"
 			"labelText"				"#GameUI_vote_current_vote_count"
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product10"
 			"fgcolor_override"		"128 128 128 255"
 		}
 		// vote bar
-
 		"VoteBar"
 		{
 			"ControlName"		"Panel"
@@ -399,7 +352,6 @@
 		}
 	}
 	// This is sent to the vote caller when they're not able to start the vote
-
 	"CallVoteFailed"
 	{
 		"ControlName"			"EditablePanel"
@@ -413,7 +365,6 @@
 		"border"				""
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
-
 		"FailedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -427,7 +378,6 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_no"
 		}
-
 		"FailedTitle"
 		{
 			"ControlName"			"Label"
@@ -440,13 +390,10 @@
 			"enabled"				"1"
 			"labelText"				"#GameUI_vote_failed"
 			"textAlignment"			"west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"200 30 30 255"
 		}
-
 		"FailedReason"
 		{
 			"ControlName"			"Label"
@@ -459,15 +406,12 @@
 			"enabled"				"1"
 			"labelText"				"%FailedReason%"
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}
 	}
 	// This is shown to everyone when a vote fails due to lack of votes
-
 	"VoteFailed"
 	{
 		"ControlName"			"EditablePanel"
@@ -481,7 +425,6 @@
 		"border"				""
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 175"
-
 		"FailedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -495,7 +438,6 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_no"
 		}
-
 		"FailedTitle"
 		{
 			"ControlName"			"Label"
@@ -508,13 +450,10 @@
 			"enabled"				"1"
 			"labelText"				"#GameUI_vote_failed"
 			"textAlignment"			"west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"200 30 30 255"
 		}
-
 		"FailedReason"
 		{
 			"ControlName"			"Label"
@@ -527,14 +466,11 @@
 			"enabled"				"1"
 			"labelText"				""
 			"textAlignment"			"north-west"
-			"dulltext"				"0"
-			"brighttext"			"0"
 			"font"					"Product12"
 			"wrap"					"1"
 			"fgcolor_override"		"255 255 255 255"
 		}
 	}
-
 	"VoteSetupDialog"
 	{
 		"ControlName"					"CVoteSetupDialog"
@@ -543,11 +479,8 @@
 		"ypos"							"c-150"
 		"wide"							"400"
 		"tall"							"310"
-		"autoResize"					"0"
-		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"settitlebarvisible"			"0"
 		"border"						""
 		"bgcolor_override"				"0 0 0 175"
@@ -559,7 +492,6 @@
 		"issue_fgcolor"					"TanLight"
 		"issue_fgcolor_disabled"		"TanDark"
 		"parameter_width"				"200"
-
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -571,13 +503,10 @@
 			"ypos"				"10"
 			"wide"				"400"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"0"
 		}
-
 		"VoteSetupList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -587,14 +516,10 @@
 			"zpos"				"2"
 			"wide"				"180"
 			"tall"				"200"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"0"
-			"autoresize"		"0"
 			"linespacing"		"16"
 		}
-
 		"VoteParameterList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -604,14 +529,10 @@
 			"zpos"				"2"
 			"wide"				"200"
 			"tall"				"200"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"0"
-			"autoresize"		"0"
 			"linespacing"		"16"
 		}
-
 		"ComboLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -624,12 +545,9 @@
 			"zpos"				"1"
 			"wide"				"75"
 			"tall"				"20"
-			"autoResize"		"1"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
 		"ComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -640,11 +558,8 @@
 			"zpos"									"1"
 			"wide"									"235"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -658,7 +573,6 @@
 			"selectionTextColor_override"			"117 107 94 255"
 			"defaultSelectionBG2Color_override"		"251 235 202 255"
 		}
-
 		"CallVoteButton"
 		{
 			"ControlName"		"Button"
@@ -667,20 +581,14 @@
 			"ypos"				"275"
 			"wide"				"160"
 			"tall"				"24"
-			"autoResize"		"0"
-			"pinCorner"			"3"
 			"visible"			"1"
 			"enabled"			"0"
-			"tabPosition"		"4"
 			"labelText"			"#TF_call_vote"
 			"textAlignment"		"center"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"Command"			"CallVote"
-			"Default"			"0"
+			"Default"			"1"
 			"font"				"HudFontSmallBold"
 		}
-
 		"Button1"
 		{
 			"ControlName"		"Button"
@@ -689,17 +597,11 @@
 			"ypos"				"275"
 			"wide"				"80"
 			"tall"				"24"
-			"autoResize"		"0"
-			"pinCorner"			"3"
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"4"
 			"labelText"			"#GameUI_Close"
 			"textAlignment"		"center"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"Command"			"Close"
-			"Default"			"0"
 			"font"				"HudFontSmallBold"
 		}
 	}

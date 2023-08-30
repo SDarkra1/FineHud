@@ -1,5 +1,4 @@
 "#base"		"base_active.res"
-
 "Resource/UI/destroy_menu/dispenser_active.res"
 {
 	"DestroyIcon"
@@ -17,7 +16,6 @@
 		"icon"				"ico_demolish"
 		"iconColor"			"255 255 255 255"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"

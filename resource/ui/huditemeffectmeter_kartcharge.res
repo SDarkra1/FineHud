@@ -6,21 +6,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"10" [$WIN32]
-		"ypos"			"r107" [$WIN32]
+		"xpos"			"10"
+		"ypos"			"r107"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-
 		"HudItemEffectMeter_minmode"
 		{
-			"xpos"			"r52" [$WIN32]
-			"ypos"			"r45" [$WIN32]
-			"x_offset"		"0" [$WIN32]
+			"xpos"			"r52"
+			"ypos"			"r45"
+			"x_offset"		"0"
 		}
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -40,7 +38,6 @@
 		"teambg_3"				"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"		"../hud/misc_ammo_area_blue_lodef"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -50,17 +47,11 @@
 		"zpos"				"2"
 		"wide"				"60"
 		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_KART"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontSmall"
-
 		"ItemEffectMeterLabel_minmode"
 		{
 			"visible"			"1"
@@ -71,7 +62,6 @@
 			"font"				"TFFontSmall"
 		}
 	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -82,14 +72,9 @@
 		"zpos"				"2"
 		"wide"				"47"
 		"tall"				"5"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
-
 		"ItemEffectMeter_minmode"
 		{
 			"ypos"		"20"
@@ -97,7 +82,6 @@
 			"wide"		"50"
 		}
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
@@ -107,16 +91,11 @@
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"20"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"%progresscount%"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontMediumSmall"
-
 		"ItemEffectMeterCount_minmode"
 		{
 			"ypos"				"5"

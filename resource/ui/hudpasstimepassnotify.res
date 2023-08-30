@@ -12,7 +12,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"TextBox"
 	{
 		"ControlName"			"EditablePanel"
@@ -26,7 +25,6 @@
 		"enabled"				"1"
 		"border"				"TFFatLineBorder"
 		"RoundedCorners"		"255"
-
 		"TextInPassRange"
 		{
 			"ControlName"		"CExLabel"
@@ -44,7 +42,6 @@
 			"labelText"			"#Msg_PasstimeInPassRange"
 			"fgcolor"			"White"
 		}
-
 		"TextLockedOn"
 		{
 			"ControlName"		"CExLabel"
@@ -62,7 +59,6 @@
 			"labelText"			"#Msg_PasstimeLockedOn"
 			"fgcolor"			"White"
 		}
-
 		"TextPassIncoming"
 		{
 			"ControlName"		"CExLabel"
@@ -80,7 +76,6 @@
 			"labelText"			"#Msg_PasstimePassIncoming"
 			"fgcolor"			"White"
 		}
-
 		"TextPlayerName"
 		{
 			"ControlName"		"CExLabel"
@@ -98,7 +93,6 @@
 			"fgcolor"			"100 255 0 255"
 		}
 	}
-
 	"PassLockIndicator"
 	{
 		"ControlName"				"ImagePanel"
@@ -116,7 +110,6 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
-
 	"SpeechIndicator"
 	{
 		"ControlName"				"ImagePanel"

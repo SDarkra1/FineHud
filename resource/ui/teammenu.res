@@ -11,7 +11,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-
 	"MapName"
 	{
 		"ControlName"				"Label"
@@ -32,7 +31,6 @@
 	// TEAMS ANCHOR
 	// This element can be used to move all the team selection elements as a whole
 	// ==================================================================================================================================================
-
 	"TeamsAnchor"
 	{
 		"ControlName"				"EditablePanel"
@@ -46,7 +44,6 @@
 		"proportionaltoparent"		"1"
 	}
 	// ==================================================================================================================================================
-
 	"WhiteBar"
 	{
 		"ControlName"				"EditablePanel"
@@ -67,7 +64,6 @@
 	// ==================================================================================================================================================
 	// BLUE
 	// ==================================================================================================================================================
-
 	"BlueButton"
 	{
 		"ControlName"					"CExButton"
@@ -97,7 +93,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"			"PIN_TOPLEFT"
 	}
-
 	"BlueShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -107,7 +102,6 @@
 		"Command"			"jointeam blue"
 		"visible"			"1"
 	}
-
 	"BlueCount"
 	{
 		"ControlName"				"CExLabel"
@@ -129,7 +123,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"BlueLabel"
 	{
 		"ControlName"				"Label"
@@ -150,7 +143,6 @@
 	// ==================================================================================================================================================
 	// RED
 	// ==================================================================================================================================================
-
 	"RedButton"
 	{
 		"ControlName"					"CExButton"
@@ -180,7 +172,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_TOPRIGHT"
 	}
-
 	"RedShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -190,7 +181,6 @@
 		"Command"			"jointeam red"
 		"visible"			"1"
 	}
-
 	"RedCount"
 	{
 		"ControlName"				"CExLabel"
@@ -210,7 +200,6 @@
 		"fgcolor"					"White"
 		"pin_to_sibling"			"RedButton"
 	}
-
 	"RedLabel"
 	{
 		"ControlName"				"Label"
@@ -229,7 +218,6 @@
 		"pin_to_sibling"			"RedButton"
 	}
 	// ==================================================================================================================================================
-
 	"RandomButton"
 	{
 		"ControlName"					"CExButton"
@@ -257,7 +245,6 @@
 		"pin_corner_to_sibling"			"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"			"PIN_CENTER_TOP"
 	}
-
 	"RandomShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -267,7 +254,6 @@
 		"Command"			"jointeam auto"
 		"visible"			"1"
 	}
-
 	"SpectateButton"
 	{
 		"ControlName"					"CExButton"
@@ -293,7 +279,6 @@
 		"depressedFgColor_override"		"White"
 		"pin_to_sibling"				"RandomButton"
 	}
-
 	"SpectateShortKey"
 	{
 		"ControlName"		"CExButton"
@@ -303,7 +288,6 @@
 		"Command"			"jointeam spectate"
 		"visible"			"1"
 	}
-
 	"Line"
 	{
 		"ControlName"			"EditablePanel"
@@ -319,112 +303,96 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"SysMenu"
 	{
 		"ControlName"		"Menu"
 		"fieldName"			"SysMenu"
 		"xpos"				"9999"
 	}
-
 	"MapInfo"
 	{
 		"ControlName"		"HTML"
 		"fieldName"			"MapInfo"
 		"xpos"				"9999"
 	}
-
 	"teambutton0"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton0"
 		"xpos"				"9999"
 	}
-
 	"teambutton1"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton1"
 		"xpos"				"9999"
 	}
-
 	"teambutton2"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton2"
 		"xpos"				"9999"
 	}
-
 	"teambutton3"
 	{
 		"ControlName"		"CTFTeamButton"
 		"fieldName"			"teambutton3"
 		"xpos"				"9999"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
 		"xpos"				"9999"
 	}
-
 	"TeamMenuSelect"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TeamMenuSelect"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"9999"
 	}
-
 	"Footer"
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"xpos"				"9999"
 	}
-
 	"HighlanderLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HighlanderLabel"
 		"xpos"				"9999"
 	}
-
 	"HighlanderLabelShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HighlanderLabelShadow"
 		"xpos"				"9999"
 	}
-
 	"TeamsFullLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TeamsFullLabel"
 		"xpos"				"9999"
 	}
-
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TeamsFullLabelShadow"
 		"xpos"				"9999"
 	}
-
 	"TeamsFullArrow"
 	{
 		"ControlName"		"CTFImagePanel"

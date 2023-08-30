@@ -7,7 +7,6 @@
 		"OnlyInGame"		"1"
 		"tooltip"			"#MMenu_CallVote"
 	}
-
 	"MutePlayersButton"
 	{
 		"label"				"y"

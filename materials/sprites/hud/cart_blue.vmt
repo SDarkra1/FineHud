@@ -1,5 +1,5 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/hud/cart_blue"
-	"$translucent" 1
+	"$basetexture"		"vgui/replay/thumbnails/hud/cart_blue"
+	"$translucent"		"1"
 }

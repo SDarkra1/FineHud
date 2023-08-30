@@ -12,7 +12,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
 	"TankImage"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -27,7 +26,6 @@
 		"image"				"../hud/leaderboard_class_tank"
 		"scaleImage"		"1"
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"				"ScalableImagePanel"
@@ -45,7 +43,6 @@
 		"draw_corner_width"			"0"
 		"draw_corner_height"		"0"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"				"ScalableImagePanel"

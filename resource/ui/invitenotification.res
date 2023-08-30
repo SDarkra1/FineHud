@@ -12,7 +12,6 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"11 11 11 255"
 	}
-
 	"avatar"
 	{
 		// "ControlName"	"CAvatarImagePanel"
@@ -26,12 +25,10 @@
 		"proportionaltoparent"		"1"
 		"scaleImage"				"1"
 	}
-
 	"Text"
 	{
 		"ControlName"				"CAutoFittingLabel"
 		"fieldName"					"Text"
-
 		"if_incoming"
 		{
 			"xpos"		"rs1-0"
@@ -45,37 +42,31 @@
 		"textAlignment"				"west"
 		"proportionaltoparent"		"1"
 		"fgcolor_override"			"TanLight"
-
 		"fonts"
 		{
 			"1"
 			{
 				"font"		"Product10"	// Secondary 10
 			}
-
 			"2"
 			{
 				"font"		"Product10"	// Secondary 9
 			}
-
 			"3"
 			{
 				"font"		"Product10"	// Secondary 8
 			}
-
 			"4"
 			{
 				"font"		"Product10"	// Secondary 7
 			}
 		}
-
 		"colors"
 		{
 			"1"		"MainPink"
 			"2"		"255 255 255 255"
 		}
 	}
-
 	"Spinner"
 	{
 		"ControlName"				"CTFLogoPanel"
@@ -86,7 +77,6 @@
 		"wide"						"o1"
 		"tall"						"20"
 		"visible"					"1"
-
 		"if_incoming"
 		{
 			"visible"		"0"
@@ -98,7 +88,6 @@
 		"velocity"					"60"
 		"fgcolor_override"			"Orange"
 	}
-
 	"AcceptButton"
 	{
 		"ControlName"					"CExButton"
@@ -110,11 +99,8 @@
 		"tall"							"15"
 		"visible"						"1"
 		"enabled"						"1"
-		"tabPosition"					"0"
 		"font"							"Product12"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
 		"Command"						"accept"
 		"proportionaltoparent"			"1"
 		"labeltext"						"Accept"
@@ -126,12 +112,10 @@
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 	}
-
 	"DeclineButton"
 	{
 		"ControlName"				"CExButton"
 		"fieldName"					"DeclineButton"
-
 		"if_incoming"
 		{
 			"xpos"		"rs1-149"
@@ -144,11 +128,8 @@
 		"paintbackground"			"1"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"font"						"Symbols14"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"Command"					"decline"
 		"proportionaltoparent"		"1"
 		"labeltext"					"%"
