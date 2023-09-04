@@ -76,7 +76,7 @@
 		"textAlignment"					"center"
 		"Command"						"start_search"
 		"proportionaltoparent"			"1"
-		"labeltext"						"#TF_Matchmaking_StartSearch"
+		"labeltext"						"#TF_MVM_MU_Matchmaking_StartSearch"
 		"mouseinputenabled"				"1"
 		"keyboardinputenabled"			"0"
 		"actionsignallevel"				"1"

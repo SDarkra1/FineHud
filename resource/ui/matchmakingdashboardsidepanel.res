@@ -19,7 +19,7 @@
 		"ControlName"				"ImagePanel"
 		"fieldName"					"TitleGradient"
 		"xpos"						"3"
-	1	"ypos"						"0"
+		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"60"
 		"zpos"						"98"
