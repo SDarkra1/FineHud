@@ -14,7 +14,6 @@
 	// ==================================================================================================================================================
 	// CLASS BACKGROUND
 	// ==================================================================================================================================================
-
 	"ClassBG"
 	{
 		"ControlName"			"EditablePanel"
@@ -30,7 +29,6 @@
 	// ==================================================================================================================================================
 	// SCOUT
 	// ==================================================================================================================================================
-
 	"scout"
 	{
 		"ControlName"					"CExImageButton"
@@ -57,7 +55,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"ClassBG"
 	}
-
 	"scoutshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -84,7 +81,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"scout"
 	}
-
 	"iconScout"
 	{
 		"ControlName"			"CExLabel"
@@ -103,7 +99,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 180"
 	}
-
 	"numScout"
 	{
 		"ControlName"			"CExLabel"
@@ -121,7 +116,6 @@
 		"fgcolor"				"White"
 		"pin_to_sibling"		"iconScout"
 	}
-
 	"MvMUpgradeImageScout"
 	{
 		"ControlName"				"ImagePanel"
@@ -142,7 +136,6 @@
 	// ==================================================================================================================================================
 	// SOLDIER
 	// ==================================================================================================================================================
-
 	"soldier"
 	{
 		"ControlName"					"CExImageButton"
@@ -169,7 +162,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"scout"
 	}
-
 	"soldiershadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -196,7 +188,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"soldier"
 	}
-
 	"numSoldier"
 	{
 		"ControlName"		"CExLabel"
@@ -204,7 +195,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"				"ImagePanel"
@@ -225,7 +215,6 @@
 	// ==================================================================================================================================================
 	// PYRO
 	// ==================================================================================================================================================
-
 	"pyro"
 	{
 		"ControlName"					"CExImageButton"
@@ -252,7 +241,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"soldier"
 	}
-
 	"pyroshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -279,7 +267,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"pyro"
 	}
-
 	"numPyro"
 	{
 		"ControlName"				"CExLabel"
@@ -299,7 +286,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"MvMUpgradeImagePyro"
 	{
 		"ControlName"				"ImagePanel"
@@ -320,7 +306,6 @@
 	// ==================================================================================================================================================
 	// DEMOMAN
 	// ==================================================================================================================================================
-
 	"demoman"
 	{
 		"ControlName"					"CExImageButton"
@@ -347,7 +332,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"ClassBG"
 	}
-
 	"demomanshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -374,7 +358,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"demoman"
 	}
-
 	"numDemoman"
 	{
 		"ControlName"		"CExLabel"
@@ -382,7 +365,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"				"ImagePanel"
@@ -403,7 +385,6 @@
 	// ==================================================================================================================================================
 	// HEAVY
 	// ==================================================================================================================================================
-
 	"heavyweapons"
 	{
 		"ControlName"					"CExImageButton"
@@ -430,7 +411,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"demoman"
 	}
-
 	"heavyweaponsshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -457,7 +437,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"heavyweapons"
 	}
-
 	"numHeavy"
 	{
 		"ControlName"		"CExLabel"
@@ -465,7 +444,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"				"ImagePanel"
@@ -486,7 +464,6 @@
 	// ==================================================================================================================================================
 	// ENGINEER
 	// ==================================================================================================================================================
-
 	"engineer"
 	{
 		"ControlName"					"CExImageButton"
@@ -513,7 +490,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"ClassBG"
 	}
-
 	"engineershadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -540,7 +516,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"engineer"
 	}
-
 	"numEngineer"
 	{
 		"ControlName"		"CExLabel"
@@ -548,7 +523,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"				"ImagePanel"
@@ -569,7 +543,6 @@
 	// ==================================================================================================================================================
 	// MEDIC
 	// ==================================================================================================================================================
-
 	"medic"
 	{
 		"ControlName"					"CExImageButton"
@@ -596,7 +569,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"engineer"
 	}
-
 	"medicshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -623,7 +595,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"engineer"
 	}
-
 	"numMedic"
 	{
 		"ControlName"		"CExLabel"
@@ -631,7 +602,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"				"ImagePanel"
@@ -652,7 +622,6 @@
 	// ==================================================================================================================================================
 	// SNIPER
 	// ==================================================================================================================================================
-
 	"sniper"
 	{
 		"ControlName"					"CExImageButton"
@@ -679,7 +648,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"ClassBG"
 	}
-
 	"snipershadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -706,7 +674,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"sniper"
 	}
-
 	"numSniper"
 	{
 		"ControlName"		"CExLabel"
@@ -714,7 +681,6 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"				"ImagePanel"
@@ -735,7 +701,6 @@
 	// ==================================================================================================================================================
 	// SPY
 	// ==================================================================================================================================================
-
 	"spy"
 	{
 		"ControlName"					"CExImageButton"
@@ -762,7 +727,6 @@
 		"selectedFgColor_override"		"71 88 196 255"
 		"pin_to_sibling"				"sniper"
 	}
-
 	"spyshadow"
 	{
 		"ControlName"					"CExImageButton"
@@ -789,7 +753,6 @@
 		"selectedFgColor_override"		"0 0 0 200"
 		"pin_to_sibling"				"spy"
 	}
-
 	"numSpy"
 	{
 		"ControlName"				"CExLabel"
@@ -800,7 +763,6 @@
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
-
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"				"ImagePanel"
@@ -821,7 +783,6 @@
 	// ==================================================================================================================================================
 	// RANDOM
 	// ==================================================================================================================================================
-
 	"random"
 	{
 		"xpos"							"82"
@@ -849,7 +810,6 @@
 		"pin_corner_to_sibling"			"PIN_TOPLEFT"
 		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 	}
-
 	"EditLoadoutButton"
 	{
 		"ControlName"					"CExButton"
@@ -879,7 +839,6 @@
 	// ==================================================================================================================================================
 	// 3D PLAYER MODEL
 	// ==================================================================================================================================================
-
 	"TFPlayerModel"
 	{
 		"ControlName"					"CTFPlayerModelPanel"
@@ -896,7 +855,6 @@
 		"allow_rot"						"0"
 		"paintbackground"				"0"
 		"paintbackgroundenabled"		"0"
-
 		"model"
 		{
 			"force_pos"				"1"
@@ -917,189 +875,162 @@
 	// ==================================================================================================================================================
 	// REMOVED ELEMENTS
 	// ==================================================================================================================================================
-
 	"ResetButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ResetButton"
 		"xpos"				"9999"
 	}
-
 	"ClassMenuSelect"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassMenuSelect"
 		"xpos"				"9999"
 	}
-
 	"MenuBG"
 	{
 		"ControlName"		"CModelPanel"
 		"fieldName"			"MenuBG"
 		"xpos"				"9999"
 	}
-
 	"Hint"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"Hint"
 		"xpos"				"9999"
 	}
-
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"9999"
 	}
-
 	"SysMenu"
 	{
 		"ControlName"		"Menu"
 		"fieldName"			"SysMenu"
 		"xpos"				"9999"
 	}
-
 	"localPlayerImage"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"localPlayerImage"
 		"xpos"				"9999"
 	}
-
 	"localPlayerBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"localPlayerBG"
 		"xpos"				"9999"
 	}
-
 	"countImage0"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage0"
 		"xpos"				"9999"
 	}
-
 	"countImage1"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage1"
 		"xpos"				"9999"
 	}
-
 	"countImage2"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage2"
 		"xpos"				"9999"
 	}
-
 	"countImage3"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage3"
 		"xpos"				"9999"
 	}
-
 	"countImage4"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage4"
 		"xpos"				"9999"
 	}
-
 	"countImage5"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage5"
 		"xpos"				"9999"
 	}
-
 	"countImage6"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage6"
 		"xpos"				"9999"
 	}
-
 	"countImage7"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage7"
 		"xpos"				"9999"
 	}
-
 	"countImage8"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage8"
 		"xpos"				"9999"
 	}
-
 	"countImage9"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage9"
 		"xpos"				"9999"
 	}
-
 	"countImage10"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"countImage10"
 		"xpos"				"9999"
 	}
-
 	"CountLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountLabel"
 		"xpos"				"9999"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"CancelButton"
 		"xpos"				"9999"
 	}
-
 	"StartExplanation"
 	{
 		"ControlName"		"CExplanationPopup"
 		"fieldName"			"StartExplanation"
 		"xpos"				"9999"
 	}
-
 	"Offense"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"Offense"
 		"xpos"				"9999"
 	}
-
 	"Defense"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"Defense"
 		"xpos"				"9999"
 	}
-
 	"Support"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"Support"
 		"xpos"				"9999"
 	}
-
 	"ClassTipsPanel"
 	{
 		"ControlName"		"CTFClassTipsPanel"
 		"fieldName"			"ClassTipsPanel"
 		"xpos"				"9999"
 	}
-
 	"ClassHighlightPanel"
 	{
 		"ControlName"		"CExplanationPopup"

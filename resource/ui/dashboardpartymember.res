@@ -2,7 +2,7 @@
 {
 	"avatar"
 	{
-		// "ControlName"	"CAvatarImagePanel"
+		"ControlName"				"CAvatarImagePanel"
 		"fieldName"					"avatar"
 		"xpos"						"1"
 		"ypos"						"1"
