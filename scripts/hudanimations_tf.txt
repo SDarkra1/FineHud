@@ -665,6 +665,8 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
     RunEvent    ScopeRemoval    0.0
+    Firecommand 0.0 "engine hitred; hitblue; hitgreen"
+    Firecommand 3.5 "engine defaultred; defaultgreen; defaultblue"
 }
 
 // ===========================================
